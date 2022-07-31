@@ -4,6 +4,8 @@ import './App.css';
 import { PokeballComponent } from './components/PokeballComponent';
 import { Utils } from './modules/Utils';
 import { CurrencyComponent } from './components/CurrencyComponent';
+import { PartyContainer } from './containers/PartyContainer';
+import { ActiveWindowContainer } from './containers/ActiveWindowContainer';
 
 function App() {
 
@@ -14,13 +16,13 @@ function App() {
   }
   return (
     <div className="App">
-    <RegionContainer player={player}/>
-    <PokeballComponent player={player}/>
-    <CurrencyComponent player={player}/>
+      <PartyContainer player={player}/>
+      <RegionContainer player={player}/>
+      <PokeballComponent player={player}/>
+      <CurrencyComponent player={player}/>
+      <ActiveWindowContainer player={player}/>
     {/* <PlayerBox />
-    <NavBox />
-    <PartyBox />
-    <PokeBallBox /> */}
+    <NavBox /> */}
     </div>
   );
 }

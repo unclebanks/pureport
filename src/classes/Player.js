@@ -9,7 +9,7 @@ export class Player {
     pcPokemon = [];
     currentBoostedRoamer = {
         region: 'Kanto',
-        route: '1',
+        route: 'kantoRoute1',
         pokemon: 'Raikou',
         start: 0,
         length: 5 * 60 * 1000,
@@ -33,7 +33,7 @@ export class Player {
     };
     settings = {
         currentRegionId: 'Kanto',
-        currentRouteId: 'kViridianForest',
+        currentRouteId: 'kantoRoute1',
         listView: 'pokeDex',
         theme: 'dark',
         autoSort: true,
@@ -76,5 +76,12 @@ export class Player {
         this.badges = sF.badges;
         this.wins = sF.wins;
         this.events = sF.events;
-    }
+    };
+    changeRoute(newRoute) {
+        this.settings.currentRouteId = newRoute;
+    };
+    changeRegion(newRegion, newRoute) {
+        this.settings.currentRegionId = newRegion;
+        this.settings.currentRouteId = newRoute;
+    };
 }

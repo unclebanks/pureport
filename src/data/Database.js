@@ -57,25 +57,6 @@ export const POKEDEX = [
         'id': 3,
     },
     {
-        'name': 'M-Venusaur',
-        'stats': {
-            'catch rate': '45',
-            'growth rate': 'Medium Slow',
-            'hp': '80',
-            'attack': '100',
-            'defense': '123',
-            'sp atk': '122',
-            'sp def': '120',
-            'speed': '80',
-            'types': [
-                'Grass',
-                'Poison',
-            ],
-        },
-        'exp': 281,
-        'id': '3-M',
-    },
-    {
         'name': 'Charmander',
         'stats': {
             'catch rate': '45',
@@ -131,44 +112,6 @@ export const POKEDEX = [
         'id': 6,
     },
     {
-        'name': 'M-Charizard X',
-        'stats': {
-            'catch rate': '45',
-            'growth rate': 'Medium Slow',
-            'hp': '78',
-            'attack': '130',
-            'defense': '111',
-            'sp atk': '130',
-            'sp def': '85',
-            'speed': '100',
-            'types': [
-                'Fire',
-                'Dragon',
-            ],
-        },
-        'exp': 285,
-        'id': '6-M-X',
-    },
-    {
-        'name': 'M-Charizard Y',
-        'stats': {
-            'catch rate': '45',
-            'growth rate': 'Medium Slow',
-            'hp': '78',
-            'attack': '104',
-            'defense': '78',
-            'sp atk': '159',
-            'sp def': '115',
-            'speed': '100',
-            'types': [
-                'Fire',
-                'Flying',
-            ],
-        },
-        'exp': 285,
-        'id': '6-M-Y',
-    },
-    {
         'name': 'Squirtle',
         'stats': {
             'catch rate': '45',
@@ -221,24 +164,6 @@ export const POKEDEX = [
         },
         'exp': 239,
         'id': 9,
-    },
-    {
-        'name': 'M-Blastoise',
-        'stats': {
-            'catch rate': '45',
-            'growth rate': 'Medium Slow',
-            'hp': '79',
-            'attack': '103',
-            'defense': '120',
-            'sp atk': '135',
-            'sp def': '115',
-            'speed': '78',
-            'types': [
-                'Water',
-            ],
-        },
-        'exp': 284,
-        'id': '9-M',
     },
     {
         'name': 'Caterpie',

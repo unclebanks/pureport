@@ -9,18 +9,19 @@ const ROUTES = {
         },
         palletTown: {
             name: 'Pallet Town',
-            town: true
+            type: "town"
         },
         kantoRoute1: {
             name: 'Route 1',
             pokes: ['Pidgey', 'Rattata'],
             minLevel: 2,
             maxLevel: 5,
+            type: "route",
             respawn: 'palletTown'
         },
         viridianCity: {
             name: 'Viridian City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Giovanni',
                 badge: 'Earth Badge',
@@ -38,6 +39,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Nidoran F', 'Nidoran M', 'Mankey', 'Spearow'],
             minLevel: 2,
             maxLevel: 5,
+            type: "route",
             respawn: 'viridianCity'
         },
         kantoRoute2: {
@@ -45,6 +47,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Rattata', 'Caterpie', 'Weedle', 'Nidoran F', 'Nidoran M'],
             minLevel: 3,
             maxLevel: 5,
+            type: "route",
             respawn: 'viridianCity',
         },
         viridianForest: {
@@ -52,11 +55,12 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Pidgeotto', 'Pikachu'],
             minLevel: 3,
             maxLevel: 6,
+            type: "route",
             respawn: 'viridianCity'
         },
         pewterCity: {
             name: 'Pewter City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Brock',
                 badge: 'Boulder Badge',
@@ -72,6 +76,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Rattata', 'Spearow', 'Jigglypuff', 'Sandshrew', 'Mankey'],
             minLevel: 5,
             maxLevel: 12,
+            type: "route",
             respawn: 'pewterCity',
             _unlock: {
                 badges: {
@@ -84,6 +89,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Clefairy', 'Paras', 'Geodude', 'Sandshrew'],
             minLevel: 6,
             maxLevel: 12,
+            type: "route",
             respawn: 'pewterCity',
             _unlock: {
                 badges: {
@@ -96,6 +102,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Spearow', 'Ekans', 'Sandshrew', 'Mankey'],
             minLevel: 6,
             maxLevel: 12,
+            type: "route",
             respawn: 'pewterCity',
             _unlock: {
                 badges: {
@@ -105,7 +112,7 @@ const ROUTES = {
         },
         ceruleanCity: {
             name: 'Cerulean City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Misty',
                 badge: 'Cascade Badge',
@@ -126,6 +133,7 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Pidgeotto', 'Oddish', 'Venonat', 'Abra', 'Bellsprout'],
             minLevel: 7,
             maxLevel: 14,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -138,6 +146,7 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Pidgeotto', 'Oddish', 'Venonat', 'Abra', 'Bellsprout'],
             minLevel: 7,
             maxLevel: 14,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -150,6 +159,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Jigglypuff', 'Oddish', 'Meowth', 'Mankey', 'Abra', 'Bellsprout'],
             minLevel: 10,
             maxLevel: 16,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -162,6 +172,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Jigglypuff', 'Oddish', 'Meowth', 'Mankey', 'Abra', 'Bellsprout'],
             minLevel: 10,
             maxLevel: 16,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -171,7 +182,7 @@ const ROUTES = {
         },
         vermilionCity: {
             name: 'Vermilion City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Lt. Surge',
                 badge: 'Thunder Badge',
@@ -193,6 +204,7 @@ const ROUTES = {
             pokes: ['Diglett', 'Dugtrio', 'Bulbasaur', 'Squirtle'],
             minLevel: 15,
             maxLevel: 31,
+            type: "route",
             respawn: 'vermilionCity',
             _unlock: {
                 badges: {
@@ -205,6 +217,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Spearow', 'Ekans', 'Sandshrew', 'Drowzee'],
             minLevel: 18,
             maxLevel: 25,
+            type: "route",
             respawn: 'vermilionCity',
             _unlock: {
                 badges: {
@@ -217,6 +230,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Ekans', 'Sandshrew', 'Nidoran F', 'Nidorina', 'Nidoran M', 'Nidorino'],
             minLevel: 9,
             maxLevel: 17,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -229,6 +243,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Spearow', 'Ekans', 'Sandshrew', 'Nidoran F', 'Nidoran M', 'Machop', 'Magnemite', 'Voltorb'],
             minLevel: 11,
             maxLevel: 17,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -241,6 +256,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Machop', 'Geodude', 'Onix'],
             minLevel: 11,
             maxLevel: 17,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -253,6 +269,7 @@ const ROUTES = {
             pokes: ['Pikachu', 'Raichu', 'Magnemite', 'Magneton', 'Grimer', 'Muk', 'Voltorb', 'Electrode', 'Electabuzz', 'Zapdos'],
             minLevel: 20,
             maxLevel: 50,
+            type: "route",
             respawn: 'lavenderTown',
             _unlock: {
                 badges: {
@@ -262,7 +279,7 @@ const ROUTES = {
         },
         lavenderTown: {
             name: 'Lavender Town',
-            town: true,
+            type: "town",
             _unlock: {
                 badges: {
                     'Thunder Badge': true
@@ -274,6 +291,7 @@ const ROUTES = {
             pokes: ['Gastly', 'Haunter', 'Cubone'],
             minLevel: 13,
             maxLevel: 18,
+            type: "route",
             respawn: 'lavenderTown',
             _unlock: {
                 badges: {
@@ -286,6 +304,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Ekans', 'Sandshrew', 'Vulpix', 'Jiglypuff', 'Meowth', 'Mankey', 'Growlithe', 'Abra', 'Kadabra'],
             minLevel: 15,
             maxLevel: 20,
+            type: "route",
             respawn: 'lavenderTown',
             _unlock: {
                 badges: {
@@ -298,6 +317,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Vulpix', 'Jigglypuff', 'Oddish', 'Meowth', 'Mankey', 'Growlithe', 'Abra', 'Bellsprout'],
             minLevel: 18,
             maxLevel: 22,
+            type: "route",
             respawn: 'lavenderTown',
             _unlock: {
                 badges: {
@@ -307,7 +327,7 @@ const ROUTES = {
         },
         celadonCity: {
             name: 'Celadon City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Erika',
                 badge: 'Rainbow Badge',
@@ -326,7 +346,7 @@ const ROUTES = {
         },
         saffronCity: {
             name: 'Saffron City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Sabrina',
                 badge: 'Marsh Badge',
@@ -349,6 +369,7 @@ const ROUTES = {
             pokes: ['Hitmonlee', 'Hitmonchan'],
             minLevel: 45,
             maxLevel: 55,
+            type: "route",
             respawn: 'saffronCity',
             _unlock: {
                 badges: {
@@ -361,6 +382,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Doduo', 'Snorlax'],
             minLevel: 18,
             maxLevel: 30,
+            type: "route",
             respawn: 'celadonCity',
             _unlock: {
                 badges: {
@@ -373,6 +395,7 @@ const ROUTES = {
             pokes: ['Raticate', 'Spearow', 'Fearow', 'Ponyta', 'Doduo', 'Dodrio'],
             minLevel: 20,
             maxLevel: 29,
+            type: "route",
             respawn: 'celadonCity',
             _unlock: {
                 badges: {
@@ -385,6 +408,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Doduo'],
             minLevel: 20,
             maxLevel: 29,
+            type: "route",
             respawn: 'celadonCity',
             _unlock: {
                 badges: {
@@ -394,7 +418,7 @@ const ROUTES = {
         },
         fuchsiaCity: {
             name: 'Fuchsia City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Koga',
                 badge: 'Soul Badge',
@@ -416,6 +440,7 @@ const ROUTES = {
             pokes: ['Nidoran F', 'Nidorina', 'Nidoran M', 'Nidorino', 'Paras', 'Parasect', 'Venonat', 'Venomoth', 'Doduo', 'Exeggcute', 'Cubone', 'Marowak', 'Rhyhorn', 'Chansey', 'Tangela', 'Kangaskhan', 'Scyther', 'Pinsir', 'Tauros'],
             minLevel: 22,
             maxLevel: 31,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -428,6 +453,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Venomoth', 'Bellsprout', 'Weepinbell', 'Ditto'],
             minLevel: 22,
             maxLevel: 30,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -440,6 +466,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Venomoth', 'Bellsprout', 'Weepinbell', 'Ditto'],
             minLevel: 23,
             maxLevel: 30,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -452,6 +479,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Bellsprout', 'Weepinbell', 'Ditto', 'Farfetchd'],
             minLevel: 22,
             maxLevel: 30,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -464,6 +492,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Bellsprout', 'Weepinbell', 'Snorlax', 'Mr. Mime', 'Farfetchd'],
             minLevel: 22,
             maxLevel: 30,
+            type: "route",
             respawn: 'lavenderTown',
             _unlock: {
                 badges: {
@@ -476,6 +505,7 @@ const ROUTES = {
             pokes: ['Tentacool'],
             minLevel: 5,
             maxLevel: 40,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -488,6 +518,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Golbat', 'Psyduck', 'Golduck', 'Slowpoke', 'Slowbro', 'Seel', 'Dewgong', 'Shellder', 'Krabby', 'Kingler', 'Horsea', 'Seadra', 'Staryu', 'Jynx', 'Articuno'],
             minLevel: 9,
             maxLevel: 50,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -500,6 +531,7 @@ const ROUTES = {
             pokes: ['Tentacool'],
             minLevel: 5,
             maxLevel: 40,
+            type: "route",
             respawn: 'fuchsiaCity',
             _unlock: {
                 badges: {
@@ -509,7 +541,7 @@ const ROUTES = {
         },
         cinnabarIsland: {
             name: 'Cinnabar Island',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Blaine',
                 badge: 'Volcano Badge',
@@ -532,6 +564,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Ratiate', 'Vulpix', 'Growlithe', 'Ponyta', 'Grimer', 'Muk', 'Koffing', 'Weezing', 'Magmar', 'Ditto'],
             minLevel: 26,
             maxLevel: 46,
+            type: "route",
             respawn: 'cinnabarIsland',
             _unlock: {
                 badges: {
@@ -544,6 +577,7 @@ const ROUTES = {
             pokes: ['Aerodactyl', 'Omanyte', 'Kabuto', 'Lapras'],
             minLevel: 30,
             maxLevel: 30,
+            type: "route",
             respawn: 'cinnabarIsland',
             _unlock: {
                 badges: {
@@ -556,6 +590,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Raticate', 'Tentacool', 'Tangela'],
             minLevel: 21,
             maxLevel: 32,
+            type: "route",
             respawn: 'cinnabarIsland',
             _unlock: {
                 badges: {
@@ -568,6 +603,7 @@ const ROUTES = {
             pokes: ['Spearow', 'Fearow', 'Ekans', 'Arbok', 'Sandshrew', 'Sandslash', 'Nidorina', 'Nidorino', 'Mankey', 'Primeape', 'Ditto'],
             minLevel: 33,
             maxLevel: 43,
+            type: "route",
             respawn: 'viridianCity',
             _unlock: {
                 badges: {
@@ -580,6 +616,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Golbat', 'Venomoth', 'Machop', 'Machoke', 'Geodude', 'Graveler', 'Onix', 'Marowak', 'Moltres'],
             minLevel: 36,
             maxLevel: 45,
+            type: "route",
             respawn: 'viridianCity',
             _unlock: {
                 badges: {
@@ -592,6 +629,7 @@ const ROUTES = {
             pokes: ['Arbok', 'Raichu', 'Sandslash', 'Wigglytuff', 'Golbat', 'Gloom', 'Parasect', 'Venomoth', 'Kadabra', 'Weepinbell', 'Graveler', 'Magneton', 'Dodrio', 'Hypno', 'Electrode', 'Marowak', 'Lickitung', 'Rhyhorn', 'Rhydon', 'Chansey', 'Ditto', 'Mewtwo'],
             minLevel: 51,
             maxLevel: 60,
+            type: "route",
             respawn: 'ceruleanCity',
             _unlock: {
                 badges: {
@@ -604,6 +642,7 @@ const ROUTES = {
             pokes: ['Magikarp'],
             minLevel: 5,
             maxLevel: 5,
+            type: "route",
             respawn: 'palletTown',
             kantoOldRod: 1
         },
@@ -612,6 +651,7 @@ const ROUTES = {
             pokes: ['Poliwag', 'Goldeen', 'Magikarp'],
             minLevel: 5,
             maxLevel: 15,
+            type: "route",
             respawn: 'palletTown',
             kantoGoodRod: 1
         },
@@ -620,6 +660,7 @@ const ROUTES = {
             pokes: ['Psyduck', 'Poliwag', 'Poliwhirl', 'Tentacool', 'Tentacruel', 'Slowpoke', 'Slowbro', 'Shellder', 'Krabby', 'Kingler', 'Horsea', 'Seadra', 'Goldeen', 'Seaking', 'Staryu', 'Magikarp', 'Gyarados', 'Dratini', 'Dragonair'],
             minLevel: 5,
             maxLevel: 40,
+            type: "route",
             respawn: 'palletTown',
             kantoSuperRod: 1
         }
@@ -637,7 +678,7 @@ const ROUTES = {
         },
         NewBarkTown: {
             name: 'New Bark Town',
-            town: true,
+            type: "town",
             prof: {
                 name: 'Prof. Elm',
                 badge: null,
@@ -653,17 +694,19 @@ const ROUTES = {
             pokes: ['Pidgey', 'Rattata', 'Sentret', 'Hoothoot', 'Hoppip'],
             minLevel: 2,
             maxLevel: 5,
+            type: "route",
             respawn: 'starter2'
         },
         cherrygroveCity: {
             name: 'Cherrygrove City',
-            town: true
+            type: "town"
         },
         jroute30: {
             name: 'Route 30',
             pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Rattata', 'Zubat', 'Poliwag', 'Hoothoot', 'Ledyba', 'Spinarak', 'Hoppip'],
             minLevel: 2,
             maxLevel: 5,
+            type: "route",
             respawn: 'cherrygroveCity'
         },
         jroute46: {
@@ -671,6 +714,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Spearow', 'Jigglypuff', 'Geodude', 'Phanpy'],
             minLevel: 2,
             maxLevel: 5,
+            type: "route",
             respawn: 'NewBarkTown',
         },
         jroute31: {
@@ -678,6 +722,7 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Rattata', 'Zubat', 'Poliwag', 'Bellsprout', 'Gastly', 'Hoothoot', 'Ledyba', 'Spinarak', 'Hoppip'],
             minLevel: 3,
             maxLevel: 6,
+            type: "route",
             respawn: 'cherrygroveCity'
         },
         darkCave: {
@@ -685,11 +730,12 @@ const ROUTES = {
             pokes: ['Zubat', 'Geodude', 'Graveler', 'Wobbuffet', 'Dunsparce', 'Teddiursa', 'Ursaring'],
             minLevel: 2,
             maxLevel: 30,
+            type: "route",
             respawn: 'cherrygroveCity'
         },
         violetCity: {
             name: 'Violet City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Falkner',
                 win: 'falkner1',
@@ -706,6 +752,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Gastly'],
             minLevel: 3,
             maxLevel: 6,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -718,6 +765,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Rattata', 'Ekans', 'Zubat', 'Bellsprout', 'Gastly', 'Hoothoot', 'Mareep', 'Hoppip', 'Wooper'],
             minLevel: 4,
             maxLevel: 8,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -730,6 +778,7 @@ const ROUTES = {
             pokes: ['Natu', 'Smeargle', 'Wooper'],
             minLevel: 18,
             maxLevel: 24,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -742,6 +791,7 @@ const ROUTES = {
             pokes: ['Unown'],
             minLevel: 5,
             maxLevel: 5,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -754,6 +804,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Sandshrew', 'Zubat', 'Golbat', 'Geodude', 'Onix', 'Wooper', 'Quagsire', 'Lapras'],
             minLevel: 6,
             maxLevel: 24,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -766,6 +817,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Spearow', 'Ekans', 'Zubat', 'Geodude', 'Hoppip'],
             minLevel: 6,
             maxLevel: 8,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -778,6 +830,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Golbat', 'Slowpoke', 'Slowking'],
             minLevel: 5,
             maxLevel: 25,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -787,7 +840,7 @@ const ROUTES = {
         },
         azaleaTown: {
             name: 'Azalea Town',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Bugsy',
                 win: 'bugsy1',
@@ -809,6 +862,7 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Zubat', 'Oddish', 'Paras', 'Venonat', 'Psyduck', 'Hoothoot'],
             minLevel: 5,
             maxLevel: 7,
+            type: "route",
             respawn: 'violetCity',
             _unlock: {
                 badges: {
@@ -821,6 +875,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Rattata', 'Jigglypuff', 'Abra', 'Drowzee', 'Ditto', 'Hoothoot', 'Snubbull'],
             minLevel: 10,
             maxLevel: 12,
+            type: "route",
             respawn: 'azaleaTown',
             _unlock: {
                 badges: {
@@ -836,7 +891,7 @@ const ROUTES = {
         },
         goldenrodCity: {
             name: 'Goldenrod City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Whitney',
                 win: 'whitney1',
@@ -857,6 +912,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Nidoran F', 'Nidoran M', 'Jigglypuff', 'Psyduck', 'Growlithe', 'Abra', 'Drowzee', 'Ditto', 'Hoothoot', 'Yanma', 'Snubbull'],
             minLevel: 10,
             maxLevel: 14,
+            type: "route",
             respawn: 'goldenrodCity',
             _unlock: {
                 badges: {
@@ -869,6 +925,7 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill', 'Pidgey', 'Nidoran F', 'Nidoran M', 'Paras', 'Venonat', 'Psyduck', 'Scyther', 'Pinsir', 'Hoothoot', 'Ledyba', 'Spinarak', 'Sunkern'],
             minLevel: 10,
             maxLevel: 15,
+            type: "route",
             respawn: 'goldenrodCity',
             _unlock: {
                 badges: {
@@ -881,6 +938,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Nidoran F', 'Nidoran M', 'Vulpix', 'Growlithe', 'Bellsprout', 'Ghastly', 'Hoothoot', 'Ledyba', 'Spinarak', 'Stantler', 'Sudowoodo'],
             minLevel: 13,
             maxLevel: 20,
+            type: "route",
             respawn: 'goldenrodCity',
             _unlock: {
                 badges: {
@@ -893,6 +951,7 @@ const ROUTES = {
             pokes: ['Pidgey', 'Pidgeotto', 'Vulpix', 'Growlithe', 'Hoothoot', 'Noctowl', 'Ledyba', 'Ledian', 'Spinarak', 'Ariados', 'Stantler'],
             minLevel: 13,
             maxLevel: 16,
+            type: "route",
             respawn: 'goldenrodCity',
             _unlock: {
                 badges: {
@@ -902,7 +961,7 @@ const ROUTES = {
         },
         ecruteakCity: {
             name: 'Ecruteak City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Morty',
                 badge: 'Fog Badge',
@@ -924,6 +983,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Zubat', 'Koffing', 'Weezing', 'Magmar'],
             minLevel: 13,
             maxLevel: 16,
+            type: "route",
             respawn: 'goldenrodCity',
             _unlock: {
                 badges: {
@@ -936,6 +996,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Gastly', 'Ho-Oh'],
             minLevel: 20,
             maxLevel: 70,
+            type: "route",
             respawn: 'goldenrodCity',
             _unlock: {
                 badges: {
@@ -948,6 +1009,7 @@ const ROUTES = {
             pokes: ['Pidgeotto', 'Rattata', 'Raticate', 'Meowth', 'Magnemite', 'Farfetchd', 'Tauros', 'Noctowl', 'Snubbull', 'Miltank'],
             minLevel: 13,
             maxLevel: 16,
+            type: "route",
             respawn: 'ecruteakCity',
             _unlock: {
                 badges: {
@@ -960,6 +1022,7 @@ const ROUTES = {
             pokes: ['Pidgeotto', 'Rattata', 'Raticate', 'Meowth', 'Magnemite', 'Farfetchd', 'Tauros', 'Noctowl', 'Miltank'],
             minLevel: 15,
             maxLevel: 16,
+            type: "route",
             respawn: 'ecruteakCity',
             _unlock: {
                 badges: {
@@ -969,7 +1032,7 @@ const ROUTES = {
         },
         olivineCity: {
             name: 'Olivine City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Jasmine',
                 win: 'jasmine1',
@@ -991,6 +1054,7 @@ const ROUTES = {
             pokes: ['Tentacool', 'Tentacruel'],
             minLevel: 15,
             maxLevel: 24,
+            type: "route",
             respawn: 'olivineCity',
             _unlock: {
                 badges: {
@@ -1003,6 +1067,7 @@ const ROUTES = {
             pokes: ['Mantine', 'Tentacool', 'Tentacruel'],
             minLevel: 20,
             maxLevel: 24,
+            type: "route",
             respawn: 'cianwoodCity',
             _unlock: {
                 badges: {
@@ -1015,6 +1080,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Golbat', 'Seel', 'Krabby', 'Lugia'],
             minLevel: 22,
             maxLevel: 70,
+            type: "route",
             respawn: 'cianwoodCity',
             _unlock: {
                 badges: {
@@ -1024,7 +1090,7 @@ const ROUTES = {
         },
         cianwoodCity: {
             name: 'Cianwood City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Chuck',
                 badge: 'Storm Badge',
@@ -1044,6 +1110,7 @@ const ROUTES = {
             pokes: ['Raticate', 'Spearow', 'Fearow', 'Gloom', 'Farfetchd', 'Ditto', 'Noctowl', 'Miltank'],
             minLevel: 40,
             maxLevel: 43,
+            type: "route",
             respawn: 'cianwoodCity',
             _unlock: {
                 badges: {
@@ -1056,6 +1123,7 @@ const ROUTES = {
             pokes: ['Fearow', 'Vulpix', 'Gloom', 'Diglett', 'Growlithe', 'Farfetchd', 'Tauros', 'Hoppip', 'Girafarig'],
             minLevel: 40,
             maxLevel: 43,
+            type: "route",
             respawn: 'cianwoodCity',
             _unlock: {
                 badges: {
@@ -1068,6 +1136,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Ekans', 'Arbok', 'Zubat', 'Golbat', 'Mankey', 'Mareep', 'Flaaffy', 'Marill'],
             minLevel: 13,
             maxLevel: 17,
+            type: "route",
             respawn: 'ecruteakCity',
             _unlock: {
                 badges: {
@@ -1080,6 +1149,7 @@ const ROUTES = {
             pokes: ['Rattata', 'Raticate', 'Zubat', 'Golbat', 'Machop', 'Machoke', 'Geodude', 'Graveler', 'Marill'],
             minLevel: 15,
             maxLevel: 32,
+            type: "route",
             respawn: 'ecruteakCity',
             _unlock: {
                 badges: {
@@ -1092,6 +1162,7 @@ const ROUTES = {
             pokes: ['Geodude', 'Voltorb', 'Electrode', 'Koffing'],
             minLevel: 23,
             maxLevel: 23,
+            type: "route",
             respawn: 'ecruteakCity',
             _unlock: {
                 badges: {
@@ -1101,7 +1172,7 @@ const ROUTES = {
         },
         mahoganyTown: {
             name: 'Mahogany Town',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Pryce',
                 badge: 'Glacier Badge',
@@ -1122,6 +1193,7 @@ const ROUTES = {
             pokes: ['Pidgeotto', 'Raticate', 'Venonat', 'Venomoth', 'Farfetchd', 'Sentret', 'Furret', 'Noctowl', 'Mareep', 'Flaaffy', 'Girafarig'],
             minLevel: 15,
             maxLevel: 17,
+            type: "route",
             respawn: 'mahoganyTown',
             _unlock: {
                 badges: {
@@ -1134,6 +1206,7 @@ const ROUTES = {
             pokes: ['Gyarados', 'Magikarp'],
             minLevel: 30,
             maxLevel: 30,
+            type: "route",
             respawn: 'mahoganyTown',
             _unlock: {
                 badges: {
@@ -1146,6 +1219,7 @@ const ROUTES = {
             pokes: ['Poliwag', 'Poliwhirl', 'Bellsprout', 'Weepinbell', 'Lickitung', 'Tangela'],
             minLevel: 22,
             maxLevel: 26,
+            type: "route",
             respawn: 'mahoganyTown',
             _unlock: {
                 badges: {
@@ -1158,6 +1232,7 @@ const ROUTES = {
             pokes: ['Zubat', 'Golbat', 'Jynx', 'Sneasel', 'Swinub', 'Delibird'],
             minLevel: 21,
             maxLevel: 24,
+            type: "route",
             respawn: 'mahoganyTown',
             _unlock: {
                 badges: {
@@ -1170,6 +1245,7 @@ const ROUTES = {
             pokes: ['Magikarp', 'Dratini'],
             minLevel: 10,
             maxLevel: 14,
+            type: "route",
             respawn: 'mahoganyTown',
             _unlock: {
                 badges: {
@@ -1182,6 +1258,7 @@ const ROUTES = {
             pokes: ['Geodude', 'Graveler', 'Gligar', 'Teddiursa', 'Skarmory', 'Phanpy', 'Donphan'],
             minLevel: 20,
             maxLevel: 27,
+            type: "route",
             respawn: 'mahoganyTown',
             _unlock: {
                 badges: {
@@ -1191,7 +1268,7 @@ const ROUTES = {
         },
         blackthornCity: {
             name: 'Blackthorn City',
-            town: true,
+            type: "town",
             gymLeader: {
                 name: 'Clair',
                 badge: 'Rising Badge',
@@ -1213,6 +1290,7 @@ const ROUTES = {
             pokes: ['Raticate', 'Arbok', 'Sandslash', 'Ponyta', 'Doduo', 'Dodrio', 'Noctowl', 'Quagsire'],
             minLevel: 28,
             maxLevel: 32,
+            type: "route",
             respawn: 'NewBarkTown',
             _unlock: {
                 badges: {
@@ -1225,6 +1303,7 @@ const ROUTES = {
             pokes: ['Raticate', 'Arbok', 'Sandslash', 'Ponyta', 'Doduo', 'Dodrio', 'Noctowl', 'Quagsire'],
             minLevel: 28,
             maxLevel: 32,
+            type: "route",
             respawn: 'NewBarkTown',
             _unlock: {
                 badges: {
@@ -1237,6 +1316,7 @@ const ROUTES = {
             pokes: ['Ponyta', 'Tangela', 'Ursaring', 'Donphan', 'Rapidash', 'Arbok', 'Doduo', 'Dodrio', 'Sneasel', 'Poliwhirl', 'Golbat'],
             minLevel: 39,
             maxLevel: 42,
+            type: "route",
             respawn: 'NewBarkTown',
             _unlock: {
                 badges: {
@@ -1249,6 +1329,7 @@ const ROUTES = {
             pokes: ['Arbok', 'Golbat', 'Parasect', 'Golduck', 'Poliwhirl', 'Machoke', 'Graveler', 'Doduo', 'Dodrio', 'Ponyta', 'Rapidash', 'Onix', 'Tangela', 'Magmar', 'Quagsire', 'Misdreavus', 'Sneasel', 'Ursaring', 'Donphan', 'Larvitar', 'Pupitar'],
             minLevel: 38,
             maxLevel: 48,
+            type: "route",
             respawn: 'NewBarkTown',
             _unlock: {
                 badges: {
@@ -1261,6 +1342,7 @@ const ROUTES = {
             pokes: ['Poliwag', 'Tentacool', 'Krabby', 'Goldeen', 'Magikarp'],
             minLevel: 10,
             maxLevel: 10,
+            type: "route",
             respawn: 'NewBarkTown',
             johtoOldRod: 1
         },
@@ -1269,6 +1351,7 @@ const ROUTES = {
             pokes: ['Poliwag', 'Tentacool', 'Shellder', 'Krabby', 'Horsea', 'Goldeen', 'Staryu', 'Magikarp', 'Gyarados', 'Dratini', 'Chinchou', 'Corsola'],
             minLevel: 20,
             maxLevel: 20,
+            type: "route",
             respawn: 'NewBarkTown',
             johtoGoodRod: 1
         },
@@ -1277,6 +1360,7 @@ const ROUTES = {
             pokes: ['Poliwag', 'Tentacool', 'Tentacruel', 'Shellder', 'Krabby', 'Kingler', 'Horsea', 'Seadra', 'Goldeen', 'Seaking', 'Staryu', 'Magikarp', 'Gyarados', 'Dratini', 'Dragonair', 'Chinchou', 'Lanturn', 'Qwilfish', 'Corsola', 'Remoraid'],
             minLevel: 40,
             maxLevel: 40,
+            type: "route",
             respawn: 'NewBarkTown',
             johtoSuperRod: 1
         },
@@ -1285,6 +1369,7 @@ const ROUTES = {
             pokes: ['Caterpie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill', 'Spearow', 'Ekans', 'Exeggcute', 'Hoothoot', 'Noctowl', 'Spinarak', 'Ledyba', 'Aipom', 'Pineco', 'Heracross'],
             minLevel: 10,
             maxLevel: 10,
+            type: "route",
             respawn: 'blackthornCity',
             _unlock: {
                 badges: {

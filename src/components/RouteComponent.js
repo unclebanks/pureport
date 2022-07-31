@@ -6,12 +6,10 @@ import "../styles/RouteComponent.css";
 export const RouteComponent = (props) => {
 
     let routeArray = Utils.objectToArray(ROUTES[props.player.settings.currentRegionId]);
-    console.log(props.player.settings.currentRegionId);
-    console.log(ROUTES[props.player.settings.currentRegionId]);
     let loadRoutes = () => {
         let routeButtons = [];
         routeArray.forEach(route => {
-            routeButtons.push(<div><button style={{"fontStyle": "italic"}} onClick={()=>{alert(route.name)}}>{route.name}</button></div>);
+            routeButtons.push(<div><button style={{"fontStyle": "italic"}} onClick={()=>{props.player.changeRoute(route.name)}}>{route.name}</button></div>);
         })
         return <ul>{routeButtons}</ul>;
     }
