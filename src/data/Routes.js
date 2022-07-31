@@ -60,21 +60,67 @@ const ROUTES = {
         {
             name: 'Viridian City',
             type: "town",
+            houses: [
+                {
+                    name: "House 1",
+                    npc: [
+                        {
+                            name: "Red's Mom"
+                        }
+                    ]
+                },
+                {
+                    name: "House 2",
+                    npc: [
+                        {
+                            name: "Blue's Sister"
+                        }
+                    ]
+                },
+                {
+                    name: "House 3",
+                    npc: [
+                        {
+                            name: "Blue's Sister"
+                        }
+                    ]
+                },
+                {
+                    name: "House 4",
+                    npc: [
+                        {
+                            name: "Blue's Sister"
+                        }
+                    ]
+                }
+            ],
             buildings: [ 
-                [
-                    {
-                        name: 'Giovanni',
-                        badge: 'Earth Badge',
-                        type: "gym",
-                        poke: [
-                            ['Rhyhorn', 45],
-                            ['Dugtrio', 42],
-                            ['Nidoqueen', 44],
-                            ['Nidoking', 45],
-                            ['Rhydon', 50]
-                        ]
-                    }
-                ]
+                {
+                    name: "Viridian City Gym",
+                    badge: "Earth Badge",
+                    type: "gym",
+                    trainers: [
+                        {
+                            name: 'Giovanni',
+                            type: "gymLeader",
+                            poke: [
+                                ['Rhyhorn', 45],
+                                ['Dugtrio', 42],
+                                ['Nidoqueen', 44],
+                                ['Nidoking', 45],
+                                ['Rhydon', 50]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            pcMart: [
+                {
+                    name: "PokeCenter",
+                },
+                {
+                    name: "PokeMart"
+                }
             ]
         },
         {

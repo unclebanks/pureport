@@ -37,10 +37,10 @@ export const TownContainer = () => {
             return arrayToReturn;
             case "pcMart":
                 while(i < townData.pcMart.length) {
-                    arrayToReturn.push(<TownPCMartWidget />);
+                    arrayToReturn.push(<TownPCMartWidget pcMartData={townData.pcMart[i]}/>);
                     i++;
                 }
-            break;
+            return arrayToReturn;
             default: console.log("Error somewhere");
         }
     }
@@ -50,7 +50,7 @@ export const TownContainer = () => {
             <span id="townContainerSpan">Town Name: {townData.name}</span>
             <div id="townHouses" style={{"backgroundColor": "lightgreen"}}>
                 <span>Houses</span>
-                <div style={{"display": "grid", "gridTemplateRows": `repeat(${townData.houses? townData.houses.length: 1}, 1fr)`, "border": "1px solid black"}}>{townData.houses? populateTownPage("houses"): ""}</div>
+                <div style={{"display": "grid", "gridTemplateRows": `repeat(${townData.houses? townData.houses.length: 1}, 1fr)`, "border": "1px solid black", "overflow": "auto"}}>{townData.houses? populateTownPage("houses"): ""}</div>
             </div>
             <div id="townBuildings" style={{"backgroundColor": "lightcoral"}}>
                 <span>Buildings</span>

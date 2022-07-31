@@ -16,6 +16,12 @@ function App() {
 
   let appStateToRender;
 
+  const setCurrentAppState = (newState) => {
+    if(currentAppState !== newState) {
+      changeCurrentAppState(newState);
+    }
+  }
+
   const adventureState = 
     <div id='adventureState'>
       <PartyContainer player={player}/>
@@ -23,13 +29,20 @@ function App() {
       <PokeballComponent player={player}/>
       <CurrencyComponent player={player}/>
       <ActiveWindowContainer player={player}/>
-      <ToolbarComponent />
+      <ToolbarComponent changeAppPage={setCurrentAppState} currentAppState={currentAppState} />
     {/* <PlayerBox />
     <NavBox /> */}
+    </div>
+  
+  const farmState = 
+    <div id='combatState'>
+      <ToolbarComponent changeAppPage={setCurrentAppState} currentAppState={currentAppState} />
     </div>
 
   switch(currentAppState) {
     case "adventure": appStateToRender = adventureState;
+    break;
+    case "farm": appStateToRender = farmState;
     break;
     default: appStateToRender = "Please contact the devs. Something fundamental has gone wrong.";
   }
