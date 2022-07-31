@@ -1,15 +1,16 @@
 import React from "react";
 import ROUTES from "../data/Routes";
-import { Utils } from "../modules/Utils";
+import { useDispatch } from "react-redux";
 import "../styles/RouteComponent.css";
+import { changeRoute } from "../slices/PlayerSlice";
 
 export const RouteComponent = (props) => {
 
-    let routeArray = Utils.objectToArray(ROUTES[props.player.settings.currentRegionId]);
+    let dispatch = useDispatch();
     let loadRoutes = () => {
         let routeButtons = [];
-        routeArray.forEach(route => {
-            routeButtons.push(<div><button style={{"fontStyle": "italic"}} onClick={()=>{props.player.changeRoute(route.name)}}>{route.name}</button></div>);
+        ROUTES[props.player.settings.currentRegionId].forEach(route => {
+            routeButtons.push(<div key={route.name+1}><button style={{"fontStyle": "italic"}} onClick={()=>{dispatch(changeRoute({"route": route.name}))}}>{route.name}</button></div>);
         })
         return <ul>{routeButtons}</ul>;
     }

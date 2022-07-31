@@ -9,7 +9,7 @@ export class Player {
     pcPokemon = [];
     currentBoostedRoamer = {
         region: 'Kanto',
-        route: 'kantoRoute1',
+        route: 'Route 1',
         pokemon: 'Raikou',
         start: 0,
         length: 5 * 60 * 1000,
@@ -26,14 +26,14 @@ export class Player {
     secretCodes = {};
     evoStones = {};
     currencyAmount = {
-        pokecoins: 0,
+        pokecoins: 1000,
         catchcoins: 0,
         battlecoins: 0,
-        gametokens: 0,
+        gametokens: 100,
     };
     settings = {
         currentRegionId: 'Kanto',
-        currentRouteId: 'kantoRoute1',
+        currentRouteId: 'Route 1',
         listView: 'pokeDex',
         theme: 'dark',
         autoSort: true,

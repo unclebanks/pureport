@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { configureStore } from '@reduxjs/toolkit';
-import currencyReducer from "./slices/CurrencySlice";
+import playerReducer from "./slices/PlayerSlice";
 import { Provider } from 'react-redux';
 
 const store = configureStore(
   {
     reducer: {
-      currency: currencyReducer
+      player: playerReducer
     }
   }
 )

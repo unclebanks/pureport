@@ -1,9 +1,16 @@
 import { Player } from "../classes/Player"
 import { Pokemon } from "../classes/Pokemon";
 import { POKEDEX } from "../data/Database";
+import ROUTES from "../data/Routes";
 
 export const Utils = {
 
+
+    playerFile() {
+        if(!localStorage.getItem("purePort")) {
+            this.createSave()
+        } else { return this.loadPlayer(""); }
+    },
     createSave() {
         let tempPlayer = new Player();
         tempPlayer.addPoke(new Pokemon("Squirtle"));
@@ -33,6 +40,15 @@ export const Utils = {
         let i = 0;
         while(i < POKEDEX.length) {
             if(POKEDEX[i].name === name) {
+                return i;
+            } else { i++; }
+        }
+    },
+    getRouteIndexByName(region,routeName) {
+        let i = 0;
+        console.log(region);
+        while(i < ROUTES[region].length) {
+            if(ROUTES[region][i].name === routeName) {
                 return i;
             } else { i++; }
         }

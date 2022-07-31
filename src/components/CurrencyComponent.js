@@ -1,14 +1,13 @@
 import React from "react";
 import { ImageImports } from "../data/ImageImports";
-import { useDispatch } from "react-redux";
-import { addCoins } from "../slices/CurrencySlice";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { addCoins } from "../slices/PlayerSlice";
 import "../styles/CurrencyComponent.css";
 
 export const CurrencyComponent = (props) => {
     let dispatch = useDispatch();
-    const currency = useSelector((state) => state.currency);
-    console.log(currency);
+    const currency = useSelector((state) => state.player);
+    console.log(currency)
 
     return(
         <div id="currencyComponent">

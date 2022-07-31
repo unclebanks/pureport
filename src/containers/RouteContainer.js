@@ -4,7 +4,7 @@ export const RouteContainer = () => {
 
     return(
         <div id="routeContainer">
-            RouteContainer
+            Use this for the ActiveWindowComponent, similar to TownContainer
         </div>
     )
 }
