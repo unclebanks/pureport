@@ -13,6 +13,9 @@ export const Utils = {
         window.location.reload();
     },
     loadPlayer(sF) {
+        if(sF === "") {
+            sF = JSON.parse(localStorage.getItem("purePort"));
+        }
         let tempPlayer = new Player();
         tempPlayer.loadSave(sF);
         return tempPlayer;
