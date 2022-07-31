@@ -1,0 +1,28 @@
+#townContainer {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100%;
+}
+#townContainerSpan {
+    grid-column: 1 / 5;
+    grid-row: 1;
+}
+#townHouses, #townBuildings, #townNPC, #townPCMart {
+    grid-row: 2;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+#townHouses {
+    grid-column: 1;
+}
+#townBuildings {
+    grid-column: 2;
+}
+#townNPC {
+    grid-column: 3;
+}
+#townPCMart {
+    grid-column: 4;
+}

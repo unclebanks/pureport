@@ -9,7 +9,45 @@ const ROUTES = {
         },
         {
             name: 'Pallet Town',
-            type: "town"
+            type: "town",
+            houses: [
+                {
+                    name: "Red's House",
+                    npc: [
+                        {
+                            name: "Red's Mom"
+                        }
+                    ]
+                },
+                {
+                    name: "Blue's House",
+                    npc: [
+                        {
+                            name: "Blue's Sister"
+                        }
+                    ]
+                }
+            ],
+            buildings: [ 
+                {
+                    name: "Prof. Oak's Lab",
+                    type: "lab",
+                    npc: [
+                        {
+                            name: "Prof. Oak"
+                        },
+                        {
+                            name: "Oak Aide 1"
+                        },
+                        {
+                            name: "Oak Aide 2"
+                        },
+                        {
+                            name: "Oak Aide 3"
+                        }
+                    ]
+                }
+            ]
         },
         {
             name: 'Route 1',
@@ -22,17 +60,22 @@ const ROUTES = {
         {
             name: 'Viridian City',
             type: "town",
-            gymLeader: {
-                name: 'Giovanni',
-                badge: 'Earth Badge',
-                poke: [
-                    ['Rhyhorn', 45],
-                    ['Dugtrio', 42],
-                    ['Nidoqueen', 44],
-                    ['Nidoking', 45],
-                    ['Rhydon', 50]
+            buildings: [ 
+                [
+                    {
+                        name: 'Giovanni',
+                        badge: 'Earth Badge',
+                        type: "gym",
+                        poke: [
+                            ['Rhyhorn', 45],
+                            ['Dugtrio', 42],
+                            ['Nidoqueen', 44],
+                            ['Nidoking', 45],
+                            ['Rhydon', 50]
+                        ]
+                    }
                 ]
-            }
+            ]
         },
         {
             name: 'Route 22',
@@ -61,15 +104,17 @@ const ROUTES = {
         {
             name: 'Pewter City',
             type: "town",
-            gymLeader: {
-                name: 'Brock',
-                badge: 'Boulder Badge',
-                win: 'boulder1',
-                poke: [
-                    ['Geodude', 12],
-                    ['Onix', 14]
-                ]
-            },
+            gym: [    
+                {
+                    name: 'Brock',
+                    badge: 'Boulder Badge',
+                    win: 'boulder1',
+                    poke: [
+                        ['Geodude', 12],
+                        ['Onix', 14]
+                    ]
+                }
+            ]
         },
         {
             name: 'Route 3',
@@ -113,15 +158,17 @@ const ROUTES = {
         {
             name: 'Cerulean City',
             type: "town",
-            gymLeader: {
-                name: 'Misty',
-                badge: 'Cascade Badge',
-                win: 'cascade1',
-                poke: [
-                    ['Staryu', 18],
-                    ['Starmie', 21]
-                ],
-            },
+            gym: [
+                {
+                    name: 'Misty',
+                    badge: 'Cascade Badge',
+                    win: 'cascade1',
+                    poke: [
+                        ['Staryu', 18],
+                        ['Starmie', 21]
+                    ]
+                }
+            ],
             _unlock: {
                 badges: {
                     'Boulder Badge': true
@@ -183,16 +230,18 @@ const ROUTES = {
         {
             name: 'Vermilion City',
             type: "town",
-            gymLeader: {
-                name: 'Lt. Surge',
-                badge: 'Thunder Badge',
-                win: 'thunder1',
-                poke: [
-                    ['Voltorb', 21],
-                    ['Pikachu', 18],
-                    ['Raichu', 24]
-                ]
-            },
+            gym: [    
+                {
+                    name: 'Lt. Surge',
+                    badge: 'Thunder Badge',
+                    win: 'thunder1',
+                    poke: [
+                        ['Voltorb', 21],
+                        ['Pikachu', 18],
+                        ['Raichu', 24]
+                    ]
+                }
+            ],
             _unlock: {
                 badges: {
                     'Cascade Badge': true
@@ -328,16 +377,18 @@ const ROUTES = {
         {
             name: 'Celadon City',
             type: "town",
-            gymLeader: {
-                name: 'Erika',
-                badge: 'Rainbow Badge',
-                win: 'rainbow1',
-                poke: [
-                    ['Victreebel', 29],
-                    ['Tangela', 24],
-                    ['Vileplume', 29]
-                ]
-            },
+            gym: [    
+                {
+                    name: 'Erika',
+                    badge: 'Rainbow Badge',
+                    win: 'rainbow1',
+                    poke: [
+                        ['Victreebel', 29],
+                        ['Tangela', 24],
+                        ['Vileplume', 29]
+                    ]
+                }
+            ],
             _unlock: {
                 badges: {
                     'Thunder Badge': true
@@ -347,17 +398,19 @@ const ROUTES = {
         {
             name: 'Saffron City',
             type: "town",
-            gymLeader: {
-                name: 'Sabrina',
-                badge: 'Marsh Badge',
-                win: 'marsh1',
-                poke: [
-                    ['Kadabra', 38],
-                    ['Mr. Mime', 37],
-                    ['Venomoth', 38],
-                    ['Alakazam', 43]
-                ]
-            },
+            gym: [
+                {
+                    name: 'Sabrina',
+                    badge: 'Marsh Badge',
+                    win: 'marsh1',
+                    poke: [
+                        ['Kadabra', 38],
+                        ['Mr. Mime', 37],
+                        ['Venomoth', 38],
+                        ['Alakazam', 43]
+                    ]
+                }
+            ],
             _unlock: {
                 badges: {
                     'Rainbow Badge': true
@@ -419,16 +472,18 @@ const ROUTES = {
         {
             name: 'Fuchsia City',
             type: "town",
-            gymLeader: {
-                name: 'Koga',
-                badge: 'Soul Badge',
-                poke: [
-                    ['Koffing', 37],
-                    ['Muk', 39],
-                    ['Koffing', 37],
-                    ['Weezing', 43]
-                ]
-            },
+            gym: [    
+                {
+                    name: 'Koga',
+                    badge: 'Soul Badge',
+                    poke: [
+                        ['Koffing', 37],
+                        ['Muk', 39],
+                        ['Koffing', 37],
+                        ['Weezing', 43]
+                    ]
+                }
+            ],
             _unlock: {
                 badges: {
                     'Rainbow Badge': true
@@ -542,17 +597,19 @@ const ROUTES = {
         {
             name: 'Cinnabar Island',
             type: "town",
-            gymLeader: {
-                name: 'Blaine',
-                badge: 'Volcano Badge',
-                win: 'volcano1',
-                poke: [
-                    ['Growlithe', 42],
-                    ['Ponyta', 40],
-                    ['Rapidash', 42],
-                    ['Arcanine', 47]
-                ]
-            },
+            gym: [    
+                {
+                    name: 'Blaine',
+                    badge: 'Volcano Badge',
+                    win: 'volcano1',
+                    poke: [
+                        ['Growlithe', 42],
+                        ['Ponyta', 40],
+                        ['Rapidash', 42],
+                        ['Arcanine', 47]
+                    ]
+                }
+            ],
             _unlock: {
                 badges: {
                     'Soul Badge': true

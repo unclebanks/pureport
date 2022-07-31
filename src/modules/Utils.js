@@ -46,7 +46,6 @@ export const Utils = {
     },
     getRouteIndexByName(region,routeName) {
         let i = 0;
-        console.log(region);
         while(i < ROUTES[region].length) {
             if(ROUTES[region][i].name === routeName) {
                 return i;

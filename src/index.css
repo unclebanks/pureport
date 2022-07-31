@@ -15,7 +15,7 @@ html {
   width: 100vw;
   height: 100vh;
 }
-#root, body, .App {
+#root, body, .App, #adventureState, #activeWindowContainer {
   width: 100%;
   height: 100%;
 }
