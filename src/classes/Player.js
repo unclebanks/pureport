@@ -59,4 +59,22 @@ export class Player {
             this.pcPokemon.push(poke);
         } else { this.pokemon.push(poke); }
     };
+    loadSave(sF) {
+        this.pokedexHighestID = sF.pokedexHighestID;
+        this.activePokeID = sF.activePokeID;
+        this.lastHeal = sF.lastHeal;
+        this.pokemon = sF.pokemon;
+        this.pcPokemon = sF.pcPokemon;
+        this.currentBoostedRoamer = sF.currentBoostedRoamer;
+        this.selectedBall = sF.selectedBall;
+        this.ballsAmount = sF.ballsAmount;
+        this.unlocked = sF.unlocked;
+        this.secretCodes = sF.secretCodes;
+        this.evoStones = sF.evoStones;
+        this.currencyAmount = sF.currencyAmount;
+        this.settings = sF.settings;
+        this.badges = sF.badges;
+        this.wins = sF.wins;
+        this.events = sF.events;
+    }
 }

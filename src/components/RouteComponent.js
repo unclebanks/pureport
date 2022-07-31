@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/RouteComponent.css";
 
 export const RouteComponent = () => {
 

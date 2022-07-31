@@ -1,0 +1,10 @@
+#pokeballComponent {
+    border: 1px solid black;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.pokeballIcon {
+    height: auto;
+    width: 32px;
+}

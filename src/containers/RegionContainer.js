@@ -1,5 +1,6 @@
 import React from "react";
 import { RouteComponent } from "../components/RouteComponent";
+import "../styles/RegionContainer.css";
 
 export const RegionContainer = () => {
 
