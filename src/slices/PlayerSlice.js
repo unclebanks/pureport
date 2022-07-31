@@ -7,23 +7,27 @@ export const currencySlice = createSlice(
     {
         name: "player",
         initialState: {
-            pokecoins: player.currencyAmount.pokecoins,
-            catchcoins: player.currencyAmount.catchcoins,
-            battlecoins: player.currencyAmount.battlecoins,
-            gametokens: player.currencyAmount.gametokens,
-            region: player.settings.currentRegionId,
-            route: player.settings.currentRouteId
+            currency: {
+                pokecoins: player.currencyAmount.pokecoins,
+                catchcoins: player.currencyAmount.catchcoins,
+                battlecoins: player.currencyAmount.battlecoins,
+                gametokens: player.currencyAmount.gametokens,
+            },
+            location: {
+                region: player.settings.currentRegionId,
+                route: player.settings.currentRouteId
+            }
         },
         reducers: {
             addCoins: (state, action) => {
-                state[action.payload.type] += action.payload.value;
+                state.currency[action.payload.type] += action.payload.value;
             },
             changeRoute: (state, action) => {
-                state.route = action.payload.route;
+                state.location.route = action.payload.route;
             },
             changeRegion: (state, action) => {
-                state.region = action.payload.region;
-                state.route = action.payload.route;
+                state.location.region = action.payload.region;
+                state.location.route = action.payload.route;
             }
         }
     }

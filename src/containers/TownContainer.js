@@ -1,10 +1,13 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
-export const TownContainer = (props) => {
+export const TownContainer = () => {
+
+    const townInformation = useSelector((state)=> state.player.location);
 
     return(
         <div id="townContainer">
-            TownContainer
+            <span>{townInformation.route}</span>
         </div>
     )
 }

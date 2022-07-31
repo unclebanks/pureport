@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 export const ActiveWindowContainer = (props) => {
 
     let activeWindowToReturn;
-    const currentLocation = useSelector((state)=> state.player);
+    const currentLocation = useSelector((state)=> state.player.location);
     console.log(currentLocation);
 
     switch(ROUTES[currentLocation.region][Utils.getRouteIndexByName(currentLocation.region, currentLocation.route)].type) {

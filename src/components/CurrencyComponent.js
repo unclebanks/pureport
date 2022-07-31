@@ -6,7 +6,7 @@ import "../styles/CurrencyComponent.css";
 
 export const CurrencyComponent = (props) => {
     let dispatch = useDispatch();
-    const currency = useSelector((state) => state.player);
+    const currency = useSelector((state) => state.player.currency);
     console.log(currency)
 
     return(
