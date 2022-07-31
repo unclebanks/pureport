@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div className="App">
-    <RegionContainer />
+    <RegionContainer player={player}/>
     <PokeballComponent player={player}/>
     <CurrencyComponent player={player}/>
     {/* <PlayerBox />

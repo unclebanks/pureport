@@ -1,5 +1,12 @@
 #regionContainer {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
     grid-column: 4;
     grid-row: 1 / 4;
     border: 1px solid black;
+}
+#regionContainer select option {
+    text-align: center;
+    font-size: larger;
 }

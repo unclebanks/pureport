@@ -13,5 +13,9 @@ export const Utils = {
         let tempPlayer = new Player();
         tempPlayer.loadSave(sF);
         return tempPlayer;
+    },
+    objectToArray(obj) {
+        let returnArray = Object.keys(obj).map(key => { return obj[key] });
+        return returnArray;
     }
 }
