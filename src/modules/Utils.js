@@ -53,5 +53,15 @@ export const Utils = {
                 return i;
             } else { i++; }
         }
+    },
+    getGymData(buildingData) {
+        let i = 0;
+        while(i < buildingData.length) {
+            if(buildingData[i].type === "gym") {
+                return buildingData[i];
+            } else {
+                i++;
+            }
+        }
     }
 }

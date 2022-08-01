@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { RegionContainer } from "./RegionContainer";
 import "../styles/containers/RightContainer.css";
 import { BerryFieldContainer } from "./BerryFieldContainer";
+import { BusyPokemonComponent } from "../components/BusyPokemonComponent";
 
 export const RightContainer = () => {
 
@@ -13,6 +14,8 @@ export const RightContainer = () => {
         case "combat": rightContainerToReturn = <RegionContainer />;
         break;
         case "farm": rightContainerToReturn = <BerryFieldContainer />;
+        break;
+        case "main": rightContainerToReturn = <BusyPokemonComponent />;
         break;
         default: rightContainerToReturn = "Error has occurred during the switch of the right container";
     }

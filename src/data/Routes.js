@@ -10,7 +10,19 @@ const ROUTES = {
         {
             name: 'Pallet Town',
             type: "town",
-            houses: [
+            buildings: [ 
+                {
+                    name: "Prof. Oak's Lab",
+                    type: "lab",
+                    npc: [
+                        {
+                            name: "Prof. Oak"
+                        },
+                        {
+                            name: "Oak Aide 1"
+                        }
+                    ]
+                },
                 {
                     name: "Red's House",
                     npc: [
@@ -27,26 +39,6 @@ const ROUTES = {
                         }
                     ]
                 }
-            ],
-            buildings: [ 
-                {
-                    name: "Prof. Oak's Lab",
-                    type: "lab",
-                    npc: [
-                        {
-                            name: "Prof. Oak"
-                        },
-                        {
-                            name: "Oak Aide 1"
-                        },
-                        {
-                            name: "Oak Aide 2"
-                        },
-                        {
-                            name: "Oak Aide 3"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -60,40 +52,6 @@ const ROUTES = {
         {
             name: 'Viridian City',
             type: "town",
-            houses: [
-                {
-                    name: "House 1",
-                    npc: [
-                        {
-                            name: "Red's Mom"
-                        }
-                    ]
-                },
-                {
-                    name: "House 2",
-                    npc: [
-                        {
-                            name: "Blue's Sister"
-                        }
-                    ]
-                },
-                {
-                    name: "House 3",
-                    npc: [
-                        {
-                            name: "Blue's Sister"
-                        }
-                    ]
-                },
-                {
-                    name: "House 4",
-                    npc: [
-                        {
-                            name: "Blue's Sister"
-                        }
-                    ]
-                }
-            ],
             buildings: [ 
                 {
                     name: "Viridian City Gym",
@@ -114,14 +72,6 @@ const ROUTES = {
                     ]
                 }
             ],
-            pcMart: [
-                {
-                    name: "PokeCenter",
-                },
-                {
-                    name: "PokeMart"
-                }
-            ]
         },
         {
             name: 'Route 22',
@@ -150,14 +100,20 @@ const ROUTES = {
         {
             name: 'Pewter City',
             type: "town",
-            gym: [    
+            buildings: [
                 {
-                    name: 'Brock',
+                    name: 'Pewter City Gym',
                     badge: 'Boulder Badge',
-                    win: 'boulder1',
-                    poke: [
-                        ['Geodude', 12],
-                        ['Onix', 14]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Brock",
+                            type: "gymLeader",
+                            poke: [
+                                ['Geodude', 12],
+                                ['Onix', 14]
+                            ]
+                        }
                     ]
                 }
             ]

@@ -4,8 +4,9 @@
     grid-template-rows: 1fr 9fr;
     grid-column: 4;
     grid-row: 1 / 4;
-    border: 1px solid black;
     background-color: lightslategray;
+    overflow: auto;
+    height: 100%;
 }
 #regionContainer select option {
     text-align: center;
