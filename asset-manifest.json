@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pureport/static/css/main.654d6aab.css",
-    "main.js": "/pureport/static/js/main.1e07ce7e.js",
+    "main.css": "/pureport/static/css/main.41d40b84.css",
+    "main.js": "/pureport/static/js/main.d53bb099.js",
     "static/media/CatchCoin.png": "/pureport/static/media/CatchCoin.8ee0e03b984eaf4e7225.png",
     "static/media/BattleCoin.png": "/pureport/static/media/BattleCoin.988c4f79d357715b09da.png",
     "static/media/GameTokens.png": "/pureport/static/media/GameTokens.16f583cbc920a04e13ae.png",
     "index.html": "/pureport/index.html",
-    "main.654d6aab.css.map": "/pureport/static/css/main.654d6aab.css.map",
-    "main.1e07ce7e.js.map": "/pureport/static/js/main.1e07ce7e.js.map"
+    "main.41d40b84.css.map": "/pureport/static/css/main.41d40b84.css.map",
+    "main.d53bb099.js.map": "/pureport/static/js/main.d53bb099.js.map"
   },
   "entrypoints": [
-    "static/css/main.654d6aab.css",
-    "static/js/main.1e07ce7e.js"
+    "static/css/main.41d40b84.css",
+    "static/js/main.d53bb099.js"
   ]
 }
