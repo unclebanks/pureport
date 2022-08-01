@@ -10,7 +10,7 @@ export const RightContainer = () => {
     const appState = useSelector((state)=>state.player.appState);
 
     switch(appState) {
-        case "main": rightContainerToReturn = <RegionContainer />;
+        case "combat": rightContainerToReturn = <RegionContainer />;
         break;
         case "farm": rightContainerToReturn = <BerryFieldContainer />;
         break;

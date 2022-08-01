@@ -33,3 +33,7 @@
 #defaultMainActiveWindowPokeCenter {
     background-color: red;
 }
+#defaultMainActiveWindowLOCKED {
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+}

@@ -3,6 +3,7 @@ import { PokeCenterComponent } from "../components/PokeCenterComponent";
 import { PokeGuildComponent } from "../components/PokeGuildComponent";
 import { PokeLabComponent } from "../components/PokeLabComponent";
 import { PokeMartComponent } from "../components/PokeMartComponent";
+import { SettingsComponent } from "../components/SettingsComponent";
 import "../styles/containers/MainActiveWindowContainer.css";
 
 export const MainActiveWindowContainer = () => {
@@ -25,19 +26,19 @@ export const MainActiveWindowContainer = () => {
                 <button onClick={()=>{setMainActiveWindowState("pokeGuild")}}>Guild IMAGE HERE. CLICK TO GO</button>
             </div>
             <div id="defaultMainActiveWindowPokeDex">
-                <button>POKEDEX</button>
+                <button onClick={()=>{setMainActiveWindowState("pokedex")}}>POKEDEX</button>
             </div>
             <div id="defaultMainActiveWindowPokemon">
-                <button>POKEMON</button>
+                <button onClick={()=>{setMainActiveWindowState("pokemon")}}>POKEMON</button>
             </div>
             <div id="defaultMainActiveWindowBag">
-                <button>BAG</button>
+                <button onClick={()=>{setMainActiveWindowState("bag")}}>BAG</button>
             </div>
             <div id="defaultMainActiveWindowSettings">
-                <button>SETTINGS</button>
+                <button onClick={()=>{setMainActiveWindowState("settings")}}>SETTINGS</button>
             </div>
             <div id="defaultMainActiveWindowLOCKED">
-                <button onClick={()=>{alert("This feature is still being planned. Thank you for your patience.")}}>LOCKED</button>
+                <button onClick={()=>{alert("This feature is still being planned. Thank you for your patience.")}}>DAYCARE</button>
             </div>
         </div>
 
@@ -51,6 +52,8 @@ export const MainActiveWindowContainer = () => {
         case "pokeGuild": mainActiveWindowToReturn = <PokeGuildComponent />;
         break;
         case "pokeLab": mainActiveWindowToReturn = <PokeLabComponent />;
+        break;
+        case "settings": mainActiveWindowToReturn = <SettingsComponent />;
         break;
         default: mainActiveWindowToReturn = "There was an error loading the mainActiveWindowToReturn, please contact the dev.";
     }

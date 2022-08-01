@@ -7,6 +7,7 @@ export class Player {
     lastHeal = Date.now();
     pokemon = [];
     pcPokemon = [];
+    berryFields = [];
     currentBoostedRoamer = {
         region: 'Kanto',
         route: 'Route 1',
@@ -59,6 +60,9 @@ export class Player {
             this.pcPokemon.push(poke);
         } else { this.pokemon.push(poke); }
     };
+    addBerryField(bF) {
+        this.berryFields.push(bF);
+    }
     loadSave(sF) {
         this.pokedexHighestID = sF.pokedexHighestID;
         this.activePokeID = sF.activePokeID;
@@ -76,6 +80,7 @@ export class Player {
         this.badges = sF.badges;
         this.wins = sF.wins;
         this.events = sF.events;
+        this.berryFields = sF.berryFields;
     };
     changeRoute(newRoute) {
         this.settings.currentRouteId = newRoute;

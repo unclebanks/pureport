@@ -1,6 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import "../styles/containers/CenterContainer.css";
+import { CombatActiveWindowContainer } from "./CombatActiveWindowContainer";
+import { FarmActiveWindowContainer } from "./FarmActiveWindowContainer";
 import { MainActiveWindowContainer } from "./MainActiveWindowContainer";
 
 export const CenterContainer = () => {
@@ -12,6 +14,10 @@ export const CenterContainer = () => {
 
     switch(appState) {
         case "main": centerContainerToReturn = <MainActiveWindowContainer />;
+        break;
+        case "farm": centerContainerToReturn = <FarmActiveWindowContainer />;
+        break;
+        case "combat": centerContainerToReturn = <CombatActiveWindowContainer />;
         break;
         default: centerContainerToReturn = "An error has occurred during the switch/case sequence for appState. Please contact the dev.";
     }

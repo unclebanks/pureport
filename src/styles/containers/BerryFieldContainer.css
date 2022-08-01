@@ -1,7 +1,7 @@
 #berryFieldContainer {
-    border: 30px solid burlywood;
-    border-radius: 30px;
+    outline: 10px burlywood solid;
     background-color: lightgreen;
     height: 100%;
-    overflow: auto;
+    display: grid;
+    grid-template-rows: 90% 10%;
 }

@@ -14,6 +14,8 @@ export const LeftContainer = () => {
         break;
         case "farm": leftContainerToReturn = <FarmWorkerContainer />;
         break;
+        case "combat": leftContainerToReturn = <PartyContainer />;
+        break;
         default: leftContainerToReturn = "The left container has failed to match the switch case checking props.appState. Please inform the dev";
     }
     return(

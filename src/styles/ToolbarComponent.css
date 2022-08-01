@@ -2,12 +2,7 @@
     grid-row: 2;
     grid-column: 2;
 }
-#mainToolbar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 100%;
-}
-#farmToolbar {
+#toolbarComponent > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 100%;

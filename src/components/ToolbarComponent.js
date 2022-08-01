@@ -12,7 +12,7 @@ export const ToolbarComponent = () => {
     const mainState = 
         <div id="mainToolbar" style={{"backgroundColor": "gray"}}>
             <span></span>
-            <button>COMBAT</button>
+            <button onClick={()=> {dispatch(changeAppState({appState: "combat"}))}}>COMBAT</button>
             <span></span>
             <button onClick={()=> {dispatch(changeAppState({appState: "farm"}))}}>FARM</button>
             <span></span>
@@ -33,10 +33,24 @@ export const ToolbarComponent = () => {
             <button>LOCKED</button>
         </div>
 
+    const combatState =
+        <div id="combatToolbar">
+            <span></span>
+            <button onClick={()=> {dispatch(changeAppState({appState: "main"}))}}>MAIN</button>
+            <span></span>
+            <button onClick={()=> {dispatch(changeAppState({appState: "farm"}))}}>FARM</button>
+            <span></span>
+            <button>LOCKED</button>
+            <span></span>
+            <button>LOCKED</button>
+        </div>
+
     switch(appState) {
         case "main": toolbarType = mainState;
         break;
         case "farm": toolbarType = farmState;
+        break;
+        case "combat": toolbarType = combatState;
         break;
         default: toolbarType = "Error, please contact the dev.";
     }
