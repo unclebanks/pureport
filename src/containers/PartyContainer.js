@@ -9,7 +9,7 @@ export const PartyContainer = (props) => {
         partyPokemonArray.push(<PartyPokeComponent pokemon={poke} key={poke.name}/>)        
     });
     return(
-        <div id="partyContainer" style={{"textAlign": "center"}}>
+        <div id="partyContainer" style={{"textAlign": "center", "overflow": "auto"}}>
             <span>Party</span>
             {partyPokemonArray}
         </div>
