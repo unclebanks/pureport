@@ -1,0 +1,12 @@
+#routeContainer {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    height: 100%;
+}
+#routeSubContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#routeSubContainer span {
+    border: 1px solid black;
+}

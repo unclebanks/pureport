@@ -770,6 +770,11 @@ const ROUTES = {
     ],
     Johto: [
         {
+            pokes: ['Chikorita', 'Cyndaquil', 'Totodile'],
+            rarePokes: ['Shuckle', 'Raikou', 'Entei', 'Suicune', 'Celebi'],
+            superRare: []
+        },
+        {
             name: 'New Bark Town',
             type: "town",
             houses: [

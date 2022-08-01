@@ -5,6 +5,7 @@ import "../styles/ActiveWindowContainer.css";
 import { RouteContainer } from "./RouteContainer";
 import { Utils } from "../modules/Utils";
 import { useSelector } from "react-redux";
+import { CombatContainer } from "./CombatContainer";
 
 export const ActiveWindowContainer = (props) => {
 
@@ -16,6 +17,8 @@ export const ActiveWindowContainer = (props) => {
         case "town": activeWindowToReturn = <TownContainer />;
         break;
         case "route": activeWindowToReturn= <RouteContainer />;
+        break;
+        case "combat": activeWindowToReturn = <CombatContainer />;
         break;
         default: activeWindowToReturn = "Error, please reload the page and inform the devs that this page does not have a specific error screen.";
     }

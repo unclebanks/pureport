@@ -16,7 +16,9 @@ export const currencySlice = createSlice(
             location: {
                 region: player.settings.currentRegionId,
                 route: player.settings.currentRouteId
-            }
+            },
+            pokemon: player.pokemon,
+            appState: "main"
         },
         reducers: {
             addCoins: (state, action) => {
@@ -35,11 +37,16 @@ export const currencySlice = createSlice(
                     break;
                     default: window.location.reload();
                 }
+            },
+            changeAppState: (state, action) => {
+                if(state.appState !== action.payload.appState) {
+                    state.appState = action.payload.appState;
+                }
             }
         }
     }
 )
 
-export const {addCoins, changeRoute, changeRegion} = currencySlice.actions;
+export const {addCoins, changeRoute, changeRegion, changeAppState} = currencySlice.actions;
 
 export default currencySlice.reducer;

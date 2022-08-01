@@ -7,10 +7,11 @@ import { changeRoute } from "../slices/PlayerSlice";
 export const RouteComponent = () => {
 
     let dispatch = useDispatch();
-    const regionID = useSelector((state)=> state.player.location.region)
+    const regionID = useSelector((state)=> state.player.location.region);
+    const routesToMake = ROUTES[regionID].slice(1);
     let loadRoutes = () => {
         let routeButtons = [];
-        ROUTES[regionID].forEach(route => {
+        routesToMake.forEach(route => {
             routeButtons.push(<div key={route.name+1}><button style={{"fontStyle": "italic"}} onClick={()=>{dispatch(changeRoute({"route": route.name}))}}>{route.name}</button></div>);
         })
         return <ul>{routeButtons}</ul>;
