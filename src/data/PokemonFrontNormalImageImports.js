@@ -7,6 +7,16 @@ import blastoiseFrontNormalImage from "../resources/assets/sprites/normal/front/
 import charmanderFrontNormalImage from "../resources/assets/sprites/normal/front/Charmander.png";
 import charmeleonFrontNormalImage from "../resources/assets/sprites/normal/front/Charmeleon.png";
 import charizardFrontNormalImage from "../resources/assets/sprites/normal/front/Charizard.png";
+import caterpieFrontNormalImage from "../resources/assets/sprites/normal/front/Caterpie.png";
+import metapodFrontNormalImage from "../resources/assets/sprites/normal/front/Metapod.png";
+import butterfreeFrontNormalImage from "../resources/assets/sprites/normal/front/Butterfree.png";
+import weedleFrontNormalImage from "../resources/assets/sprites/normal/front/Weedle.png";
+import kakunaFrontNormalImage from "../resources/assets/sprites/normal/front/Kakuna.png";
+import beedrillFrontNormalImage from "../resources/assets/sprites/normal/front/Beedrill.png";
+import pidgeyFrontNormalImage from "../resources/assets/sprites/normal/front/Pidgey.png";
+import pidgeottoFrontNormalImage from "../resources/assets/sprites/normal/front/Pidgeotto.png";
+import pidgeotFrontNormalImage from "../resources/assets/sprites/normal/front/Pidgeot.png";
+import geodudeFrontNormalImage from "../resources/assets/sprites/normal/front/Geodude.png";
 
 export const PokemonFNImageImport = [
     { Bulbasaur: bulbasaurFrontNormalImage },
@@ -17,5 +27,15 @@ export const PokemonFNImageImport = [
     { Charizard: charizardFrontNormalImage },
     { Squirtle: squirtleFrontNormalImage },
     { Wartortle: wartortleFrontNormalImage },
-    { Blastoise: blastoiseFrontNormalImage }
+    { Blastoise: blastoiseFrontNormalImage },
+    { Caterpie: caterpieFrontNormalImage },
+    { Metapod: metapodFrontNormalImage },
+    { Butterfree: butterfreeFrontNormalImage },
+    { Weedle: weedleFrontNormalImage },
+    { Kakuna: kakunaFrontNormalImage },
+    { Beedrill: beedrillFrontNormalImage },
+    { Pidgey: pidgeyFrontNormalImage },
+    { Pidgeotto: pidgeottoFrontNormalImage },
+    { Pidgeot: pidgeotFrontNormalImage },
+    { Geodude: geodudeFrontNormalImage }
 ]

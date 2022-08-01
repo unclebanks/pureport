@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import "../styles/components/GymComponent.css";
+import { GymTrainerInformationComponent } from "./GymTrainerInformationComponent";
 
 export const GymComponent = (props) => {
 
-    console.log(props.gymData);
+    const playerInfo = useSelector((state)=> state.player);
+    let [currentTrainerFocus, setCurrentTrainerFocus] = useState(0);
+    const playerHasBadge = playerInfo.badges[props.gymData.badge]? "Yes": "No";
+    const changeTrainerFocus = (newFocus) => {
+        console.log("NewFocus ============="+newFocus);
+        setCurrentTrainerFocus(newFocus);
+    }
     let trainerButtonArray = [];
     const generateTrainerButtons = (trainerButtons) => {
         let i = 0;
+        if(currentTrainerFocus > trainerButtons.length - 1) {
+            setCurrentTrainerFocus(0);
+        }
         while(i < trainerButtons.length) {
-            trainerButtonArray.push(<button>{trainerButtons[i].name}</button>);
+            // eslint-disable-next-line no-loop-func
+            const currentNumber = i;
+            trainerButtonArray.push(<button key={trainerButtons[i].name} onClick={()=>{changeTrainerFocus(currentNumber)}} style={{"width": "100%"}}>{trainerButtons[i].name}</button>);
             i++;
-        } 
+        }
         return trainerButtonArray;
     }
 
@@ -21,10 +34,12 @@ export const GymComponent = (props) => {
             </div>
             <div id="gymActiveWindow" style={{"outline": "2px solid black"}}>
                 <div id="gymInformation" style={{"outline": "2px solid black"}}>
-                    Trainers Beat/Trainers Total + Badge[Have?]
+                    <div>Trainers: {props.gymData.trainers.length}</div>
+                    <div>Badge Name: {props.gymData.badge}</div>
+                    <div>Obtained: {playerHasBadge}</div>
                 </div>
                 <div id="gymTrainerDataWindow">
-                    Trainers data window + battle confirm button
+                    <GymTrainerInformationComponent trainer={props.gymData.trainers[currentTrainerFocus]} />
                 </div>
             </div>
         </div>

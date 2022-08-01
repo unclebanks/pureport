@@ -278,25 +278,6 @@ export const POKEDEX = [
         'id': 15,
     },
     {
-        'name': 'M-Beedrill',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
-            'hp': 65,
-            'attack': 150,
-            'defense': 40,
-            'sp atk': 15,
-            'sp def': 80,
-            'speed': 145,
-            'types': [
-                'Bug',
-                'Poison',
-            ],
-        },
-        'exp': 223,
-        'id': '15-M',
-    },
-    {
         'name': 'Pidgey',
         'stats': {
             'catch rate': 255,
@@ -354,25 +335,6 @@ export const POKEDEX = [
         'id': 18,
     },
     {
-        'name': 'M-Pidgeot',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
-            'hp': 83,
-            'attack': 80,
-            'defense': 80,
-            'sp atk': 135,
-            'sp def': 80,
-            'speed': 121,
-            'types': [
-                'Normal',
-                'Flying',
-            ],
-        },
-        'exp': 261,
-        'id': '18-M',
-    },
-    {
         'name': 'Rattata',
         'stats': {
             'catch rate': 255,
@@ -407,44 +369,6 @@ export const POKEDEX = [
         },
         'exp': 145,
         'id': 20,
-    },
-    {
-        'name': 'Alolan Rattata',
-        'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
-            'hp': 30,
-            'attack': 56,
-            'defense': 35,
-            'sp atk': 25,
-            'sp def': 35,
-            'speed': 72,
-            'types': [
-                'Normal',
-                'Dark',
-            ],
-        },
-        'exp': 51,
-        'id': '19-A',
-    },
-    {
-        'name': 'Alolan Raticate',
-        'stats': {
-            'catch rate': 127,
-            'growth rate': 'Medium Fast',
-            'hp': 75,
-            'attack': 71,
-            'defense': 70,
-            'sp atk': 40,
-            'sp def': 80,
-            'speed': 77,
-            'types': [
-                'Normal',
-                'Dark',
-            ],
-        },
-        'exp': 145,
-        'id': '20-A',
     },
     {
         'name': 'Spearow',
@@ -557,25 +481,6 @@ export const POKEDEX = [
         'id': 26,
     },
     {
-        'name': 'Alolan Raichu',
-        'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
-            'hp': 60,
-            'attack': 85,
-            'defense': 50,
-            'sp atk': 95,
-            'sp def': 85,
-            'speed': 110,
-            'types': [
-                'Electric',
-                'Psychic',
-            ],
-        },
-        'exp': 218,
-        'id': '26-A',
-    },
-    {
         'name': 'Sandshrew',
         'stats': {
             'catch rate': 255,
@@ -610,44 +515,6 @@ export const POKEDEX = [
         },
         'exp': 158,
         'id': 28,
-    },
-    {
-        'name': 'Alolan Sandshrew',
-        'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
-            'hp': 50,
-            'attack': 75,
-            'defense': 90,
-            'sp atk': 10,
-            'sp def': 35,
-            'speed': 40,
-            'types': [
-                'Ice',
-                'Steel',
-            ],
-        },
-        'exp': 60,
-        'id': '27-A',
-    },
-    {
-        'name': 'Alolan Sandslash',
-        'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
-            'hp': 75,
-            'attack': 100,
-            'defense': 120,
-            'sp atk': 25,
-            'sp def': 65,
-            'speed': 65,
-            'types': [
-                'Ice',
-                'Steel',
-            ],
-        },
-        'exp': 158,
-        'id': '28-A',
     },
     {
         'name': 'Nidoran F',
@@ -830,42 +697,6 @@ export const POKEDEX = [
         },
         'exp': 177,
         'id': 38,
-    },
-    {
-        'name': 'Alolan Vulpix',
-        'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
-            'hp': 38,
-            'attack': 41,
-            'defense': 40,
-            'sp atk': 50,
-            'sp def': 65,
-            'speed': 65,
-            'types': [
-                'Ice',
-            ],
-        },
-        'exp': 60,
-        'id': '37-A',
-    },
-    {
-        'name': 'Alolan Ninetales',
-        'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
-            'hp': 73,
-            'attack': 67,
-            'defense': 75,
-            'sp atk': 81,
-            'sp def': 100,
-            'speed': 109,
-            'types': [
-                'Ice',
-            ],
-        },
-        'exp': 177,
-        'id': '38-A',
     },
     {
         'name': 'Jigglypuff',
@@ -1113,44 +944,6 @@ export const POKEDEX = [
         'id': 51,
     },
     {
-        'name': 'Alolan Diglett',
-        'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
-            'hp': 10,
-            'attack': 55,
-            'defense': 30,
-            'sp atk': 35,
-            'sp def': 45,
-            'speed': 90,
-            'types': [
-                'Ground',
-                'Steel',
-            ],
-        },
-        'exp': 53,
-        'id': '50-A',
-    },
-    {
-        'name': 'Alolan Dugtrio',
-        'stats': {
-            'catch rate': 50,
-            'growth rate': 'Medium Fast',
-            'hp': 35,
-            'attack': 80,
-            'defense': 60,
-            'sp atk': 50,
-            'sp def': 70,
-            'speed': 110,
-            'types': [
-                'Ground',
-                'Steel',
-            ],
-        },
-        'exp': 142,
-        'id': '51-A',
-    },
-    {
         'name': 'Meowth',
         'stats': {
             'catch rate': 255,
@@ -1185,42 +978,6 @@ export const POKEDEX = [
         },
         'exp': 154,
         'id': 53,
-    },
-    {
-        'name': 'Alolan Meowth',
-        'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
-            'hp': 40,
-            'attack': 35,
-            'defense': 35,
-            'sp atk': 50,
-            'sp def': 40,
-            'speed': 90,
-            'types': [
-                'Dark',
-            ],
-        },
-        'exp': 58,
-        'id': '52-A',
-    },
-    {
-        'name': 'Alolan Persian',
-        'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
-            'hp': 65,
-            'attack': 60,
-            'defense': 60,
-            'sp atk': 75,
-            'sp def': 65,
-            'speed': 115,
-            'types': [
-                'Dark',
-            ],
-        },
-        'exp': 154,
-        'id': '53-A',
     },
     {
         'name': 'Psyduck',
@@ -1440,24 +1197,6 @@ export const POKEDEX = [
         'id': 65,
     },
     {
-        'name': 'M-Alakazam',
-        'stats': {
-            'catch rate': 50,
-            'growth rate': 'Medium Slow',
-            'hp': 55,
-            'attack': 50,
-            'defense': 65,
-            'sp atk': 175,
-            'sp def': 95,
-            'speed': 150,
-            'types': [
-                'Psychic',
-            ],
-        },
-        'exp': 266,
-        'id': '65-M',
-    },
-    {
         'name': 'Machop',
         'stats': {
             'catch rate': 180,
@@ -1664,63 +1403,6 @@ export const POKEDEX = [
         'id': 76,
     },
     {
-        'name': 'Alolan Geodude',
-        'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
-            'hp': 40,
-            'attack': 80,
-            'defense': 100,
-            'sp atk': 30,
-            'sp def': 30,
-            'speed': 20,
-            'types': [
-                'Rock',
-                'Electric',
-            ],
-        },
-        'exp': 60,
-        'id': '74-A',
-    },
-    {
-        'name': 'Alolan Graveler',
-        'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
-            'hp': 55,
-            'attack': 95,
-            'defense': 115,
-            'sp atk': 45,
-            'sp def': 45,
-            'speed': 35,
-            'types': [
-                'Rock',
-                'Electric',
-            ],
-        },
-        'exp': 137,
-        'id': '75-A',
-    },
-    {
-        'name': 'Alolan Golem',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
-            'hp': 80,
-            'attack': 120,
-            'defense': 130,
-            'sp atk': 55,
-            'sp def': 65,
-            'speed': 45,
-            'types': [
-                'Rock',
-                'Electric',
-            ],
-        },
-        'exp': 223,
-        'id': '76-A',
-    },
-    {
         'name': 'Ponyta',
         'stats': {
             'catch rate': 190,
@@ -1793,25 +1475,6 @@ export const POKEDEX = [
         },
         'exp': 172,
         'id': 80,
-    },
-    {
-        'name': 'M-Slowbro',
-        'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
-            'hp': 95,
-            'attack': 75,
-            'defense': 180,
-            'sp atk': 130,
-            'sp def': 80,
-            'speed': 30,
-            'types': [
-                'Water',
-                'Psychic',
-            ],
-        },
-        'exp': 207,
-        'id': '80-M',
     },
     {
         'name': 'Magnemite',
@@ -1982,44 +1645,6 @@ export const POKEDEX = [
         'id': 89,
     },
     {
-        'name': 'Alolan Grimer',
-        'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
-            'hp': 80,
-            'attack': 80,
-            'defense': 50,
-            'sp atk': 40,
-            'sp def': 50,
-            'speed': 25,
-            'types': [
-                'Poison',
-                'Dark',
-            ],
-        },
-        'exp': 65,
-        'id': '88-A',
-    },
-    {
-        'name': 'Alolan Muk',
-        'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
-            'hp': 105,
-            'attack': 105,
-            'defense': 75,
-            'sp atk': 65,
-            'sp def': 100,
-            'speed': 50,
-            'types': [
-                'Poison',
-                'Dark',
-            ],
-        },
-        'exp': 175,
-        'id': '89-A',
-    },
-    {
         'name': 'Shellder',
         'stats': {
             'catch rate': 190,
@@ -2112,25 +1737,6 @@ export const POKEDEX = [
         },
         'exp': 225,
         'id': 94,
-    },
-    {
-        'name': 'M-Gengar',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
-            'hp': 60,
-            'attack': 65,
-            'defense': 80,
-            'sp atk': 170,
-            'sp def': 95,
-            'speed': 130,
-            'types': [
-                'Ghost',
-                'Poison',
-            ],
-        },
-        'exp': 270,
-        'id': '94-M',
     },
     {
         'name': 'Onix',
@@ -2298,25 +1904,6 @@ export const POKEDEX = [
         'id': 103,
     },
     {
-        'name': 'Alolan Exeggutor',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
-            'hp': 95,
-            'attack': 105,
-            'defense': 85,
-            'sp atk': 125,
-            'sp def': 65,
-            'speed': 45,
-            'types': [
-                'Grass',
-                'Dragon',
-            ],
-        },
-        'exp': 182,
-        'id': '103-A',
-    },
-    {
         'name': 'Cubone',
         'stats': {
             'catch rate': 190,
@@ -2351,25 +1938,6 @@ export const POKEDEX = [
         },
         'exp': 149,
         'id': 105,
-    },
-    {
-        'name': 'Alolan Marowak',
-        'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
-            'hp': 60,
-            'attack': 80,
-            'defense': 110,
-            'sp atk': 50,
-            'sp def': 80,
-            'speed': 45,
-            'types': [
-                'Fire',
-                'Ghost',
-            ],
-        },
-        'exp': 149,
-        'id': '105-A',
     },
     {
         'name': 'Hitmonlee',
@@ -2552,24 +2120,6 @@ export const POKEDEX = [
         },
         'exp': 172,
         'id': 115,
-    },
-    {
-        'name': 'M-Kangaskhan',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
-            'hp': 105,
-            'attack': 125,
-            'defense': 100,
-            'sp atk': 60,
-            'sp def': 100,
-            'speed': 100,
-            'types': [
-                'Normal',
-            ],
-        },
-        'exp': 207,
-        'id': '115-M',
     },
     {
         'name': 'Horsea',
@@ -2792,25 +2342,6 @@ export const POKEDEX = [
         'id': 127,
     },
     {
-        'name': 'M-Pinsir',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
-            'hp': 65,
-            'attack': 155,
-            'defense': 120,
-            'sp atk': 65,
-            'sp def': 90,
-            'speed': 105,
-            'types': [
-                'Bug',
-                'Flying',
-            ],
-        },
-        'exp': 210,
-        'id': '127-M',
-    },
-    {
         'name': 'Tauros',
         'stats': {
             'catch rate': 45,
@@ -2864,25 +2395,6 @@ export const POKEDEX = [
         },
         'exp': 189,
         'id': 130,
-    },
-    {
-        'name': 'M-Gyarados',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
-            'hp': 95,
-            'attack': 155,
-            'defense': 109,
-            'sp atk': 70,
-            'sp def': 130,
-            'speed': 81,
-            'types': [
-                'Water',
-                'Dark',
-            ],
-        },
-        'exp': 224,
-        'id': '130-M',
     },
     {
         'name': 'Lapras',
@@ -3107,25 +2619,6 @@ export const POKEDEX = [
         'id': 142,
     },
     {
-        'name': 'M-Aerodactyl',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
-            'hp': 80,
-            'attack': 135,
-            'defense': 85,
-            'sp atk': 70,
-            'sp def': 95,
-            'speed': 150,
-            'types': [
-                'Rock',
-                'Flying',
-            ],
-        },
-        'exp': 215,
-        'id': '142-M',
-    },
-    {
         'name': 'Snorlax',
         'stats': {
             'catch rate': 25,
@@ -3272,43 +2765,6 @@ export const POKEDEX = [
         },
         'exp': 306,
         'id': 150,
-    },
-    {
-        'name': 'M-Mewtwo X',
-        'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
-            'hp': 106,
-            'attack': 190,
-            'defense': 100,
-            'sp atk': 154,
-            'sp def': 100,
-            'speed': 130,
-            'types': [
-                'Psychic',
-                'Fighting',
-            ],
-        },
-        'exp': 351,
-        'id': '150-M-X',
-    },
-    {
-        'name': 'M-Mewtwo Y',
-        'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
-            'hp': 106,
-            'attack': 150,
-            'defense': 70,
-            'sp atk': 194,
-            'sp def': 120,
-            'speed': 140,
-            'types': [
-                'Psychic',
-            ],
-        },
-        'exp': 351,
-        'id': '150-M-Y',
     },
     {
         'name': 'Mew',
@@ -15380,44 +14836,6 @@ export const POKEDEX = [
         },
         'exp': 120,
         'id': 802,
-    },
-    {
-        'name': 'M-Ampharos',
-        'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
-            'hp': 90,
-            'attack': 95,
-            'defense': 105,
-            'sp atk': 165,
-            'sp def': 110,
-            'speed': 45,
-            'types': [
-                'Electric',
-                'Dragon',
-            ],
-        },
-        'exp': 275,
-        'id': '181-M',
-    },
-    {
-        'name': 'M-Steelix',
-        'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
-            'hp': 75,
-            'attack': 125,
-            'defense': 230,
-            'sp atk': 55,
-            'sp def': 95,
-            'speed': 30,
-            'types': [
-                'Steel',
-                'Ground',
-            ],
-        },
-        'exp': 214,
-        'id': '208-M',
     },
     {
         'name': 'M-Scizor',

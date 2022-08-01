@@ -59,6 +59,14 @@ const ROUTES = {
                     type: "gym",
                     trainers: [
                         {
+                            name: 'Craig',
+                            type: "gymTrainer",
+                            poke: [
+                                ['Mewtwo', 45],
+                                ['Dugtrio', 42]
+                            ]
+                        },
+                        {
                             name: 'Giovanni',
                             type: "gymLeader",
                             poke: [
@@ -160,14 +168,20 @@ const ROUTES = {
         {
             name: 'Cerulean City',
             type: "town",
-            gym: [
+            buildings: [
                 {
-                    name: 'Misty',
+                    name: 'Cerulean City Gym',
                     badge: 'Cascade Badge',
-                    win: 'cascade1',
-                    poke: [
-                        ['Staryu', 18],
-                        ['Starmie', 21]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Misty",
+                            type: "gymLeader",
+                            poke: [
+                                ['Staryu', 18],
+                                ['Starmie', 21]
+                            ]
+                        }
                     ]
                 }
             ],
@@ -232,15 +246,21 @@ const ROUTES = {
         {
             name: 'Vermilion City',
             type: "town",
-            gym: [    
+            buildings: [
                 {
-                    name: 'Lt. Surge',
+                    name: 'Vermilion City Gym',
                     badge: 'Thunder Badge',
-                    win: 'thunder1',
-                    poke: [
-                        ['Voltorb', 21],
-                        ['Pikachu', 18],
-                        ['Raichu', 24]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Lt. Surge",
+                            type: "gymLeader",
+                            poke: [
+                                ['Voltorb', 21],
+                                ['Pikachu', 18],
+                                ['Raichu', 24]
+                            ]
+                        }
                     ]
                 }
             ],
@@ -379,15 +399,21 @@ const ROUTES = {
         {
             name: 'Celadon City',
             type: "town",
-            gym: [    
+            buildings: [
                 {
-                    name: 'Erika',
+                    name: 'Celadon City Gym',
                     badge: 'Rainbow Badge',
-                    win: 'rainbow1',
-                    poke: [
-                        ['Victreebel', 29],
-                        ['Tangela', 24],
-                        ['Vileplume', 29]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Erika",
+                            type: "gymLeader",
+                            poke: [
+                                ['Victreebel', 29],
+                                ['Tangela', 24],
+                                ['Vileplume', 29]
+                            ]
+                        }
                     ]
                 }
             ],
@@ -400,16 +426,22 @@ const ROUTES = {
         {
             name: 'Saffron City',
             type: "town",
-            gym: [
+            buildings: [
                 {
-                    name: 'Sabrina',
+                    name: 'Saffron City Gym',
                     badge: 'Marsh Badge',
-                    win: 'marsh1',
-                    poke: [
-                        ['Kadabra', 38],
-                        ['Mr. Mime', 37],
-                        ['Venomoth', 38],
-                        ['Alakazam', 43]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Sabrina",
+                            type: "gymLeader",
+                            poke: [
+                                ['Kadabra', 38],
+                                ['Mr. Mime', 37],
+                                ['Venomoth', 38],
+                                ['Alakazam', 43]
+                            ]
+                        }
                     ]
                 }
             ],
@@ -474,15 +506,22 @@ const ROUTES = {
         {
             name: 'Fuchsia City',
             type: "town",
-            gym: [    
+            buildings: [
                 {
-                    name: 'Koga',
+                    name: 'Fuchsia City Gym',
                     badge: 'Soul Badge',
-                    poke: [
-                        ['Koffing', 37],
-                        ['Muk', 39],
-                        ['Koffing', 37],
-                        ['Weezing', 43]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Koga",
+                            type: "gymLeader",
+                            poke: [
+                                ['Koffing', 37],
+                                ['Muk', 39],
+                                ['Koffing', 37],
+                                ['Weezing', 43]
+                            ]
+                        }
                     ]
                 }
             ],
@@ -599,16 +638,22 @@ const ROUTES = {
         {
             name: 'Cinnabar Island',
             type: "town",
-            gym: [    
+            buildings: [
                 {
-                    name: 'Blaine',
+                    name: 'Cinnabar Island Gym',
                     badge: 'Volcano Badge',
-                    win: 'volcano1',
-                    poke: [
-                        ['Growlithe', 42],
-                        ['Ponyta', 40],
-                        ['Rapidash', 42],
-                        ['Arcanine', 47]
+                    type: 'gym',
+                    trainers: [
+                        {
+                            name: "Blaine",
+                            type: "gymLeader",
+                            poke: [
+                                ['Growlithe', 42],
+                                ['Ponyta', 40],
+                                ['Rapidash', 42],
+                                ['Arcanine', 47]
+                            ]
+                        }
                     ]
                 }
             ],

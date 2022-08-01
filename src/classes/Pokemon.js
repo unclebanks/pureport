@@ -18,7 +18,6 @@ export class Pokemon {
         }
     }
     statValue(statName) {
-        console.log(POKEDEX[Utils.getPokeIdByName(this.name)].stats);
         let raw = Number(POKEDEX[Utils.getPokeIdByName(this.name)].stats[statName]);
         let calculated = statName !== "hp"? ((raw+100+50)*this.level/150) : ((raw * this.level) / 40);
         if (statName !== 'speed' && statName !== 'hp') {

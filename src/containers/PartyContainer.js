@@ -6,7 +6,6 @@ import "../styles/PartyContainer.css";
 export const PartyContainer = () => {
 
     const playerPartyPokemon = useSelector((state)=> state.player.pokemon);
-    console.log(playerPartyPokemon);
     let partyPokemonArray = [];
     playerPartyPokemon.forEach(poke => {
         partyPokemonArray.push(<PartyPokeComponent pokemon={poke} key={poke.name}/>)        

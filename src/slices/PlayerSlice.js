@@ -7,6 +7,32 @@ export const currencySlice = createSlice(
     {
         name: "player",
         initialState: {
+            pokedexHighestID: 0,
+            activePokeID: 0,
+            pokemon: player.pokemon,
+            pcPokemon: [],
+            berryFields: [],
+            currentBoostedRoamer: {
+                region: 'Kanto',
+                route: 'Route 1',
+                pokemon: 'Zapdos',
+                start: 0,
+                length: 5 * 60 * 1000,
+                expired: false,
+            },
+            selectedBall: "pokeball",
+            ballsAmount: {
+                pokeball: 20,
+                greatball: 0,
+                ultraball: 0,
+                masterball: 0,
+            },
+            unlocked: {},
+            secretCodes: {},
+            evoStones: {},
+            badges: {},
+            wins: {},
+            events: {},
             currency: {
                 pokecoins: player.currencyAmount.pokecoins,
                 catchcoins: player.currencyAmount.catchcoins,
@@ -17,7 +43,6 @@ export const currencySlice = createSlice(
                 region: player.settings.currentRegionId,
                 route: player.settings.currentRouteId
             },
-            pokemon: player.pokemon,
             appState: "main"
         },
         reducers: {
@@ -28,7 +53,6 @@ export const currencySlice = createSlice(
                 state.location.route = action.payload.route;
             },
             changeRegion: (state, action) => {
-                console.log(action);
                 state.location.region = action.payload.region;
                 switch(action.payload.region) {
                     case "Kanto": state.location.route = "Pallet Town";
