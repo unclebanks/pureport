@@ -12,12 +12,12 @@ export const RouteComponent = () => {
     let loadRoutes = () => {
         let routeButtons = [];
         routesToMake.forEach(route => {
-            routeButtons.push(<div key={route.name+1}><button style={{"fontStyle": "italic"}} onClick={()=>{dispatch(changeRoute({"route": route.name}))}}>{route.name}</button></div>);
+            routeButtons.push(<button style={{"fontStyle": "italic"}} onClick={()=>{dispatch(changeRoute({"route": route.name}))}}>{route.name}</button>);
         })
-        return <ul>{routeButtons}</ul>;
+        return <ul style={{"display": "grid", "gridTemplateRows": `repeat(${routesToMake.length}, 1fr)`}}>{routeButtons}</ul>;
     }
     return(
-        <div id="routeComponent"style={{"overflow": "auto", "maxHeight": "90vh"}}>
+        <div id="routeComponent"style={{"overflow": "auto"}}>
             {loadRoutes()}
         </div>
     )

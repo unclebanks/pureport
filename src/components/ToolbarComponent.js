@@ -9,10 +9,10 @@ export const ToolbarComponent = () => {
     const appState = useSelector((state)=>state.player.appState);
     const dispatch = useDispatch()
 
-    const adventureState = 
-        <div id="adventureToolbar">
+    const mainState = 
+        <div id="mainToolbar" style={{"backgroundColor": "gray"}}>
             <span></span>
-            <button>ADVENTURE</button>
+            <button>COMBAT</button>
             <span></span>
             <button onClick={()=> {dispatch(changeAppState({appState: "farm"}))}}>FARM</button>
             <span></span>
@@ -23,11 +23,18 @@ export const ToolbarComponent = () => {
 
     const farmState =
         <div id="farmToolbar">
-            <button>FarmStuff</button>
+            <span></span>
+            <button onClick={()=> {dispatch(changeAppState({appState: "main"}))}}>MAIN</button>
+            <span></span>
+            <button onClick={()=> {dispatch(changeAppState({appState: "combat"}))}}>COMBAT</button>
+            <span></span>
+            <button>LOCKED</button>
+            <span></span>
+            <button>LOCKED</button>
         </div>
 
     switch(appState) {
-        case "main": toolbarType = adventureState;
+        case "main": toolbarType = mainState;
         break;
         case "farm": toolbarType = farmState;
         break;
