@@ -26,8 +26,15 @@ export const currencySlice = createSlice(
                 state.location.route = action.payload.route;
             },
             changeRegion: (state, action) => {
+                console.log(action);
                 state.location.region = action.payload.region;
-                state.location.route = action.payload.route;
+                switch(action.payload.region) {
+                    case "Kanto": state.location.route = "Pallet Town";
+                    break;
+                    case "Johto": state.location.route = "New Bark Town";
+                    break;
+                    default: window.location.reload();
+                }
             }
         }
     }
