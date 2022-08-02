@@ -372,7 +372,7 @@ const ROUTES = {
         },
         {
             name: 'Route 8',
-            pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Ekans', 'Sandshrew', 'Vulpix', 'Jiglypuff', 'Meowth', 'Mankey', 'Growlithe', 'Abra', 'Kadabra'],
+            pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Ekans', 'Sandshrew', 'Vulpix', 'Jigglypuff', 'Meowth', 'Mankey', 'Growlithe', 'Abra', 'Kadabra'],
             minLevel: 15,
             maxLevel: 20,
             type: "route",
@@ -665,7 +665,7 @@ const ROUTES = {
         },
         {
             name: 'Pokemon Mansion',
-            pokes: ['Rattata', 'Ratiate', 'Vulpix', 'Growlithe', 'Ponyta', 'Grimer', 'Muk', 'Koffing', 'Weezing', 'Magmar', 'Ditto'],
+            pokes: ['Rattata', 'Raticate', 'Vulpix', 'Growlithe', 'Ponyta', 'Grimer', 'Muk', 'Koffing', 'Weezing', 'Magmar', 'Ditto'],
             minLevel: 26,
             maxLevel: 46,
             type: "route",

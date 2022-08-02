@@ -61,5 +61,19 @@ export const Utils = {
                 i++;
             }
         }
+    },
+    createArrayOfPokemonObjectFromRouteData(route) {
+        let i = 0;
+        let pokemonObjectArray = [];
+        let routePokemonArray = route.pokes;
+        let level = route.minLevel + Math.round((Math.random() * (route.maxLevel - route.minLevel)));
+        console.log(route)
+        while(i < routePokemonArray.length) {
+            let tempPoke = routePokemonArray[i];
+            console.log(tempPoke)
+            pokemonObjectArray.push(new Pokemon(tempPoke, level));
+            i++;
+        }
+        return pokemonObjectArray;
     }
 }
