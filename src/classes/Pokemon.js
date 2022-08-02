@@ -54,7 +54,7 @@ export class Pokemon {
     }
     shiny() { return this.isShiny; };
     alive() { return this.getHp() > 0; };
-    types() { return this.poke.poke.stats.types; };
+    types() { return this.poke.stats.types; };
     pokeName() { return this.poke.poke.name; };
     catchRate() { return Number(this.poke.poke.stats['catch rate']); };
     giveExp(amount) { this.exp += amount; };

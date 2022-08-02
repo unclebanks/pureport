@@ -2,15 +2,18 @@ import React from "react";
 import "../styles/components/PokemonStatsComponent.css";
 
 export const PokemonStatsComponent = (props) => {
+    console.log("POkemonStatsComponent ====== "+props.pokemon);
+
+    let pokemonStatInformation = props.pokemon.stats? props.pokemon.stats: props.pokemon.poke.stats;
 
     return(
         <div id="pokemonStatsComponent">
-            <div>HP: {props.pokemon.stats.hp}</div>
-            <div>ATK: {props.pokemon.stats.attack}</div>
-            <div>DEF: {props.pokemon.stats.defense}</div>
-            <div>SP ATK: {props.pokemon.stats["sp atk"]}</div>
-            <div>SP DEF: {props.pokemon.stats["sp def"]}</div>
-            <div>SPD: {props.pokemon.stats.speed}</div>
+            <div>HP: {pokemonStatInformation.hp}</div>
+            <div>ATK: {pokemonStatInformation.attack}</div>
+            <div>DEF: {pokemonStatInformation.defense}</div>
+            <div>SP ATK: {pokemonStatInformation["sp atk"]}</div>
+            <div>SP DEF: {pokemonStatInformation["sp def"]}</div>
+            <div>SPD: {pokemonStatInformation.speed}</div>
         </div>
     )
 }

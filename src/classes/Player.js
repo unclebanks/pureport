@@ -70,7 +70,8 @@ export class Player {
         let pokemonArray = [];
         let i =0;
         while(i < sF.length) {
-            let newPokemonForArray = new Pokemon(Utils.cloneJsonObject(sF[i]));
+            let newPokemonForArray = new Pokemon(Utils.cloneJsonObject(sF[i].poke));
+            console.log(newPokemonForArray);
             pokemonArray.push(newPokemonForArray);
             i++;
         }
