@@ -62,7 +62,7 @@ const ROUTES = {
                             name: 'Craig',
                             type: "gymTrainer",
                             poke: [
-                                ['Mewtwo', 45],
+                                ['Diglett', 45],
                                 ['Dugtrio', 42]
                             ]
                         },
