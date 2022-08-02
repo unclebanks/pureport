@@ -1,4 +1,6 @@
 import React from "react";
+import { Utils } from "../modules/Utils";
+import { Pokemon } from "./Pokemon";
 
 export class Player {
 
@@ -62,12 +64,23 @@ export class Player {
     };
     addBerryField(bF) {
         this.berryFields.push(bF);
-    }
+    };
+    createPokemon(sF) {
+        console.log(sF);
+        let pokemonArray = [];
+        let i =0;
+        while(i < sF.length) {
+            let newPokemonForArray = new Pokemon(Utils.cloneJsonObject(sF[i]));
+            pokemonArray.push(newPokemonForArray);
+            i++;
+        }
+        return pokemonArray;
+    };
     loadSave(sF) {
         this.pokedexHighestID = sF.pokedexHighestID;
         this.activePokeID = sF.activePokeID;
         this.lastHeal = sF.lastHeal;
-        this.pokemon = sF.pokemon;
+        this.pokemon = this.createPokemon(sF.pokemon);
         this.pcPokemon = sF.pcPokemon;
         this.currentBoostedRoamer = sF.currentBoostedRoamer;
         this.selectedBall = sF.selectedBall;

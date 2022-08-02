@@ -14,17 +14,21 @@ export const CombatContainer = () => {
     let currentCombatRoute = useSelector((state)=>state.player.location.route);
     let currentCombatRegion = useSelector((state)=>state.player.location.region);
     let activePokemon = useSelector((state)=>state.player.activePokeID);
-    let activePlayerBattlePokemon = useSelector((state)=>state.player.pokemon[activePokemon]);
-    let activePlayerPokemonObject = new Pokemon(activePlayerBattlePokemon.name, activePlayerBattlePokemon.level, activePlayerBattlePokemon.shiny, activePlayerBattlePokemon.prestigeLevel);
+    let activePlayerBattlePokemon = useSelector((state)=>state.player.pokemon[activePokemon]).poke.poke;
+    console.log(activePlayerBattlePokemon);
+    // console.log(Utils.getPokemonDataByName(activePlayerBattlePokemon.name));
+    // console.log(new Pokemon(Utils.getPokemonDataByName(activePlayerBattlePokemon.name), activePlayerBattlePokemon.level, activePlayerBattlePokemon.shiny, activePlayerBattlePokemon.prestigeLevel));
+    let activePlayerPokemonObject = new Pokemon(activePlayerBattlePokemon, activePlayerBattlePokemon.level, activePlayerBattlePokemon.shiny, activePlayerBattlePokemon.prestigeLevel);
+    console.log(activePlayerPokemonObject);
     let enemyActiveArray = Utils.createArrayOfPokemonObjectFromRouteData(ROUTES[currentCombatRegion][Utils.getRouteIndexByName(currentCombatRegion,currentCombatRoute)]);
-    console.log(enemyActiveArray);
+    // console.log(enemyActiveArray);
     let currentBattle = new Battle(activePlayerPokemonObject, enemyActiveArray);
-    currentBattle.setEnemyArray(enemyActiveArray);
-    currentBattle.setEnemyActive();
-    console.log("CurrentBattle");
-    console.log(currentBattle);
-    console.log("currentEnemy");
-    console.log(currentBattle.enemyActive);
+    // currentBattle.setEnemyArray(enemyActiveArray);
+    // currentBattle.init();
+    // console.log("CurrentBattle");
+    // console.log(currentBattle);
+    // console.log("currentEnemy");
+    // console.log(currentBattle.enemyActive);
 
     return(
         <div id="combatContainer" style={{"display": "grid", "gridTemplateRows": "10% 90%"}}>
@@ -32,7 +36,7 @@ export const CombatContainer = () => {
             <div style={{"display": "grid", "gridTemplateColumns": "50% 50%"}}>
                 <div id="playerActivePokemon" style={{"display": "grid", "gridTemplateRows": "60% 20% 20%"}}>
                     <div id="playerPokemonImageContainer" style={{"backgroundColor": "lightblue"}}>
-                        <img alt="Player Active Pokemon" src={PokemonBNImageImport[Utils.getPokeIdByName(currentBattle.playerActive.name)][currentBattle.playerActive.name.toLowerCase()]}/><br/>
+                        <img alt="Player Active Pokemon" src={PokemonBNImageImport[Utils.getPokeIdByName(currentBattle.playerActive.name)][currentBattle.playerActive.name]}/><br/>
                         <span>{currentBattle.playerActive.name}</span>
                     </div>
                     <div>Hp/EXP/ItemButtons</div>

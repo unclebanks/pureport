@@ -13,9 +13,9 @@ export const Utils = {
     },
     createSave() {
         let tempPlayer = new Player();
-        tempPlayer.addPoke(new Pokemon("Squirtle"));
-        tempPlayer.addPoke(new Pokemon("Charmander"));
-        tempPlayer.addPoke(new Pokemon("Bulbasaur"));
+        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Squirtle")));
+        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Charmander")));
+        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Bulbasaur")));
         localStorage.setItem("purePort", JSON.stringify(tempPlayer));
         window.location.reload();
     },
@@ -44,6 +44,14 @@ export const Utils = {
             } else { i++; }
         }
     },
+    getPokemonDataByName(name) {
+        let i = 0;
+        while(i < POKEDEX.length) {
+            if(POKEDEX[i].name === name) {
+                return POKEDEX[i];
+            } else { i++; }
+        }
+    },
     getRouteIndexByName(region,routeName) {
         let i = 0;
         while(i < ROUTES[region].length) {
@@ -62,6 +70,9 @@ export const Utils = {
             }
         }
     },
+    cloneJsonObject(object) {
+        return JSON.parse(JSON.stringify(object));
+    },
     createArrayOfPokemonObjectFromRouteData(route) {
         let i = 0;
         let pokemonObjectArray = [];
@@ -70,10 +81,13 @@ export const Utils = {
         console.log(route)
         while(i < routePokemonArray.length) {
             let tempPoke = routePokemonArray[i];
-            console.log(tempPoke)
-            pokemonObjectArray.push(new Pokemon(tempPoke, level));
+            pokemonObjectArray.push(new Pokemon(this.getPokemonDataByName(tempPoke), level));
             i++;
         }
         return pokemonObjectArray;
+    },
+    RNG(chance) {
+        const rnd = Math.random() * 100;
+        return (rnd < chance);
     }
 }
