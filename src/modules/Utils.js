@@ -5,7 +5,6 @@ import ROUTES from "../data/Routes";
 
 export const Utils = {
 
-
     playerFile() {
         if(!localStorage.getItem("purePort")) {
             this.createSave()

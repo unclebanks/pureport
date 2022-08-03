@@ -1,29 +1,31 @@
 import { Utils } from "../modules/Utils";
 import { TypeModifiers } from "../data/TypeModifiers";
+import { POKEDEXFLAGS } from "../data/PokedexFlags";
 import { useSelector } from "react-redux";
+import { StoreUtils } from "../modules/StoreUtils";
 
 export class Battle {
     constructor(playerActive) {
         this.playerActive = playerActive;
     }
 
-    paused = false;
-    type = "";
-    playerData = Utils.loadPlayer(useSelector((state => state.player)));
-    enemyPokemonIndex = 0;
-    enemyArray = [];
-    enemyActive = {};
-    playerTimerId = null;
-    enemyTimerId = null;
-    catchEnabled = false;
-    init() {
-        if(!this.paused) {
-            this.setEnemyActive();
-            this.playerTimer();
-            this.enemyTimer();
-            console.log("Combat Started");
-        }
-    };
+    // paused = false;
+    // type = "";
+    // playerData = Utils.loadPlayer(useSelector((state => state.player)));
+    // enemyPokemonIndex = 0;
+    // enemyArray = [];
+    // enemyActive = {};
+    // playerTimerId = null;
+    // enemyTimerId = null;
+    // catchEnabled = false;
+    // init() {
+    //     if(!this.paused) {
+    //         this.setEnemyActive();
+    //         this.playerTimer();
+    //         this.enemyTimer();
+    //         console.log("Combat Started");
+    //     }
+    // };
     setEnemyArray(enemyArray) {
         this.enemyArray = enemyArray;
         this.setEnemyActive();
@@ -46,6 +48,40 @@ export class Battle {
             typeEffectiveness(attackingTypes[0], defendingTypes),
             (attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes)) || 0,
         );
+    };attemptCatch() {
+        if((this.type !== "gymLeader" && this.playerData.catchEnabled === "all") || (this.playerData.catchEnabled === "new" && !this.playerData.hasPokemonLike(this.enemyActive.poke.name))) {
+            const selectedBall = (this.enemyActive.shiny() ? this.playerData.bestAvailableBall() : this.playerData.selectedBall);
+            if (this.playerData.consumeBall(selectedBall)) {
+            /* <--- if statistics are readded : add throw to statistics
+                this.playerData.statistics.totalThrows++;
+                this.playerData.statistics[`${selectedBall}Throws`]++; --->*/
+                // ----> Need to implement a Utils call to useDispatch(); cannot be done in classes => dom.renderBalls();
+                const gainCatchCoins = Math.floor(this.enemyActive.level() * 1) + 1;
+                const catchBonus = (this.playerData.unlocked.razzBerry) ? 1.25 : 1;
+                const rngHappened = Utils.RNG(((this.enemyActive.catchRate() * this.playerData.ballRNG(selectedBall)) / 3) * catchBonus);
+                if (rngHappened) {
+                    this.playerData.addCatchCoins(gainCatchCoins);
+                    if (this.playerData.hasPokemonLike(this.enemyActive)) {
+                        // if (dom.checkConfirmed('#oldCaughtNotification')) {
+                        //     notify(`You caught ${this.enemyActive.pokeName()}`);
+                        // }
+                    }
+                    if (!this.playerData.hasPokemonLike(this.enemyActive)) {
+                        this.playerData.addPoke(this.enemyActive);
+                        // if (dom.checkConfirmed('#newCaughtNotification')) {
+                        //     notify(`You caught ${this.enemyActive.pokeName()}`);
+                        // }
+                    }
+                    this.playerData.addPokedex(this.enemyActive.pokeName(), (this.enemyActive.shiny() ? POKEDEXFLAGS.ownShiny : POKEDEXFLAGS.ownNormal));
+                    // renderView(dom, enemy, player);
+                }
+                // if (!rngHappened) {
+                //     if (dom.checkConfirmed('#missCatchNotification')) {
+                //         notify(`You did not catch ${this.enemyActive.pokeName()}`);
+                //     }
+                // }
+            }
+        }
     };
     enemyFaint() {
         // if (enemyActive.activePoke().shiny()) {
@@ -61,21 +97,23 @@ export class Battle {
         // }
         //player.statistics.beaten++;
         this.attemptCatch();
-        const foundPokeCoins = Math.floor(this.enemyActivePoke.level() * 4);
+        console.log(this.enemyActive)
+        const foundPokeCoins = Math.floor(this.enemyActive.level() * 4);
+        StoreUtils({type: "pokecoins", value: 1000});
         this.playerData.addPokeCoins(foundPokeCoins);
 
         const beforeExp = this.playerData.getPokemon().map((poke) => poke.level());
-        const expToGive = (this.enemyActivePoke.baseExp() / 16) + (this.enemyActivePoke.level() * 3);
+        const expToGive = (this.enemyActive.baseExp() / 16) + (this.enemyActive.level() * 3);
         this.playerData.statistics.totalExp += expToGive;
         this.playerData.activePoke().giveExp(expToGive);
-        this.playerData.getPokemon().forEach((poke) => poke.giveExp((this.enemyActivePoke.baseExp() / 100) + (this.enemyActivePoke.level() / 10)));
+        this.playerData.getPokemon().forEach((poke) => poke.giveExp((this.enemyActive.baseExp() / 100) + (this.enemyActive.level() / 10)));
         const afterExp = this.playerData.getPokemon().map((poke) => poke.level());
 
         // was it a gymLeader poke
         if (this.gymLeader) {
         // remove the pokemon
             this.gymLeaderPoke.splice(this.gymLeaderCurrentID, 1);
-            const foundBattleCoins = Math.floor(this.enemyActivePoke.level() * this.gymLeaderPoke.length) + 5;
+            const foundBattleCoins = Math.floor(this.enemyActive.level() * this.gymLeaderPoke.length) + 5;
             this.playerData.addBattleCoins(foundBattleCoins);
             if (this.gymLeaderPoke.length < 1) {
                 if (this.gymLeader.badge) {

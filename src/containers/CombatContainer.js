@@ -18,6 +18,15 @@ export const CombatContainer = () => {
     let activePlayerPokemonObject = new Pokemon(activePlayerBattlePokemon, activePlayerBattlePokemon.level, activePlayerBattlePokemon.shiny, activePlayerBattlePokemon.prestigeLevel);
     let enemyActiveArray = Utils.createArrayOfPokemonObjectFromRouteData(ROUTES[currentCombatRegion][Utils.getRouteIndexByName(currentCombatRegion,currentCombatRoute)]);
     console.log(enemyActiveArray);
+    let paused = false;
+    let type = "";
+    let playerData = Utils.loadPlayer(useSelector((state => state.player)));
+    let enemyPokemonIndex = 0;
+    let enemyArray = [];
+    let enemyActive = {};
+    let playerTimerId = null;
+    let enemyTimerId = null;
+    let catchEnabled = false;
     let currentBattle = new Battle(activePlayerPokemonObject, enemyActiveArray);
     currentBattle.setEnemyArray(enemyActiveArray);
     currentBattle.init();
