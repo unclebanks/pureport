@@ -4,11 +4,9 @@ import { PokemonFNImageImport } from "../data/PokemonFrontNormalImageImports";
 import { Utils } from "../modules/Utils";
 
 export const GymTrainerInformationComponent = (props) => {
-    console.log(props.trainer);
 
     let [currentPokeDetails, setCurrentPokeDetails] = useState(0);
     const currentPokemonObj = new Pokemon(props.trainer.poke[currentPokeDetails][0],props.trainer.poke[currentPokeDetails][1]);
-    console.log(PokemonFNImageImport[Utils.getPokeIdByName(currentPokemonObj.name)][currentPokemonObj.name.toLowerCase()]);
     return(
         <div id="gymTrainerInformationComponent" style={{"height": "100%", "display": "grid", "gridTemplateRows": "90% 10%"}}>
             <div>

@@ -14,12 +14,11 @@ export const Utils = {
     createSave() {
         let tempPlayer = new Player();
         let squirter = new Pokemon(this.getPokemonDataByName("Squirtle"), 20);
-        console.log(squirter);
         tempPlayer.addPoke(squirter);
         tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Charmander"), 25));
         tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Bulbasaur"),15));
         localStorage.setItem("purePort", JSON.stringify(tempPlayer));
-        // window.location.reload();
+        //window.location.reload();
     },
     loadPlayer(sF) {
         if(sF === "") {
@@ -80,7 +79,6 @@ export const Utils = {
         let pokemonObjectArray = [];
         let routePokemonArray = route.pokes;
         let level = route.minLevel + Math.round((Math.random() * (route.maxLevel - route.minLevel)));
-        console.log(route)
         while(i < routePokemonArray.length) {
             let tempPoke = routePokemonArray[i];
             pokemonObjectArray.push(new Pokemon(this.getPokemonDataByName(tempPoke), level));

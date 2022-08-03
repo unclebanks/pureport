@@ -9,7 +9,6 @@ export const GymComponent = (props) => {
     let [currentTrainerFocus, setCurrentTrainerFocus] = useState(0);
     const playerHasBadge = playerInfo.badges[props.gymData.badge]? "Yes": "No";
     const changeTrainerFocus = (newFocus) => {
-        console.log("NewFocus ============="+newFocus);
         setCurrentTrainerFocus(newFocus);
     }
     let trainerButtonArray = [];

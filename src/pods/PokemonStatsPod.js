@@ -3,17 +3,15 @@ import "../styles/pods/PokemonStatsPod.css";
 
 export const PokemonStatsPod = (props) => {
 
-    console.log(props);
-    let pokemonStatInformation = props.pokemon.stats? props.pokemon.stats: props.pokemon.poke.stats;
 
     return(
         <div id="pokemonStatsComponent">
-            <div>HP: {pokemonStatInformation.hp}</div>
-            <div>ATK: {pokemonStatInformation.attack}</div>
-            <div>DEF: {pokemonStatInformation.defense}</div>
-            <div>SP ATK: {pokemonStatInformation["sp atk"]}</div>
-            <div>SP DEF: {pokemonStatInformation["sp def"]}</div>
-            <div>SPD: {pokemonStatInformation.speed}</div>
+            <div>HP: {props.pokemon.getHp()}</div>
+            <div>ATK: {props.pokemon.attack()}</div>
+            <div>DEF: {props.pokemon.defense()}</div>
+            <div>SP ATK: {props.pokemon.spAttack()}</div>
+            <div>SP DEF: {props.pokemon.spDefense()}</div>
+            <div>SPD: {props.pokemon.speed()}</div>
         </div>
     )
 }

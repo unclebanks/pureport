@@ -6,18 +6,19 @@ import { Utils } from "../modules/Utils";
 export class Pokemon {
 
 
-    constructor(pokeModal, level = 5, shiny = false, prestigeLevel=0, initialEXP = null, appliedVitamins = {}) {
+    constructor(pokeModal, level, shiny = false, prestigeLevel=0, initialEXP = null, appliedVitamins = {}) {
         this.poke = Utils.cloneJsonObject(pokeModal);
         this.expTable = EXP_TABLE[this.getGrowthRate()];
+        this.level = this.currentLevel();
         this.exp = (level && this.expTable[level - 1]) || initialEXP;
         this.isShiny = (shiny === true);
         this.caughtAt = Date.now();
-        //this.level = level;
         this.prestigeLevel = prestigeLevel;
         this.appliedVitamins = appliedVitamins;
         this.hp = this.maxHP();
     };
     currentLevel() {
+        console.log(this.expTable.filter((xp_requirement) => xp_requirement <= this.exp))
         return this.expTable.filter((xp_requirement) => xp_requirement <= this.exp).length;
     };
     statValue(statName) {

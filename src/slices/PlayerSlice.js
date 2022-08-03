@@ -2,7 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 import { Utils } from "../modules/Utils";
 
 let player = Utils.playerFile();
-console.log(player+" ============== player from playerSlice")
 
 export const currencySlice = createSlice(
     {

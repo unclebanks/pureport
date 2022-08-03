@@ -66,12 +66,11 @@ export class Player {
         this.berryFields.push(bF);
     };
     createPokemon(sF) {
-        console.log(sF);
         let pokemonArray = [];
         let i =0;
         while(i < sF.length) {
-            let newPokemonForArray = new Pokemon(Utils.cloneJsonObject(sF[i].poke));
-            console.log(newPokemonForArray);
+            console.log(sF[i].poke)
+            let newPokemonForArray = new Pokemon(Utils.cloneJsonObject(sF[i].poke), sF[i].poke.level);
             pokemonArray.push(newPokemonForArray);
             i++;
         }

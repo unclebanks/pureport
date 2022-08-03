@@ -2,7 +2,6 @@ import { Utils } from "../modules/Utils";
 import { TypeModifiers } from "../data/TypeModifiers";
 import { POKEDEXFLAGS } from "../data/PokedexFlags";
 import { useSelector } from "react-redux";
-import { StoreUtils } from "../modules/StoreUtils";
 
 export class Battle {
     constructor(playerActive) {
@@ -99,7 +98,6 @@ export class Battle {
         this.attemptCatch();
         console.log(this.enemyActive)
         const foundPokeCoins = Math.floor(this.enemyActive.level() * 4);
-        StoreUtils({type: "pokecoins", value: 1000});
         this.playerData.addPokeCoins(foundPokeCoins);
 
         const beforeExp = this.playerData.getPokemon().map((poke) => poke.level());
