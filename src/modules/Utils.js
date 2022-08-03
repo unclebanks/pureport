@@ -18,6 +18,7 @@ export const Utils = {
         tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Charmander"), 25));
         tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Bulbasaur"),15));
         localStorage.setItem("purePort", JSON.stringify(tempPlayer));
+        console.log(tempPlayer);
         //window.location.reload();
     },
     loadPlayer(sF) {

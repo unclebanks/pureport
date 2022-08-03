@@ -12,7 +12,7 @@ export class Pokemon {
         this.baseStats = pokeModal.stats? pokeModal.stats: pokeModal.baseStats;
         this.baseExp = pokeModal.exp? pokeModal.exp: pokeModal.baseExp;
         this.expTable = EXP_TABLE[this.getGrowthRate()];
-        this.exp = this.expTable[level - 1];
+        this.currentExp = this.expTable[level - 1];
         this.level = this.currentLevel();
         this.computedStats = {
             hp: this.computeStats("hp"),
@@ -26,7 +26,7 @@ export class Pokemon {
         this.caughtAt = Date.now();
         this.prestigeLevel = prestigeLevel;
         this.appliedVitamins = appliedVitamins;
-        this.hp = this.maxHP();
+        this.currentHp = this.computeStats.hp;
     };
     currentLevel() {
         let i = 0;
@@ -52,8 +52,8 @@ export class Pokemon {
         return Math.floor(calculated);
     };
     pokemonPokedexInfo() { return POKEDEX[Utils.getPokeIdByName(this.name)]; };
-    setHp(newHp) { this.hp = newHp; };
-    getHp() { return this.hp; };
+    setHp(newHp) { this.currentHp = newHp; };
+    getHp() { return this.currentHp; };
     maxHP() { return this.computeStats('hp'); };
     avgAttack() { return (this.computedStats["attack"] + this.computedStats["spAtk"]) / 2; };
     avgDefense() { return (this.computedStats["defense"] + this.computedStats["spDef"]) / 2; };
