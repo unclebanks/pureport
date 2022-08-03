@@ -71,8 +71,9 @@ export const Utils = {
             }
         }
     },
-    cloneJsonObject(object) {
-        return JSON.parse(JSON.stringify(object));
+    cloneObject(obj) {
+        let nObj = obj;
+        return nObj;
     },
     createArrayOfPokemonObjectFromRouteData(route) {
         let i = 0;

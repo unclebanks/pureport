@@ -1,5 +1,5 @@
-import React, { useState, useDispatch } from "react";
-import { useSelector } from "react-redux";
+import React, { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { Pokemon } from "../classes/Pokemon";
 import { PokemonFNImageImport } from "../data/PokemonFrontNormalImageImports";
 import { PokemonBNImageImport } from "../data/PokemonBackNormalImageImports";
@@ -17,7 +17,7 @@ export const CombatContainer = () => {
 
     let currentCombatArea = useSelector((state)=>state.player.location);
     let activePokemon = useSelector((state)=>state.player.activePokeID);
-    let activePlayerBattlePokemon = useSelector((state)=>state.player.pokemon[activePokemon]).poke;
+    let activePlayerBattlePokemon = useSelector((state)=>state.player.pokemon[activePokemon]);
     let activePlayerPokemonObject = new Pokemon(activePlayerBattlePokemon, activePlayerBattlePokemon.level, activePlayerBattlePokemon.shiny, activePlayerBattlePokemon.prestigeLevel);
     let enemyActiveArray = Utils.createArrayOfPokemonObjectFromRouteData(ROUTES[currentCombatArea.region][Utils.getRouteIndexByName(currentCombatArea.region,currentCombatArea.route)]);
     const [paused, setPaused] = useState(false);
@@ -169,16 +169,16 @@ export const CombatContainer = () => {
             <div style={{"display": "grid", "gridTemplateColumns": "50% 50%"}}>
                 <div id="playerActivePokemon" style={{"display": "grid", "gridTemplateRows": "60% 20% 20%"}}>
                     <div id="playerPokemonImageContainer" style={{"backgroundColor": "lightblue"}}>
-                        <img alt="Player Active Pokemon" src={PokemonBNImageImport[Utils.getPokeIdByName(activePlayerPokemonObject.poke.name)][activePlayerPokemonObject.poke.name.toLowerCase()]}/><br/>
-                        <span>{activePlayerPokemonObject.poke.name}</span>
+                        <img alt="Player Active Pokemon" src={PokemonBNImageImport[Utils.getPokeIdByName(activePlayerPokemonObject.name)][activePlayerPokemonObject.name.toLowerCase()]}/><br/>
+                        <span>{activePlayerPokemonObject.name}</span>
                     </div>
                     <div>Hp/EXP/ItemButtons</div>
                     <PokemonStatsPod pokemon={activePlayerPokemonObject} />
                 </div>
                 <div id="wildActivePokemon" style={{"display": "grid", "gridTemplateRows": "60% 20% 20%"}}>
                     <div id="wildPokemonImageContainer" style={{"backgroundColor": "lightcoral"}}>
-                        <img alt="Enemy Active Pokemon" src={PokemonFNImageImport[Utils.getPokeIdByName(enemyActive.poke.name)][enemyActive.poke.name.toLowerCase()]}/><br/>
-                        <span>{enemyActive.poke.name}</span>
+                        <img alt="Enemy Active Pokemon" src={PokemonFNImageImport[Utils.getPokeIdByName(enemyActive.name)][enemyActive.name.toLowerCase()]}/><br/>
+                        <span>{enemyActive.name}</span>
                     </div>
                     <PokeballComponent />
                     <div id="wildPokemonStatsContainer">

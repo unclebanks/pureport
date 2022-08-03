@@ -7,10 +7,21 @@ export class Pokemon {
 
 
     constructor(pokeModal, level, shiny = false, prestigeLevel=0, appliedVitamins = {}) {
-        this.poke = Utils.cloneJsonObject(pokeModal);
+        this.name = pokeModal.name;
+        this.id = pokeModal.id;
+        this.baseStats = pokeModal.stats? pokeModal.stats: pokeModal.baseStats;
+        this.baseExp = pokeModal.exp? pokeModal.exp: pokeModal.baseExp;
         this.expTable = EXP_TABLE[this.getGrowthRate()];
         this.exp = this.expTable[level - 1];
         this.level = this.currentLevel();
+        this.computedStats = {
+            hp: this.computeStats("hp"),
+            atk: this.computeStats("attack"),
+            def: this.computeStats("defense"),
+            spAtk: this.computeStats("spAtk"),
+            spDef: this.computeStats("spDef"),
+            speed: this.computeStats("speed"),
+        }
         this.isShiny = (shiny === true);
         this.caughtAt = Date.now();
         this.prestigeLevel = prestigeLevel;
@@ -18,21 +29,24 @@ export class Pokemon {
         this.hp = this.maxHP();
     };
     currentLevel() {
-        console.log(this.currentExp());
-        console.log(this.expTable.filter((xp_requirement) => { return xp_requirement <= this.exp }))
-        console.log(this.exp)
-        return this.expTable.filter((xp_requirement) => xp_requirement <= this.exp).length;
-    };
-    statValue(statName) {
-        let raw = this.poke.poke? Number(this.poke.poke.stats[statName]): Number(this.poke.stats[statName]);
-        raw += this.getAppliedVitamins(statName);
-        let calculated = statName !== 'hp'
-            ? ((raw * 100 + 50) * this.currentLevel()) / 150
-            : ((raw * this.currentLevel()) / 40);
-        if (statName !== 'speed' && statName !== 'hp') {
-            calculated *= Math.pow(1.25, this.prestigeLevel);
+        let i = 0;
+        while(this.currentExp > this.expTable[i]) {
+            console.log("higher than this level ===== "+i);
+            i++;
         }
-        if (statName === 'hp') {
+        return i + 2;
+    };
+    computeStats(statName) {
+        let raw = this.baseStats[statName];
+        // raw += this.appliedVitamins[statName];
+        // ^^^ Vitamins to be implemented later
+        let calculated;
+        if(statName !== "hp") {
+            calculated = (raw * 100 + 50 * this.currentLevel()) / 150
+        } else { 
+            calculated = (raw * this.currentLevel()) / 40
+        };
+        if(statName === "hp") {
             calculated *= 3;
         }
         return Math.floor(calculated);
@@ -40,21 +54,10 @@ export class Pokemon {
     pokemonPokedexInfo() { return POKEDEX[Utils.getPokeIdByName(this.name)]; };
     setHp(newHp) { this.hp = newHp; };
     getHp() { return this.hp; };
-    maxHP() { return this.statValue('hp'); };
-    attack() { return this.statValue('attack'); };
-    defense() { return this.statValue('defense'); };
-    spAttack() { return this.statValue('sp atk'); };
-    spDefense() { return this.statValue('sp def'); };
-    speed() { return this.statValue('speed'); };
-    avgAttack() { return (this.attack() + this.spAttack()) / 2; };
-    avgDefense() { return (this.defense() + this.spDefense()) / 2; };
-    getGrowthRate() {
-        let growthRate;
-        if(this.poke.poke) {
-            growthRate = this.poke.poke.stats['growth rate'];
-        } else { growthRate = this.poke.stats['growth rate']; }
-        return growthRate;
-    }
+    maxHP() { return this.computeStats('hp'); };
+    avgAttack() { return (this.computedStats["attack"] + this.computedStats["spAtk"]) / 2; };
+    avgDefense() { return (this.computedStats["defense"] + this.computedStats["spDef"]) / 2; };
+    getGrowthRate() { return this.baseStats["growthRate"]; };
     shiny() { return this.isShiny; };
     alive() { return this.getHp() > 0; };
     types() { return this.poke.stats.types; };
