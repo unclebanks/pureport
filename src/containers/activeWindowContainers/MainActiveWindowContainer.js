@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { PokeCenterComponent } from "../components/PokeCenterComponent";
-import { PokeGuildComponent } from "../components/PokeGuildComponent";
-import { PokeLabComponent } from "../components/PokeLabComponent";
-import { PokeMartComponent } from "../components/PokeMartComponent";
-import { SettingsComponent } from "../components/SettingsComponent";
-import "../styles/containers/MainActiveWindowContainer.css";
+import { PokeCenterComponent } from "../../components/PokeCenterComponent";
+import { PokeGuildComponent } from "../../components/PokeGuildComponent";
+import { PokeLabComponent } from "../../components/PokeLabComponent";
+import { PokeMartComponent } from "../../components/PokeMartComponent";
+import { SettingsComponent } from "../../components/SettingsComponent";
+import "../../styles/containers/MainActiveWindowContainer.css";
 
 export const MainActiveWindowContainer = () => {
 

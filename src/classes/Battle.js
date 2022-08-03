@@ -47,7 +47,8 @@ export class Battle {
             typeEffectiveness(attackingTypes[0], defendingTypes),
             (attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes)) || 0,
         );
-    };attemptCatch() {
+    };
+    attemptCatch() {
         if((this.type !== "gymLeader" && this.playerData.catchEnabled === "all") || (this.playerData.catchEnabled === "new" && !this.playerData.hasPokemonLike(this.enemyActive.poke.name))) {
             const selectedBall = (this.enemyActive.shiny() ? this.playerData.bestAvailableBall() : this.playerData.selectedBall);
             if (this.playerData.consumeBall(selectedBall)) {

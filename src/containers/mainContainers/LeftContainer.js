@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { PartyContainer } from "./PartyContainer";
-import "../styles/containers/LeftContainer.css";
-import { FarmWorkerContainer } from "./FarmWorkerContainer";
+import { PartyContainer } from "../PartyContainer";
+import "../../styles/containers/LeftContainer.css";
+import { FarmWorkerContainer } from "../FarmWorkerContainer";
 
 export const LeftContainer = () => {
 

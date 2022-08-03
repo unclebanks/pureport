@@ -67,11 +67,14 @@ export const currencySlice = createSlice(
                 if(state.appState !== action.payload.appState) {
                     state.appState = action.payload.appState;
                 }
+            },
+            setActive(state, action) {
+                state.activePokeID = action.payload.newID;
             }
         }
     }
 )
 
-export const {addCoins, changeRoute, changeRegion, changeAppState} = currencySlice.actions;
+export const {addCoins, changeRoute, changeRegion, changeAppState, setActive} = currencySlice.actions;
 
 export default currencySlice.reducer;
