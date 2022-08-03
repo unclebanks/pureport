@@ -4,10 +4,10 @@ import { Pokemon } from "../classes/Pokemon";
 import { PokemonFNImageImport } from "../data/PokemonFrontNormalImageImports";
 import { PokemonBNImageImport } from "../data/PokemonBackNormalImageImports";
 import { Utils } from "../modules/Utils";
-import { PokemonStatsComponent } from "../components/PokemonStatsComponent";
 import ROUTES from "../data/Routes";
 import { PokeballComponent } from "../components/PokeballComponent";
 import { Battle } from "../classes/Battle";
+import { PokemonStatsPod } from "../pods/PokemonStatsPod";
 
 export const CombatContainer = () => {
 
@@ -41,7 +41,7 @@ export const CombatContainer = () => {
                         <span>{currentBattle.playerActive.poke.name}</span>
                     </div>
                     <div>Hp/EXP/ItemButtons</div>
-                    <PokemonStatsComponent pokemon={currentBattle.playerActive} />
+                    <PokemonStatsPod pokemon={currentBattle.playerActive} />
                 </div>
                 <div id="wildActivePokemon" style={{"display": "grid", "gridTemplateRows": "60% 20% 20%"}}>
                     <div id="wildPokemonImageContainer" style={{"backgroundColor": "lightcoral"}}>
@@ -50,7 +50,7 @@ export const CombatContainer = () => {
                     </div>
                     <PokeballComponent />
                     <div id="wildPokemonStatsContainer">
-                        <PokemonStatsComponent pokemon={currentBattle.enemyActive} />
+                        <PokemonStatsPod pokemon={currentBattle.enemyActive} />
                     </div>
                 </div>
             </div>

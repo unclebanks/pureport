@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/components/PokemonStatsComponent.css";
+import "../styles/pods/PokemonStatsPod.css";
 
-export const PokemonStatsComponent = (props) => {
-    console.log("POkemonStatsComponent ====== "+props.pokemon);
+export const PokemonStatsPod = (props) => {
 
+    console.log(props);
     let pokemonStatInformation = props.pokemon.stats? props.pokemon.stats: props.pokemon.poke.stats;
 
     return(

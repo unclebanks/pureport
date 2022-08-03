@@ -8,15 +8,18 @@ export const Utils = {
     playerFile() {
         if(!localStorage.getItem("purePort")) {
             this.createSave()
+            return JSON.parse(localStorage.getItem("purePort"));
         } else { return this.loadPlayer(""); }
     },
     createSave() {
         let tempPlayer = new Player();
-        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Squirtle")));
-        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Charmander")));
-        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Bulbasaur")));
+        let squirter = new Pokemon(this.getPokemonDataByName("Squirtle"), 20);
+        console.log(squirter);
+        tempPlayer.addPoke(squirter);
+        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Charmander"), 25));
+        tempPlayer.addPoke(new Pokemon(this.getPokemonDataByName("Bulbasaur"),15));
         localStorage.setItem("purePort", JSON.stringify(tempPlayer));
-        window.location.reload();
+        // window.location.reload();
     },
     loadPlayer(sF) {
         if(sF === "") {

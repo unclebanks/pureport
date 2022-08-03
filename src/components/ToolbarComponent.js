@@ -7,7 +7,7 @@ export const ToolbarComponent = () => {
 
     let toolbarType;
     const appState = useSelector((state)=>state.player.appState);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     const mainState = 
         <div id="mainToolbar" style={{"backgroundColor": "gray"}}>

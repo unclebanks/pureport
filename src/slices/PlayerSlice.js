@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { Utils } from "../modules/Utils";
 
 let player = Utils.playerFile();
+console.log(player+" ============== player from playerSlice")
 
 export const currencySlice = createSlice(
     {
@@ -9,6 +10,7 @@ export const currencySlice = createSlice(
         initialState: {
             pokedexHighestID: player.pokedexHighestID,
             activePokeID: player.activePokeID,
+            lastHeal: player.lastHeal,
             pokemon: player.pokemon,
             pcPokemon: player.pcPokemon,
             berryFields: player.berryFields,
