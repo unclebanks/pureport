@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Pokemon } from "../classes/Pokemon";
 import { PokemonFNImageImport } from "../data/PokemonFrontNormalImageImports";
 import { Utils } from "../modules/Utils";
@@ -7,7 +8,7 @@ import { PokemonStatsPod } from "./PokemonStatsPod";
 
 export const PokemonPod = (props) => {
 
-    let pokemonToRender = new Pokemon(props.pokemon);
+    let pokemonToRender = useSelector((state) => state.player.pokemon[props.pokemon]);
 
     return(
         <div id={`${pokemonToRender.name.toLowerCase()}PartyComponent`} className={props.className}>

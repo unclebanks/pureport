@@ -18,7 +18,6 @@ export const CombatContainer = () => {
     let currentCombatArea = useSelector((state)=>state.player.location);
     let activePokemon = useSelector((state)=>state.player.activePokeID);
     let activePlayerBattlePokemon = useSelector((state)=>state.player.pokemon[activePokemon]);
-    let activePlayerPokemonObject = new Pokemon(activePlayerBattlePokemon, activePlayerBattlePokemon.level, activePlayerBattlePokemon.shiny, activePlayerBattlePokemon.prestigeLevel);
     let enemyActiveArray = Utils.createArrayOfPokemonObjectFromRouteData(ROUTES[currentCombatArea.region][Utils.getRouteIndexByName(currentCombatArea.region,currentCombatArea.route)]);
     const [paused, setPaused] = useState(false);
     let type = "";
@@ -31,83 +30,83 @@ export const CombatContainer = () => {
     let catchEnabled = false;
 
     
-    const dealDamage = (attacker, defender, who) => {
-        if (!attacker || !defender) return null;
-        if (attacker.alive() && defender.alive()) {
-            // calculate damage done
-            const missRNG = Utils.RNG(5);
-            if (!missRNG) {
-                const critRNG = Utils.RNG(5);
-                const critMultiplier = (critRNG) ? 1 + (attacker.level() / 100) : 1;
-                const damageMultiplier = calculateDamageMultiplier(attacker.types(), defender.types()) * critMultiplier;
-                const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier);
-                if (who === 'player') {
-                // TODO add some flair
-                }
-                // dom.renderPokeOnContainer('enemy', enemy.activePoke(), 'front', player.settings.theme || 'dark', player.settings.currentRegionId);
-                // dom.renderPokeOnContainer('player', player.activePoke(), player.settings.spriteChoice || 'back', player.settings.theme || 'dark', player.settings.currentRegionId);
-            }
-            if (who === 'player') {
-                //dom.attackAnimation('playerImg', 'right');
-                playerTimer();
-            } else {
-                //dom.attackAnimation('enemyImg', 'left');
-                enemyTimer();
-            }
-        }
-        if (!attacker.alive() || !defender.alive()) {
-        // one is dead
-            window.clearTimeout(playerTimerId);
-            window.clearTimeout(enemyTimerId);
+    // const dealDamage = (attacker, defender, who) => {
+    //     if (!attacker || !defender) return null;
+    //     if (attacker.alive() && defender.alive()) {
+    //         // calculate damage done
+    //         const missRNG = Utils.RNG(5);
+    //         if (!missRNG) {
+    //             const critRNG = Utils.RNG(5);
+    //             const critMultiplier = (critRNG) ? 1 + (attacker.level() / 100) : 1;
+    //             const damageMultiplier = calculateDamageMultiplier(attacker.types(), defender.types()) * critMultiplier;
+    //             const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier);
+    //             if (who === 'player') {
+    //             // TODO add some flair
+    //             }
+    //             // dom.renderPokeOnContainer('enemy', enemy.activePoke(), 'front', player.settings.theme || 'dark', player.settings.currentRegionId);
+    //             // dom.renderPokeOnContainer('player', player.activePoke(), player.settings.spriteChoice || 'back', player.settings.theme || 'dark', player.settings.currentRegionId);
+    //         }
+    //         if (who === 'player') {
+    //             //dom.attackAnimation('playerImg', 'right');
+    //             playerTimer();
+    //         } else {
+    //             //dom.attackAnimation('enemyImg', 'left');
+    //             enemyTimer();
+    //         }
+    //     }
+    //     if (!attacker.alive() || !defender.alive()) {
+    //     // one is dead
+    //         window.clearTimeout(playerTimerId);
+    //         window.clearTimeout(enemyTimerId);
 
-            if (((who === 'enemy') && !attacker.alive()) || ((who === 'player') && !defender.alive())) {
-                console.log("enemy");
-            } else {
-                playerFaint();
-            }
-            //dom.renderPokeOnContainer('enemy', enemy.activePoke(), 'front', player.settings.theme || 'dark', player.settings.currentRegionId);
-        }
-    };
-    const playerTimer = () => {
-        const nextAttack = activePlayerPokemonObject.attackSpeed();
-        playerTimerId = window.setTimeout(()=> dealDamage(activePlayerPokemonObject, enemyActive, "player"), nextAttack );
-    };
-    const enemyTimer = () => {
-        const nextAttack = enemyActive.attackSpeed();
-        enemyTimerId = window.setTimeout(() => dealDamage(enemyActive, activePlayerPokemonObject, 'enemy'), nextAttack );
-    };
-    const calculateDamageMultiplier = (attackingTypes, defendingTypes) => {
-        const typeEffectiveness = (attackingType, defendingTypes) => TypeModifiers[attackingType][defendingTypes[0]] * ((defendingTypes[1] && TypeModifiers[attackingType][defendingTypes[1]]) || 1);
-        return Math.max(
-            typeEffectiveness(attackingTypes[0], defendingTypes),
-            (attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes)) || 0,
-        );
-    };
-    const refresh = () => {
-        window.clearTimeout(playerTimerId);
-        window.clearTimeout(enemyTimerId);
-    }
-    // ************** convert this and enemyfaint. Good Luck :D
-    const playerFaint = () => {
-        const alivePokeIndexes = playerData.alivePokeIndexes();
-        if (alivePokeIndexes.length > 0) {
-            dispatch(setActive(playerData.getPokemon().indexOf(alivePokeIndexes[0])));
-            refresh();
-        } else {
-            if (type === "prof") {
-                type = null;
-                setPaused(true);
-            }
-            if (type === "gymLeader") {
-                type = null;
-                setPaused(true);
-            }
-            if (type === "npc") {
-                type = null;
-                setPaused(true);
-            }
-        }
-    };
+    //         if (((who === 'enemy') && !attacker.alive()) || ((who === 'player') && !defender.alive())) {
+    //             console.log("enemy");
+    //         } else {
+    //             playerFaint();
+    //         }
+    //         //dom.renderPokeOnContainer('enemy', enemy.activePoke(), 'front', player.settings.theme || 'dark', player.settings.currentRegionId);
+    //     }
+    // };
+    // const playerTimer = () => {
+    //     const nextAttack = activePlayerBattlePokemon.attackSpeed();
+    //     playerTimerId = window.setTimeout(()=> dealDamage(activePlayerBattlePokemon, enemyActive, "player"), nextAttack );
+    // };
+    // const enemyTimer = () => {
+    //     const nextAttack = enemyActive.attackSpeed();
+    //     enemyTimerId = window.setTimeout(() => dealDamage(enemyActive, activePlayerBattlePokemon, 'enemy'), nextAttack );
+    // };
+    // const calculateDamageMultiplier = (attackingTypes, defendingTypes) => {
+    //     const typeEffectiveness = (attackingType, defendingTypes) => TypeModifiers[attackingType][defendingTypes[0]] * ((defendingTypes[1] && TypeModifiers[attackingType][defendingTypes[1]]) || 1);
+    //     return Math.max(
+    //         typeEffectiveness(attackingTypes[0], defendingTypes),
+    //         (attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes)) || 0,
+    //     );
+    // };
+    // const refresh = () => {
+    //     window.clearTimeout(playerTimerId);
+    //     window.clearTimeout(enemyTimerId);
+    // }
+    // // ************** convert this and enemyfaint. Good Luck :D
+    // const playerFaint = () => {
+    //     const alivePokeIndexes = playerData.alivePokeIndexes();
+    //     if (alivePokeIndexes.length > 0) {
+    //         dispatch(setActive(playerData.getPokemon().indexOf(alivePokeIndexes[0])));
+    //         refresh();
+    //     } else {
+    //         if (type === "prof") {
+    //             type = null;
+    //             setPaused(true);
+    //         }
+    //         if (type === "gymLeader") {
+    //             type = null;
+    //             setPaused(true);
+    //         }
+    //         if (type === "npc") {
+    //             type = null;
+    //             setPaused(true);
+    //         }
+    //     }
+    // };
     // const enemyFaint = () => {
     //     attemptCatch();
     //     const foundPokeCoins = Math.floor(enemyActive.level() * 4);
@@ -154,7 +153,7 @@ export const CombatContainer = () => {
     //     Combat.playerTimer();
     //     dom.renderPokeOnContainer('player', player.activePoke(), player.settings.spriteChoice || 'back', player.settings.theme || 'dark', player.settings.currentRegionId);
     // };
-    // let currentBattle = new Battle(activePlayerPokemonObject, enemyActiveArray);
+    // let currentBattle = new Battle(activePlayerBattlePokemon, enemyActiveArray);
     // currentBattle.setEnemyArray(enemyActiveArray);
     // currentBattle.init();
 
@@ -169,11 +168,11 @@ export const CombatContainer = () => {
             <div style={{"display": "grid", "gridTemplateColumns": "50% 50%"}}>
                 <div id="playerActivePokemon" style={{"display": "grid", "gridTemplateRows": "60% 20% 20%"}}>
                     <div id="playerPokemonImageContainer" style={{"backgroundColor": "lightblue"}}>
-                        <img alt="Player Active Pokemon" src={PokemonBNImageImport[Utils.getPokeIdByName(activePlayerPokemonObject.name)][activePlayerPokemonObject.name.toLowerCase()]}/><br/>
-                        <span>{activePlayerPokemonObject.name}</span>
+                        <img alt="Player Active Pokemon" src={PokemonBNImageImport[Utils.getPokeIdByName(activePlayerBattlePokemon.name)][activePlayerBattlePokemon.name.toLowerCase()]}/><br/>
+                        <span>{activePlayerBattlePokemon.name}</span>
                     </div>
                     <div>Hp/EXP/ItemButtons</div>
-                    <PokemonStatsPod pokemon={activePlayerPokemonObject} />
+                    <PokemonStatsPod pokemon={activePlayerBattlePokemon} />
                 </div>
                 <div id="wildActivePokemon" style={{"display": "grid", "gridTemplateRows": "60% 20% 20%"}}>
                     <div id="wildPokemonImageContainer" style={{"backgroundColor": "lightcoral"}}>
