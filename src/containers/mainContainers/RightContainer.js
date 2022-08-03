@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { RegionContainer } from "./RegionContainer";
-import "../styles/containers/RightContainer.css";
-import { BerryFieldContainer } from "./BerryFieldContainer";
-import { BusyPokemonComponent } from "../components/BusyPokemonComponent";
+import { RegionContainer } from "../RegionContainer";
+import "../../styles/containers/RightContainer.css";
+import { BerryFieldContainer } from "../BerryFieldContainer";
+import { BusyPokemonComponent } from "../../components/BusyPokemonComponent";
 
 export const RightContainer = () => {
 

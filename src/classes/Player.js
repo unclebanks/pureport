@@ -69,8 +69,7 @@ export class Player {
         let pokemonArray = [];
         let i =0;
         while(i < sF.length) {
-            console.log(sF[i].poke)
-            let newPokemonForArray = new Pokemon(Utils.cloneJsonObject(sF[i].poke), sF[i].poke.level);
+            let newPokemonForArray = new Pokemon(Utils.cloneObject(sF[i]), sF[i].level);
             pokemonArray.push(newPokemonForArray);
             i++;
         }
@@ -101,5 +100,9 @@ export class Player {
     changeRegion(newRegion, newRoute) {
         this.settings.currentRegionId = newRegion;
         this.settings.currentRouteId = newRoute;
+    };
+    alivePokeIndexes() {
+        const alive = this.pokemon.filter((poke) => poke.alive());
+        return alive;
     };
 }

@@ -2,13 +2,13 @@ export const POKEDEX = [
     {
         'name': 'Bulbasaur',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 49,
             'defense': 49,
-            'sp atk': 65,
-            'sp def': 65,
+            'spAtk': 65,
+            'spDef': 65,
             'speed': 45,
             'types': [
                 'Grass',
@@ -21,13 +21,13 @@ export const POKEDEX = [
     {
         'name': 'Ivysaur',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 62,
             'defense': 63,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 60,
             'types': [
                 'Grass',
@@ -40,13 +40,13 @@ export const POKEDEX = [
     {
         'name': 'Venusaur',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 82,
             'defense': 83,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 80,
             'types': [
                 'Grass',
@@ -59,13 +59,13 @@ export const POKEDEX = [
     {
         'name': 'Charmander',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 39,
             'attack': 52,
             'defense': 43,
-            'sp atk': 60,
-            'sp def': 50,
+            'spAtk': 60,
+            'spDef': 50,
             'speed': 65,
             'types': [
                 'Fire',
@@ -77,13 +77,13 @@ export const POKEDEX = [
     {
         'name': 'Charmeleon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 58,
             'attack': 64,
             'defense': 58,
-            'sp atk': 80,
-            'sp def': 65,
+            'spAtk': 80,
+            'spDef': 65,
             'speed': 80,
             'types': [
                 'Fire',
@@ -95,13 +95,13 @@ export const POKEDEX = [
     {
         'name': 'Charizard',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 78,
             'attack': 84,
             'defense': 78,
-            'sp atk': 109,
-            'sp def': 85,
+            'spAtk': 109,
+            'spDef': 85,
             'speed': 100,
             'types': [
                 'Fire',
@@ -114,13 +114,13 @@ export const POKEDEX = [
     {
         'name': 'Squirtle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 44,
             'attack': 48,
             'defense': 65,
-            'sp atk': 50,
-            'sp def': 64,
+            'spAtk': 50,
+            'spDef': 64,
             'speed': 43,
             'types': [
                 'Water',
@@ -132,13 +132,13 @@ export const POKEDEX = [
     {
         'name': 'Wartortle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 59,
             'attack': 63,
             'defense': 80,
-            'sp atk': 65,
-            'sp def': 80,
+            'spAtk': 65,
+            'spDef': 80,
             'speed': 58,
             'types': [
                 'Water',
@@ -150,13 +150,13 @@ export const POKEDEX = [
     {
         'name': 'Blastoise',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 79,
             'attack': 83,
             'defense': 100,
-            'sp atk': 85,
-            'sp def': 105,
+            'spAtk': 85,
+            'spDef': 105,
             'speed': 78,
             'types': [
                 'Water',
@@ -168,13 +168,13 @@ export const POKEDEX = [
     {
         'name': 'Caterpie',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 30,
             'defense': 35,
-            'sp atk': 20,
-            'sp def': 20,
+            'spAtk': 20,
+            'spDef': 20,
             'speed': 45,
             'types': [
                 'Bug',
@@ -186,13 +186,13 @@ export const POKEDEX = [
     {
         'name': 'Metapod',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 20,
             'defense': 55,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 30,
             'types': [
                 'Bug',
@@ -204,13 +204,13 @@ export const POKEDEX = [
     {
         'name': 'Butterfree',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 45,
             'defense': 50,
-            'sp atk': 90,
-            'sp def': 80,
+            'spAtk': 90,
+            'spDef': 80,
             'speed': 70,
             'types': [
                 'Bug',
@@ -223,13 +223,13 @@ export const POKEDEX = [
     {
         'name': 'Weedle',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 35,
             'defense': 30,
-            'sp atk': 20,
-            'sp def': 20,
+            'spAtk': 20,
+            'spDef': 20,
             'speed': 50,
             'types': [
                 'Bug',
@@ -242,13 +242,13 @@ export const POKEDEX = [
     {
         'name': 'Kakuna',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 25,
             'defense': 50,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 35,
             'types': [
                 'Bug',
@@ -261,13 +261,13 @@ export const POKEDEX = [
     {
         'name': 'Beedrill',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 90,
             'defense': 40,
-            'sp atk': 45,
-            'sp def': 80,
+            'spAtk': 45,
+            'spDef': 80,
             'speed': 75,
             'types': [
                 'Bug',
@@ -280,13 +280,13 @@ export const POKEDEX = [
     {
         'name': 'Pidgey',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 45,
             'defense': 40,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 56,
             'types': [
                 'Normal',
@@ -299,13 +299,13 @@ export const POKEDEX = [
     {
         'name': 'Pidgeotto',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 63,
             'attack': 60,
             'defense': 55,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 71,
             'types': [
                 'Normal',
@@ -318,13 +318,13 @@ export const POKEDEX = [
     {
         'name': 'Pidgeot',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 83,
             'attack': 80,
             'defense': 75,
-            'sp atk': 70,
-            'sp def': 70,
+            'spAtk': 70,
+            'spDef': 70,
             'speed': 101,
             'types': [
                 'Normal',
@@ -337,13 +337,13 @@ export const POKEDEX = [
     {
         'name': 'Rattata',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 30,
             'attack': 56,
             'defense': 35,
-            'sp atk': 25,
-            'sp def': 35,
+            'spAtk': 25,
+            'spDef': 35,
             'speed': 72,
             'types': [
                 'Normal',
@@ -355,13 +355,13 @@ export const POKEDEX = [
     {
         'name': 'Raticate',
         'stats': {
-            'catch rate': 127,
-            'growth rate': 'Medium Fast',
+            'catchRate': 127,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 81,
             'defense': 60,
-            'sp atk': 50,
-            'sp def': 70,
+            'spAtk': 50,
+            'spDef': 70,
             'speed': 97,
             'types': [
                 'Normal',
@@ -373,13 +373,13 @@ export const POKEDEX = [
     {
         'name': 'Spearow',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 60,
             'defense': 30,
-            'sp atk': 31,
-            'sp def': 31,
+            'spAtk': 31,
+            'spDef': 31,
             'speed': 70,
             'types': [
                 'Normal',
@@ -392,13 +392,13 @@ export const POKEDEX = [
     {
         'name': 'Fearow',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 90,
             'defense': 65,
-            'sp atk': 61,
-            'sp def': 61,
+            'spAtk': 61,
+            'spDef': 61,
             'speed': 100,
             'types': [
                 'Normal',
@@ -411,13 +411,13 @@ export const POKEDEX = [
     {
         'name': 'Ekans',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 60,
             'defense': 44,
-            'sp atk': 40,
-            'sp def': 54,
+            'spAtk': 40,
+            'spDef': 54,
             'speed': 55,
             'types': [
                 'Poison',
@@ -429,13 +429,13 @@ export const POKEDEX = [
     {
         'name': 'Arbok',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 85,
             'defense': 69,
-            'sp atk': 65,
-            'sp def': 79,
+            'spAtk': 65,
+            'spDef': 79,
             'speed': 80,
             'types': [
                 'Poison',
@@ -447,13 +447,13 @@ export const POKEDEX = [
     {
         'name': 'Pikachu',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 55,
             'defense': 40,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 90,
             'types': [
                 'Electric',
@@ -465,13 +465,13 @@ export const POKEDEX = [
     {
         'name': 'Raichu',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 90,
             'defense': 55,
-            'sp atk': 90,
-            'sp def': 80,
+            'spAtk': 90,
+            'spDef': 80,
             'speed': 110,
             'types': [
                 'Electric',
@@ -483,13 +483,13 @@ export const POKEDEX = [
     {
         'name': 'Sandshrew',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 75,
             'defense': 85,
-            'sp atk': 20,
-            'sp def': 30,
+            'spAtk': 20,
+            'spDef': 30,
             'speed': 40,
             'types': [
                 'Ground',
@@ -501,13 +501,13 @@ export const POKEDEX = [
     {
         'name': 'Sandslash',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 100,
             'defense': 110,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 65,
             'types': [
                 'Ground',
@@ -519,13 +519,13 @@ export const POKEDEX = [
     {
         'name': 'Nidoran F',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Medium Slow',
+            'catchRate': 235,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 47,
             'defense': 52,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 41,
             'types': [
                 'Poison',
@@ -537,13 +537,13 @@ export const POKEDEX = [
     {
         'name': 'Nidorina',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 62,
             'defense': 67,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 56,
             'types': [
                 'Poison',
@@ -555,13 +555,13 @@ export const POKEDEX = [
     {
         'name': 'Nidoqueen',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 92,
             'defense': 87,
-            'sp atk': 75,
-            'sp def': 85,
+            'spAtk': 75,
+            'spDef': 85,
             'speed': 76,
             'types': [
                 'Poison',
@@ -574,13 +574,13 @@ export const POKEDEX = [
     {
         'name': 'Nidoran M',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Medium Slow',
+            'catchRate': 235,
+            'growthRate': 'MediumSlow',
             'hp': 46,
             'attack': 57,
             'defense': 40,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 50,
             'types': [
                 'Poison',
@@ -592,13 +592,13 @@ export const POKEDEX = [
     {
         'name': 'Nidorino',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 61,
             'attack': 72,
             'defense': 57,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 65,
             'types': [
                 'Poison',
@@ -610,13 +610,13 @@ export const POKEDEX = [
     {
         'name': 'Nidoking',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 81,
             'attack': 102,
             'defense': 77,
-            'sp atk': 85,
-            'sp def': 75,
+            'spAtk': 85,
+            'spDef': 75,
             'speed': 85,
             'types': [
                 'Poison',
@@ -629,13 +629,13 @@ export const POKEDEX = [
     {
         'name': 'Clefairy',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Fast',
+            'catchRate': 150,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 45,
             'defense': 48,
-            'sp atk': 60,
-            'sp def': 65,
+            'spAtk': 60,
+            'spDef': 65,
             'speed': 35,
             'types': [
                 'Fairy',
@@ -647,13 +647,13 @@ export const POKEDEX = [
     {
         'name': 'Clefable',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Fast',
+            'catchRate': 25,
+            'growthRate': 'Fast',
             'hp': 95,
             'attack': 70,
             'defense': 73,
-            'sp atk': 95,
-            'sp def': 90,
+            'spAtk': 95,
+            'spDef': 90,
             'speed': 60,
             'types': [
                 'Fairy',
@@ -665,13 +665,13 @@ export const POKEDEX = [
     {
         'name': 'Vulpix',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 38,
             'attack': 41,
             'defense': 40,
-            'sp atk': 50,
-            'sp def': 65,
+            'spAtk': 50,
+            'spDef': 65,
             'speed': 65,
             'types': [
                 'Fire',
@@ -683,13 +683,13 @@ export const POKEDEX = [
     {
         'name': 'Ninetales',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 73,
             'attack': 76,
             'defense': 75,
-            'sp atk': 81,
-            'sp def': 100,
+            'spAtk': 81,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Fire',
@@ -701,13 +701,13 @@ export const POKEDEX = [
     {
         'name': 'Jigglypuff',
         'stats': {
-            'catch rate': 170,
-            'growth rate': 'Fast',
+            'catchRate': 170,
+            'growthRate': 'Fast',
             'hp': 115,
             'attack': 45,
             'defense': 20,
-            'sp atk': 45,
-            'sp def': 25,
+            'spAtk': 45,
+            'spDef': 25,
             'speed': 20,
             'types': [
                 'Normal',
@@ -720,13 +720,13 @@ export const POKEDEX = [
     {
         'name': 'Wigglytuff',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Fast',
+            'catchRate': 50,
+            'growthRate': 'Fast',
             'hp': 140,
             'attack': 70,
             'defense': 45,
-            'sp atk': 85,
-            'sp def': 50,
+            'spAtk': 85,
+            'spDef': 50,
             'speed': 45,
             'types': [
                 'Normal',
@@ -739,13 +739,13 @@ export const POKEDEX = [
     {
         'name': 'Zubat',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 45,
             'defense': 35,
-            'sp atk': 30,
-            'sp def': 40,
+            'spAtk': 30,
+            'spDef': 40,
             'speed': 55,
             'types': [
                 'Poison',
@@ -758,13 +758,13 @@ export const POKEDEX = [
     {
         'name': 'Golbat',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 80,
             'defense': 70,
-            'sp atk': 65,
-            'sp def': 75,
+            'spAtk': 65,
+            'spDef': 75,
             'speed': 90,
             'types': [
                 'Poison',
@@ -777,13 +777,13 @@ export const POKEDEX = [
     {
         'name': 'Oddish',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 50,
             'defense': 55,
-            'sp atk': 75,
-            'sp def': 65,
+            'spAtk': 75,
+            'spDef': 65,
             'speed': 30,
             'types': [
                 'Grass',
@@ -796,13 +796,13 @@ export const POKEDEX = [
     {
         'name': 'Gloom',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 65,
             'defense': 70,
-            'sp atk': 85,
-            'sp def': 75,
+            'spAtk': 85,
+            'spDef': 75,
             'speed': 40,
             'types': [
                 'Grass',
@@ -815,13 +815,13 @@ export const POKEDEX = [
     {
         'name': 'Vileplume',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 80,
             'defense': 85,
-            'sp atk': 110,
-            'sp def': 90,
+            'spAtk': 110,
+            'spDef': 90,
             'speed': 50,
             'types': [
                 'Grass',
@@ -834,13 +834,13 @@ export const POKEDEX = [
     {
         'name': 'Paras',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 70,
             'defense': 55,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 25,
             'types': [
                 'Bug',
@@ -853,13 +853,13 @@ export const POKEDEX = [
     {
         'name': 'Parasect',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 95,
             'defense': 80,
-            'sp atk': 60,
-            'sp def': 80,
+            'spAtk': 60,
+            'spDef': 80,
             'speed': 30,
             'types': [
                 'Bug',
@@ -872,13 +872,13 @@ export const POKEDEX = [
     {
         'name': 'Venonat',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 55,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 55,
+            'spAtk': 40,
+            'spDef': 55,
             'speed': 45,
             'types': [
                 'Bug',
@@ -891,13 +891,13 @@ export const POKEDEX = [
     {
         'name': 'Venomoth',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 65,
             'defense': 60,
-            'sp atk': 90,
-            'sp def': 75,
+            'spAtk': 90,
+            'spDef': 75,
             'speed': 90,
             'types': [
                 'Bug',
@@ -910,13 +910,13 @@ export const POKEDEX = [
     {
         'name': 'Diglett',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 10,
             'attack': 55,
             'defense': 25,
-            'sp atk': 35,
-            'sp def': 45,
+            'spAtk': 35,
+            'spDef': 45,
             'speed': 95,
             'types': [
                 'Ground',
@@ -928,13 +928,13 @@ export const POKEDEX = [
     {
         'name': 'Dugtrio',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Medium Fast',
+            'catchRate': 50,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 80,
             'defense': 50,
-            'sp atk': 50,
-            'sp def': 70,
+            'spAtk': 50,
+            'spDef': 70,
             'speed': 120,
             'types': [
                 'Ground',
@@ -946,13 +946,13 @@ export const POKEDEX = [
     {
         'name': 'Meowth',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 45,
             'defense': 35,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 90,
             'types': [
                 'Normal',
@@ -964,13 +964,13 @@ export const POKEDEX = [
     {
         'name': 'Persian',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 70,
             'defense': 60,
-            'sp atk': 65,
-            'sp def': 65,
+            'spAtk': 65,
+            'spDef': 65,
             'speed': 115,
             'types': [
                 'Normal',
@@ -982,13 +982,13 @@ export const POKEDEX = [
     {
         'name': 'Psyduck',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 52,
             'defense': 48,
-            'sp atk': 65,
-            'sp def': 50,
+            'spAtk': 65,
+            'spDef': 50,
             'speed': 55,
             'types': [
                 'Water',
@@ -1000,13 +1000,13 @@ export const POKEDEX = [
     {
         'name': 'Golduck',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 82,
             'defense': 78,
-            'sp atk': 95,
-            'sp def': 80,
+            'spAtk': 95,
+            'spDef': 80,
             'speed': 85,
             'types': [
                 'Water',
@@ -1018,13 +1018,13 @@ export const POKEDEX = [
     {
         'name': 'Mankey',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 80,
             'defense': 35,
-            'sp atk': 35,
-            'sp def': 45,
+            'spAtk': 35,
+            'spDef': 45,
             'speed': 70,
             'types': [
                 'Fighting',
@@ -1036,13 +1036,13 @@ export const POKEDEX = [
     {
         'name': 'Primeape',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 105,
             'defense': 60,
-            'sp atk': 60,
-            'sp def': 70,
+            'spAtk': 60,
+            'spDef': 70,
             'speed': 95,
             'types': [
                 'Fighting',
@@ -1054,13 +1054,13 @@ export const POKEDEX = [
     {
         'name': 'Growlithe',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 55,
             'attack': 70,
             'defense': 45,
-            'sp atk': 70,
-            'sp def': 50,
+            'spAtk': 70,
+            'spDef': 50,
             'speed': 60,
             'types': [
                 'Fire',
@@ -1072,13 +1072,13 @@ export const POKEDEX = [
     {
         'name': 'Arcanine',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Slow',
+            'catchRate': 75,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 110,
             'defense': 80,
-            'sp atk': 100,
-            'sp def': 80,
+            'spAtk': 100,
+            'spDef': 80,
             'speed': 95,
             'types': [
                 'Fire',
@@ -1090,13 +1090,13 @@ export const POKEDEX = [
     {
         'name': 'Poliwag',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 50,
             'defense': 40,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 90,
             'types': [
                 'Water',
@@ -1108,13 +1108,13 @@ export const POKEDEX = [
     {
         'name': 'Poliwhirl',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 65,
             'defense': 65,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 90,
             'types': [
                 'Water',
@@ -1126,13 +1126,13 @@ export const POKEDEX = [
     {
         'name': 'Poliwrath',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 95,
             'defense': 95,
-            'sp atk': 70,
-            'sp def': 90,
+            'spAtk': 70,
+            'spDef': 90,
             'speed': 70,
             'types': [
                 'Water',
@@ -1145,13 +1145,13 @@ export const POKEDEX = [
     {
         'name': 'Abra',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Slow',
+            'catchRate': 200,
+            'growthRate': 'MediumSlow',
             'hp': 25,
             'attack': 20,
             'defense': 15,
-            'sp atk': 105,
-            'sp def': 55,
+            'spAtk': 105,
+            'spDef': 55,
             'speed': 90,
             'types': [
                 'Psychic',
@@ -1163,13 +1163,13 @@ export const POKEDEX = [
     {
         'name': 'Kadabra',
         'stats': {
-            'catch rate': 100,
-            'growth rate': 'Medium Slow',
+            'catchRate': 100,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 35,
             'defense': 30,
-            'sp atk': 120,
-            'sp def': 70,
+            'spAtk': 120,
+            'spDef': 70,
             'speed': 105,
             'types': [
                 'Psychic',
@@ -1181,13 +1181,13 @@ export const POKEDEX = [
     {
         'name': 'Alakazam',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Medium Slow',
+            'catchRate': 50,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 50,
             'defense': 45,
-            'sp atk': 135,
-            'sp def': 95,
+            'spAtk': 135,
+            'spDef': 95,
             'speed': 120,
             'types': [
                 'Psychic',
@@ -1199,13 +1199,13 @@ export const POKEDEX = [
     {
         'name': 'Machop',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Slow',
+            'catchRate': 180,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 80,
             'defense': 50,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 35,
             'types': [
                 'Fighting',
@@ -1217,13 +1217,13 @@ export const POKEDEX = [
     {
         'name': 'Machoke',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Slow',
+            'catchRate': 90,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 100,
             'defense': 70,
-            'sp atk': 50,
-            'sp def': 60,
+            'spAtk': 50,
+            'spDef': 60,
             'speed': 45,
             'types': [
                 'Fighting',
@@ -1235,13 +1235,13 @@ export const POKEDEX = [
     {
         'name': 'Machamp',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 130,
             'defense': 80,
-            'sp atk': 65,
-            'sp def': 85,
+            'spAtk': 65,
+            'spDef': 85,
             'speed': 55,
             'types': [
                 'Fighting',
@@ -1253,13 +1253,13 @@ export const POKEDEX = [
     {
         'name': 'Bellsprout',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 75,
             'defense': 35,
-            'sp atk': 70,
-            'sp def': 30,
+            'spAtk': 70,
+            'spDef': 30,
             'speed': 40,
             'types': [
                 'Grass',
@@ -1272,13 +1272,13 @@ export const POKEDEX = [
     {
         'name': 'Weepinbell',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 90,
             'defense': 50,
-            'sp atk': 85,
-            'sp def': 45,
+            'spAtk': 85,
+            'spDef': 45,
             'speed': 55,
             'types': [
                 'Grass',
@@ -1291,13 +1291,13 @@ export const POKEDEX = [
     {
         'name': 'Victreebel',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 105,
             'defense': 65,
-            'sp atk': 100,
-            'sp def': 70,
+            'spAtk': 100,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Grass',
@@ -1310,13 +1310,13 @@ export const POKEDEX = [
     {
         'name': 'Tentacool',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 40,
             'attack': 40,
             'defense': 35,
-            'sp atk': 50,
-            'sp def': 100,
+            'spAtk': 50,
+            'spDef': 100,
             'speed': 70,
             'types': [
                 'Water',
@@ -1329,13 +1329,13 @@ export const POKEDEX = [
     {
         'name': 'Tentacruel',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 70,
             'defense': 65,
-            'sp atk': 80,
-            'sp def': 120,
+            'spAtk': 80,
+            'spDef': 120,
             'speed': 100,
             'types': [
                 'Water',
@@ -1348,13 +1348,13 @@ export const POKEDEX = [
     {
         'name': 'Geodude',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 80,
             'defense': 100,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 20,
             'types': [
                 'Rock',
@@ -1367,13 +1367,13 @@ export const POKEDEX = [
     {
         'name': 'Graveler',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 95,
             'defense': 115,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 35,
             'types': [
                 'Rock',
@@ -1386,13 +1386,13 @@ export const POKEDEX = [
     {
         'name': 'Golem',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 110,
             'defense': 130,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 45,
             'types': [
                 'Rock',
@@ -1405,13 +1405,13 @@ export const POKEDEX = [
     {
         'name': 'Ponyta',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 85,
             'defense': 55,
-            'sp atk': 65,
-            'sp def': 65,
+            'spAtk': 65,
+            'spDef': 65,
             'speed': 90,
             'types': [
                 'Fire',
@@ -1423,13 +1423,13 @@ export const POKEDEX = [
     {
         'name': 'Rapidash',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 100,
             'defense': 70,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 105,
             'types': [
                 'Fire',
@@ -1441,13 +1441,13 @@ export const POKEDEX = [
     {
         'name': 'Slowpoke',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 90,
             'attack': 65,
             'defense': 65,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 15,
             'types': [
                 'Water',
@@ -1460,13 +1460,13 @@ export const POKEDEX = [
     {
         'name': 'Slowbro',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 75,
             'defense': 110,
-            'sp atk': 100,
-            'sp def': 80,
+            'spAtk': 100,
+            'spDef': 80,
             'speed': 30,
             'types': [
                 'Water',
@@ -1479,13 +1479,13 @@ export const POKEDEX = [
     {
         'name': 'Magnemite',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 25,
             'attack': 35,
             'defense': 70,
-            'sp atk': 95,
-            'sp def': 55,
+            'spAtk': 95,
+            'spDef': 55,
             'speed': 45,
             'types': [
                 'Electric',
@@ -1498,13 +1498,13 @@ export const POKEDEX = [
     {
         'name': 'Magneton',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 60,
             'defense': 95,
-            'sp atk': 120,
-            'sp def': 70,
+            'spAtk': 120,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Electric',
@@ -1517,13 +1517,13 @@ export const POKEDEX = [
     {
         'name': 'Farfetchd',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 52,
             'attack': 65,
             'defense': 55,
-            'sp atk': 58,
-            'sp def': 62,
+            'spAtk': 58,
+            'spDef': 62,
             'speed': 60,
             'types': [
                 'Normal',
@@ -1536,13 +1536,13 @@ export const POKEDEX = [
     {
         'name': 'Doduo',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 85,
             'defense': 45,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 75,
             'types': [
                 'Normal',
@@ -1555,13 +1555,13 @@ export const POKEDEX = [
     {
         'name': 'Dodrio',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 110,
             'defense': 70,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 100,
             'types': [
                 'Normal',
@@ -1574,13 +1574,13 @@ export const POKEDEX = [
     {
         'name': 'Seel',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 45,
             'defense': 55,
-            'sp atk': 45,
-            'sp def': 70,
+            'spAtk': 45,
+            'spDef': 70,
             'speed': 45,
             'types': [
                 'Water',
@@ -1592,13 +1592,13 @@ export const POKEDEX = [
     {
         'name': 'Dewgong',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 90,
             'attack': 70,
             'defense': 80,
-            'sp atk': 70,
-            'sp def': 95,
+            'spAtk': 70,
+            'spDef': 95,
             'speed': 70,
             'types': [
                 'Water',
@@ -1611,13 +1611,13 @@ export const POKEDEX = [
     {
         'name': 'Grimer',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 80,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 25,
             'types': [
                 'Poison',
@@ -1629,13 +1629,13 @@ export const POKEDEX = [
     {
         'name': 'Muk',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 105,
             'attack': 105,
             'defense': 75,
-            'sp atk': 65,
-            'sp def': 100,
+            'spAtk': 65,
+            'spDef': 100,
             'speed': 50,
             'types': [
                 'Poison',
@@ -1647,13 +1647,13 @@ export const POKEDEX = [
     {
         'name': 'Shellder',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 30,
             'attack': 65,
             'defense': 100,
-            'sp atk': 45,
-            'sp def': 25,
+            'spAtk': 45,
+            'spDef': 25,
             'speed': 40,
             'types': [
                 'Water',
@@ -1665,13 +1665,13 @@ export const POKEDEX = [
     {
         'name': 'Cloyster',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 95,
             'defense': 180,
-            'sp atk': 85,
-            'sp def': 45,
+            'spAtk': 85,
+            'spDef': 45,
             'speed': 70,
             'types': [
                 'Water',
@@ -1684,13 +1684,13 @@ export const POKEDEX = [
     {
         'name': 'Gastly',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Slow',
+            'catchRate': 190,
+            'growthRate': 'MediumSlow',
             'hp': 30,
             'attack': 35,
             'defense': 30,
-            'sp atk': 100,
-            'sp def': 35,
+            'spAtk': 100,
+            'spDef': 35,
             'speed': 80,
             'types': [
                 'Ghost',
@@ -1703,13 +1703,13 @@ export const POKEDEX = [
     {
         'name': 'Haunter',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Slow',
+            'catchRate': 90,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 50,
             'defense': 45,
-            'sp atk': 115,
-            'sp def': 55,
+            'spAtk': 115,
+            'spDef': 55,
             'speed': 95,
             'types': [
                 'Ghost',
@@ -1722,13 +1722,13 @@ export const POKEDEX = [
     {
         'name': 'Gengar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 65,
             'defense': 60,
-            'sp atk': 130,
-            'sp def': 75,
+            'spAtk': 130,
+            'spDef': 75,
             'speed': 110,
             'types': [
                 'Ghost',
@@ -1741,13 +1741,13 @@ export const POKEDEX = [
     {
         'name': 'Onix',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 45,
             'defense': 160,
-            'sp atk': 30,
-            'sp def': 45,
+            'spAtk': 30,
+            'spDef': 45,
             'speed': 70,
             'types': [
                 'Rock',
@@ -1760,13 +1760,13 @@ export const POKEDEX = [
     {
         'name': 'Drowzee',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 48,
             'defense': 45,
-            'sp atk': 43,
-            'sp def': 90,
+            'spAtk': 43,
+            'spDef': 90,
             'speed': 42,
             'types': [
                 'Psychic',
@@ -1778,13 +1778,13 @@ export const POKEDEX = [
     {
         'name': 'Hypno',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 73,
             'defense': 70,
-            'sp atk': 73,
-            'sp def': 115,
+            'spAtk': 73,
+            'spDef': 115,
             'speed': 67,
             'types': [
                 'Psychic',
@@ -1796,13 +1796,13 @@ export const POKEDEX = [
     {
         'name': 'Krabby',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 30,
             'attack': 105,
             'defense': 90,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 50,
             'types': [
                 'Water',
@@ -1814,13 +1814,13 @@ export const POKEDEX = [
     {
         'name': 'Kingler',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 130,
             'defense': 115,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 75,
             'types': [
                 'Water',
@@ -1832,13 +1832,13 @@ export const POKEDEX = [
     {
         'name': 'Voltorb',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 30,
             'defense': 50,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 100,
             'types': [
                 'Electric',
@@ -1850,13 +1850,13 @@ export const POKEDEX = [
     {
         'name': 'Electrode',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 50,
             'defense': 70,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 140,
             'types': [
                 'Electric',
@@ -1868,13 +1868,13 @@ export const POKEDEX = [
     {
         'name': 'Exeggcute',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Slow',
+            'catchRate': 90,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 40,
             'defense': 80,
-            'sp atk': 60,
-            'sp def': 45,
+            'spAtk': 60,
+            'spDef': 45,
             'speed': 40,
             'types': [
                 'Grass',
@@ -1887,13 +1887,13 @@ export const POKEDEX = [
     {
         'name': 'Exeggutor',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 95,
             'defense': 85,
-            'sp atk': 125,
-            'sp def': 65,
+            'spAtk': 125,
+            'spDef': 65,
             'speed': 55,
             'types': [
                 'Grass',
@@ -1906,13 +1906,13 @@ export const POKEDEX = [
     {
         'name': 'Cubone',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 50,
             'defense': 95,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 35,
             'types': [
                 'Ground',
@@ -1924,13 +1924,13 @@ export const POKEDEX = [
     {
         'name': 'Marowak',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 80,
             'defense': 110,
-            'sp atk': 50,
-            'sp def': 80,
+            'spAtk': 50,
+            'spDef': 80,
             'speed': 45,
             'types': [
                 'Ground',
@@ -1942,13 +1942,13 @@ export const POKEDEX = [
     {
         'name': 'Hitmonlee',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 120,
             'defense': 53,
-            'sp atk': 35,
-            'sp def': 110,
+            'spAtk': 35,
+            'spDef': 110,
             'speed': 87,
             'types': [
                 'Fighting',
@@ -1960,13 +1960,13 @@ export const POKEDEX = [
     {
         'name': 'Hitmonchan',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 105,
             'defense': 79,
-            'sp atk': 35,
-            'sp def': 110,
+            'spAtk': 35,
+            'spDef': 110,
             'speed': 76,
             'types': [
                 'Fighting',
@@ -1978,13 +1978,13 @@ export const POKEDEX = [
     {
         'name': 'Lickitung',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 90,
             'attack': 55,
             'defense': 75,
-            'sp atk': 60,
-            'sp def': 75,
+            'spAtk': 60,
+            'spDef': 75,
             'speed': 30,
             'types': [
                 'Normal',
@@ -1996,13 +1996,13 @@ export const POKEDEX = [
     {
         'name': 'Koffing',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 65,
             'defense': 95,
-            'sp atk': 60,
-            'sp def': 45,
+            'spAtk': 60,
+            'spDef': 45,
             'speed': 35,
             'types': [
                 'Poison',
@@ -2014,13 +2014,13 @@ export const POKEDEX = [
     {
         'name': 'Weezing',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 90,
             'defense': 120,
-            'sp atk': 85,
-            'sp def': 70,
+            'spAtk': 85,
+            'spDef': 70,
             'speed': 60,
             'types': [
                 'Poison',
@@ -2032,13 +2032,13 @@ export const POKEDEX = [
     {
         'name': 'Rhyhorn',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 85,
             'defense': 95,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 25,
             'types': [
                 'Ground',
@@ -2051,13 +2051,13 @@ export const POKEDEX = [
     {
         'name': 'Rhydon',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 105,
             'attack': 130,
             'defense': 120,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 40,
             'types': [
                 'Ground',
@@ -2070,13 +2070,13 @@ export const POKEDEX = [
     {
         'name': 'Chansey',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Fast',
+            'catchRate': 30,
+            'growthRate': 'Fast',
             'hp': 250,
             'attack': 5,
             'defense': 5,
-            'sp atk': 35,
-            'sp def': 105,
+            'spAtk': 35,
+            'spDef': 105,
             'speed': 50,
             'types': [
                 'Normal',
@@ -2088,13 +2088,13 @@ export const POKEDEX = [
     {
         'name': 'Tangela',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 55,
             'defense': 115,
-            'sp atk': 100,
-            'sp def': 40,
+            'spAtk': 100,
+            'spDef': 40,
             'speed': 60,
             'types': [
                 'Grass',
@@ -2106,13 +2106,13 @@ export const POKEDEX = [
     {
         'name': 'Kangaskhan',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 105,
             'attack': 95,
             'defense': 80,
-            'sp atk': 40,
-            'sp def': 80,
+            'spAtk': 40,
+            'spDef': 80,
             'speed': 90,
             'types': [
                 'Normal',
@@ -2124,13 +2124,13 @@ export const POKEDEX = [
     {
         'name': 'Horsea',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 30,
             'attack': 40,
             'defense': 70,
-            'sp atk': 70,
-            'sp def': 25,
+            'spAtk': 70,
+            'spDef': 25,
             'speed': 60,
             'types': [
                 'Water',
@@ -2142,13 +2142,13 @@ export const POKEDEX = [
     {
         'name': 'Seadra',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 65,
             'defense': 95,
-            'sp atk': 95,
-            'sp def': 45,
+            'spAtk': 95,
+            'spDef': 45,
             'speed': 85,
             'types': [
                 'Water',
@@ -2160,13 +2160,13 @@ export const POKEDEX = [
     {
         'name': 'Goldeen',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 67,
             'defense': 60,
-            'sp atk': 35,
-            'sp def': 50,
+            'spAtk': 35,
+            'spDef': 50,
             'speed': 63,
             'types': [
                 'Water',
@@ -2178,13 +2178,13 @@ export const POKEDEX = [
     {
         'name': 'Seaking',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 92,
             'defense': 65,
-            'sp atk': 65,
-            'sp def': 80,
+            'spAtk': 65,
+            'spDef': 80,
             'speed': 68,
             'types': [
                 'Water',
@@ -2196,13 +2196,13 @@ export const POKEDEX = [
     {
         'name': 'Staryu',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Slow',
+            'catchRate': 225,
+            'growthRate': 'Slow',
             'hp': 30,
             'attack': 45,
             'defense': 55,
-            'sp atk': 70,
-            'sp def': 55,
+            'spAtk': 70,
+            'spDef': 55,
             'speed': 85,
             'types': [
                 'Water',
@@ -2214,13 +2214,13 @@ export const POKEDEX = [
     {
         'name': 'Starmie',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 75,
             'defense': 85,
-            'sp atk': 100,
-            'sp def': 85,
+            'spAtk': 100,
+            'spDef': 85,
             'speed': 115,
             'types': [
                 'Water',
@@ -2233,13 +2233,13 @@ export const POKEDEX = [
     {
         'name': 'Mr. Mime',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 45,
             'defense': 65,
-            'sp atk': 100,
-            'sp def': 120,
+            'spAtk': 100,
+            'spDef': 120,
             'speed': 90,
             'types': [
                 'Psychic',
@@ -2252,13 +2252,13 @@ export const POKEDEX = [
     {
         'name': 'Scyther',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 110,
             'defense': 80,
-            'sp atk': 55,
-            'sp def': 80,
+            'spAtk': 55,
+            'spDef': 80,
             'speed': 105,
             'types': [
                 'Bug',
@@ -2271,13 +2271,13 @@ export const POKEDEX = [
     {
         'name': 'Jynx',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 50,
             'defense': 35,
-            'sp atk': 115,
-            'sp def': 95,
+            'spAtk': 115,
+            'spDef': 95,
             'speed': 95,
             'types': [
                 'Ice',
@@ -2290,13 +2290,13 @@ export const POKEDEX = [
     {
         'name': 'Electabuzz',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 83,
             'defense': 57,
-            'sp atk': 95,
-            'sp def': 85,
+            'spAtk': 95,
+            'spDef': 85,
             'speed': 105,
             'types': [
                 'Electric',
@@ -2308,13 +2308,13 @@ export const POKEDEX = [
     {
         'name': 'Magmar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 95,
             'defense': 57,
-            'sp atk': 100,
-            'sp def': 85,
+            'spAtk': 100,
+            'spDef': 85,
             'speed': 93,
             'types': [
                 'Fire',
@@ -2326,13 +2326,13 @@ export const POKEDEX = [
     {
         'name': 'Pinsir',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 125,
             'defense': 100,
-            'sp atk': 55,
-            'sp def': 70,
+            'spAtk': 55,
+            'spDef': 70,
             'speed': 85,
             'types': [
                 'Bug',
@@ -2344,13 +2344,13 @@ export const POKEDEX = [
     {
         'name': 'Tauros',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 100,
             'defense': 95,
-            'sp atk': 40,
-            'sp def': 70,
+            'spAtk': 40,
+            'spDef': 70,
             'speed': 110,
             'types': [
                 'Normal',
@@ -2362,13 +2362,13 @@ export const POKEDEX = [
     {
         'name': 'Magikarp',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 20,
             'attack': 10,
             'defense': 55,
-            'sp atk': 15,
-            'sp def': 20,
+            'spAtk': 15,
+            'spDef': 20,
             'speed': 80,
             'types': [
                 'Water',
@@ -2380,13 +2380,13 @@ export const POKEDEX = [
     {
         'name': 'Gyarados',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 125,
             'defense': 79,
-            'sp atk': 60,
-            'sp def': 100,
+            'spAtk': 60,
+            'spDef': 100,
             'speed': 81,
             'types': [
                 'Water',
@@ -2399,13 +2399,13 @@ export const POKEDEX = [
     {
         'name': 'Lapras',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 130,
             'attack': 85,
             'defense': 80,
-            'sp atk': 85,
-            'sp def': 95,
+            'spAtk': 85,
+            'spDef': 95,
             'speed': 60,
             'types': [
                 'Water',
@@ -2418,13 +2418,13 @@ export const POKEDEX = [
     {
         'name': 'Ditto',
         'stats': {
-            'catch rate': 35,
-            'growth rate': 'Medium Fast',
+            'catchRate': 35,
+            'growthRate': 'MediumFast',
             'hp': 48,
             'attack': 48,
             'defense': 48,
-            'sp atk': 48,
-            'sp def': 48,
+            'spAtk': 48,
+            'spDef': 48,
             'speed': 48,
             'types': [
                 'Normal',
@@ -2436,13 +2436,13 @@ export const POKEDEX = [
     {
         'name': 'Eevee',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 55,
             'defense': 50,
-            'sp atk': 45,
-            'sp def': 65,
+            'spAtk': 45,
+            'spDef': 65,
             'speed': 55,
             'types': [
                 'Normal',
@@ -2454,13 +2454,13 @@ export const POKEDEX = [
     {
         'name': 'Vaporeon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 130,
             'attack': 65,
             'defense': 60,
-            'sp atk': 110,
-            'sp def': 95,
+            'spAtk': 110,
+            'spDef': 95,
             'speed': 65,
             'types': [
                 'Water',
@@ -2472,13 +2472,13 @@ export const POKEDEX = [
     {
         'name': 'Jolteon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 65,
             'defense': 60,
-            'sp atk': 110,
-            'sp def': 95,
+            'spAtk': 110,
+            'spDef': 95,
             'speed': 130,
             'types': [
                 'Electric',
@@ -2490,13 +2490,13 @@ export const POKEDEX = [
     {
         'name': 'Flareon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 130,
             'defense': 60,
-            'sp atk': 95,
-            'sp def': 110,
+            'spAtk': 95,
+            'spDef': 110,
             'speed': 65,
             'types': [
                 'Fire',
@@ -2508,13 +2508,13 @@ export const POKEDEX = [
     {
         'name': 'Porygon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 60,
             'defense': 70,
-            'sp atk': 85,
-            'sp def': 75,
+            'spAtk': 85,
+            'spDef': 75,
             'speed': 40,
             'types': [
                 'Normal',
@@ -2526,13 +2526,13 @@ export const POKEDEX = [
     {
         'name': 'Omanyte',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 40,
             'defense': 100,
-            'sp atk': 90,
-            'sp def': 55,
+            'spAtk': 90,
+            'spDef': 55,
             'speed': 35,
             'types': [
                 'Rock',
@@ -2545,13 +2545,13 @@ export const POKEDEX = [
     {
         'name': 'Omastar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 60,
             'defense': 125,
-            'sp atk': 115,
-            'sp def': 70,
+            'spAtk': 115,
+            'spDef': 70,
             'speed': 55,
             'types': [
                 'Rock',
@@ -2564,13 +2564,13 @@ export const POKEDEX = [
     {
         'name': 'Kabuto',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 30,
             'attack': 80,
             'defense': 90,
-            'sp atk': 55,
-            'sp def': 45,
+            'spAtk': 55,
+            'spDef': 45,
             'speed': 55,
             'types': [
                 'Rock',
@@ -2583,13 +2583,13 @@ export const POKEDEX = [
     {
         'name': 'Kabutops',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 115,
             'defense': 105,
-            'sp atk': 65,
-            'sp def': 70,
+            'spAtk': 65,
+            'spDef': 70,
             'speed': 80,
             'types': [
                 'Rock',
@@ -2602,13 +2602,13 @@ export const POKEDEX = [
     {
         'name': 'Aerodactyl',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 105,
             'defense': 65,
-            'sp atk': 60,
-            'sp def': 75,
+            'spAtk': 60,
+            'spDef': 75,
             'speed': 130,
             'types': [
                 'Rock',
@@ -2621,13 +2621,13 @@ export const POKEDEX = [
     {
         'name': 'Snorlax',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 160,
             'attack': 110,
             'defense': 65,
-            'sp atk': 65,
-            'sp def': 110,
+            'spAtk': 65,
+            'spDef': 110,
             'speed': 30,
             'types': [
                 'Normal',
@@ -2639,13 +2639,13 @@ export const POKEDEX = [
     {
         'name': 'Articuno',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 85,
             'defense': 100,
-            'sp atk': 95,
-            'sp def': 125,
+            'spAtk': 95,
+            'spDef': 125,
             'speed': 85,
             'types': [
                 'Ice',
@@ -2658,13 +2658,13 @@ export const POKEDEX = [
     {
         'name': 'Zapdos',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 90,
             'defense': 85,
-            'sp atk': 125,
-            'sp def': 90,
+            'spAtk': 125,
+            'spDef': 90,
             'speed': 100,
             'types': [
                 'Electric',
@@ -2677,13 +2677,13 @@ export const POKEDEX = [
     {
         'name': 'Moltres',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 100,
             'defense': 90,
-            'sp atk': 125,
-            'sp def': 85,
+            'spAtk': 125,
+            'spDef': 85,
             'speed': 90,
             'types': [
                 'Fire',
@@ -2696,13 +2696,13 @@ export const POKEDEX = [
     {
         'name': 'Dratini',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 41,
             'attack': 64,
             'defense': 45,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 50,
             'types': [
                 'Dragon',
@@ -2714,13 +2714,13 @@ export const POKEDEX = [
     {
         'name': 'Dragonair',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 61,
             'attack': 84,
             'defense': 65,
-            'sp atk': 70,
-            'sp def': 70,
+            'spAtk': 70,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Dragon',
@@ -2732,13 +2732,13 @@ export const POKEDEX = [
     {
         'name': 'Dragonite',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 134,
             'defense': 95,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 80,
             'types': [
                 'Dragon',
@@ -2751,13 +2751,13 @@ export const POKEDEX = [
     {
         'name': 'Mewtwo',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 106,
             'attack': 110,
             'defense': 90,
-            'sp atk': 154,
-            'sp def': 90,
+            'spAtk': 154,
+            'spDef': 90,
             'speed': 130,
             'types': [
                 'Psychic',
@@ -2769,13 +2769,13 @@ export const POKEDEX = [
     {
         'name': 'Mew',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 100,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Psychic',
@@ -2787,13 +2787,13 @@ export const POKEDEX = [
     {
         'name': 'Chikorita',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 49,
             'defense': 65,
-            'sp atk': 49,
-            'sp def': 65,
+            'spAtk': 49,
+            'spDef': 65,
             'speed': 45,
             'types': [
                 'Grass',
@@ -2805,13 +2805,13 @@ export const POKEDEX = [
     {
         'name': 'Bayleef',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 62,
             'defense': 80,
-            'sp atk': 63,
-            'sp def': 80,
+            'spAtk': 63,
+            'spDef': 80,
             'speed': 60,
             'types': [
                 'Grass',
@@ -2823,13 +2823,13 @@ export const POKEDEX = [
     {
         'name': 'Meganium',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 82,
             'defense': 100,
-            'sp atk': 83,
-            'sp def': 100,
+            'spAtk': 83,
+            'spDef': 100,
             'speed': 80,
             'types': [
                 'Grass',
@@ -2841,13 +2841,13 @@ export const POKEDEX = [
     {
         'name': 'Cyndaquil',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 39,
             'attack': 52,
             'defense': 43,
-            'sp atk': 60,
-            'sp def': 50,
+            'spAtk': 60,
+            'spDef': 50,
             'speed': 65,
             'types': [
                 'Fire',
@@ -2859,13 +2859,13 @@ export const POKEDEX = [
     {
         'name': 'Quilava',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 58,
             'attack': 64,
             'defense': 58,
-            'sp atk': 80,
-            'sp def': 65,
+            'spAtk': 80,
+            'spDef': 65,
             'speed': 80,
             'types': [
                 'Fire',
@@ -2877,13 +2877,13 @@ export const POKEDEX = [
     {
         'name': 'Typhlosion',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 78,
             'attack': 84,
             'defense': 78,
-            'sp atk': 109,
-            'sp def': 85,
+            'spAtk': 109,
+            'spDef': 85,
             'speed': 100,
             'types': [
                 'Fire',
@@ -2895,13 +2895,13 @@ export const POKEDEX = [
     {
         'name': 'Totodile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 65,
             'defense': 64,
-            'sp atk': 44,
-            'sp def': 48,
+            'spAtk': 44,
+            'spDef': 48,
             'speed': 43,
             'types': [
                 'Water',
@@ -2913,13 +2913,13 @@ export const POKEDEX = [
     {
         'name': 'Croconaw',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 80,
             'defense': 80,
-            'sp atk': 59,
-            'sp def': 63,
+            'spAtk': 59,
+            'spDef': 63,
             'speed': 58,
             'types': [
                 'Water',
@@ -2931,13 +2931,13 @@ export const POKEDEX = [
     {
         'name': 'Feraligatr',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 85,
             'attack': 105,
             'defense': 100,
-            'sp atk': 79,
-            'sp def': 83,
+            'spAtk': 79,
+            'spDef': 83,
             'speed': 78,
             'types': [
                 'Water',
@@ -2949,13 +2949,13 @@ export const POKEDEX = [
     {
         'name': 'Sentret',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 46,
             'defense': 34,
-            'sp atk': 35,
-            'sp def': 45,
+            'spAtk': 35,
+            'spDef': 45,
             'speed': 20,
             'types': [
                 'Normal',
@@ -2967,13 +2967,13 @@ export const POKEDEX = [
     {
         'name': 'Furret',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 76,
             'defense': 64,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 90,
             'types': [
                 'Normal',
@@ -2985,13 +2985,13 @@ export const POKEDEX = [
     {
         'name': 'Hoothoot',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 30,
             'defense': 30,
-            'sp atk': 36,
-            'sp def': 56,
+            'spAtk': 36,
+            'spDef': 56,
             'speed': 50,
             'types': [
                 'Normal',
@@ -3004,13 +3004,13 @@ export const POKEDEX = [
     {
         'name': 'Noctowl',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 100,
             'attack': 50,
             'defense': 50,
-            'sp atk': 76,
-            'sp def': 96,
+            'spAtk': 76,
+            'spDef': 96,
             'speed': 70,
             'types': [
                 'Normal',
@@ -3023,13 +3023,13 @@ export const POKEDEX = [
     {
         'name': 'Ledyba',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 40,
             'attack': 20,
             'defense': 30,
-            'sp atk': 40,
-            'sp def': 80,
+            'spAtk': 40,
+            'spDef': 80,
             'speed': 55,
             'types': [
                 'Bug',
@@ -3042,13 +3042,13 @@ export const POKEDEX = [
     {
         'name': 'Ledian',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Fast',
+            'catchRate': 90,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 35,
             'defense': 50,
-            'sp atk': 55,
-            'sp def': 110,
+            'spAtk': 55,
+            'spDef': 110,
             'speed': 85,
             'types': [
                 'Bug',
@@ -3061,13 +3061,13 @@ export const POKEDEX = [
     {
         'name': 'Spinarak',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 40,
             'attack': 60,
             'defense': 40,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 30,
             'types': [
                 'Bug',
@@ -3080,13 +3080,13 @@ export const POKEDEX = [
     {
         'name': 'Ariados',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Fast',
+            'catchRate': 90,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 90,
             'defense': 70,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 40,
             'types': [
                 'Bug',
@@ -3099,13 +3099,13 @@ export const POKEDEX = [
     {
         'name': 'Crobat',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 90,
             'defense': 80,
-            'sp atk': 70,
-            'sp def': 80,
+            'spAtk': 70,
+            'spDef': 80,
             'speed': 130,
             'types': [
                 'Poison',
@@ -3118,13 +3118,13 @@ export const POKEDEX = [
     {
         'name': 'Chinchou',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 38,
             'defense': 38,
-            'sp atk': 56,
-            'sp def': 56,
+            'spAtk': 56,
+            'spDef': 56,
             'speed': 67,
             'types': [
                 'Water',
@@ -3137,13 +3137,13 @@ export const POKEDEX = [
     {
         'name': 'Lanturn',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Slow',
+            'catchRate': 75,
+            'growthRate': 'Slow',
             'hp': 125,
             'attack': 58,
             'defense': 58,
-            'sp atk': 76,
-            'sp def': 76,
+            'spAtk': 76,
+            'spDef': 76,
             'speed': 67,
             'types': [
                 'Water',
@@ -3156,13 +3156,13 @@ export const POKEDEX = [
     {
         'name': 'Pichu',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 20,
             'attack': 40,
             'defense': 15,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 60,
             'types': [
                 'Electric',
@@ -3174,13 +3174,13 @@ export const POKEDEX = [
     {
         'name': 'Cleffa',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Fast',
+            'catchRate': 150,
+            'growthRate': 'Fast',
             'hp': 50,
             'attack': 25,
             'defense': 28,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 15,
             'types': [
                 'Fairy',
@@ -3192,13 +3192,13 @@ export const POKEDEX = [
     {
         'name': 'Igglybuff',
         'stats': {
-            'catch rate': 170,
-            'growth rate': 'Fast',
+            'catchRate': 170,
+            'growthRate': 'Fast',
             'hp': 90,
             'attack': 30,
             'defense': 15,
-            'sp atk': 40,
-            'sp def': 20,
+            'spAtk': 40,
+            'spDef': 20,
             'speed': 15,
             'types': [
                 'Normal',
@@ -3211,13 +3211,13 @@ export const POKEDEX = [
     {
         'name': 'Togepi',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Fast',
+            'catchRate': 190,
+            'growthRate': 'Fast',
             'hp': 35,
             'attack': 20,
             'defense': 65,
-            'sp atk': 40,
-            'sp def': 65,
+            'spAtk': 40,
+            'spDef': 65,
             'speed': 20,
             'types': [
                 'Fairy',
@@ -3229,13 +3229,13 @@ export const POKEDEX = [
     {
         'name': 'Togetic',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 40,
             'defense': 85,
-            'sp atk': 80,
-            'sp def': 105,
+            'spAtk': 80,
+            'spDef': 105,
             'speed': 40,
             'types': [
                 'Fairy',
@@ -3248,13 +3248,13 @@ export const POKEDEX = [
     {
         'name': 'Natu',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 50,
             'defense': 45,
-            'sp atk': 70,
-            'sp def': 45,
+            'spAtk': 70,
+            'spDef': 45,
             'speed': 70,
             'types': [
                 'Psychic',
@@ -3267,13 +3267,13 @@ export const POKEDEX = [
     {
         'name': 'Xatu',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 75,
             'defense': 70,
-            'sp atk': 95,
-            'sp def': 70,
+            'spAtk': 95,
+            'spDef': 70,
             'speed': 95,
             'types': [
                 'Psychic',
@@ -3286,13 +3286,13 @@ export const POKEDEX = [
     {
         'name': 'Mareep',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Medium Slow',
+            'catchRate': 235,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 40,
             'defense': 40,
-            'sp atk': 65,
-            'sp def': 45,
+            'spAtk': 65,
+            'spDef': 45,
             'speed': 35,
             'types': [
                 'Electric',
@@ -3304,13 +3304,13 @@ export const POKEDEX = [
     {
         'name': 'Flaaffy',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 55,
             'defense': 55,
-            'sp atk': 80,
-            'sp def': 60,
+            'spAtk': 80,
+            'spDef': 60,
             'speed': 45,
             'types': [
                 'Electric',
@@ -3322,13 +3322,13 @@ export const POKEDEX = [
     {
         'name': 'Ampharos',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 75,
             'defense': 85,
-            'sp atk': 115,
-            'sp def': 90,
+            'spAtk': 115,
+            'spDef': 90,
             'speed': 55,
             'types': [
                 'Electric',
@@ -3340,13 +3340,13 @@ export const POKEDEX = [
     {
         'name': 'Bellossom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 80,
             'defense': 95,
-            'sp atk': 90,
-            'sp def': 100,
+            'spAtk': 90,
+            'spDef': 100,
             'speed': 50,
             'types': [
                 'Grass',
@@ -3358,13 +3358,13 @@ export const POKEDEX = [
     {
         'name': 'Marill',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Fast',
+            'catchRate': 190,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 20,
             'defense': 50,
-            'sp atk': 20,
-            'sp def': 50,
+            'spAtk': 20,
+            'spDef': 50,
             'speed': 40,
             'types': [
                 'Water',
@@ -3377,13 +3377,13 @@ export const POKEDEX = [
     {
         'name': 'Azumarill',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 100,
             'attack': 50,
             'defense': 80,
-            'sp atk': 60,
-            'sp def': 80,
+            'spAtk': 60,
+            'spDef': 80,
             'speed': 50,
             'types': [
                 'Water',
@@ -3396,13 +3396,13 @@ export const POKEDEX = [
     {
         'name': 'Sudowoodo',
         'stats': {
-            'catch rate': 65,
-            'growth rate': 'Medium Fast',
+            'catchRate': 65,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 100,
             'defense': 115,
-            'sp atk': 30,
-            'sp def': 65,
+            'spAtk': 30,
+            'spDef': 65,
             'speed': 30,
             'types': [
                 'Rock',
@@ -3414,13 +3414,13 @@ export const POKEDEX = [
     {
         'name': 'Politoed',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 75,
             'defense': 75,
-            'sp atk': 90,
-            'sp def': 100,
+            'spAtk': 90,
+            'spDef': 100,
             'speed': 70,
             'types': [
                 'Water',
@@ -3432,13 +3432,13 @@ export const POKEDEX = [
     {
         'name': 'Hoppip',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 35,
             'attack': 35,
             'defense': 40,
-            'sp atk': 35,
-            'sp def': 55,
+            'spAtk': 35,
+            'spDef': 55,
             'speed': 50,
             'types': [
                 'Grass',
@@ -3451,13 +3451,13 @@ export const POKEDEX = [
     {
         'name': 'Skiploom',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 45,
             'defense': 50,
-            'sp atk': 45,
-            'sp def': 65,
+            'spAtk': 45,
+            'spDef': 65,
             'speed': 80,
             'types': [
                 'Grass',
@@ -3470,13 +3470,13 @@ export const POKEDEX = [
     {
         'name': 'Jumpluff',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 55,
             'defense': 70,
-            'sp atk': 55,
-            'sp def': 95,
+            'spAtk': 55,
+            'spDef': 95,
             'speed': 110,
             'types': [
                 'Grass',
@@ -3489,13 +3489,13 @@ export const POKEDEX = [
     {
         'name': 'Aipom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 70,
             'defense': 55,
-            'sp atk': 40,
-            'sp def': 55,
+            'spAtk': 40,
+            'spDef': 55,
             'speed': 85,
             'types': [
                 'Normal',
@@ -3507,13 +3507,13 @@ export const POKEDEX = [
     {
         'name': 'Sunkern',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Medium Slow',
+            'catchRate': 235,
+            'growthRate': 'MediumSlow',
             'hp': 30,
             'attack': 30,
             'defense': 30,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 30,
             'types': [
                 'Grass',
@@ -3525,13 +3525,13 @@ export const POKEDEX = [
     {
         'name': 'Sunflora',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 75,
             'defense': 55,
-            'sp atk': 105,
-            'sp def': 85,
+            'spAtk': 105,
+            'spDef': 85,
             'speed': 30,
             'types': [
                 'Grass',
@@ -3543,13 +3543,13 @@ export const POKEDEX = [
     {
         'name': 'Yanma',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 65,
             'defense': 45,
-            'sp atk': 75,
-            'sp def': 45,
+            'spAtk': 75,
+            'spDef': 45,
             'speed': 95,
             'types': [
                 'Bug',
@@ -3562,13 +3562,13 @@ export const POKEDEX = [
     {
         'name': 'Wooper',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 45,
             'defense': 45,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 15,
             'types': [
                 'Water',
@@ -3581,13 +3581,13 @@ export const POKEDEX = [
     {
         'name': 'Quagsire',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 85,
             'defense': 85,
-            'sp atk': 65,
-            'sp def': 65,
+            'spAtk': 65,
+            'spDef': 65,
             'speed': 35,
             'types': [
                 'Water',
@@ -3600,13 +3600,13 @@ export const POKEDEX = [
     {
         'name': 'Espeon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 65,
             'defense': 60,
-            'sp atk': 130,
-            'sp def': 95,
+            'spAtk': 130,
+            'spDef': 95,
             'speed': 110,
             'types': [
                 'Psychic',
@@ -3618,13 +3618,13 @@ export const POKEDEX = [
     {
         'name': 'Umbreon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 65,
             'defense': 110,
-            'sp atk': 60,
-            'sp def': 130,
+            'spAtk': 60,
+            'spDef': 130,
             'speed': 65,
             'types': [
                 'Dark',
@@ -3636,13 +3636,13 @@ export const POKEDEX = [
     {
         'name': 'Murkrow',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 85,
             'defense': 42,
-            'sp atk': 85,
-            'sp def': 42,
+            'spAtk': 85,
+            'spDef': 42,
             'speed': 91,
             'types': [
                 'Dark',
@@ -3655,13 +3655,13 @@ export const POKEDEX = [
     {
         'name': 'Slowking',
         'stats': {
-            'catch rate': 70,
-            'growth rate': 'Medium Fast',
+            'catchRate': 70,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 75,
             'defense': 80,
-            'sp atk': 100,
-            'sp def': 110,
+            'spAtk': 100,
+            'spDef': 110,
             'speed': 30,
             'types': [
                 'Water',
@@ -3674,13 +3674,13 @@ export const POKEDEX = [
     {
         'name': 'Misdreavus',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 60,
             'defense': 60,
-            'sp atk': 85,
-            'sp def': 85,
+            'spAtk': 85,
+            'spDef': 85,
             'speed': 85,
             'types': [
                 'Ghost',
@@ -3692,13 +3692,13 @@ export const POKEDEX = [
     {
         'name': 'Unown',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 48,
             'attack': 72,
             'defense': 48,
-            'sp atk': 72,
-            'sp def': 48,
+            'spAtk': 72,
+            'spDef': 48,
             'speed': 48,
             'types': [
                 'Psychic',
@@ -3710,13 +3710,13 @@ export const POKEDEX = [
     {
         'name': 'Wobbuffet',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 190,
             'attack': 33,
             'defense': 58,
-            'sp atk': 33,
-            'sp def': 58,
+            'spAtk': 33,
+            'spDef': 58,
             'speed': 33,
             'types': [
                 'Psychic',
@@ -3728,13 +3728,13 @@ export const POKEDEX = [
     {
         'name': 'Girafarig',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 80,
             'defense': 65,
-            'sp atk': 90,
-            'sp def': 65,
+            'spAtk': 90,
+            'spDef': 65,
             'speed': 85,
             'types': [
                 'Normal',
@@ -3747,13 +3747,13 @@ export const POKEDEX = [
     {
         'name': 'Pineco',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 90,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 15,
             'types': [
                 'Bug',
@@ -3765,13 +3765,13 @@ export const POKEDEX = [
     {
         'name': 'Forretress',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 90,
             'defense': 140,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 40,
             'types': [
                 'Bug',
@@ -3784,13 +3784,13 @@ export const POKEDEX = [
     {
         'name': 'Dunsparce',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 100,
             'attack': 70,
             'defense': 70,
-            'sp atk': 65,
-            'sp def': 65,
+            'spAtk': 65,
+            'spDef': 65,
             'speed': 45,
             'types': [
                 'Normal',
@@ -3802,13 +3802,13 @@ export const POKEDEX = [
     {
         'name': 'Gligar',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Slow',
+            'catchRate': 60,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 75,
             'defense': 105,
-            'sp atk': 35,
-            'sp def': 65,
+            'spAtk': 35,
+            'spDef': 65,
             'speed': 85,
             'types': [
                 'Ground',
@@ -3821,13 +3821,13 @@ export const POKEDEX = [
     {
         'name': 'Steelix',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
+            'catchRate': 25,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 85,
             'defense': 200,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 30,
             'types': [
                 'Steel',
@@ -3840,13 +3840,13 @@ export const POKEDEX = [
     {
         'name': 'Snubbull',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Fast',
+            'catchRate': 190,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 80,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 30,
             'types': [
                 'Fairy',
@@ -3858,13 +3858,13 @@ export const POKEDEX = [
     {
         'name': 'Granbull',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 90,
             'attack': 120,
             'defense': 75,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 45,
             'types': [
                 'Fairy',
@@ -3876,13 +3876,13 @@ export const POKEDEX = [
     {
         'name': 'Qwilfish',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 95,
             'defense': 75,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 85,
             'types': [
                 'Water',
@@ -3895,13 +3895,13 @@ export const POKEDEX = [
     {
         'name': 'Scizor',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
+            'catchRate': 25,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 130,
             'defense': 100,
-            'sp atk': 55,
-            'sp def': 80,
+            'spAtk': 55,
+            'spDef': 80,
             'speed': 65,
             'types': [
                 'Bug',
@@ -3914,13 +3914,13 @@ export const POKEDEX = [
     {
         'name': 'Shuckle',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Slow',
+            'catchRate': 190,
+            'growthRate': 'MediumSlow',
             'hp': 20,
             'attack': 10,
             'defense': 230,
-            'sp atk': 10,
-            'sp def': 230,
+            'spAtk': 10,
+            'spDef': 230,
             'speed': 5,
             'types': [
                 'Bug',
@@ -3933,13 +3933,13 @@ export const POKEDEX = [
     {
         'name': 'Heracross',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 125,
             'defense': 75,
-            'sp atk': 40,
-            'sp def': 95,
+            'spAtk': 40,
+            'spDef': 95,
             'speed': 85,
             'types': [
                 'Bug',
@@ -3952,13 +3952,13 @@ export const POKEDEX = [
     {
         'name': 'Sneasel',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Slow',
+            'catchRate': 60,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 95,
             'defense': 55,
-            'sp atk': 35,
-            'sp def': 75,
+            'spAtk': 35,
+            'spDef': 75,
             'speed': 115,
             'types': [
                 'Dark',
@@ -3971,13 +3971,13 @@ export const POKEDEX = [
     {
         'name': 'Teddiursa',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 80,
             'defense': 50,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 40,
             'types': [
                 'Normal',
@@ -3989,13 +3989,13 @@ export const POKEDEX = [
     {
         'name': 'Ursaring',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 90,
             'attack': 130,
             'defense': 75,
-            'sp atk': 75,
-            'sp def': 75,
+            'spAtk': 75,
+            'spDef': 75,
             'speed': 55,
             'types': [
                 'Normal',
@@ -4007,13 +4007,13 @@ export const POKEDEX = [
     {
         'name': 'Slugma',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 40,
             'defense': 40,
-            'sp atk': 70,
-            'sp def': 40,
+            'spAtk': 70,
+            'spDef': 40,
             'speed': 20,
             'types': [
                 'Fire',
@@ -4025,13 +4025,13 @@ export const POKEDEX = [
     {
         'name': 'Magcargo',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 50,
             'defense': 120,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 30,
             'types': [
                 'Fire',
@@ -4044,13 +4044,13 @@ export const POKEDEX = [
     {
         'name': 'Swinub',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Slow',
+            'catchRate': 225,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 50,
             'defense': 40,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 50,
             'types': [
                 'Ice',
@@ -4063,13 +4063,13 @@ export const POKEDEX = [
     {
         'name': 'Piloswine',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Slow',
+            'catchRate': 75,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 100,
             'defense': 80,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 50,
             'types': [
                 'Ice',
@@ -4082,13 +4082,13 @@ export const POKEDEX = [
     {
         'name': 'Corsola',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 55,
             'defense': 85,
-            'sp atk': 65,
-            'sp def': 85,
+            'spAtk': 65,
+            'spDef': 85,
             'speed': 35,
             'types': [
                 'Water',
@@ -4101,13 +4101,13 @@ export const POKEDEX = [
     {
         'name': 'Remoraid',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 65,
             'defense': 35,
-            'sp atk': 65,
-            'sp def': 35,
+            'spAtk': 65,
+            'spDef': 35,
             'speed': 65,
             'types': [
                 'Water',
@@ -4119,13 +4119,13 @@ export const POKEDEX = [
     {
         'name': 'Octillery',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 105,
             'defense': 75,
-            'sp atk': 105,
-            'sp def': 75,
+            'spAtk': 105,
+            'spDef': 75,
             'speed': 45,
             'types': [
                 'Water',
@@ -4137,13 +4137,13 @@ export const POKEDEX = [
     {
         'name': 'Delibird',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 45,
             'attack': 55,
             'defense': 45,
-            'sp atk': 65,
-            'sp def': 45,
+            'spAtk': 65,
+            'spDef': 45,
             'speed': 75,
             'types': [
                 'Ice',
@@ -4156,13 +4156,13 @@ export const POKEDEX = [
     {
         'name': 'Mantine',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 40,
             'defense': 70,
-            'sp atk': 80,
-            'sp def': 140,
+            'spAtk': 80,
+            'spDef': 140,
             'speed': 70,
             'types': [
                 'Water',
@@ -4175,13 +4175,13 @@ export const POKEDEX = [
     {
         'name': 'Skarmory',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 80,
             'defense': 140,
-            'sp atk': 40,
-            'sp def': 70,
+            'spAtk': 40,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Steel',
@@ -4194,13 +4194,13 @@ export const POKEDEX = [
     {
         'name': 'Houndour',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 60,
             'defense': 30,
-            'sp atk': 80,
-            'sp def': 50,
+            'spAtk': 80,
+            'spDef': 50,
             'speed': 65,
             'types': [
                 'Dark',
@@ -4213,13 +4213,13 @@ export const POKEDEX = [
     {
         'name': 'Houndoom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 90,
             'defense': 50,
-            'sp atk': 110,
-            'sp def': 80,
+            'spAtk': 110,
+            'spDef': 80,
             'speed': 95,
             'types': [
                 'Dark',
@@ -4232,13 +4232,13 @@ export const POKEDEX = [
     {
         'name': 'Kingdra',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 95,
             'defense': 95,
-            'sp atk': 95,
-            'sp def': 95,
+            'spAtk': 95,
+            'spDef': 95,
             'speed': 85,
             'types': [
                 'Water',
@@ -4251,13 +4251,13 @@ export const POKEDEX = [
     {
         'name': 'Phanpy',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 90,
             'attack': 60,
             'defense': 60,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 40,
             'types': [
                 'Ground',
@@ -4269,13 +4269,13 @@ export const POKEDEX = [
     {
         'name': 'Donphan',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 90,
             'attack': 120,
             'defense': 120,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 50,
             'types': [
                 'Ground',
@@ -4287,13 +4287,13 @@ export const POKEDEX = [
     {
         'name': 'Porygon2',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 80,
             'defense': 90,
-            'sp atk': 105,
-            'sp def': 95,
+            'spAtk': 105,
+            'spDef': 95,
             'speed': 60,
             'types': [
                 'Normal',
@@ -4305,13 +4305,13 @@ export const POKEDEX = [
     {
         'name': 'Stantler',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 73,
             'attack': 95,
             'defense': 62,
-            'sp atk': 85,
-            'sp def': 65,
+            'spAtk': 85,
+            'spDef': 65,
             'speed': 85,
             'types': [
                 'Normal',
@@ -4323,13 +4323,13 @@ export const POKEDEX = [
     {
         'name': 'Smeargle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 20,
             'defense': 35,
-            'sp atk': 20,
-            'sp def': 45,
+            'spAtk': 20,
+            'spDef': 45,
             'speed': 75,
             'types': [
                 'Normal',
@@ -4341,13 +4341,13 @@ export const POKEDEX = [
     {
         'name': 'Tyrogue',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 35,
             'defense': 35,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 35,
             'types': [
                 'Fighting',
@@ -4359,13 +4359,13 @@ export const POKEDEX = [
     {
         'name': 'Hitmontop',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 95,
             'defense': 95,
-            'sp atk': 35,
-            'sp def': 110,
+            'spAtk': 35,
+            'spDef': 110,
             'speed': 70,
             'types': [
                 'Fighting',
@@ -4377,13 +4377,13 @@ export const POKEDEX = [
     {
         'name': 'Smoochum',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 30,
             'defense': 15,
-            'sp atk': 85,
-            'sp def': 65,
+            'spAtk': 85,
+            'spDef': 65,
             'speed': 65,
             'types': [
                 'Ice',
@@ -4396,13 +4396,13 @@ export const POKEDEX = [
     {
         'name': 'Elekid',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 63,
             'defense': 37,
-            'sp atk': 65,
-            'sp def': 55,
+            'spAtk': 65,
+            'spDef': 55,
             'speed': 95,
             'types': [
                 'Electric',
@@ -4414,13 +4414,13 @@ export const POKEDEX = [
     {
         'name': 'Magby',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 75,
             'defense': 37,
-            'sp atk': 70,
-            'sp def': 55,
+            'spAtk': 70,
+            'spDef': 55,
             'speed': 83,
             'types': [
                 'Fire',
@@ -4432,13 +4432,13 @@ export const POKEDEX = [
     {
         'name': 'Miltank',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 80,
             'defense': 105,
-            'sp atk': 40,
-            'sp def': 70,
+            'spAtk': 40,
+            'spDef': 70,
             'speed': 100,
             'types': [
                 'Normal',
@@ -4450,13 +4450,13 @@ export const POKEDEX = [
     {
         'name': 'Blissey',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Fast',
+            'catchRate': 30,
+            'growthRate': 'Fast',
             'hp': 255,
             'attack': 10,
             'defense': 10,
-            'sp atk': 75,
-            'sp def': 135,
+            'spAtk': 75,
+            'spDef': 135,
             'speed': 55,
             'types': [
                 'Normal',
@@ -4468,13 +4468,13 @@ export const POKEDEX = [
     {
         'name': 'Raikou',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 85,
             'defense': 75,
-            'sp atk': 115,
-            'sp def': 100,
+            'spAtk': 115,
+            'spDef': 100,
             'speed': 115,
             'types': [
                 'Electric',
@@ -4486,13 +4486,13 @@ export const POKEDEX = [
     {
         'name': 'Entei',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 115,
             'attack': 115,
             'defense': 85,
-            'sp atk': 90,
-            'sp def': 75,
+            'spAtk': 90,
+            'spDef': 75,
             'speed': 100,
             'types': [
                 'Fire',
@@ -4504,13 +4504,13 @@ export const POKEDEX = [
     {
         'name': 'Suicune',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 75,
             'defense': 115,
-            'sp atk': 90,
-            'sp def': 115,
+            'spAtk': 90,
+            'spDef': 115,
             'speed': 85,
             'types': [
                 'Water',
@@ -4522,13 +4522,13 @@ export const POKEDEX = [
     {
         'name': 'Larvitar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 64,
             'defense': 50,
-            'sp atk': 45,
-            'sp def': 50,
+            'spAtk': 45,
+            'spDef': 50,
             'speed': 41,
             'types': [
                 'Rock',
@@ -4541,13 +4541,13 @@ export const POKEDEX = [
     {
         'name': 'Pupitar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 84,
             'defense': 70,
-            'sp atk': 65,
-            'sp def': 70,
+            'spAtk': 65,
+            'spDef': 70,
             'speed': 51,
             'types': [
                 'Rock',
@@ -4560,13 +4560,13 @@ export const POKEDEX = [
     {
         'name': 'Tyranitar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 134,
             'defense': 110,
-            'sp atk': 95,
-            'sp def': 100,
+            'spAtk': 95,
+            'spDef': 100,
             'speed': 61,
             'types': [
                 'Rock',
@@ -4579,13 +4579,13 @@ export const POKEDEX = [
     {
         'name': 'Lugia',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 106,
             'attack': 90,
             'defense': 130,
-            'sp atk': 90,
-            'sp def': 154,
+            'spAtk': 90,
+            'spDef': 154,
             'speed': 110,
             'types': [
                 'Psychic',
@@ -4598,13 +4598,13 @@ export const POKEDEX = [
     {
         'name': 'Ho-Oh',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 106,
             'attack': 130,
             'defense': 90,
-            'sp atk': 110,
-            'sp def': 154,
+            'spAtk': 110,
+            'spDef': 154,
             'speed': 90,
             'types': [
                 'Fire',
@@ -4617,13 +4617,13 @@ export const POKEDEX = [
     {
         'name': 'Celebi',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 100,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Psychic',
@@ -4636,13 +4636,13 @@ export const POKEDEX = [
     {
         'name': 'Treecko',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 45,
             'defense': 35,
-            'sp atk': 65,
-            'sp def': 55,
+            'spAtk': 65,
+            'spDef': 55,
             'speed': 70,
             'types': [
                 'Grass',
@@ -4654,13 +4654,13 @@ export const POKEDEX = [
     {
         'name': 'Grovyle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 65,
             'defense': 45,
-            'sp atk': 85,
-            'sp def': 65,
+            'spAtk': 85,
+            'spDef': 65,
             'speed': 95,
             'types': [
                 'Grass',
@@ -4672,13 +4672,13 @@ export const POKEDEX = [
     {
         'name': 'Sceptile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 85,
             'defense': 65,
-            'sp atk': 105,
-            'sp def': 85,
+            'spAtk': 105,
+            'spDef': 85,
             'speed': 120,
             'types': [
                 'Grass',
@@ -4690,13 +4690,13 @@ export const POKEDEX = [
     {
         'name': 'Torchic',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 60,
             'defense': 40,
-            'sp atk': 70,
-            'sp def': 50,
+            'spAtk': 70,
+            'spDef': 50,
             'speed': 45,
             'types': [
                 'Fire',
@@ -4708,13 +4708,13 @@ export const POKEDEX = [
     {
         'name': 'Combusken',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 85,
             'defense': 60,
-            'sp atk': 85,
-            'sp def': 60,
+            'spAtk': 85,
+            'spDef': 60,
             'speed': 55,
             'types': [
                 'Fire',
@@ -4727,13 +4727,13 @@ export const POKEDEX = [
     {
         'name': 'Blaziken',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 120,
             'defense': 70,
-            'sp atk': 110,
-            'sp def': 70,
+            'spAtk': 110,
+            'spDef': 70,
             'speed': 80,
             'types': [
                 'Fire',
@@ -4746,13 +4746,13 @@ export const POKEDEX = [
     {
         'name': 'Mudkip',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 70,
             'defense': 50,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 40,
             'types': [
                 'Water',
@@ -4764,13 +4764,13 @@ export const POKEDEX = [
     {
         'name': 'Marshtomp',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 85,
             'defense': 70,
-            'sp atk': 60,
-            'sp def': 70,
+            'spAtk': 60,
+            'spDef': 70,
             'speed': 50,
             'types': [
                 'Water',
@@ -4783,13 +4783,13 @@ export const POKEDEX = [
     {
         'name': 'Swampert',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 110,
             'defense': 90,
-            'sp atk': 85,
-            'sp def': 90,
+            'spAtk': 85,
+            'spDef': 90,
             'speed': 60,
             'types': [
                 'Water',
@@ -4802,13 +4802,13 @@ export const POKEDEX = [
     {
         'name': 'Poochyena',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 55,
             'defense': 35,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 35,
             'types': [
                 'Dark',
@@ -4820,13 +4820,13 @@ export const POKEDEX = [
     {
         'name': 'Mightyena',
         'stats': {
-            'catch rate': 127,
-            'growth rate': 'Medium Fast',
+            'catchRate': 127,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 90,
             'defense': 70,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 70,
             'types': [
                 'Dark',
@@ -4838,13 +4838,13 @@ export const POKEDEX = [
     {
         'name': 'Zigzagoon',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 38,
             'attack': 30,
             'defense': 41,
-            'sp atk': 30,
-            'sp def': 41,
+            'spAtk': 30,
+            'spDef': 41,
             'speed': 60,
             'types': [
                 'Normal',
@@ -4856,13 +4856,13 @@ export const POKEDEX = [
     {
         'name': 'Linoone',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 78,
             'attack': 70,
             'defense': 61,
-            'sp atk': 50,
-            'sp def': 61,
+            'spAtk': 50,
+            'spDef': 61,
             'speed': 100,
             'types': [
                 'Normal',
@@ -4874,13 +4874,13 @@ export const POKEDEX = [
     {
         'name': 'Wurmple',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 45,
             'defense': 35,
-            'sp atk': 20,
-            'sp def': 30,
+            'spAtk': 20,
+            'spDef': 30,
             'speed': 20,
             'types': [
                 'Bug',
@@ -4892,13 +4892,13 @@ export const POKEDEX = [
     {
         'name': 'Silcoon',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 35,
             'defense': 55,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 15,
             'types': [
                 'Bug',
@@ -4910,13 +4910,13 @@ export const POKEDEX = [
     {
         'name': 'Beautifly',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 70,
             'defense': 50,
-            'sp atk': 100,
-            'sp def': 50,
+            'spAtk': 100,
+            'spDef': 50,
             'speed': 65,
             'types': [
                 'Bug',
@@ -4929,13 +4929,13 @@ export const POKEDEX = [
     {
         'name': 'Cascoon',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 35,
             'defense': 55,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 15,
             'types': [
                 'Bug',
@@ -4947,13 +4947,13 @@ export const POKEDEX = [
     {
         'name': 'Dustox',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 50,
             'defense': 70,
-            'sp atk': 50,
-            'sp def': 90,
+            'spAtk': 50,
+            'spDef': 90,
             'speed': 65,
             'types': [
                 'Bug',
@@ -4966,13 +4966,13 @@ export const POKEDEX = [
     {
         'name': 'Lotad',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 30,
             'defense': 30,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 30,
             'types': [
                 'Water',
@@ -4985,13 +4985,13 @@ export const POKEDEX = [
     {
         'name': 'Lombre',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 50,
             'defense': 50,
-            'sp atk': 60,
-            'sp def': 70,
+            'spAtk': 60,
+            'spDef': 70,
             'speed': 50,
             'types': [
                 'Water',
@@ -5004,13 +5004,13 @@ export const POKEDEX = [
     {
         'name': 'Ludicolo',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 70,
             'defense': 70,
-            'sp atk': 90,
-            'sp def': 100,
+            'spAtk': 90,
+            'spDef': 100,
             'speed': 70,
             'types': [
                 'Water',
@@ -5023,13 +5023,13 @@ export const POKEDEX = [
     {
         'name': 'Seedot',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 40,
             'defense': 50,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 30,
             'types': [
                 'Grass',
@@ -5041,13 +5041,13 @@ export const POKEDEX = [
     {
         'name': 'Nuzleaf',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 70,
             'defense': 40,
-            'sp atk': 60,
-            'sp def': 40,
+            'spAtk': 60,
+            'spDef': 40,
             'speed': 60,
             'types': [
                 'Grass',
@@ -5060,13 +5060,13 @@ export const POKEDEX = [
     {
         'name': 'Shiftry',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 100,
             'defense': 60,
-            'sp atk': 90,
-            'sp def': 60,
+            'spAtk': 90,
+            'spDef': 60,
             'speed': 80,
             'types': [
                 'Grass',
@@ -5079,13 +5079,13 @@ export const POKEDEX = [
     {
         'name': 'Taillow',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Slow',
+            'catchRate': 200,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 55,
             'defense': 30,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 85,
             'types': [
                 'Normal',
@@ -5098,13 +5098,13 @@ export const POKEDEX = [
     {
         'name': 'Swellow',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 85,
             'defense': 60,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 125,
             'types': [
                 'Normal',
@@ -5117,13 +5117,13 @@ export const POKEDEX = [
     {
         'name': 'Wingull',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 30,
             'defense': 30,
-            'sp atk': 55,
-            'sp def': 30,
+            'spAtk': 55,
+            'spDef': 30,
             'speed': 85,
             'types': [
                 'Water',
@@ -5136,13 +5136,13 @@ export const POKEDEX = [
     {
         'name': 'Pelipper',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 50,
             'defense': 100,
-            'sp atk': 85,
-            'sp def': 70,
+            'spAtk': 85,
+            'spDef': 70,
             'speed': 65,
             'types': [
                 'Water',
@@ -5155,13 +5155,13 @@ export const POKEDEX = [
     {
         'name': 'Ralts',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Slow',
+            'catchRate': 235,
+            'growthRate': 'Slow',
             'hp': 28,
             'attack': 25,
             'defense': 25,
-            'sp atk': 45,
-            'sp def': 35,
+            'spAtk': 45,
+            'spDef': 35,
             'speed': 40,
             'types': [
                 'Psychic',
@@ -5174,13 +5174,13 @@ export const POKEDEX = [
     {
         'name': 'Kirlia',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 38,
             'attack': 35,
             'defense': 35,
-            'sp atk': 65,
-            'sp def': 55,
+            'spAtk': 65,
+            'spDef': 55,
             'speed': 50,
             'types': [
                 'Psychic',
@@ -5193,13 +5193,13 @@ export const POKEDEX = [
     {
         'name': 'Gardevoir',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 65,
             'defense': 65,
-            'sp atk': 125,
-            'sp def': 115,
+            'spAtk': 125,
+            'spDef': 115,
             'speed': 80,
             'types': [
                 'Psychic',
@@ -5212,13 +5212,13 @@ export const POKEDEX = [
     {
         'name': 'Surskit',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 30,
             'defense': 32,
-            'sp atk': 50,
-            'sp def': 52,
+            'spAtk': 50,
+            'spDef': 52,
             'speed': 65,
             'types': [
                 'Bug',
@@ -5231,13 +5231,13 @@ export const POKEDEX = [
     {
         'name': 'Masquerain',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 60,
             'defense': 62,
-            'sp atk': 80,
-            'sp def': 82,
+            'spAtk': 80,
+            'spDef': 82,
             'speed': 60,
             'types': [
                 'Bug',
@@ -5250,13 +5250,13 @@ export const POKEDEX = [
     {
         'name': 'Shroomish',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 40,
             'defense': 60,
-            'sp atk': 40,
-            'sp def': 60,
+            'spAtk': 40,
+            'spDef': 60,
             'speed': 35,
             'types': [
                 'Grass',
@@ -5268,13 +5268,13 @@ export const POKEDEX = [
     {
         'name': 'Breloom',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Fast',
+            'catchRate': 90,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 130,
             'defense': 80,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 70,
             'types': [
                 'Grass',
@@ -5287,13 +5287,13 @@ export const POKEDEX = [
     {
         'name': 'Slakoth',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 60,
             'defense': 60,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 30,
             'types': [
                 'Normal',
@@ -5305,13 +5305,13 @@ export const POKEDEX = [
     {
         'name': 'Vigoroth',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 80,
             'defense': 80,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 90,
             'types': [
                 'Normal',
@@ -5323,13 +5323,13 @@ export const POKEDEX = [
     {
         'name': 'Slaking',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 150,
             'attack': 160,
             'defense': 100,
-            'sp atk': 95,
-            'sp def': 65,
+            'spAtk': 95,
+            'spDef': 65,
             'speed': 100,
             'types': [
                 'Normal',
@@ -5341,13 +5341,13 @@ export const POKEDEX = [
     {
         'name': 'Nincada',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 31,
             'attack': 45,
             'defense': 90,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 40,
             'types': [
                 'Bug',
@@ -5360,13 +5360,13 @@ export const POKEDEX = [
     {
         'name': 'Ninjask',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 61,
             'attack': 90,
             'defense': 45,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 160,
             'types': [
                 'Bug',
@@ -5379,13 +5379,13 @@ export const POKEDEX = [
     {
         'name': 'Shedinja',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 90,
             'defense': 45,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 40,
             'types': [
                 'Bug',
@@ -5398,13 +5398,13 @@ export const POKEDEX = [
     {
         'name': 'Whismur',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Slow',
+            'catchRate': 190,
+            'growthRate': 'MediumSlow',
             'hp': 64,
             'attack': 51,
             'defense': 23,
-            'sp atk': 51,
-            'sp def': 23,
+            'spAtk': 51,
+            'spDef': 23,
             'speed': 28,
             'types': [
                 'Normal',
@@ -5416,13 +5416,13 @@ export const POKEDEX = [
     {
         'name': 'Loudred',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 84,
             'attack': 71,
             'defense': 43,
-            'sp atk': 71,
-            'sp def': 43,
+            'spAtk': 71,
+            'spDef': 43,
             'speed': 48,
             'types': [
                 'Normal',
@@ -5434,13 +5434,13 @@ export const POKEDEX = [
     {
         'name': 'Exploud',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 104,
             'attack': 91,
             'defense': 63,
-            'sp atk': 91,
-            'sp def': 73,
+            'spAtk': 91,
+            'spDef': 73,
             'speed': 68,
             'types': [
                 'Normal',
@@ -5452,13 +5452,13 @@ export const POKEDEX = [
     {
         'name': 'Makuhita',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Fast',
+            'catchRate': 180,
+            'growthRate': 'Fast',
             'hp': 72,
             'attack': 60,
             'defense': 30,
-            'sp atk': 20,
-            'sp def': 30,
+            'spAtk': 20,
+            'spDef': 30,
             'speed': 25,
             'types': [
                 'Fighting',
@@ -5470,13 +5470,13 @@ export const POKEDEX = [
     {
         'name': 'Hariyama',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Fast',
+            'catchRate': 200,
+            'growthRate': 'Fast',
             'hp': 144,
             'attack': 120,
             'defense': 60,
-            'sp atk': 40,
-            'sp def': 60,
+            'spAtk': 40,
+            'spDef': 60,
             'speed': 50,
             'types': [
                 'Fighting',
@@ -5488,13 +5488,13 @@ export const POKEDEX = [
     {
         'name': 'Azurill',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Fast',
+            'catchRate': 150,
+            'growthRate': 'Fast',
             'hp': 50,
             'attack': 20,
             'defense': 40,
-            'sp atk': 20,
-            'sp def': 40,
+            'spAtk': 20,
+            'spDef': 40,
             'speed': 20,
             'types': [
                 'Normal',
@@ -5507,13 +5507,13 @@ export const POKEDEX = [
     {
         'name': 'Nosepass',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 30,
             'attack': 45,
             'defense': 135,
-            'sp atk': 45,
-            'sp def': 90,
+            'spAtk': 45,
+            'spDef': 90,
             'speed': 30,
             'types': [
                 'Rock',
@@ -5525,13 +5525,13 @@ export const POKEDEX = [
     {
         'name': 'Skitty',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 50,
             'attack': 45,
             'defense': 45,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 50,
             'types': [
                 'Normal',
@@ -5543,13 +5543,13 @@ export const POKEDEX = [
     {
         'name': 'Delcatty',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 65,
             'defense': 65,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 70,
             'types': [
                 'Normal',
@@ -5561,13 +5561,13 @@ export const POKEDEX = [
     {
         'name': 'Sableye',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 75,
             'defense': 75,
-            'sp atk': 65,
-            'sp def': 65,
+            'spAtk': 65,
+            'spDef': 65,
             'speed': 50,
             'types': [
                 'Dark',
@@ -5580,13 +5580,13 @@ export const POKEDEX = [
     {
         'name': 'Mawile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 50,
             'attack': 85,
             'defense': 85,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 50,
             'types': [
                 'Steel',
@@ -5599,13 +5599,13 @@ export const POKEDEX = [
     {
         'name': 'Aron',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Slow',
+            'catchRate': 180,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 70,
             'defense': 100,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 30,
             'types': [
                 'Steel',
@@ -5618,13 +5618,13 @@ export const POKEDEX = [
     {
         'name': 'Lairon',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Slow',
+            'catchRate': 90,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 90,
             'defense': 140,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 40,
             'types': [
                 'Steel',
@@ -5637,13 +5637,13 @@ export const POKEDEX = [
     {
         'name': 'Aggron',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 110,
             'defense': 180,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 50,
             'types': [
                 'Steel',
@@ -5656,13 +5656,13 @@ export const POKEDEX = [
     {
         'name': 'Meditite',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Fast',
+            'catchRate': 180,
+            'growthRate': 'MediumFast',
             'hp': 30,
             'attack': 40,
             'defense': 55,
-            'sp atk': 40,
-            'sp def': 55,
+            'spAtk': 40,
+            'spDef': 55,
             'speed': 60,
             'types': [
                 'Fighting',
@@ -5675,13 +5675,13 @@ export const POKEDEX = [
     {
         'name': 'Medicham',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 60,
             'defense': 75,
-            'sp atk': 60,
-            'sp def': 75,
+            'spAtk': 60,
+            'spDef': 75,
             'speed': 80,
             'types': [
                 'Fighting',
@@ -5694,13 +5694,13 @@ export const POKEDEX = [
     {
         'name': 'Electrike',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 40,
             'attack': 45,
             'defense': 40,
-            'sp atk': 65,
-            'sp def': 40,
+            'spAtk': 65,
+            'spDef': 40,
             'speed': 65,
             'types': [
                 'Electric',
@@ -5712,13 +5712,13 @@ export const POKEDEX = [
     {
         'name': 'Manectric',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 75,
             'defense': 60,
-            'sp atk': 105,
-            'sp def': 60,
+            'spAtk': 105,
+            'spDef': 60,
             'speed': 105,
             'types': [
                 'Electric',
@@ -5730,13 +5730,13 @@ export const POKEDEX = [
     {
         'name': 'Plusle',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 50,
             'defense': 40,
-            'sp atk': 85,
-            'sp def': 75,
+            'spAtk': 85,
+            'spDef': 75,
             'speed': 95,
             'types': [
                 'Electric',
@@ -5748,13 +5748,13 @@ export const POKEDEX = [
     {
         'name': 'Minun',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 40,
             'defense': 50,
-            'sp atk': 75,
-            'sp def': 85,
+            'spAtk': 75,
+            'spDef': 85,
             'speed': 95,
             'types': [
                 'Electric',
@@ -5766,13 +5766,13 @@ export const POKEDEX = [
     {
         'name': 'Volbeat',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Slow',
+            'catchRate': 150,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 73,
             'defense': 55,
-            'sp atk': 47,
-            'sp def': 75,
+            'spAtk': 47,
+            'spDef': 75,
             'speed': 85,
             'types': [
                 'Bug',
@@ -5784,13 +5784,13 @@ export const POKEDEX = [
     {
         'name': 'Illumise',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Fast',
+            'catchRate': 150,
+            'growthRate': 'Fast',
             'hp': 65,
             'attack': 47,
             'defense': 55,
-            'sp atk': 73,
-            'sp def': 75,
+            'spAtk': 73,
+            'spDef': 75,
             'speed': 85,
             'types': [
                 'Bug',
@@ -5802,13 +5802,13 @@ export const POKEDEX = [
     {
         'name': 'Roselia',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Medium Slow',
+            'catchRate': 150,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 60,
             'defense': 45,
-            'sp atk': 100,
-            'sp def': 80,
+            'spAtk': 100,
+            'spDef': 80,
             'speed': 65,
             'types': [
                 'Grass',
@@ -5821,13 +5821,13 @@ export const POKEDEX = [
     {
         'name': 'Gulpin',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Fast',
+            'catchRate': 225,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 43,
             'defense': 53,
-            'sp atk': 43,
-            'sp def': 53,
+            'spAtk': 43,
+            'spDef': 53,
             'speed': 40,
             'types': [
                 'Poison',
@@ -5839,13 +5839,13 @@ export const POKEDEX = [
     {
         'name': 'Swalot',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 100,
             'attack': 73,
             'defense': 83,
-            'sp atk': 73,
-            'sp def': 83,
+            'spAtk': 73,
+            'spDef': 83,
             'speed': 55,
             'types': [
                 'Poison',
@@ -5857,13 +5857,13 @@ export const POKEDEX = [
     {
         'name': 'Carvanha',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Slow',
+            'catchRate': 225,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 90,
             'defense': 20,
-            'sp atk': 65,
-            'sp def': 20,
+            'spAtk': 65,
+            'spDef': 20,
             'speed': 65,
             'types': [
                 'Water',
@@ -5876,13 +5876,13 @@ export const POKEDEX = [
     {
         'name': 'Sharpedo',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 120,
             'defense': 40,
-            'sp atk': 95,
-            'sp def': 40,
+            'spAtk': 95,
+            'spDef': 40,
             'speed': 95,
             'types': [
                 'Water',
@@ -5895,13 +5895,13 @@ export const POKEDEX = [
     {
         'name': 'Wailmer',
         'stats': {
-            'catch rate': 125,
-            'growth rate': 'Fast',
+            'catchRate': 125,
+            'growthRate': 'Fast',
             'hp': 130,
             'attack': 70,
             'defense': 35,
-            'sp atk': 70,
-            'sp def': 35,
+            'spAtk': 70,
+            'spDef': 35,
             'speed': 60,
             'types': [
                 'Water',
@@ -5913,13 +5913,13 @@ export const POKEDEX = [
     {
         'name': 'Wailord',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 170,
             'attack': 90,
             'defense': 45,
-            'sp atk': 90,
-            'sp def': 45,
+            'spAtk': 90,
+            'spDef': 45,
             'speed': 60,
             'types': [
                 'Water',
@@ -5931,13 +5931,13 @@ export const POKEDEX = [
     {
         'name': 'Numel',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 60,
             'defense': 40,
-            'sp atk': 65,
-            'sp def': 45,
+            'spAtk': 65,
+            'spDef': 45,
             'speed': 35,
             'types': [
                 'Fire',
@@ -5950,13 +5950,13 @@ export const POKEDEX = [
     {
         'name': 'Camerupt',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Medium Fast',
+            'catchRate': 150,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 100,
             'defense': 70,
-            'sp atk': 105,
-            'sp def': 75,
+            'spAtk': 105,
+            'spDef': 75,
             'speed': 40,
             'types': [
                 'Fire',
@@ -5969,13 +5969,13 @@ export const POKEDEX = [
     {
         'name': 'Torkoal',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 85,
             'defense': 140,
-            'sp atk': 85,
-            'sp def': 70,
+            'spAtk': 85,
+            'spDef': 70,
             'speed': 20,
             'types': [
                 'Fire',
@@ -5987,13 +5987,13 @@ export const POKEDEX = [
     {
         'name': 'Spoink',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 25,
             'defense': 35,
-            'sp atk': 70,
-            'sp def': 80,
+            'spAtk': 70,
+            'spDef': 80,
             'speed': 60,
             'types': [
                 'Psychic',
@@ -6005,13 +6005,13 @@ export const POKEDEX = [
     {
         'name': 'Grumpig',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 80,
             'attack': 45,
             'defense': 65,
-            'sp atk': 90,
-            'sp def': 110,
+            'spAtk': 90,
+            'spDef': 110,
             'speed': 80,
             'types': [
                 'Psychic',
@@ -6023,13 +6023,13 @@ export const POKEDEX = [
     {
         'name': 'Spinda',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 60,
             'defense': 60,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 60,
             'types': [
                 'Normal',
@@ -6041,13 +6041,13 @@ export const POKEDEX = [
     {
         'name': 'Trapinch',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 100,
             'defense': 45,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 10,
             'types': [
                 'Ground',
@@ -6059,13 +6059,13 @@ export const POKEDEX = [
     {
         'name': 'Vibrava',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 70,
             'defense': 50,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 70,
             'types': [
                 'Ground',
@@ -6078,13 +6078,13 @@ export const POKEDEX = [
     {
         'name': 'Flygon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 100,
             'defense': 80,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 100,
             'types': [
                 'Ground',
@@ -6097,13 +6097,13 @@ export const POKEDEX = [
     {
         'name': 'Cacnea',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Slow',
+            'catchRate': 190,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 85,
             'defense': 40,
-            'sp atk': 85,
-            'sp def': 40,
+            'spAtk': 85,
+            'spDef': 40,
             'speed': 35,
             'types': [
                 'Grass',
@@ -6115,13 +6115,13 @@ export const POKEDEX = [
     {
         'name': 'Cacturne',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Slow',
+            'catchRate': 60,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 115,
             'defense': 60,
-            'sp atk': 115,
-            'sp def': 60,
+            'spAtk': 115,
+            'spDef': 60,
             'speed': 55,
             'types': [
                 'Grass',
@@ -6134,13 +6134,13 @@ export const POKEDEX = [
     {
         'name': 'Swablu',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 40,
             'defense': 60,
-            'sp atk': 40,
-            'sp def': 75,
+            'spAtk': 40,
+            'spDef': 75,
             'speed': 50,
             'types': [
                 'Normal',
@@ -6153,13 +6153,13 @@ export const POKEDEX = [
     {
         'name': 'Altaria',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 70,
             'defense': 90,
-            'sp atk': 70,
-            'sp def': 105,
+            'spAtk': 70,
+            'spDef': 105,
             'speed': 80,
             'types': [
                 'Dragon',
@@ -6172,13 +6172,13 @@ export const POKEDEX = [
     {
         'name': 'Zangoose',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Slow',
+            'catchRate': 90,
+            'growthRate': 'Slow',
             'hp': 73,
             'attack': 115,
             'defense': 60,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 90,
             'types': [
                 'Normal',
@@ -6190,13 +6190,13 @@ export const POKEDEX = [
     {
         'name': 'Seviper',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Fast',
+            'catchRate': 90,
+            'growthRate': 'Fast',
             'hp': 73,
             'attack': 100,
             'defense': 60,
-            'sp atk': 100,
-            'sp def': 60,
+            'spAtk': 100,
+            'spDef': 60,
             'speed': 65,
             'types': [
                 'Poison',
@@ -6208,13 +6208,13 @@ export const POKEDEX = [
     {
         'name': 'Lunatone',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 55,
             'defense': 65,
-            'sp atk': 95,
-            'sp def': 85,
+            'spAtk': 95,
+            'spDef': 85,
             'speed': 70,
             'types': [
                 'Rock',
@@ -6227,13 +6227,13 @@ export const POKEDEX = [
     {
         'name': 'Solrock',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 70,
             'attack': 95,
             'defense': 85,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 70,
             'types': [
                 'Rock',
@@ -6246,13 +6246,13 @@ export const POKEDEX = [
     {
         'name': 'Barboach',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 48,
             'defense': 43,
-            'sp atk': 46,
-            'sp def': 41,
+            'spAtk': 46,
+            'spDef': 41,
             'speed': 60,
             'types': [
                 'Water',
@@ -6265,13 +6265,13 @@ export const POKEDEX = [
     {
         'name': 'Whiscash',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 110,
             'attack': 78,
             'defense': 73,
-            'sp atk': 76,
-            'sp def': 71,
+            'spAtk': 76,
+            'spDef': 71,
             'speed': 60,
             'types': [
                 'Water',
@@ -6284,13 +6284,13 @@ export const POKEDEX = [
     {
         'name': 'Corphish',
         'stats': {
-            'catch rate': 205,
-            'growth rate': 'Fast',
+            'catchRate': 205,
+            'growthRate': 'Fast',
             'hp': 43,
             'attack': 80,
             'defense': 65,
-            'sp atk': 50,
-            'sp def': 35,
+            'spAtk': 50,
+            'spDef': 35,
             'speed': 35,
             'types': [
                 'Water',
@@ -6302,13 +6302,13 @@ export const POKEDEX = [
     {
         'name': 'Crawdaunt',
         'stats': {
-            'catch rate': 155,
-            'growth rate': 'Fast',
+            'catchRate': 155,
+            'growthRate': 'Fast',
             'hp': 63,
             'attack': 120,
             'defense': 85,
-            'sp atk': 90,
-            'sp def': 55,
+            'spAtk': 90,
+            'spDef': 55,
             'speed': 55,
             'types': [
                 'Water',
@@ -6321,13 +6321,13 @@ export const POKEDEX = [
     {
         'name': 'Baltoy',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 40,
             'defense': 55,
-            'sp atk': 40,
-            'sp def': 70,
+            'spAtk': 40,
+            'spDef': 70,
             'speed': 55,
             'types': [
                 'Ground',
@@ -6340,13 +6340,13 @@ export const POKEDEX = [
     {
         'name': 'Claydol',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 70,
             'defense': 105,
-            'sp atk': 70,
-            'sp def': 120,
+            'spAtk': 70,
+            'spDef': 120,
             'speed': 75,
             'types': [
                 'Ground',
@@ -6359,13 +6359,13 @@ export const POKEDEX = [
     {
         'name': 'Lileep',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 66,
             'attack': 41,
             'defense': 77,
-            'sp atk': 61,
-            'sp def': 87,
+            'spAtk': 61,
+            'spDef': 87,
             'speed': 23,
             'types': [
                 'Rock',
@@ -6378,13 +6378,13 @@ export const POKEDEX = [
     {
         'name': 'Cradily',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 86,
             'attack': 81,
             'defense': 97,
-            'sp atk': 81,
-            'sp def': 107,
+            'spAtk': 81,
+            'spDef': 107,
             'speed': 43,
             'types': [
                 'Rock',
@@ -6397,13 +6397,13 @@ export const POKEDEX = [
     {
         'name': 'Anorith',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 95,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 75,
             'types': [
                 'Rock',
@@ -6416,13 +6416,13 @@ export const POKEDEX = [
     {
         'name': 'Armaldo',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 125,
             'defense': 100,
-            'sp atk': 70,
-            'sp def': 80,
+            'spAtk': 70,
+            'spDef': 80,
             'speed': 45,
             'types': [
                 'Rock',
@@ -6435,13 +6435,13 @@ export const POKEDEX = [
     {
         'name': 'Feebas',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 20,
             'attack': 15,
             'defense': 20,
-            'sp atk': 10,
-            'sp def': 55,
+            'spAtk': 10,
+            'spDef': 55,
             'speed': 80,
             'types': [
                 'Water',
@@ -6453,13 +6453,13 @@ export const POKEDEX = [
     {
         'name': 'Milotic',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 60,
             'defense': 79,
-            'sp atk': 100,
-            'sp def': 125,
+            'spAtk': 100,
+            'spDef': 125,
             'speed': 81,
             'types': [
                 'Water',
@@ -6471,13 +6471,13 @@ export const POKEDEX = [
     {
         'name': 'Castform',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 70,
             'defense': 70,
-            'sp atk': 70,
-            'sp def': 70,
+            'spAtk': 70,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Normal',
@@ -6489,13 +6489,13 @@ export const POKEDEX = [
     {
         'name': 'Kecleon',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Slow',
+            'catchRate': 200,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 90,
             'defense': 70,
-            'sp atk': 60,
-            'sp def': 120,
+            'spAtk': 60,
+            'spDef': 120,
             'speed': 40,
             'types': [
                 'Normal',
@@ -6507,13 +6507,13 @@ export const POKEDEX = [
     {
         'name': 'Shuppet',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Fast',
+            'catchRate': 225,
+            'growthRate': 'Fast',
             'hp': 44,
             'attack': 75,
             'defense': 35,
-            'sp atk': 63,
-            'sp def': 33,
+            'spAtk': 63,
+            'spDef': 33,
             'speed': 45,
             'types': [
                 'Ghost',
@@ -6525,13 +6525,13 @@ export const POKEDEX = [
     {
         'name': 'Banette',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 64,
             'attack': 115,
             'defense': 65,
-            'sp atk': 83,
-            'sp def': 63,
+            'spAtk': 83,
+            'spDef': 63,
             'speed': 65,
             'types': [
                 'Ghost',
@@ -6543,13 +6543,13 @@ export const POKEDEX = [
     {
         'name': 'Duskull',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Fast',
+            'catchRate': 190,
+            'growthRate': 'Fast',
             'hp': 20,
             'attack': 40,
             'defense': 90,
-            'sp atk': 30,
-            'sp def': 90,
+            'spAtk': 30,
+            'spDef': 90,
             'speed': 25,
             'types': [
                 'Ghost',
@@ -6561,13 +6561,13 @@ export const POKEDEX = [
     {
         'name': 'Dusclops',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Fast',
+            'catchRate': 90,
+            'growthRate': 'Fast',
             'hp': 40,
             'attack': 70,
             'defense': 130,
-            'sp atk': 60,
-            'sp def': 130,
+            'spAtk': 60,
+            'spDef': 130,
             'speed': 25,
             'types': [
                 'Ghost',
@@ -6579,13 +6579,13 @@ export const POKEDEX = [
     {
         'name': 'Tropius',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Slow',
+            'catchRate': 200,
+            'growthRate': 'Slow',
             'hp': 99,
             'attack': 68,
             'defense': 83,
-            'sp atk': 72,
-            'sp def': 87,
+            'spAtk': 72,
+            'spDef': 87,
             'speed': 51,
             'types': [
                 'Grass',
@@ -6598,13 +6598,13 @@ export const POKEDEX = [
     {
         'name': 'Chimecho',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 65,
             'attack': 50,
             'defense': 70,
-            'sp atk': 95,
-            'sp def': 80,
+            'spAtk': 95,
+            'spDef': 80,
             'speed': 65,
             'types': [
                 'Psychic',
@@ -6616,13 +6616,13 @@ export const POKEDEX = [
     {
         'name': 'Absol',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 130,
             'defense': 60,
-            'sp atk': 75,
-            'sp def': 60,
+            'spAtk': 75,
+            'spDef': 60,
             'speed': 75,
             'types': [
                 'Dark',
@@ -6634,13 +6634,13 @@ export const POKEDEX = [
     {
         'name': 'Wynaut',
         'stats': {
-            'catch rate': 125,
-            'growth rate': 'Medium Fast',
+            'catchRate': 125,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 23,
             'defense': 48,
-            'sp atk': 23,
-            'sp def': 48,
+            'spAtk': 23,
+            'spDef': 48,
             'speed': 23,
             'types': [
                 'Psychic',
@@ -6652,13 +6652,13 @@ export const POKEDEX = [
     {
         'name': 'Snorunt',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 50,
             'defense': 50,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 50,
             'types': [
                 'Ice',
@@ -6670,13 +6670,13 @@ export const POKEDEX = [
     {
         'name': 'Glalie',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 80,
             'defense': 80,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 80,
             'types': [
                 'Ice',
@@ -6688,13 +6688,13 @@ export const POKEDEX = [
     {
         'name': 'Spheal',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 40,
             'defense': 50,
-            'sp atk': 55,
-            'sp def': 50,
+            'spAtk': 55,
+            'spDef': 50,
             'speed': 25,
             'types': [
                 'Ice',
@@ -6707,13 +6707,13 @@ export const POKEDEX = [
     {
         'name': 'Sealeo',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 60,
             'defense': 70,
-            'sp atk': 75,
-            'sp def': 70,
+            'spAtk': 75,
+            'spDef': 70,
             'speed': 45,
             'types': [
                 'Ice',
@@ -6726,13 +6726,13 @@ export const POKEDEX = [
     {
         'name': 'Walrein',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 110,
             'attack': 80,
             'defense': 90,
-            'sp atk': 95,
-            'sp def': 90,
+            'spAtk': 95,
+            'spDef': 90,
             'speed': 65,
             'types': [
                 'Ice',
@@ -6745,13 +6745,13 @@ export const POKEDEX = [
     {
         'name': 'Clamperl',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 35,
             'attack': 64,
             'defense': 85,
-            'sp atk': 74,
-            'sp def': 55,
+            'spAtk': 74,
+            'spDef': 55,
             'speed': 32,
             'types': [
                 'Water',
@@ -6763,13 +6763,13 @@ export const POKEDEX = [
     {
         'name': 'Huntail',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 55,
             'attack': 104,
             'defense': 105,
-            'sp atk': 94,
-            'sp def': 75,
+            'spAtk': 94,
+            'spDef': 75,
             'speed': 52,
             'types': [
                 'Water',
@@ -6781,13 +6781,13 @@ export const POKEDEX = [
     {
         'name': 'Gorebyss',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 55,
             'attack': 84,
             'defense': 105,
-            'sp atk': 114,
-            'sp def': 75,
+            'spAtk': 114,
+            'spDef': 75,
             'speed': 52,
             'types': [
                 'Water',
@@ -6799,13 +6799,13 @@ export const POKEDEX = [
     {
         'name': 'Relicanth',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 90,
             'defense': 130,
-            'sp atk': 45,
-            'sp def': 65,
+            'spAtk': 45,
+            'spDef': 65,
             'speed': 55,
             'types': [
                 'Water',
@@ -6818,13 +6818,13 @@ export const POKEDEX = [
     {
         'name': 'Luvdisc',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Fast',
+            'catchRate': 225,
+            'growthRate': 'Fast',
             'hp': 43,
             'attack': 30,
             'defense': 55,
-            'sp atk': 40,
-            'sp def': 65,
+            'spAtk': 40,
+            'spDef': 65,
             'speed': 97,
             'types': [
                 'Water',
@@ -6836,13 +6836,13 @@ export const POKEDEX = [
     {
         'name': 'Bagon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 75,
             'defense': 60,
-            'sp atk': 40,
-            'sp def': 30,
+            'spAtk': 40,
+            'spDef': 30,
             'speed': 50,
             'types': [
                 'Dragon',
@@ -6854,13 +6854,13 @@ export const POKEDEX = [
     {
         'name': 'Shelgon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 95,
             'defense': 100,
-            'sp atk': 60,
-            'sp def': 50,
+            'spAtk': 60,
+            'spDef': 50,
             'speed': 50,
             'types': [
                 'Dragon',
@@ -6872,13 +6872,13 @@ export const POKEDEX = [
     {
         'name': 'Salamence',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 135,
             'defense': 80,
-            'sp atk': 110,
-            'sp def': 80,
+            'spAtk': 110,
+            'spDef': 80,
             'speed': 100,
             'types': [
                 'Dragon',
@@ -6891,13 +6891,13 @@ export const POKEDEX = [
     {
         'name': 'Beldum',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 40,
             'attack': 55,
             'defense': 80,
-            'sp atk': 35,
-            'sp def': 60,
+            'spAtk': 35,
+            'spDef': 60,
             'speed': 30,
             'types': [
                 'Steel',
@@ -6910,13 +6910,13 @@ export const POKEDEX = [
     {
         'name': 'Metang',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 75,
             'defense': 100,
-            'sp atk': 55,
-            'sp def': 80,
+            'spAtk': 55,
+            'spDef': 80,
             'speed': 50,
             'types': [
                 'Steel',
@@ -6929,13 +6929,13 @@ export const POKEDEX = [
     {
         'name': 'Metagross',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 135,
             'defense': 130,
-            'sp atk': 95,
-            'sp def': 90,
+            'spAtk': 95,
+            'spDef': 90,
             'speed': 70,
             'types': [
                 'Steel',
@@ -6948,13 +6948,13 @@ export const POKEDEX = [
     {
         'name': 'Regirock',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 100,
             'defense': 200,
-            'sp atk': 50,
-            'sp def': 100,
+            'spAtk': 50,
+            'spDef': 100,
             'speed': 50,
             'types': [
                 'Rock',
@@ -6966,13 +6966,13 @@ export const POKEDEX = [
     {
         'name': 'Regice',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 50,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 200,
+            'spAtk': 100,
+            'spDef': 200,
             'speed': 50,
             'types': [
                 'Ice',
@@ -6984,13 +6984,13 @@ export const POKEDEX = [
     {
         'name': 'Registeel',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 75,
             'defense': 150,
-            'sp atk': 75,
-            'sp def': 150,
+            'spAtk': 75,
+            'spDef': 150,
             'speed': 50,
             'types': [
                 'Steel',
@@ -7002,13 +7002,13 @@ export const POKEDEX = [
     {
         'name': 'Latias',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 80,
             'defense': 90,
-            'sp atk': 110,
-            'sp def': 130,
+            'spAtk': 110,
+            'spDef': 130,
             'speed': 110,
             'types': [
                 'Dragon',
@@ -7021,13 +7021,13 @@ export const POKEDEX = [
     {
         'name': 'Latios',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 90,
             'defense': 80,
-            'sp atk': 130,
-            'sp def': 110,
+            'spAtk': 130,
+            'spDef': 110,
             'speed': 110,
             'types': [
                 'Dragon',
@@ -7040,13 +7040,13 @@ export const POKEDEX = [
     {
         'name': 'Kyogre',
         'stats': {
-            'catch rate': 5,
-            'growth rate': 'Slow',
+            'catchRate': 5,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 100,
             'defense': 90,
-            'sp atk': 150,
-            'sp def': 140,
+            'spAtk': 150,
+            'spDef': 140,
             'speed': 90,
             'types': [
                 'Water',
@@ -7058,13 +7058,13 @@ export const POKEDEX = [
     {
         'name': 'Groudon',
         'stats': {
-            'catch rate': 5,
-            'growth rate': 'Slow',
+            'catchRate': 5,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 150,
             'defense': 140,
-            'sp atk': 100,
-            'sp def': 90,
+            'spAtk': 100,
+            'spDef': 90,
             'speed': 90,
             'types': [
                 'Ground',
@@ -7076,13 +7076,13 @@ export const POKEDEX = [
     {
         'name': 'Rayquaza',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 105,
             'attack': 150,
             'defense': 90,
-            'sp atk': 150,
-            'sp def': 90,
+            'spAtk': 150,
+            'spDef': 90,
             'speed': 95,
             'types': [
                 'Dragon',
@@ -7095,13 +7095,13 @@ export const POKEDEX = [
     {
         'name': 'Jirachi',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 100,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Steel',
@@ -7114,13 +7114,13 @@ export const POKEDEX = [
     {
         'name': 'Deoxys',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 150,
             'defense': 50,
-            'sp atk': 150,
-            'sp def': 50,
+            'spAtk': 150,
+            'spDef': 50,
             'speed': 150,
             'types': [
                 'Psychic',
@@ -7132,13 +7132,13 @@ export const POKEDEX = [
     {
         'name': 'Turtwig',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 68,
             'defense': 64,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 31,
             'types': [
                 'Grass',
@@ -7150,13 +7150,13 @@ export const POKEDEX = [
     {
         'name': 'Grotle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 89,
             'defense': 85,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 36,
             'types': [
                 'Grass',
@@ -7168,13 +7168,13 @@ export const POKEDEX = [
     {
         'name': 'Torterra',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 95,
             'attack': 109,
             'defense': 105,
-            'sp atk': 75,
-            'sp def': 85,
+            'spAtk': 75,
+            'spDef': 85,
             'speed': 56,
             'types': [
                 'Grass',
@@ -7187,13 +7187,13 @@ export const POKEDEX = [
     {
         'name': 'Chimchar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 44,
             'attack': 58,
             'defense': 44,
-            'sp atk': 58,
-            'sp def': 44,
+            'spAtk': 58,
+            'spDef': 44,
             'speed': 61,
             'types': [
                 'Fire',
@@ -7205,13 +7205,13 @@ export const POKEDEX = [
     {
         'name': 'Monferno',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 64,
             'attack': 78,
             'defense': 52,
-            'sp atk': 78,
-            'sp def': 52,
+            'spAtk': 78,
+            'spDef': 52,
             'speed': 81,
             'types': [
                 'Fire',
@@ -7224,13 +7224,13 @@ export const POKEDEX = [
     {
         'name': 'Infernape',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 76,
             'attack': 104,
             'defense': 71,
-            'sp atk': 104,
-            'sp def': 71,
+            'spAtk': 104,
+            'spDef': 71,
             'speed': 108,
             'types': [
                 'Fire',
@@ -7243,13 +7243,13 @@ export const POKEDEX = [
     {
         'name': 'Piplup',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 53,
             'attack': 51,
             'defense': 53,
-            'sp atk': 61,
-            'sp def': 56,
+            'spAtk': 61,
+            'spDef': 56,
             'speed': 40,
             'types': [
                 'Water',
@@ -7261,13 +7261,13 @@ export const POKEDEX = [
     {
         'name': 'Prinplup',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 64,
             'attack': 66,
             'defense': 68,
-            'sp atk': 81,
-            'sp def': 76,
+            'spAtk': 81,
+            'spDef': 76,
             'speed': 50,
             'types': [
                 'Water',
@@ -7279,13 +7279,13 @@ export const POKEDEX = [
     {
         'name': 'Empoleon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 84,
             'attack': 86,
             'defense': 88,
-            'sp atk': 111,
-            'sp def': 101,
+            'spAtk': 111,
+            'spDef': 101,
             'speed': 60,
             'types': [
                 'Water',
@@ -7298,13 +7298,13 @@ export const POKEDEX = [
     {
         'name': 'Starly',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 55,
             'defense': 30,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 60,
             'types': [
                 'Normal',
@@ -7317,13 +7317,13 @@ export const POKEDEX = [
     {
         'name': 'Staravia',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 75,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 80,
             'types': [
                 'Normal',
@@ -7336,13 +7336,13 @@ export const POKEDEX = [
     {
         'name': 'Staraptor',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 85,
             'attack': 120,
             'defense': 70,
-            'sp atk': 50,
-            'sp def': 60,
+            'spAtk': 50,
+            'spDef': 60,
             'speed': 100,
             'types': [
                 'Normal',
@@ -7355,13 +7355,13 @@ export const POKEDEX = [
     {
         'name': 'Bidoof',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 59,
             'attack': 45,
             'defense': 40,
-            'sp atk': 35,
-            'sp def': 40,
+            'spAtk': 35,
+            'spDef': 40,
             'speed': 31,
             'types': [
                 'Normal',
@@ -7373,13 +7373,13 @@ export const POKEDEX = [
     {
         'name': 'Bibarel',
         'stats': {
-            'catch rate': 127,
-            'growth rate': 'Medium Fast',
+            'catchRate': 127,
+            'growthRate': 'MediumFast',
             'hp': 79,
             'attack': 85,
             'defense': 60,
-            'sp atk': 55,
-            'sp def': 60,
+            'spAtk': 55,
+            'spDef': 60,
             'speed': 71,
             'types': [
                 'Normal',
@@ -7392,13 +7392,13 @@ export const POKEDEX = [
     {
         'name': 'Kricketot',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 37,
             'attack': 25,
             'defense': 41,
-            'sp atk': 25,
-            'sp def': 41,
+            'spAtk': 25,
+            'spDef': 41,
             'speed': 25,
             'types': [
                 'Bug',
@@ -7410,13 +7410,13 @@ export const POKEDEX = [
     {
         'name': 'Kricketune',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 77,
             'attack': 85,
             'defense': 51,
-            'sp atk': 55,
-            'sp def': 51,
+            'spAtk': 55,
+            'spDef': 51,
             'speed': 65,
             'types': [
                 'Bug',
@@ -7428,13 +7428,13 @@ export const POKEDEX = [
     {
         'name': 'Shinx',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Medium Slow',
+            'catchRate': 235,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 65,
             'defense': 34,
-            'sp atk': 40,
-            'sp def': 34,
+            'spAtk': 40,
+            'spDef': 34,
             'speed': 45,
             'types': [
                 'Electric',
@@ -7446,13 +7446,13 @@ export const POKEDEX = [
     {
         'name': 'Luxio',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 85,
             'defense': 49,
-            'sp atk': 60,
-            'sp def': 49,
+            'spAtk': 60,
+            'spDef': 49,
             'speed': 60,
             'types': [
                 'Electric',
@@ -7464,13 +7464,13 @@ export const POKEDEX = [
     {
         'name': 'Luxray',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 120,
             'defense': 79,
-            'sp atk': 95,
-            'sp def': 79,
+            'spAtk': 95,
+            'spDef': 79,
             'speed': 70,
             'types': [
                 'Electric',
@@ -7482,13 +7482,13 @@ export const POKEDEX = [
     {
         'name': 'Budew',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 30,
             'defense': 35,
-            'sp atk': 50,
-            'sp def': 70,
+            'spAtk': 50,
+            'spDef': 70,
             'speed': 55,
             'types': [
                 'Grass',
@@ -7501,13 +7501,13 @@ export const POKEDEX = [
     {
         'name': 'Roserade',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Slow',
+            'catchRate': 75,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 70,
             'defense': 65,
-            'sp atk': 125,
-            'sp def': 105,
+            'spAtk': 125,
+            'spDef': 105,
             'speed': 90,
             'types': [
                 'Grass',
@@ -7520,13 +7520,13 @@ export const POKEDEX = [
     {
         'name': 'Cranidos',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 67,
             'attack': 125,
             'defense': 40,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 58,
             'types': [
                 'Rock',
@@ -7538,13 +7538,13 @@ export const POKEDEX = [
     {
         'name': 'Rampardos',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 97,
             'attack': 165,
             'defense': 60,
-            'sp atk': 65,
-            'sp def': 50,
+            'spAtk': 65,
+            'spDef': 50,
             'speed': 58,
             'types': [
                 'Rock',
@@ -7556,13 +7556,13 @@ export const POKEDEX = [
     {
         'name': 'Shieldon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 30,
             'attack': 42,
             'defense': 118,
-            'sp atk': 42,
-            'sp def': 88,
+            'spAtk': 42,
+            'spDef': 88,
             'speed': 30,
             'types': [
                 'Rock',
@@ -7575,13 +7575,13 @@ export const POKEDEX = [
     {
         'name': 'Bastiodon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 52,
             'defense': 168,
-            'sp atk': 47,
-            'sp def': 138,
+            'spAtk': 47,
+            'spDef': 138,
             'speed': 30,
             'types': [
                 'Rock',
@@ -7594,13 +7594,13 @@ export const POKEDEX = [
     {
         'name': 'Burmy',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 29,
             'defense': 45,
-            'sp atk': 29,
-            'sp def': 45,
+            'spAtk': 29,
+            'spDef': 45,
             'speed': 36,
             'types': [
                 'Bug',
@@ -7612,13 +7612,13 @@ export const POKEDEX = [
     {
         'name': 'Wormadam',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 59,
             'defense': 85,
-            'sp atk': 79,
-            'sp def': 105,
+            'spAtk': 79,
+            'spDef': 105,
             'speed': 36,
             'types': [
                 'Bug',
@@ -7631,13 +7631,13 @@ export const POKEDEX = [
     {
         'name': 'Mothim',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 94,
             'defense': 50,
-            'sp atk': 94,
-            'sp def': 50,
+            'spAtk': 94,
+            'spDef': 50,
             'speed': 66,
             'types': [
                 'Bug',
@@ -7650,13 +7650,13 @@ export const POKEDEX = [
     {
         'name': 'Combee',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 30,
             'attack': 30,
             'defense': 42,
-            'sp atk': 30,
-            'sp def': 42,
+            'spAtk': 30,
+            'spDef': 42,
             'speed': 70,
             'types': [
                 'Bug',
@@ -7669,13 +7669,13 @@ export const POKEDEX = [
     {
         'name': 'Vespiquen',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 80,
             'defense': 102,
-            'sp atk': 80,
-            'sp def': 102,
+            'spAtk': 80,
+            'spDef': 102,
             'speed': 40,
             'types': [
                 'Bug',
@@ -7688,13 +7688,13 @@ export const POKEDEX = [
     {
         'name': 'Pachirisu',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 45,
             'defense': 70,
-            'sp atk': 45,
-            'sp def': 90,
+            'spAtk': 45,
+            'spDef': 90,
             'speed': 95,
             'types': [
                 'Electric',
@@ -7706,13 +7706,13 @@ export const POKEDEX = [
     {
         'name': 'Buizel',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 65,
             'defense': 35,
-            'sp atk': 60,
-            'sp def': 30,
+            'spAtk': 60,
+            'spDef': 30,
             'speed': 85,
             'types': [
                 'Water',
@@ -7724,13 +7724,13 @@ export const POKEDEX = [
     {
         'name': 'Floatzel',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 105,
             'defense': 55,
-            'sp atk': 85,
-            'sp def': 50,
+            'spAtk': 85,
+            'spDef': 50,
             'speed': 115,
             'types': [
                 'Water',
@@ -7742,13 +7742,13 @@ export const POKEDEX = [
     {
         'name': 'Cherubi',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 35,
             'defense': 45,
-            'sp atk': 62,
-            'sp def': 53,
+            'spAtk': 62,
+            'spDef': 53,
             'speed': 35,
             'types': [
                 'Grass',
@@ -7760,13 +7760,13 @@ export const POKEDEX = [
     {
         'name': 'Cherrim',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 60,
             'defense': 70,
-            'sp atk': 87,
-            'sp def': 78,
+            'spAtk': 87,
+            'spDef': 78,
             'speed': 85,
             'types': [
                 'Grass',
@@ -7778,13 +7778,13 @@ export const POKEDEX = [
     {
         'name': 'Shellos',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 76,
             'attack': 48,
             'defense': 48,
-            'sp atk': 57,
-            'sp def': 62,
+            'spAtk': 57,
+            'spDef': 62,
             'speed': 34,
             'types': [
                 'Water',
@@ -7796,13 +7796,13 @@ export const POKEDEX = [
     {
         'name': 'Gastrodon',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 111,
             'attack': 83,
             'defense': 68,
-            'sp atk': 92,
-            'sp def': 82,
+            'spAtk': 92,
+            'spDef': 82,
             'speed': 39,
             'types': [
                 'Water',
@@ -7815,13 +7815,13 @@ export const POKEDEX = [
     {
         'name': 'Ambipom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 75,
             'attack': 100,
             'defense': 66,
-            'sp atk': 60,
-            'sp def': 66,
+            'spAtk': 60,
+            'spDef': 66,
             'speed': 115,
             'types': [
                 'Normal',
@@ -7833,13 +7833,13 @@ export const POKEDEX = [
     {
         'name': 'Drifloon',
         'stats': {
-            'catch rate': 125,
-            'growth rate': 'Fast',
+            'catchRate': 125,
+            'growthRate': 'Fast',
             'hp': 90,
             'attack': 50,
             'defense': 34,
-            'sp atk': 60,
-            'sp def': 44,
+            'spAtk': 60,
+            'spDef': 44,
             'speed': 70,
             'types': [
                 'Ghost',
@@ -7852,13 +7852,13 @@ export const POKEDEX = [
     {
         'name': 'Drifblim',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 150,
             'attack': 80,
             'defense': 44,
-            'sp atk': 90,
-            'sp def': 54,
+            'spAtk': 90,
+            'spDef': 54,
             'speed': 80,
             'types': [
                 'Ghost',
@@ -7871,13 +7871,13 @@ export const POKEDEX = [
     {
         'name': 'Buneary',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 66,
             'defense': 44,
-            'sp atk': 44,
-            'sp def': 56,
+            'spAtk': 44,
+            'spDef': 56,
             'speed': 85,
             'types': [
                 'Normal',
@@ -7889,13 +7889,13 @@ export const POKEDEX = [
     {
         'name': 'Lopunny',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 76,
             'defense': 84,
-            'sp atk': 54,
-            'sp def': 96,
+            'spAtk': 54,
+            'spDef': 96,
             'speed': 105,
             'types': [
                 'Normal',
@@ -7907,13 +7907,13 @@ export const POKEDEX = [
     {
         'name': 'Mismagius',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 60,
             'attack': 60,
             'defense': 60,
-            'sp atk': 105,
-            'sp def': 105,
+            'spAtk': 105,
+            'spDef': 105,
             'speed': 105,
             'types': [
                 'Ghost',
@@ -7925,13 +7925,13 @@ export const POKEDEX = [
     {
         'name': 'Honchkrow',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 125,
             'defense': 52,
-            'sp atk': 105,
-            'sp def': 52,
+            'spAtk': 105,
+            'spDef': 52,
             'speed': 71,
             'types': [
                 'Dark',
@@ -7944,13 +7944,13 @@ export const POKEDEX = [
     {
         'name': 'Glameow',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Fast',
+            'catchRate': 190,
+            'growthRate': 'Fast',
             'hp': 49,
             'attack': 55,
             'defense': 42,
-            'sp atk': 42,
-            'sp def': 37,
+            'spAtk': 42,
+            'spDef': 37,
             'speed': 85,
             'types': [
                 'Normal',
@@ -7962,13 +7962,13 @@ export const POKEDEX = [
     {
         'name': 'Purugly',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 71,
             'attack': 82,
             'defense': 64,
-            'sp atk': 64,
-            'sp def': 59,
+            'spAtk': 64,
+            'spDef': 59,
             'speed': 112,
             'types': [
                 'Normal',
@@ -7980,13 +7980,13 @@ export const POKEDEX = [
     {
         'name': 'Chingling',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Fast',
+            'catchRate': 120,
+            'growthRate': 'Fast',
             'hp': 45,
             'attack': 30,
             'defense': 50,
-            'sp atk': 65,
-            'sp def': 50,
+            'spAtk': 65,
+            'spDef': 50,
             'speed': 45,
             'types': [
                 'Psychic',
@@ -7998,13 +7998,13 @@ export const POKEDEX = [
     {
         'name': 'Stunky',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 63,
             'attack': 63,
             'defense': 47,
-            'sp atk': 41,
-            'sp def': 41,
+            'spAtk': 41,
+            'spDef': 41,
             'speed': 74,
             'types': [
                 'Poison',
@@ -8017,13 +8017,13 @@ export const POKEDEX = [
     {
         'name': 'Skuntank',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 103,
             'attack': 93,
             'defense': 67,
-            'sp atk': 71,
-            'sp def': 61,
+            'spAtk': 71,
+            'spDef': 61,
             'speed': 84,
             'types': [
                 'Poison',
@@ -8036,13 +8036,13 @@ export const POKEDEX = [
     {
         'name': 'Bronzor',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 57,
             'attack': 24,
             'defense': 86,
-            'sp atk': 24,
-            'sp def': 86,
+            'spAtk': 24,
+            'spDef': 86,
             'speed': 23,
             'types': [
                 'Steel',
@@ -8055,13 +8055,13 @@ export const POKEDEX = [
     {
         'name': 'Bronzong',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 67,
             'attack': 89,
             'defense': 116,
-            'sp atk': 79,
-            'sp def': 116,
+            'spAtk': 79,
+            'spDef': 116,
             'speed': 33,
             'types': [
                 'Steel',
@@ -8074,13 +8074,13 @@ export const POKEDEX = [
     {
         'name': 'Bonsly',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 80,
             'defense': 95,
-            'sp atk': 10,
-            'sp def': 45,
+            'spAtk': 10,
+            'spDef': 45,
             'speed': 10,
             'types': [
                 'Rock',
@@ -8092,13 +8092,13 @@ export const POKEDEX = [
     {
         'name': 'Mime Jr.',
         'stats': {
-            'catch rate': 145,
-            'growth rate': 'Medium Fast',
+            'catchRate': 145,
+            'growthRate': 'MediumFast',
             'hp': 20,
             'attack': 25,
             'defense': 45,
-            'sp atk': 70,
-            'sp def': 90,
+            'spAtk': 70,
+            'spDef': 90,
             'speed': 60,
             'types': [
                 'Psychic',
@@ -8111,13 +8111,13 @@ export const POKEDEX = [
     {
         'name': 'Happiny',
         'stats': {
-            'catch rate': 130,
-            'growth rate': 'Fast',
+            'catchRate': 130,
+            'growthRate': 'Fast',
             'hp': 100,
             'attack': 5,
             'defense': 5,
-            'sp atk': 15,
-            'sp def': 65,
+            'spAtk': 15,
+            'spDef': 65,
             'speed': 30,
             'types': [
                 'Normal',
@@ -8129,13 +8129,13 @@ export const POKEDEX = [
     {
         'name': 'Chatot',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 76,
             'attack': 65,
             'defense': 45,
-            'sp atk': 92,
-            'sp def': 42,
+            'spAtk': 92,
+            'spDef': 42,
             'speed': 91,
             'types': [
                 'Normal',
@@ -8148,13 +8148,13 @@ export const POKEDEX = [
     {
         'name': 'Spiritomb',
         'stats': {
-            'catch rate': 100,
-            'growth rate': 'Medium Fast',
+            'catchRate': 100,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 92,
             'defense': 108,
-            'sp atk': 92,
-            'sp def': 108,
+            'spAtk': 92,
+            'spDef': 108,
             'speed': 35,
             'types': [
                 'Ghost',
@@ -8167,13 +8167,13 @@ export const POKEDEX = [
     {
         'name': 'Gible',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 58,
             'attack': 70,
             'defense': 45,
-            'sp atk': 40,
-            'sp def': 45,
+            'spAtk': 40,
+            'spDef': 45,
             'speed': 42,
             'types': [
                 'Dragon',
@@ -8186,13 +8186,13 @@ export const POKEDEX = [
     {
         'name': 'Gabite',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 90,
             'defense': 65,
-            'sp atk': 50,
-            'sp def': 55,
+            'spAtk': 50,
+            'spDef': 55,
             'speed': 82,
             'types': [
                 'Dragon',
@@ -8205,13 +8205,13 @@ export const POKEDEX = [
     {
         'name': 'Garchomp',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 108,
             'attack': 130,
             'defense': 95,
-            'sp atk': 80,
-            'sp def': 85,
+            'spAtk': 80,
+            'spDef': 85,
             'speed': 102,
             'types': [
                 'Dragon',
@@ -8224,13 +8224,13 @@ export const POKEDEX = [
     {
         'name': 'Munchlax',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Slow',
+            'catchRate': 50,
+            'growthRate': 'Slow',
             'hp': 135,
             'attack': 85,
             'defense': 40,
-            'sp atk': 40,
-            'sp def': 85,
+            'spAtk': 40,
+            'spDef': 85,
             'speed': 5,
             'types': [
                 'Normal',
@@ -8242,13 +8242,13 @@ export const POKEDEX = [
     {
         'name': 'Riolu',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Slow',
+            'catchRate': 75,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 70,
             'defense': 40,
-            'sp atk': 35,
-            'sp def': 40,
+            'spAtk': 35,
+            'spDef': 40,
             'speed': 60,
             'types': [
                 'Fighting',
@@ -8260,13 +8260,13 @@ export const POKEDEX = [
     {
         'name': 'Lucario',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 110,
             'defense': 70,
-            'sp atk': 115,
-            'sp def': 70,
+            'spAtk': 115,
+            'spDef': 70,
             'speed': 90,
             'types': [
                 'Fighting',
@@ -8279,13 +8279,13 @@ export const POKEDEX = [
     {
         'name': 'Hippopotas',
         'stats': {
-            'catch rate': 140,
-            'growth rate': 'Slow',
+            'catchRate': 140,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 72,
             'defense': 78,
-            'sp atk': 38,
-            'sp def': 42,
+            'spAtk': 38,
+            'spDef': 42,
             'speed': 32,
             'types': [
                 'Ground',
@@ -8297,13 +8297,13 @@ export const POKEDEX = [
     {
         'name': 'Hippowdon',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 108,
             'attack': 112,
             'defense': 118,
-            'sp atk': 68,
-            'sp def': 72,
+            'spAtk': 68,
+            'spDef': 72,
             'speed': 47,
             'types': [
                 'Ground',
@@ -8315,13 +8315,13 @@ export const POKEDEX = [
     {
         'name': 'Skorupi',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 40,
             'attack': 50,
             'defense': 90,
-            'sp atk': 30,
-            'sp def': 55,
+            'spAtk': 30,
+            'spDef': 55,
             'speed': 65,
             'types': [
                 'Poison',
@@ -8334,13 +8334,13 @@ export const POKEDEX = [
     {
         'name': 'Drapion',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 90,
             'defense': 110,
-            'sp atk': 60,
-            'sp def': 75,
+            'spAtk': 60,
+            'spDef': 75,
             'speed': 95,
             'types': [
                 'Poison',
@@ -8353,13 +8353,13 @@ export const POKEDEX = [
     {
         'name': 'Croagunk',
         'stats': {
-            'catch rate': 140,
-            'growth rate': 'Medium Fast',
+            'catchRate': 140,
+            'growthRate': 'MediumFast',
             'hp': 48,
             'attack': 61,
             'defense': 40,
-            'sp atk': 61,
-            'sp def': 40,
+            'spAtk': 61,
+            'spDef': 40,
             'speed': 50,
             'types': [
                 'Poison',
@@ -8372,13 +8372,13 @@ export const POKEDEX = [
     {
         'name': 'Toxicroak',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 83,
             'attack': 106,
             'defense': 65,
-            'sp atk': 86,
-            'sp def': 65,
+            'spAtk': 86,
+            'spDef': 65,
             'speed': 85,
             'types': [
                 'Poison',
@@ -8391,13 +8391,13 @@ export const POKEDEX = [
     {
         'name': 'Carnivine',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Slow',
+            'catchRate': 200,
+            'growthRate': 'Slow',
             'hp': 74,
             'attack': 100,
             'defense': 72,
-            'sp atk': 90,
-            'sp def': 72,
+            'spAtk': 90,
+            'spDef': 72,
             'speed': 46,
             'types': [
                 'Grass',
@@ -8409,13 +8409,13 @@ export const POKEDEX = [
     {
         'name': 'Finneon',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 49,
             'attack': 49,
             'defense': 56,
-            'sp atk': 49,
-            'sp def': 61,
+            'spAtk': 49,
+            'spDef': 61,
             'speed': 66,
             'types': [
                 'Water',
@@ -8427,13 +8427,13 @@ export const POKEDEX = [
     {
         'name': 'Lumineon',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Slow',
+            'catchRate': 75,
+            'growthRate': 'Slow',
             'hp': 69,
             'attack': 69,
             'defense': 76,
-            'sp atk': 69,
-            'sp def': 86,
+            'spAtk': 69,
+            'spDef': 86,
             'speed': 91,
             'types': [
                 'Water',
@@ -8445,13 +8445,13 @@ export const POKEDEX = [
     {
         'name': 'Mantyke',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 20,
             'defense': 50,
-            'sp atk': 60,
-            'sp def': 120,
+            'spAtk': 60,
+            'spDef': 120,
             'speed': 50,
             'types': [
                 'Water',
@@ -8464,13 +8464,13 @@ export const POKEDEX = [
     {
         'name': 'Snover',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 60,
             'attack': 62,
             'defense': 50,
-            'sp atk': 62,
-            'sp def': 60,
+            'spAtk': 62,
+            'spDef': 60,
             'speed': 40,
             'types': [
                 'Grass',
@@ -8483,13 +8483,13 @@ export const POKEDEX = [
     {
         'name': 'Abomasnow',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 92,
             'defense': 75,
-            'sp atk': 92,
-            'sp def': 85,
+            'spAtk': 92,
+            'spDef': 85,
             'speed': 60,
             'types': [
                 'Grass',
@@ -8502,13 +8502,13 @@ export const POKEDEX = [
     {
         'name': 'Weavile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 120,
             'defense': 65,
-            'sp atk': 45,
-            'sp def': 85,
+            'spAtk': 45,
+            'spDef': 85,
             'speed': 125,
             'types': [
                 'Dark',
@@ -8521,13 +8521,13 @@ export const POKEDEX = [
     {
         'name': 'Magnezone',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 70,
             'defense': 115,
-            'sp atk': 130,
-            'sp def': 90,
+            'spAtk': 130,
+            'spDef': 90,
             'speed': 60,
             'types': [
                 'Electric',
@@ -8540,13 +8540,13 @@ export const POKEDEX = [
     {
         'name': 'Lickilicky',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 110,
             'attack': 85,
             'defense': 95,
-            'sp atk': 80,
-            'sp def': 95,
+            'spAtk': 80,
+            'spDef': 95,
             'speed': 50,
             'types': [
                 'Normal',
@@ -8558,13 +8558,13 @@ export const POKEDEX = [
     {
         'name': 'Rhyperior',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Slow',
+            'catchRate': 30,
+            'growthRate': 'Slow',
             'hp': 115,
             'attack': 140,
             'defense': 130,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 40,
             'types': [
                 'Ground',
@@ -8577,13 +8577,13 @@ export const POKEDEX = [
     {
         'name': 'Tangrowth',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 100,
             'attack': 100,
             'defense': 125,
-            'sp atk': 110,
-            'sp def': 50,
+            'spAtk': 110,
+            'spDef': 50,
             'speed': 50,
             'types': [
                 'Grass',
@@ -8595,13 +8595,13 @@ export const POKEDEX = [
     {
         'name': 'Electivire',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 123,
             'defense': 67,
-            'sp atk': 95,
-            'sp def': 85,
+            'spAtk': 95,
+            'spDef': 85,
             'speed': 95,
             'types': [
                 'Electric',
@@ -8613,13 +8613,13 @@ export const POKEDEX = [
     {
         'name': 'Magmortar',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 95,
             'defense': 67,
-            'sp atk': 125,
-            'sp def': 95,
+            'spAtk': 125,
+            'spDef': 95,
             'speed': 83,
             'types': [
                 'Fire',
@@ -8631,13 +8631,13 @@ export const POKEDEX = [
     {
         'name': 'Togekiss',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Fast',
+            'catchRate': 30,
+            'growthRate': 'Fast',
             'hp': 85,
             'attack': 50,
             'defense': 95,
-            'sp atk': 120,
-            'sp def': 115,
+            'spAtk': 120,
+            'spDef': 115,
             'speed': 80,
             'types': [
                 'Fairy',
@@ -8650,13 +8650,13 @@ export const POKEDEX = [
     {
         'name': 'Yanmega',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 86,
             'attack': 76,
             'defense': 86,
-            'sp atk': 116,
-            'sp def': 56,
+            'spAtk': 116,
+            'spDef': 56,
             'speed': 95,
             'types': [
                 'Bug',
@@ -8669,13 +8669,13 @@ export const POKEDEX = [
     {
         'name': 'Leafeon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 110,
             'defense': 130,
-            'sp atk': 60,
-            'sp def': 65,
+            'spAtk': 60,
+            'spDef': 65,
             'speed': 95,
             'types': [
                 'Grass',
@@ -8687,13 +8687,13 @@ export const POKEDEX = [
     {
         'name': 'Glaceon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 60,
             'defense': 110,
-            'sp atk': 130,
-            'sp def': 95,
+            'spAtk': 130,
+            'spDef': 95,
             'speed': 65,
             'types': [
                 'Ice',
@@ -8705,13 +8705,13 @@ export const POKEDEX = [
     {
         'name': 'Gliscor',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 95,
             'defense': 125,
-            'sp atk': 45,
-            'sp def': 75,
+            'spAtk': 45,
+            'spDef': 75,
             'speed': 95,
             'types': [
                 'Ground',
@@ -8724,13 +8724,13 @@ export const POKEDEX = [
     {
         'name': 'Mamoswine',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Slow',
+            'catchRate': 50,
+            'growthRate': 'Slow',
             'hp': 110,
             'attack': 130,
             'defense': 80,
-            'sp atk': 70,
-            'sp def': 60,
+            'spAtk': 70,
+            'spDef': 60,
             'speed': 80,
             'types': [
                 'Ice',
@@ -8743,13 +8743,13 @@ export const POKEDEX = [
     {
         'name': 'Porygon-Z',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Fast',
+            'catchRate': 30,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 80,
             'defense': 70,
-            'sp atk': 135,
-            'sp def': 75,
+            'spAtk': 135,
+            'spDef': 75,
             'speed': 90,
             'types': [
                 'Normal',
@@ -8761,13 +8761,13 @@ export const POKEDEX = [
     {
         'name': 'Gallade',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 125,
             'defense': 65,
-            'sp atk': 65,
-            'sp def': 115,
+            'spAtk': 65,
+            'spDef': 115,
             'speed': 80,
             'types': [
                 'Psychic',
@@ -8780,13 +8780,13 @@ export const POKEDEX = [
     {
         'name': 'Probopass',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 55,
             'defense': 145,
-            'sp atk': 75,
-            'sp def': 150,
+            'spAtk': 75,
+            'spDef': 150,
             'speed': 40,
             'types': [
                 'Rock',
@@ -8799,13 +8799,13 @@ export const POKEDEX = [
     {
         'name': 'Dusknoir',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 45,
             'attack': 100,
             'defense': 135,
-            'sp atk': 65,
-            'sp def': 135,
+            'spAtk': 65,
+            'spDef': 135,
             'speed': 45,
             'types': [
                 'Ghost',
@@ -8817,13 +8817,13 @@ export const POKEDEX = [
     {
         'name': 'Froslass',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 80,
             'defense': 70,
-            'sp atk': 80,
-            'sp def': 70,
+            'spAtk': 80,
+            'spDef': 70,
             'speed': 110,
             'types': [
                 'Ice',
@@ -8836,13 +8836,13 @@ export const POKEDEX = [
     {
         'name': 'Rotom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 50,
             'defense': 77,
-            'sp atk': 95,
-            'sp def': 77,
+            'spAtk': 95,
+            'spDef': 77,
             'speed': 91,
             'types': [
                 'Electric',
@@ -8855,13 +8855,13 @@ export const POKEDEX = [
     {
         'name': 'Uxie',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 75,
             'defense': 130,
-            'sp atk': 75,
-            'sp def': 130,
+            'spAtk': 75,
+            'spDef': 130,
             'speed': 95,
             'types': [
                 'Psychic',
@@ -8873,13 +8873,13 @@ export const POKEDEX = [
     {
         'name': 'Mesprit',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 105,
             'defense': 105,
-            'sp atk': 105,
-            'sp def': 105,
+            'spAtk': 105,
+            'spDef': 105,
             'speed': 80,
             'types': [
                 'Psychic',
@@ -8891,13 +8891,13 @@ export const POKEDEX = [
     {
         'name': 'Azelf',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 125,
             'defense': 70,
-            'sp atk': 125,
-            'sp def': 70,
+            'spAtk': 125,
+            'spDef': 70,
             'speed': 115,
             'types': [
                 'Psychic',
@@ -8909,13 +8909,13 @@ export const POKEDEX = [
     {
         'name': 'Dialga',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Slow',
+            'catchRate': 30,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 120,
             'defense': 120,
-            'sp atk': 150,
-            'sp def': 100,
+            'spAtk': 150,
+            'spDef': 100,
             'speed': 90,
             'types': [
                 'Steel',
@@ -8928,13 +8928,13 @@ export const POKEDEX = [
     {
         'name': 'Palkia',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Slow',
+            'catchRate': 30,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 120,
             'defense': 100,
-            'sp atk': 150,
-            'sp def': 120,
+            'spAtk': 150,
+            'spDef': 120,
             'speed': 100,
             'types': [
                 'Water',
@@ -8947,13 +8947,13 @@ export const POKEDEX = [
     {
         'name': 'Heatran',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 90,
             'defense': 106,
-            'sp atk': 130,
-            'sp def': 106,
+            'spAtk': 130,
+            'spDef': 106,
             'speed': 77,
             'types': [
                 'Fire',
@@ -8966,13 +8966,13 @@ export const POKEDEX = [
     {
         'name': 'Regigigas',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 110,
             'attack': 160,
             'defense': 110,
-            'sp atk': 80,
-            'sp def': 110,
+            'spAtk': 80,
+            'spDef': 110,
             'speed': 100,
             'types': [
                 'Normal',
@@ -8984,13 +8984,13 @@ export const POKEDEX = [
     {
         'name': 'Giratina',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 150,
             'attack': 100,
             'defense': 120,
-            'sp atk': 100,
-            'sp def': 120,
+            'spAtk': 100,
+            'spDef': 120,
             'speed': 90,
             'types': [
                 'Ghost',
@@ -9003,13 +9003,13 @@ export const POKEDEX = [
     {
         'name': 'Cresselia',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 120,
             'attack': 70,
             'defense': 120,
-            'sp atk': 75,
-            'sp def': 130,
+            'spAtk': 75,
+            'spDef': 130,
             'speed': 85,
             'types': [
                 'Psychic',
@@ -9021,13 +9021,13 @@ export const POKEDEX = [
     {
         'name': 'Phione',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Slow',
+            'catchRate': 30,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 80,
             'defense': 80,
-            'sp atk': 80,
-            'sp def': 80,
+            'spAtk': 80,
+            'spDef': 80,
             'speed': 80,
             'types': [
                 'Water',
@@ -9039,13 +9039,13 @@ export const POKEDEX = [
     {
         'name': 'Manaphy',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 100,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Water',
@@ -9057,13 +9057,13 @@ export const POKEDEX = [
     {
         'name': 'Darkrai',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 90,
             'defense': 90,
-            'sp atk': 135,
-            'sp def': 90,
+            'spAtk': 135,
+            'spDef': 90,
             'speed': 125,
             'types': [
                 'Dark',
@@ -9075,13 +9075,13 @@ export const POKEDEX = [
     {
         'name': 'Shaymin',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 100,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Grass',
@@ -9093,13 +9093,13 @@ export const POKEDEX = [
     {
         'name': 'Arceus',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 120,
             'attack': 120,
             'defense': 120,
-            'sp atk': 120,
-            'sp def': 120,
+            'spAtk': 120,
+            'spDef': 120,
             'speed': 120,
             'types': [
                 'Normal',
@@ -9111,13 +9111,13 @@ export const POKEDEX = [
     {
         'name': 'Victini',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 100,
             'defense': 100,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 100,
             'types': [
                 'Psychic',
@@ -9130,13 +9130,13 @@ export const POKEDEX = [
     {
         'name': 'Snivy',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 45,
             'defense': 55,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 63,
             'types': [
                 'Grass',
@@ -9148,13 +9148,13 @@ export const POKEDEX = [
     {
         'name': 'Servine',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 60,
             'defense': 75,
-            'sp atk': 60,
-            'sp def': 75,
+            'spAtk': 60,
+            'spDef': 75,
             'speed': 83,
             'types': [
                 'Grass',
@@ -9166,13 +9166,13 @@ export const POKEDEX = [
     {
         'name': 'Serperior',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 75,
             'defense': 95,
-            'sp atk': 75,
-            'sp def': 95,
+            'spAtk': 75,
+            'spDef': 95,
             'speed': 113,
             'types': [
                 'Grass',
@@ -9184,13 +9184,13 @@ export const POKEDEX = [
     {
         'name': 'Tepig',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 63,
             'defense': 45,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 45,
             'types': [
                 'Fire',
@@ -9202,13 +9202,13 @@ export const POKEDEX = [
     {
         'name': 'Pignite',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 90,
             'attack': 93,
             'defense': 55,
-            'sp atk': 70,
-            'sp def': 55,
+            'spAtk': 70,
+            'spDef': 55,
             'speed': 55,
             'types': [
                 'Fire',
@@ -9221,13 +9221,13 @@ export const POKEDEX = [
     {
         'name': 'Emboar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 110,
             'attack': 123,
             'defense': 65,
-            'sp atk': 100,
-            'sp def': 65,
+            'spAtk': 100,
+            'spDef': 65,
             'speed': 65,
             'types': [
                 'Fire',
@@ -9240,13 +9240,13 @@ export const POKEDEX = [
     {
         'name': 'Oshawott',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 55,
             'defense': 45,
-            'sp atk': 63,
-            'sp def': 45,
+            'spAtk': 63,
+            'spDef': 45,
             'speed': 45,
             'types': [
                 'Water',
@@ -9258,13 +9258,13 @@ export const POKEDEX = [
     {
         'name': 'Dewott',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 75,
             'defense': 60,
-            'sp atk': 83,
-            'sp def': 60,
+            'spAtk': 83,
+            'spDef': 60,
             'speed': 60,
             'types': [
                 'Water',
@@ -9276,13 +9276,13 @@ export const POKEDEX = [
     {
         'name': 'Samurott',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 95,
             'attack': 100,
             'defense': 85,
-            'sp atk': 108,
-            'sp def': 70,
+            'spAtk': 108,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Water',
@@ -9294,13 +9294,13 @@ export const POKEDEX = [
     {
         'name': 'Patrat',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 55,
             'defense': 39,
-            'sp atk': 35,
-            'sp def': 39,
+            'spAtk': 35,
+            'spDef': 39,
             'speed': 42,
             'types': [
                 'Normal',
@@ -9312,13 +9312,13 @@ export const POKEDEX = [
     {
         'name': 'Watchog',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 85,
             'defense': 69,
-            'sp atk': 60,
-            'sp def': 69,
+            'spAtk': 60,
+            'spDef': 69,
             'speed': 77,
             'types': [
                 'Normal',
@@ -9330,13 +9330,13 @@ export const POKEDEX = [
     {
         'name': 'Lillipup',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 60,
             'defense': 45,
-            'sp atk': 25,
-            'sp def': 45,
+            'spAtk': 25,
+            'spDef': 45,
             'speed': 55,
             'types': [
                 'Normal',
@@ -9348,13 +9348,13 @@ export const POKEDEX = [
     {
         'name': 'Herdier',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 80,
             'defense': 65,
-            'sp atk': 35,
-            'sp def': 65,
+            'spAtk': 35,
+            'spDef': 65,
             'speed': 60,
             'types': [
                 'Normal',
@@ -9366,13 +9366,13 @@ export const POKEDEX = [
     {
         'name': 'Stoutland',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 85,
             'attack': 110,
             'defense': 90,
-            'sp atk': 45,
-            'sp def': 90,
+            'spAtk': 45,
+            'spDef': 90,
             'speed': 80,
             'types': [
                 'Normal',
@@ -9384,13 +9384,13 @@ export const POKEDEX = [
     {
         'name': 'Purrloin',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 41,
             'attack': 50,
             'defense': 37,
-            'sp atk': 50,
-            'sp def': 37,
+            'spAtk': 50,
+            'spDef': 37,
             'speed': 66,
             'types': [
                 'Dark',
@@ -9402,13 +9402,13 @@ export const POKEDEX = [
     {
         'name': 'Liepard',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 64,
             'attack': 88,
             'defense': 50,
-            'sp atk': 88,
-            'sp def': 50,
+            'spAtk': 88,
+            'spDef': 50,
             'speed': 106,
             'types': [
                 'Dark',
@@ -9420,13 +9420,13 @@ export const POKEDEX = [
     {
         'name': 'Pansage',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 53,
             'defense': 48,
-            'sp atk': 53,
-            'sp def': 48,
+            'spAtk': 53,
+            'spDef': 48,
             'speed': 64,
             'types': [
                 'Grass',
@@ -9438,13 +9438,13 @@ export const POKEDEX = [
     {
         'name': 'Simisage',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 98,
             'defense': 63,
-            'sp atk': 98,
-            'sp def': 63,
+            'spAtk': 98,
+            'spDef': 63,
             'speed': 101,
             'types': [
                 'Grass',
@@ -9456,13 +9456,13 @@ export const POKEDEX = [
     {
         'name': 'Pansear',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 53,
             'defense': 48,
-            'sp atk': 53,
-            'sp def': 48,
+            'spAtk': 53,
+            'spDef': 48,
             'speed': 64,
             'types': [
                 'Fire',
@@ -9474,13 +9474,13 @@ export const POKEDEX = [
     {
         'name': 'Simisear',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 98,
             'defense': 63,
-            'sp atk': 98,
-            'sp def': 63,
+            'spAtk': 98,
+            'spDef': 63,
             'speed': 101,
             'types': [
                 'Fire',
@@ -9492,13 +9492,13 @@ export const POKEDEX = [
     {
         'name': 'Panpour',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 53,
             'defense': 48,
-            'sp atk': 53,
-            'sp def': 48,
+            'spAtk': 53,
+            'spDef': 48,
             'speed': 64,
             'types': [
                 'Water',
@@ -9510,13 +9510,13 @@ export const POKEDEX = [
     {
         'name': 'Simipour',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 98,
             'defense': 63,
-            'sp atk': 98,
-            'sp def': 63,
+            'spAtk': 98,
+            'spDef': 63,
             'speed': 101,
             'types': [
                 'Water',
@@ -9528,13 +9528,13 @@ export const POKEDEX = [
     {
         'name': 'Munna',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Fast',
+            'catchRate': 190,
+            'growthRate': 'Fast',
             'hp': 76,
             'attack': 25,
             'defense': 45,
-            'sp atk': 67,
-            'sp def': 55,
+            'spAtk': 67,
+            'spDef': 55,
             'speed': 24,
             'types': [
                 'Psychic',
@@ -9546,13 +9546,13 @@ export const POKEDEX = [
     {
         'name': 'Musharna',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 116,
             'attack': 55,
             'defense': 85,
-            'sp atk': 107,
-            'sp def': 95,
+            'spAtk': 107,
+            'spDef': 95,
             'speed': 29,
             'types': [
                 'Psychic',
@@ -9564,13 +9564,13 @@ export const POKEDEX = [
     {
         'name': 'Pidove',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 55,
             'defense': 50,
-            'sp atk': 36,
-            'sp def': 30,
+            'spAtk': 36,
+            'spDef': 30,
             'speed': 43,
             'types': [
                 'Normal',
@@ -9583,13 +9583,13 @@ export const POKEDEX = [
     {
         'name': 'Tranquill',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 62,
             'attack': 77,
             'defense': 62,
-            'sp atk': 50,
-            'sp def': 42,
+            'spAtk': 50,
+            'spDef': 42,
             'speed': 65,
             'types': [
                 'Normal',
@@ -9602,13 +9602,13 @@ export const POKEDEX = [
     {
         'name': 'Unfezant',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 115,
             'defense': 80,
-            'sp atk': 65,
-            'sp def': 55,
+            'spAtk': 65,
+            'spDef': 55,
             'speed': 93,
             'types': [
                 'Normal',
@@ -9621,13 +9621,13 @@ export const POKEDEX = [
     {
         'name': 'Blitzle',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 60,
             'defense': 32,
-            'sp atk': 50,
-            'sp def': 32,
+            'spAtk': 50,
+            'spDef': 32,
             'speed': 76,
             'types': [
                 'Electric',
@@ -9639,13 +9639,13 @@ export const POKEDEX = [
     {
         'name': 'Zebstrika',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 100,
             'defense': 63,
-            'sp atk': 80,
-            'sp def': 63,
+            'spAtk': 80,
+            'spDef': 63,
             'speed': 116,
             'types': [
                 'Electric',
@@ -9657,13 +9657,13 @@ export const POKEDEX = [
     {
         'name': 'Roggenrola',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 75,
             'defense': 85,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 15,
             'types': [
                 'Rock',
@@ -9675,13 +9675,13 @@ export const POKEDEX = [
     {
         'name': 'Boldore',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 105,
             'defense': 105,
-            'sp atk': 50,
-            'sp def': 40,
+            'spAtk': 50,
+            'spDef': 40,
             'speed': 20,
             'types': [
                 'Rock',
@@ -9693,13 +9693,13 @@ export const POKEDEX = [
     {
         'name': 'Gigalith',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 85,
             'attack': 135,
             'defense': 130,
-            'sp atk': 60,
-            'sp def': 80,
+            'spAtk': 60,
+            'spDef': 80,
             'speed': 25,
             'types': [
                 'Rock',
@@ -9711,13 +9711,13 @@ export const POKEDEX = [
     {
         'name': 'Woobat',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 45,
             'defense': 43,
-            'sp atk': 55,
-            'sp def': 43,
+            'spAtk': 55,
+            'spDef': 43,
             'speed': 72,
             'types': [
                 'Psychic',
@@ -9730,13 +9730,13 @@ export const POKEDEX = [
     {
         'name': 'Swoobat',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 67,
             'attack': 57,
             'defense': 55,
-            'sp atk': 77,
-            'sp def': 55,
+            'spAtk': 77,
+            'spDef': 55,
             'speed': 114,
             'types': [
                 'Psychic',
@@ -9749,13 +9749,13 @@ export const POKEDEX = [
     {
         'name': 'Drilbur',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 85,
             'defense': 40,
-            'sp atk': 30,
-            'sp def': 45,
+            'spAtk': 30,
+            'spDef': 45,
             'speed': 68,
             'types': [
                 'Ground',
@@ -9767,13 +9767,13 @@ export const POKEDEX = [
     {
         'name': 'Excadrill',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 110,
             'attack': 135,
             'defense': 60,
-            'sp atk': 50,
-            'sp def': 65,
+            'spAtk': 50,
+            'spDef': 65,
             'speed': 88,
             'types': [
                 'Ground',
@@ -9786,13 +9786,13 @@ export const POKEDEX = [
     {
         'name': 'Audino',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 103,
             'attack': 60,
             'defense': 86,
-            'sp atk': 60,
-            'sp def': 86,
+            'spAtk': 60,
+            'spDef': 86,
             'speed': 50,
             'types': [
                 'Normal',
@@ -9804,13 +9804,13 @@ export const POKEDEX = [
     {
         'name': 'Timburr',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Slow',
+            'catchRate': 180,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 80,
             'defense': 55,
-            'sp atk': 25,
-            'sp def': 35,
+            'spAtk': 25,
+            'spDef': 35,
             'speed': 35,
             'types': [
                 'Fighting',
@@ -9822,13 +9822,13 @@ export const POKEDEX = [
     {
         'name': 'Gurdurr',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Slow',
+            'catchRate': 90,
+            'growthRate': 'MediumSlow',
             'hp': 85,
             'attack': 105,
             'defense': 85,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 40,
             'types': [
                 'Fighting',
@@ -9840,13 +9840,13 @@ export const POKEDEX = [
     {
         'name': 'Conkeldurr',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 105,
             'attack': 140,
             'defense': 95,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 45,
             'types': [
                 'Fighting',
@@ -9858,13 +9858,13 @@ export const POKEDEX = [
     {
         'name': 'Tympole',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 50,
             'defense': 40,
-            'sp atk': 50,
-            'sp def': 40,
+            'spAtk': 50,
+            'spDef': 40,
             'speed': 64,
             'types': [
                 'Water',
@@ -9876,13 +9876,13 @@ export const POKEDEX = [
     {
         'name': 'Palpitoad',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 65,
             'defense': 55,
-            'sp atk': 65,
-            'sp def': 55,
+            'spAtk': 65,
+            'spDef': 55,
             'speed': 69,
             'types': [
                 'Water',
@@ -9895,13 +9895,13 @@ export const POKEDEX = [
     {
         'name': 'Seismitoad',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 105,
             'attack': 95,
             'defense': 75,
-            'sp atk': 85,
-            'sp def': 75,
+            'spAtk': 85,
+            'spDef': 75,
             'speed': 74,
             'types': [
                 'Water',
@@ -9914,13 +9914,13 @@ export const POKEDEX = [
     {
         'name': 'Throh',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 120,
             'attack': 100,
             'defense': 85,
-            'sp atk': 30,
-            'sp def': 85,
+            'spAtk': 30,
+            'spDef': 85,
             'speed': 45,
             'types': [
                 'Fighting',
@@ -9932,13 +9932,13 @@ export const POKEDEX = [
     {
         'name': 'Sawk',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 125,
             'defense': 75,
-            'sp atk': 30,
-            'sp def': 75,
+            'spAtk': 30,
+            'spDef': 75,
             'speed': 85,
             'types': [
                 'Fighting',
@@ -9950,13 +9950,13 @@ export const POKEDEX = [
     {
         'name': 'Sewaddle',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 53,
             'defense': 70,
-            'sp atk': 40,
-            'sp def': 60,
+            'spAtk': 40,
+            'spDef': 60,
             'speed': 42,
             'types': [
                 'Bug',
@@ -9969,13 +9969,13 @@ export const POKEDEX = [
     {
         'name': 'Swadloon',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 55,
             'attack': 63,
             'defense': 90,
-            'sp atk': 50,
-            'sp def': 80,
+            'spAtk': 50,
+            'spDef': 80,
             'speed': 42,
             'types': [
                 'Bug',
@@ -9988,13 +9988,13 @@ export const POKEDEX = [
     {
         'name': 'Leavanny',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 103,
             'defense': 80,
-            'sp atk': 70,
-            'sp def': 80,
+            'spAtk': 70,
+            'spDef': 80,
             'speed': 92,
             'types': [
                 'Bug',
@@ -10007,13 +10007,13 @@ export const POKEDEX = [
     {
         'name': 'Venipede',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 30,
             'attack': 45,
             'defense': 59,
-            'sp atk': 30,
-            'sp def': 39,
+            'spAtk': 30,
+            'spDef': 39,
             'speed': 57,
             'types': [
                 'Bug',
@@ -10026,13 +10026,13 @@ export const POKEDEX = [
     {
         'name': 'Whirlipede',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 55,
             'defense': 99,
-            'sp atk': 40,
-            'sp def': 79,
+            'spAtk': 40,
+            'spDef': 79,
             'speed': 47,
             'types': [
                 'Bug',
@@ -10045,13 +10045,13 @@ export const POKEDEX = [
     {
         'name': 'Scolipede',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 100,
             'defense': 89,
-            'sp atk': 55,
-            'sp def': 69,
+            'spAtk': 55,
+            'spDef': 69,
             'speed': 112,
             'types': [
                 'Bug',
@@ -10064,13 +10064,13 @@ export const POKEDEX = [
     {
         'name': 'Cottonee',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 27,
             'defense': 60,
-            'sp atk': 37,
-            'sp def': 50,
+            'spAtk': 37,
+            'spDef': 50,
             'speed': 66,
             'types': [
                 'Grass',
@@ -10083,13 +10083,13 @@ export const POKEDEX = [
     {
         'name': 'Whimsicott',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 67,
             'defense': 85,
-            'sp atk': 77,
-            'sp def': 75,
+            'spAtk': 77,
+            'spDef': 75,
             'speed': 116,
             'types': [
                 'Grass',
@@ -10102,13 +10102,13 @@ export const POKEDEX = [
     {
         'name': 'Petilil',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 35,
             'defense': 50,
-            'sp atk': 70,
-            'sp def': 50,
+            'spAtk': 70,
+            'spDef': 50,
             'speed': 30,
             'types': [
                 'Grass',
@@ -10120,13 +10120,13 @@ export const POKEDEX = [
     {
         'name': 'Lilligant',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 60,
             'defense': 75,
-            'sp atk': 110,
-            'sp def': 75,
+            'spAtk': 110,
+            'spDef': 75,
             'speed': 90,
             'types': [
                 'Grass',
@@ -10138,13 +10138,13 @@ export const POKEDEX = [
     {
         'name': 'Basculin',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
+            'catchRate': 25,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 92,
             'defense': 65,
-            'sp atk': 80,
-            'sp def': 55,
+            'spAtk': 80,
+            'spDef': 55,
             'speed': 98,
             'types': [
                 'Water',
@@ -10156,13 +10156,13 @@ export const POKEDEX = [
     {
         'name': 'Sandile',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Slow',
+            'catchRate': 180,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 72,
             'defense': 35,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 65,
             'types': [
                 'Ground',
@@ -10175,13 +10175,13 @@ export const POKEDEX = [
     {
         'name': 'Krokorok',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Slow',
+            'catchRate': 90,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 82,
             'defense': 45,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 74,
             'types': [
                 'Ground',
@@ -10194,13 +10194,13 @@ export const POKEDEX = [
     {
         'name': 'Krookodile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 95,
             'attack': 117,
             'defense': 80,
-            'sp atk': 65,
-            'sp def': 70,
+            'spAtk': 65,
+            'spDef': 70,
             'speed': 92,
             'types': [
                 'Ground',
@@ -10213,13 +10213,13 @@ export const POKEDEX = [
     {
         'name': 'Darumaka',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 90,
             'defense': 45,
-            'sp atk': 15,
-            'sp def': 45,
+            'spAtk': 15,
+            'spDef': 45,
             'speed': 50,
             'types': [
                 'Fire',
@@ -10231,13 +10231,13 @@ export const POKEDEX = [
     {
         'name': 'Darmanitan',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Slow',
+            'catchRate': 60,
+            'growthRate': 'MediumSlow',
             'hp': 105,
             'attack': 140,
             'defense': 55,
-            'sp atk': 30,
-            'sp def': 55,
+            'spAtk': 30,
+            'spDef': 55,
             'speed': 95,
             'types': [
                 'Fire',
@@ -10249,13 +10249,13 @@ export const POKEDEX = [
     {
         'name': 'Maractus',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 86,
             'defense': 67,
-            'sp atk': 106,
-            'sp def': 67,
+            'spAtk': 106,
+            'spDef': 67,
             'speed': 60,
             'types': [
                 'Grass',
@@ -10267,13 +10267,13 @@ export const POKEDEX = [
     {
         'name': 'Dwebble',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 85,
-            'sp atk': 35,
-            'sp def': 35,
+            'spAtk': 35,
+            'spDef': 35,
             'speed': 55,
             'types': [
                 'Bug',
@@ -10286,13 +10286,13 @@ export const POKEDEX = [
     {
         'name': 'Crustle',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 95,
             'defense': 125,
-            'sp atk': 65,
-            'sp def': 75,
+            'spAtk': 65,
+            'spDef': 75,
             'speed': 45,
             'types': [
                 'Bug',
@@ -10305,13 +10305,13 @@ export const POKEDEX = [
     {
         'name': 'Scraggy',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Fast',
+            'catchRate': 180,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 75,
             'defense': 70,
-            'sp atk': 35,
-            'sp def': 70,
+            'spAtk': 35,
+            'spDef': 70,
             'speed': 48,
             'types': [
                 'Dark',
@@ -10324,13 +10324,13 @@ export const POKEDEX = [
     {
         'name': 'Scrafty',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 90,
             'defense': 115,
-            'sp atk': 45,
-            'sp def': 115,
+            'spAtk': 45,
+            'spDef': 115,
             'speed': 58,
             'types': [
                 'Dark',
@@ -10343,13 +10343,13 @@ export const POKEDEX = [
     {
         'name': 'Sigilyph',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 72,
             'attack': 58,
             'defense': 80,
-            'sp atk': 103,
-            'sp def': 80,
+            'spAtk': 103,
+            'spDef': 80,
             'speed': 97,
             'types': [
                 'Psychic',
@@ -10362,13 +10362,13 @@ export const POKEDEX = [
     {
         'name': 'Yamask',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 38,
             'attack': 30,
             'defense': 85,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 30,
             'types': [
                 'Ghost',
@@ -10380,13 +10380,13 @@ export const POKEDEX = [
     {
         'name': 'Cofagrigus',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 58,
             'attack': 50,
             'defense': 145,
-            'sp atk': 95,
-            'sp def': 105,
+            'spAtk': 95,
+            'spDef': 105,
             'speed': 30,
             'types': [
                 'Ghost',
@@ -10398,13 +10398,13 @@ export const POKEDEX = [
     {
         'name': 'Tirtouga',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 54,
             'attack': 78,
             'defense': 103,
-            'sp atk': 53,
-            'sp def': 45,
+            'spAtk': 53,
+            'spDef': 45,
             'speed': 22,
             'types': [
                 'Water',
@@ -10417,13 +10417,13 @@ export const POKEDEX = [
     {
         'name': 'Carracosta',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 74,
             'attack': 108,
             'defense': 133,
-            'sp atk': 83,
-            'sp def': 65,
+            'spAtk': 83,
+            'spDef': 65,
             'speed': 32,
             'types': [
                 'Water',
@@ -10436,13 +10436,13 @@ export const POKEDEX = [
     {
         'name': 'Archen',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 112,
             'defense': 45,
-            'sp atk': 74,
-            'sp def': 45,
+            'spAtk': 74,
+            'spDef': 45,
             'speed': 70,
             'types': [
                 'Rock',
@@ -10455,13 +10455,13 @@ export const POKEDEX = [
     {
         'name': 'Archeops',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 140,
             'defense': 65,
-            'sp atk': 112,
-            'sp def': 65,
+            'spAtk': 112,
+            'spDef': 65,
             'speed': 110,
             'types': [
                 'Rock',
@@ -10474,13 +10474,13 @@ export const POKEDEX = [
     {
         'name': 'Trubbish',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 50,
             'defense': 62,
-            'sp atk': 40,
-            'sp def': 62,
+            'spAtk': 40,
+            'spDef': 62,
             'speed': 65,
             'types': [
                 'Poison',
@@ -10492,13 +10492,13 @@ export const POKEDEX = [
     {
         'name': 'Garbodor',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 95,
             'defense': 82,
-            'sp atk': 60,
-            'sp def': 82,
+            'spAtk': 60,
+            'spDef': 82,
             'speed': 75,
             'types': [
                 'Poison',
@@ -10510,13 +10510,13 @@ export const POKEDEX = [
     {
         'name': 'Zorua',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Slow',
+            'catchRate': 75,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 65,
             'defense': 40,
-            'sp atk': 80,
-            'sp def': 40,
+            'spAtk': 80,
+            'spDef': 40,
             'speed': 65,
             'types': [
                 'Dark',
@@ -10528,13 +10528,13 @@ export const POKEDEX = [
     {
         'name': 'Zoroark',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 105,
             'defense': 60,
-            'sp atk': 120,
-            'sp def': 60,
+            'spAtk': 120,
+            'spDef': 60,
             'speed': 105,
             'types': [
                 'Dark',
@@ -10546,13 +10546,13 @@ export const POKEDEX = [
     {
         'name': 'Minccino',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 50,
             'defense': 40,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 75,
             'types': [
                 'Normal',
@@ -10564,13 +10564,13 @@ export const POKEDEX = [
     {
         'name': 'Cinccino',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 75,
             'attack': 95,
             'defense': 60,
-            'sp atk': 65,
-            'sp def': 60,
+            'spAtk': 65,
+            'spDef': 60,
             'speed': 115,
             'types': [
                 'Normal',
@@ -10582,13 +10582,13 @@ export const POKEDEX = [
     {
         'name': 'Gothita',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Slow',
+            'catchRate': 200,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 30,
             'defense': 50,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 45,
             'types': [
                 'Psychic',
@@ -10600,13 +10600,13 @@ export const POKEDEX = [
     {
         'name': 'Gothorita',
         'stats': {
-            'catch rate': 100,
-            'growth rate': 'Medium Slow',
+            'catchRate': 100,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 45,
             'defense': 70,
-            'sp atk': 75,
-            'sp def': 85,
+            'spAtk': 75,
+            'spDef': 85,
             'speed': 55,
             'types': [
                 'Psychic',
@@ -10618,13 +10618,13 @@ export const POKEDEX = [
     {
         'name': 'Gothitelle',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Medium Slow',
+            'catchRate': 50,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 55,
             'defense': 95,
-            'sp atk': 95,
-            'sp def': 110,
+            'spAtk': 95,
+            'spDef': 110,
             'speed': 65,
             'types': [
                 'Psychic',
@@ -10636,13 +10636,13 @@ export const POKEDEX = [
     {
         'name': 'Solosis',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Slow',
+            'catchRate': 200,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 30,
             'defense': 40,
-            'sp atk': 105,
-            'sp def': 50,
+            'spAtk': 105,
+            'spDef': 50,
             'speed': 20,
             'types': [
                 'Psychic',
@@ -10654,13 +10654,13 @@ export const POKEDEX = [
     {
         'name': 'Duosion',
         'stats': {
-            'catch rate': 100,
-            'growth rate': 'Medium Slow',
+            'catchRate': 100,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 40,
             'defense': 50,
-            'sp atk': 125,
-            'sp def': 60,
+            'spAtk': 125,
+            'spDef': 60,
             'speed': 30,
             'types': [
                 'Psychic',
@@ -10672,13 +10672,13 @@ export const POKEDEX = [
     {
         'name': 'Reuniclus',
         'stats': {
-            'catch rate': 50,
-            'growth rate': 'Medium Slow',
+            'catchRate': 50,
+            'growthRate': 'MediumSlow',
             'hp': 110,
             'attack': 65,
             'defense': 75,
-            'sp atk': 125,
-            'sp def': 85,
+            'spAtk': 125,
+            'spDef': 85,
             'speed': 30,
             'types': [
                 'Psychic',
@@ -10690,13 +10690,13 @@ export const POKEDEX = [
     {
         'name': 'Ducklett',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 62,
             'attack': 44,
             'defense': 50,
-            'sp atk': 44,
-            'sp def': 50,
+            'spAtk': 44,
+            'spDef': 50,
             'speed': 55,
             'types': [
                 'Water',
@@ -10709,13 +10709,13 @@ export const POKEDEX = [
     {
         'name': 'Swanna',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 87,
             'defense': 63,
-            'sp atk': 87,
-            'sp def': 63,
+            'spAtk': 87,
+            'spDef': 63,
             'speed': 98,
             'types': [
                 'Water',
@@ -10728,13 +10728,13 @@ export const POKEDEX = [
     {
         'name': 'Vanillite',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 36,
             'attack': 50,
             'defense': 50,
-            'sp atk': 65,
-            'sp def': 60,
+            'spAtk': 65,
+            'spDef': 60,
             'speed': 44,
             'types': [
                 'Ice',
@@ -10746,13 +10746,13 @@ export const POKEDEX = [
     {
         'name': 'Vanillish',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Slow',
+            'catchRate': 120,
+            'growthRate': 'Slow',
             'hp': 51,
             'attack': 65,
             'defense': 65,
-            'sp atk': 80,
-            'sp def': 75,
+            'spAtk': 80,
+            'spDef': 75,
             'speed': 59,
             'types': [
                 'Ice',
@@ -10764,13 +10764,13 @@ export const POKEDEX = [
     {
         'name': 'Vanilluxe',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 71,
             'attack': 95,
             'defense': 85,
-            'sp atk': 110,
-            'sp def': 95,
+            'spAtk': 110,
+            'spDef': 95,
             'speed': 79,
             'types': [
                 'Ice',
@@ -10782,13 +10782,13 @@ export const POKEDEX = [
     {
         'name': 'Deerling',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 60,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 75,
             'types': [
                 'Normal',
@@ -10801,13 +10801,13 @@ export const POKEDEX = [
     {
         'name': 'Sawsbuck',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 100,
             'defense': 70,
-            'sp atk': 60,
-            'sp def': 70,
+            'spAtk': 60,
+            'spDef': 70,
             'speed': 95,
             'types': [
                 'Normal',
@@ -10820,13 +10820,13 @@ export const POKEDEX = [
     {
         'name': 'Emolga',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 75,
             'defense': 60,
-            'sp atk': 75,
-            'sp def': 60,
+            'spAtk': 75,
+            'spDef': 60,
             'speed': 103,
             'types': [
                 'Electric',
@@ -10839,13 +10839,13 @@ export const POKEDEX = [
     {
         'name': 'Karrablast',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 75,
             'defense': 45,
-            'sp atk': 40,
-            'sp def': 45,
+            'spAtk': 40,
+            'spDef': 45,
             'speed': 60,
             'types': [
                 'Bug',
@@ -10857,13 +10857,13 @@ export const POKEDEX = [
     {
         'name': 'Escavalier',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 135,
             'defense': 105,
-            'sp atk': 60,
-            'sp def': 105,
+            'spAtk': 60,
+            'spDef': 105,
             'speed': 20,
             'types': [
                 'Bug',
@@ -10876,13 +10876,13 @@ export const POKEDEX = [
     {
         'name': 'Foongus',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 69,
             'attack': 55,
             'defense': 45,
-            'sp atk': 55,
-            'sp def': 55,
+            'spAtk': 55,
+            'spDef': 55,
             'speed': 15,
             'types': [
                 'Grass',
@@ -10895,13 +10895,13 @@ export const POKEDEX = [
     {
         'name': 'Amoonguss',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 114,
             'attack': 85,
             'defense': 70,
-            'sp atk': 85,
-            'sp def': 80,
+            'spAtk': 85,
+            'spDef': 80,
             'speed': 30,
             'types': [
                 'Grass',
@@ -10914,13 +10914,13 @@ export const POKEDEX = [
     {
         'name': 'Frillish',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 40,
             'defense': 50,
-            'sp atk': 65,
-            'sp def': 85,
+            'spAtk': 65,
+            'spDef': 85,
             'speed': 40,
             'types': [
                 'Water',
@@ -10933,13 +10933,13 @@ export const POKEDEX = [
     {
         'name': 'Jellicent',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 100,
             'attack': 60,
             'defense': 70,
-            'sp atk': 85,
-            'sp def': 105,
+            'spAtk': 85,
+            'spDef': 105,
             'speed': 60,
             'types': [
                 'Water',
@@ -10952,13 +10952,13 @@ export const POKEDEX = [
     {
         'name': 'Alomomola',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 165,
             'attack': 75,
             'defense': 80,
-            'sp atk': 40,
-            'sp def': 45,
+            'spAtk': 40,
+            'spDef': 45,
             'speed': 65,
             'types': [
                 'Water',
@@ -10970,13 +10970,13 @@ export const POKEDEX = [
     {
         'name': 'Joltik',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 47,
             'defense': 50,
-            'sp atk': 57,
-            'sp def': 50,
+            'spAtk': 57,
+            'spDef': 50,
             'speed': 65,
             'types': [
                 'Bug',
@@ -10989,13 +10989,13 @@ export const POKEDEX = [
     {
         'name': 'Galvantula',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 77,
             'defense': 60,
-            'sp atk': 97,
-            'sp def': 60,
+            'spAtk': 97,
+            'spDef': 60,
             'speed': 108,
             'types': [
                 'Bug',
@@ -11008,13 +11008,13 @@ export const POKEDEX = [
     {
         'name': 'Ferroseed',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 44,
             'attack': 50,
             'defense': 91,
-            'sp atk': 24,
-            'sp def': 86,
+            'spAtk': 24,
+            'spDef': 86,
             'speed': 10,
             'types': [
                 'Grass',
@@ -11027,13 +11027,13 @@ export const POKEDEX = [
     {
         'name': 'Ferrothorn',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 74,
             'attack': 94,
             'defense': 131,
-            'sp atk': 54,
-            'sp def': 116,
+            'spAtk': 54,
+            'spDef': 116,
             'speed': 20,
             'types': [
                 'Grass',
@@ -11046,13 +11046,13 @@ export const POKEDEX = [
     {
         'name': 'Klink',
         'stats': {
-            'catch rate': 130,
-            'growth rate': 'Medium Slow',
+            'catchRate': 130,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 55,
             'defense': 70,
-            'sp atk': 45,
-            'sp def': 60,
+            'spAtk': 45,
+            'spDef': 60,
             'speed': 30,
             'types': [
                 'Steel',
@@ -11064,13 +11064,13 @@ export const POKEDEX = [
     {
         'name': 'Klang',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Slow',
+            'catchRate': 60,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 80,
             'defense': 95,
-            'sp atk': 70,
-            'sp def': 85,
+            'spAtk': 70,
+            'spDef': 85,
             'speed': 50,
             'types': [
                 'Steel',
@@ -11082,13 +11082,13 @@ export const POKEDEX = [
     {
         'name': 'Klinklang',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 100,
             'defense': 115,
-            'sp atk': 70,
-            'sp def': 85,
+            'spAtk': 70,
+            'spDef': 85,
             'speed': 90,
             'types': [
                 'Steel',
@@ -11100,13 +11100,13 @@ export const POKEDEX = [
     {
         'name': 'Tynamo',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 35,
             'attack': 55,
             'defense': 40,
-            'sp atk': 45,
-            'sp def': 40,
+            'spAtk': 45,
+            'spDef': 40,
             'speed': 60,
             'types': [
                 'Electric',
@@ -11118,13 +11118,13 @@ export const POKEDEX = [
     {
         'name': 'Eelektrik',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 85,
             'defense': 70,
-            'sp atk': 75,
-            'sp def': 70,
+            'spAtk': 75,
+            'spDef': 70,
             'speed': 40,
             'types': [
                 'Electric',
@@ -11136,13 +11136,13 @@ export const POKEDEX = [
     {
         'name': 'Eelektross',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Slow',
+            'catchRate': 30,
+            'growthRate': 'Slow',
             'hp': 85,
             'attack': 115,
             'defense': 80,
-            'sp atk': 105,
-            'sp def': 80,
+            'spAtk': 105,
+            'spDef': 80,
             'speed': 50,
             'types': [
                 'Electric',
@@ -11154,13 +11154,13 @@ export const POKEDEX = [
     {
         'name': 'Elgyem',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 55,
             'defense': 55,
-            'sp atk': 85,
-            'sp def': 55,
+            'spAtk': 85,
+            'spDef': 55,
             'speed': 30,
             'types': [
                 'Psychic',
@@ -11172,13 +11172,13 @@ export const POKEDEX = [
     {
         'name': 'Beheeyem',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 75,
             'defense': 75,
-            'sp atk': 125,
-            'sp def': 95,
+            'spAtk': 125,
+            'spDef': 95,
             'speed': 40,
             'types': [
                 'Psychic',
@@ -11190,13 +11190,13 @@ export const POKEDEX = [
     {
         'name': 'Litwick',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Slow',
+            'catchRate': 190,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 30,
             'defense': 55,
-            'sp atk': 65,
-            'sp def': 55,
+            'spAtk': 65,
+            'spDef': 55,
             'speed': 20,
             'types': [
                 'Ghost',
@@ -11209,13 +11209,13 @@ export const POKEDEX = [
     {
         'name': 'Lampent',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Slow',
+            'catchRate': 90,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 40,
             'defense': 60,
-            'sp atk': 95,
-            'sp def': 60,
+            'spAtk': 95,
+            'spDef': 60,
             'speed': 55,
             'types': [
                 'Ghost',
@@ -11228,13 +11228,13 @@ export const POKEDEX = [
     {
         'name': 'Chandelure',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 55,
             'defense': 90,
-            'sp atk': 145,
-            'sp def': 90,
+            'spAtk': 145,
+            'spDef': 90,
             'speed': 80,
             'types': [
                 'Ghost',
@@ -11247,13 +11247,13 @@ export const POKEDEX = [
     {
         'name': 'Axew',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Slow',
+            'catchRate': 75,
+            'growthRate': 'Slow',
             'hp': 46,
             'attack': 87,
             'defense': 60,
-            'sp atk': 30,
-            'sp def': 40,
+            'spAtk': 30,
+            'spDef': 40,
             'speed': 57,
             'types': [
                 'Dragon',
@@ -11265,13 +11265,13 @@ export const POKEDEX = [
     {
         'name': 'Fraxure',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 66,
             'attack': 117,
             'defense': 70,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 67,
             'types': [
                 'Dragon',
@@ -11283,13 +11283,13 @@ export const POKEDEX = [
     {
         'name': 'Haxorus',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 76,
             'attack': 147,
             'defense': 90,
-            'sp atk': 60,
-            'sp def': 70,
+            'spAtk': 60,
+            'spDef': 70,
             'speed': 97,
             'types': [
                 'Dragon',
@@ -11301,13 +11301,13 @@ export const POKEDEX = [
     {
         'name': 'Cubchoo',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 70,
             'defense': 40,
-            'sp atk': 60,
-            'sp def': 40,
+            'spAtk': 60,
+            'spDef': 40,
             'speed': 40,
             'types': [
                 'Ice',
@@ -11319,13 +11319,13 @@ export const POKEDEX = [
     {
         'name': 'Beartic',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 110,
             'defense': 80,
-            'sp atk': 70,
-            'sp def': 80,
+            'spAtk': 70,
+            'spDef': 80,
             'speed': 50,
             'types': [
                 'Ice',
@@ -11337,13 +11337,13 @@ export const POKEDEX = [
     {
         'name': 'Cryogonal',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
+            'catchRate': 25,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 50,
             'defense': 30,
-            'sp atk': 95,
-            'sp def': 135,
+            'spAtk': 95,
+            'spDef': 135,
             'speed': 105,
             'types': [
                 'Ice',
@@ -11355,13 +11355,13 @@ export const POKEDEX = [
     {
         'name': 'Shelmet',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 40,
             'defense': 85,
-            'sp atk': 40,
-            'sp def': 65,
+            'spAtk': 40,
+            'spDef': 65,
             'speed': 25,
             'types': [
                 'Bug',
@@ -11373,13 +11373,13 @@ export const POKEDEX = [
     {
         'name': 'Accelgor',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 70,
             'defense': 40,
-            'sp atk': 100,
-            'sp def': 60,
+            'spAtk': 100,
+            'spDef': 60,
             'speed': 145,
             'types': [
                 'Bug',
@@ -11391,13 +11391,13 @@ export const POKEDEX = [
     {
         'name': 'Stunfisk',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 109,
             'attack': 66,
             'defense': 84,
-            'sp atk': 81,
-            'sp def': 99,
+            'spAtk': 81,
+            'spDef': 99,
             'speed': 32,
             'types': [
                 'Ground',
@@ -11410,13 +11410,13 @@ export const POKEDEX = [
     {
         'name': 'Mienfoo',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Slow',
+            'catchRate': 180,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 85,
             'defense': 50,
-            'sp atk': 55,
-            'sp def': 50,
+            'spAtk': 55,
+            'spDef': 50,
             'speed': 65,
             'types': [
                 'Fighting',
@@ -11428,13 +11428,13 @@ export const POKEDEX = [
     {
         'name': 'Mienshao',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 125,
             'defense': 60,
-            'sp atk': 95,
-            'sp def': 60,
+            'spAtk': 95,
+            'spDef': 60,
             'speed': 105,
             'types': [
                 'Fighting',
@@ -11446,13 +11446,13 @@ export const POKEDEX = [
     {
         'name': 'Druddigon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 77,
             'attack': 120,
             'defense': 90,
-            'sp atk': 60,
-            'sp def': 90,
+            'spAtk': 60,
+            'spDef': 90,
             'speed': 48,
             'types': [
                 'Dragon',
@@ -11464,13 +11464,13 @@ export const POKEDEX = [
     {
         'name': 'Golett',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 59,
             'attack': 74,
             'defense': 50,
-            'sp atk': 35,
-            'sp def': 50,
+            'spAtk': 35,
+            'spDef': 50,
             'speed': 35,
             'types': [
                 'Ground',
@@ -11483,13 +11483,13 @@ export const POKEDEX = [
     {
         'name': 'Golurk',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 89,
             'attack': 124,
             'defense': 80,
-            'sp atk': 55,
-            'sp def': 80,
+            'spAtk': 55,
+            'spDef': 80,
             'speed': 55,
             'types': [
                 'Ground',
@@ -11502,13 +11502,13 @@ export const POKEDEX = [
     {
         'name': 'Pawniard',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 85,
             'defense': 70,
-            'sp atk': 40,
-            'sp def': 40,
+            'spAtk': 40,
+            'spDef': 40,
             'speed': 60,
             'types': [
                 'Dark',
@@ -11521,13 +11521,13 @@ export const POKEDEX = [
     {
         'name': 'Bisharp',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 125,
             'defense': 100,
-            'sp atk': 60,
-            'sp def': 70,
+            'spAtk': 60,
+            'spDef': 70,
             'speed': 70,
             'types': [
                 'Dark',
@@ -11540,13 +11540,13 @@ export const POKEDEX = [
     {
         'name': 'Bouffalant',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 110,
             'defense': 95,
-            'sp atk': 40,
-            'sp def': 95,
+            'spAtk': 40,
+            'spDef': 95,
             'speed': 55,
             'types': [
                 'Normal',
@@ -11558,13 +11558,13 @@ export const POKEDEX = [
     {
         'name': 'Rufflet',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 83,
             'defense': 50,
-            'sp atk': 37,
-            'sp def': 50,
+            'spAtk': 37,
+            'spDef': 50,
             'speed': 60,
             'types': [
                 'Normal',
@@ -11577,13 +11577,13 @@ export const POKEDEX = [
     {
         'name': 'Braviary',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 123,
             'defense': 75,
-            'sp atk': 57,
-            'sp def': 75,
+            'spAtk': 57,
+            'spDef': 75,
             'speed': 80,
             'types': [
                 'Normal',
@@ -11596,13 +11596,13 @@ export const POKEDEX = [
     {
         'name': 'Vullaby',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Slow',
+            'catchRate': 190,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 55,
             'defense': 75,
-            'sp atk': 45,
-            'sp def': 65,
+            'spAtk': 45,
+            'spDef': 65,
             'speed': 60,
             'types': [
                 'Dark',
@@ -11615,13 +11615,13 @@ export const POKEDEX = [
     {
         'name': 'Mandibuzz',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 110,
             'attack': 65,
             'defense': 105,
-            'sp atk': 55,
-            'sp def': 95,
+            'spAtk': 55,
+            'spDef': 95,
             'speed': 80,
             'types': [
                 'Dark',
@@ -11634,13 +11634,13 @@ export const POKEDEX = [
     {
         'name': 'Heatmor',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 97,
             'defense': 66,
-            'sp atk': 105,
-            'sp def': 66,
+            'spAtk': 105,
+            'spDef': 66,
             'speed': 65,
             'types': [
                 'Fire',
@@ -11652,13 +11652,13 @@ export const POKEDEX = [
     {
         'name': 'Durant',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 58,
             'attack': 109,
             'defense': 112,
-            'sp atk': 48,
-            'sp def': 48,
+            'spAtk': 48,
+            'spDef': 48,
             'speed': 109,
             'types': [
                 'Bug',
@@ -11671,13 +11671,13 @@ export const POKEDEX = [
     {
         'name': 'Deino',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 52,
             'attack': 65,
             'defense': 50,
-            'sp atk': 45,
-            'sp def': 50,
+            'spAtk': 45,
+            'spDef': 50,
             'speed': 38,
             'types': [
                 'Dark',
@@ -11690,13 +11690,13 @@ export const POKEDEX = [
     {
         'name': 'Zweilous',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 72,
             'attack': 85,
             'defense': 70,
-            'sp atk': 65,
-            'sp def': 70,
+            'spAtk': 65,
+            'spDef': 70,
             'speed': 58,
             'types': [
                 'Dark',
@@ -11709,13 +11709,13 @@ export const POKEDEX = [
     {
         'name': 'Hydreigon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 92,
             'attack': 105,
             'defense': 90,
-            'sp atk': 125,
-            'sp def': 90,
+            'spAtk': 125,
+            'spDef': 90,
             'speed': 98,
             'types': [
                 'Dark',
@@ -11728,13 +11728,13 @@ export const POKEDEX = [
     {
         'name': 'Larvesta',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 55,
             'attack': 85,
             'defense': 55,
-            'sp atk': 50,
-            'sp def': 55,
+            'spAtk': 50,
+            'spDef': 55,
             'speed': 60,
             'types': [
                 'Bug',
@@ -11747,13 +11747,13 @@ export const POKEDEX = [
     {
         'name': 'Volcarona',
         'stats': {
-            'catch rate': 15,
-            'growth rate': 'Slow',
+            'catchRate': 15,
+            'growthRate': 'Slow',
             'hp': 85,
             'attack': 60,
             'defense': 65,
-            'sp atk': 135,
-            'sp def': 105,
+            'spAtk': 135,
+            'spDef': 105,
             'speed': 100,
             'types': [
                 'Bug',
@@ -11766,13 +11766,13 @@ export const POKEDEX = [
     {
         'name': 'Cobalion',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 90,
             'defense': 129,
-            'sp atk': 90,
-            'sp def': 72,
+            'spAtk': 90,
+            'spDef': 72,
             'speed': 108,
             'types': [
                 'Steel',
@@ -11785,13 +11785,13 @@ export const POKEDEX = [
     {
         'name': 'Terrakion',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 129,
             'defense': 90,
-            'sp atk': 72,
-            'sp def': 90,
+            'spAtk': 72,
+            'spDef': 90,
             'speed': 108,
             'types': [
                 'Rock',
@@ -11804,13 +11804,13 @@ export const POKEDEX = [
     {
         'name': 'Virizion',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 90,
             'defense': 72,
-            'sp atk': 90,
-            'sp def': 129,
+            'spAtk': 90,
+            'spDef': 129,
             'speed': 108,
             'types': [
                 'Grass',
@@ -11823,13 +11823,13 @@ export const POKEDEX = [
     {
         'name': 'Tornadus',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 79,
             'attack': 115,
             'defense': 70,
-            'sp atk': 125,
-            'sp def': 80,
+            'spAtk': 125,
+            'spDef': 80,
             'speed': 111,
             'types': [
                 'Flying',
@@ -11841,13 +11841,13 @@ export const POKEDEX = [
     {
         'name': 'Thundurus',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 79,
             'attack': 115,
             'defense': 70,
-            'sp atk': 125,
-            'sp def': 80,
+            'spAtk': 125,
+            'spDef': 80,
             'speed': 111,
             'types': [
                 'Electric',
@@ -11860,13 +11860,13 @@ export const POKEDEX = [
     {
         'name': 'Reshiram',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 120,
             'defense': 100,
-            'sp atk': 150,
-            'sp def': 120,
+            'spAtk': 150,
+            'spDef': 120,
             'speed': 90,
             'types': [
                 'Dragon',
@@ -11879,13 +11879,13 @@ export const POKEDEX = [
     {
         'name': 'Zekrom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 150,
             'defense': 120,
-            'sp atk': 120,
-            'sp def': 100,
+            'spAtk': 120,
+            'spDef': 100,
             'speed': 90,
             'types': [
                 'Dragon',
@@ -11898,13 +11898,13 @@ export const POKEDEX = [
     {
         'name': 'Landorus',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 89,
             'attack': 125,
             'defense': 90,
-            'sp atk': 115,
-            'sp def': 80,
+            'spAtk': 115,
+            'spDef': 80,
             'speed': 101,
             'types': [
                 'Ground',
@@ -11917,13 +11917,13 @@ export const POKEDEX = [
     {
         'name': 'Kyurem',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 125,
             'attack': 130,
             'defense': 90,
-            'sp atk': 130,
-            'sp def': 90,
+            'spAtk': 130,
+            'spDef': 90,
             'speed': 95,
             'types': [
                 'Dragon',
@@ -11936,13 +11936,13 @@ export const POKEDEX = [
     {
         'name': 'Keldeo',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 72,
             'defense': 90,
-            'sp atk': 129,
-            'sp def': 90,
+            'spAtk': 129,
+            'spDef': 90,
             'speed': 108,
             'types': [
                 'Water',
@@ -11955,13 +11955,13 @@ export const POKEDEX = [
     {
         'name': 'Meloetta',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 77,
             'defense': 77,
-            'sp atk': 128,
-            'sp def': 128,
+            'spAtk': 128,
+            'spDef': 128,
             'speed': 90,
             'types': [
                 'Normal',
@@ -11974,13 +11974,13 @@ export const POKEDEX = [
     {
         'name': 'Genesect',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 71,
             'attack': 120,
             'defense': 95,
-            'sp atk': 120,
-            'sp def': 95,
+            'spAtk': 120,
+            'spDef': 95,
             'speed': 99,
             'types': [
                 'Bug',
@@ -11993,13 +11993,13 @@ export const POKEDEX = [
     {
         'name': 'Chespin',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 56,
             'attack': 61,
             'defense': 65,
-            'sp atk': 48,
-            'sp def': 45,
+            'spAtk': 48,
+            'spDef': 45,
             'speed': 38,
             'types': [
                 'Grass',
@@ -12011,13 +12011,13 @@ export const POKEDEX = [
     {
         'name': 'Quilladin',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 61,
             'attack': 78,
             'defense': 95,
-            'sp atk': 56,
-            'sp def': 58,
+            'spAtk': 56,
+            'spDef': 58,
             'speed': 57,
             'types': [
                 'Grass',
@@ -12029,13 +12029,13 @@ export const POKEDEX = [
     {
         'name': 'Chesnaught',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 88,
             'attack': 107,
             'defense': 122,
-            'sp atk': 74,
-            'sp def': 75,
+            'spAtk': 74,
+            'spDef': 75,
             'speed': 64,
             'types': [
                 'Grass',
@@ -12048,13 +12048,13 @@ export const POKEDEX = [
     {
         'name': 'Fennekin',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 40,
             'attack': 45,
             'defense': 40,
-            'sp atk': 62,
-            'sp def': 60,
+            'spAtk': 62,
+            'spDef': 60,
             'speed': 60,
             'types': [
                 'Fire',
@@ -12066,13 +12066,13 @@ export const POKEDEX = [
     {
         'name': 'Braixen',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 59,
             'attack': 59,
             'defense': 58,
-            'sp atk': 90,
-            'sp def': 70,
+            'spAtk': 90,
+            'spDef': 70,
             'speed': 73,
             'types': [
                 'Fire',
@@ -12084,13 +12084,13 @@ export const POKEDEX = [
     {
         'name': 'Delphox',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 75,
             'attack': 69,
             'defense': 72,
-            'sp atk': 114,
-            'sp def': 100,
+            'spAtk': 114,
+            'spDef': 100,
             'speed': 104,
             'types': [
                 'Fire',
@@ -12103,13 +12103,13 @@ export const POKEDEX = [
     {
         'name': 'Froakie',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 41,
             'attack': 56,
             'defense': 40,
-            'sp atk': 62,
-            'sp def': 44,
+            'spAtk': 62,
+            'spDef': 44,
             'speed': 71,
             'types': [
                 'Water',
@@ -12121,13 +12121,13 @@ export const POKEDEX = [
     {
         'name': 'Frogadier',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 54,
             'attack': 63,
             'defense': 52,
-            'sp atk': 83,
-            'sp def': 56,
+            'spAtk': 83,
+            'spDef': 56,
             'speed': 97,
             'types': [
                 'Water',
@@ -12139,13 +12139,13 @@ export const POKEDEX = [
     {
         'name': 'Greninja',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 72,
             'attack': 95,
             'defense': 67,
-            'sp atk': 103,
-            'sp def': 71,
+            'spAtk': 103,
+            'spDef': 71,
             'speed': 122,
             'types': [
                 'Water',
@@ -12158,13 +12158,13 @@ export const POKEDEX = [
     {
         'name': 'Bunnelby',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 38,
             'attack': 36,
             'defense': 38,
-            'sp atk': 32,
-            'sp def': 36,
+            'spAtk': 32,
+            'spDef': 36,
             'speed': 57,
             'types': [
                 'Normal',
@@ -12176,13 +12176,13 @@ export const POKEDEX = [
     {
         'name': 'Diggersby',
         'stats': {
-            'catch rate': 127,
-            'growth rate': 'Medium Fast',
+            'catchRate': 127,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 56,
             'defense': 77,
-            'sp atk': 50,
-            'sp def': 77,
+            'spAtk': 50,
+            'spDef': 77,
             'speed': 78,
             'types': [
                 'Normal',
@@ -12195,13 +12195,13 @@ export const POKEDEX = [
     {
         'name': 'Fletchling',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Slow',
+            'catchRate': 255,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 50,
             'defense': 43,
-            'sp atk': 40,
-            'sp def': 38,
+            'spAtk': 40,
+            'spDef': 38,
             'speed': 62,
             'types': [
                 'Normal',
@@ -12214,13 +12214,13 @@ export const POKEDEX = [
     {
         'name': 'Fletchinder',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 62,
             'attack': 73,
             'defense': 55,
-            'sp atk': 56,
-            'sp def': 52,
+            'spAtk': 56,
+            'spDef': 52,
             'speed': 84,
             'types': [
                 'Fire',
@@ -12233,13 +12233,13 @@ export const POKEDEX = [
     {
         'name': 'Talonflame',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 78,
             'attack': 81,
             'defense': 71,
-            'sp atk': 74,
-            'sp def': 69,
+            'spAtk': 74,
+            'spDef': 69,
             'speed': 126,
             'types': [
                 'Fire',
@@ -12252,13 +12252,13 @@ export const POKEDEX = [
     {
         'name': 'Scatterbug',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 38,
             'attack': 35,
             'defense': 40,
-            'sp atk': 27,
-            'sp def': 25,
+            'spAtk': 27,
+            'spDef': 25,
             'speed': 35,
             'types': [
                 'Bug',
@@ -12270,13 +12270,13 @@ export const POKEDEX = [
     {
         'name': 'Spewpa',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 22,
             'defense': 60,
-            'sp atk': 27,
-            'sp def': 30,
+            'spAtk': 27,
+            'spDef': 30,
             'speed': 29,
             'types': [
                 'Bug',
@@ -12288,13 +12288,13 @@ export const POKEDEX = [
     {
         'name': 'Vivillon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 52,
             'defense': 50,
-            'sp atk': 90,
-            'sp def': 50,
+            'spAtk': 90,
+            'spDef': 50,
             'speed': 89,
             'types': [
                 'Bug',
@@ -12307,13 +12307,13 @@ export const POKEDEX = [
     {
         'name': 'Litleo',
         'stats': {
-            'catch rate': 220,
-            'growth rate': 'Medium Slow',
+            'catchRate': 220,
+            'growthRate': 'MediumSlow',
             'hp': 62,
             'attack': 50,
             'defense': 58,
-            'sp atk': 73,
-            'sp def': 54,
+            'spAtk': 73,
+            'spDef': 54,
             'speed': 72,
             'types': [
                 'Fire',
@@ -12326,13 +12326,13 @@ export const POKEDEX = [
     {
         'name': 'Pyroar',
         'stats': {
-            'catch rate': 65,
-            'growth rate': 'Medium Slow',
+            'catchRate': 65,
+            'growthRate': 'MediumSlow',
             'hp': 86,
             'attack': 68,
             'defense': 72,
-            'sp atk': 109,
-            'sp def': 66,
+            'spAtk': 109,
+            'spDef': 66,
             'speed': 106,
             'types': [
                 'Fire',
@@ -12345,13 +12345,13 @@ export const POKEDEX = [
     {
         'name': 'Flabebe',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 44,
             'attack': 38,
             'defense': 39,
-            'sp atk': 61,
-            'sp def': 79,
+            'spAtk': 61,
+            'spDef': 79,
             'speed': 42,
             'types': [
                 'Fairy',
@@ -12363,13 +12363,13 @@ export const POKEDEX = [
     {
         'name': 'Floette',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 54,
             'attack': 45,
             'defense': 47,
-            'sp atk': 75,
-            'sp def': 98,
+            'spAtk': 75,
+            'spDef': 98,
             'speed': 52,
             'types': [
                 'Fairy',
@@ -12381,13 +12381,13 @@ export const POKEDEX = [
     {
         'name': 'Florges',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 78,
             'attack': 65,
             'defense': 68,
-            'sp atk': 112,
-            'sp def': 154,
+            'spAtk': 112,
+            'spDef': 154,
             'speed': 75,
             'types': [
                 'Fairy',
@@ -12399,13 +12399,13 @@ export const POKEDEX = [
     {
         'name': 'Skiddo',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 66,
             'attack': 65,
             'defense': 48,
-            'sp atk': 62,
-            'sp def': 57,
+            'spAtk': 62,
+            'spDef': 57,
             'speed': 52,
             'types': [
                 'Grass',
@@ -12417,13 +12417,13 @@ export const POKEDEX = [
     {
         'name': 'Gogoat',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 123,
             'attack': 100,
             'defense': 62,
-            'sp atk': 97,
-            'sp def': 81,
+            'spAtk': 97,
+            'spDef': 81,
             'speed': 68,
             'types': [
                 'Grass',
@@ -12435,13 +12435,13 @@ export const POKEDEX = [
     {
         'name': 'Pancham',
         'stats': {
-            'catch rate': 220,
-            'growth rate': 'Medium Fast',
+            'catchRate': 220,
+            'growthRate': 'MediumFast',
             'hp': 67,
             'attack': 82,
             'defense': 62,
-            'sp atk': 46,
-            'sp def': 48,
+            'spAtk': 46,
+            'spDef': 48,
             'speed': 43,
             'types': [
                 'Fighting',
@@ -12453,13 +12453,13 @@ export const POKEDEX = [
     {
         'name': 'Pangoro',
         'stats': {
-            'catch rate': 65,
-            'growth rate': 'Medium Fast',
+            'catchRate': 65,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 124,
             'defense': 78,
-            'sp atk': 69,
-            'sp def': 71,
+            'spAtk': 69,
+            'spDef': 71,
             'speed': 58,
             'types': [
                 'Fighting',
@@ -12472,13 +12472,13 @@ export const POKEDEX = [
     {
         'name': 'Furfrou',
         'stats': {
-            'catch rate': 160,
-            'growth rate': 'Medium Fast',
+            'catchRate': 160,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 80,
             'defense': 60,
-            'sp atk': 65,
-            'sp def': 90,
+            'spAtk': 65,
+            'spDef': 90,
             'speed': 102,
             'types': [
                 'Normal',
@@ -12490,13 +12490,13 @@ export const POKEDEX = [
     {
         'name': 'Espurr',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 62,
             'attack': 48,
             'defense': 54,
-            'sp atk': 63,
-            'sp def': 60,
+            'spAtk': 63,
+            'spDef': 60,
             'speed': 68,
             'types': [
                 'Psychic',
@@ -12508,13 +12508,13 @@ export const POKEDEX = [
     {
         'name': 'Meowstic',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 74,
             'attack': 48,
             'defense': 76,
-            'sp atk': 83,
-            'sp def': 81,
+            'spAtk': 83,
+            'spDef': 81,
             'speed': 104,
             'types': [
                 'Psychic',
@@ -12526,13 +12526,13 @@ export const POKEDEX = [
     {
         'name': 'Honedge',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Fast',
+            'catchRate': 180,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 80,
             'defense': 100,
-            'sp atk': 35,
-            'sp def': 37,
+            'spAtk': 35,
+            'spDef': 37,
             'speed': 28,
             'types': [
                 'Steel',
@@ -12545,13 +12545,13 @@ export const POKEDEX = [
     {
         'name': 'Doublade',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 59,
             'attack': 110,
             'defense': 150,
-            'sp atk': 45,
-            'sp def': 49,
+            'spAtk': 45,
+            'spDef': 49,
             'speed': 35,
             'types': [
                 'Steel',
@@ -12564,13 +12564,13 @@ export const POKEDEX = [
     {
         'name': 'Aegislash',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 50,
             'defense': 150,
-            'sp atk': 50,
-            'sp def': 150,
+            'spAtk': 50,
+            'spDef': 150,
             'speed': 60,
             'types': [
                 'Steel',
@@ -12583,13 +12583,13 @@ export const POKEDEX = [
     {
         'name': 'Spritzee',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 78,
             'attack': 52,
             'defense': 60,
-            'sp atk': 63,
-            'sp def': 65,
+            'spAtk': 63,
+            'spDef': 65,
             'speed': 23,
             'types': [
                 'Fairy',
@@ -12601,13 +12601,13 @@ export const POKEDEX = [
     {
         'name': 'Aromatisse',
         'stats': {
-            'catch rate': 140,
-            'growth rate': 'Medium Fast',
+            'catchRate': 140,
+            'growthRate': 'MediumFast',
             'hp': 101,
             'attack': 72,
             'defense': 72,
-            'sp atk': 99,
-            'sp def': 89,
+            'spAtk': 99,
+            'spDef': 89,
             'speed': 29,
             'types': [
                 'Fairy',
@@ -12619,13 +12619,13 @@ export const POKEDEX = [
     {
         'name': 'Swirlix',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 62,
             'attack': 48,
             'defense': 66,
-            'sp atk': 59,
-            'sp def': 57,
+            'spAtk': 59,
+            'spDef': 57,
             'speed': 49,
             'types': [
                 'Fairy',
@@ -12637,13 +12637,13 @@ export const POKEDEX = [
     {
         'name': 'Slurpuff',
         'stats': {
-            'catch rate': 140,
-            'growth rate': 'Medium Fast',
+            'catchRate': 140,
+            'growthRate': 'MediumFast',
             'hp': 82,
             'attack': 80,
             'defense': 86,
-            'sp atk': 85,
-            'sp def': 75,
+            'spAtk': 85,
+            'spDef': 75,
             'speed': 72,
             'types': [
                 'Fairy',
@@ -12655,13 +12655,13 @@ export const POKEDEX = [
     {
         'name': 'Inkay',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 53,
             'attack': 54,
             'defense': 53,
-            'sp atk': 37,
-            'sp def': 46,
+            'spAtk': 37,
+            'spDef': 46,
             'speed': 45,
             'types': [
                 'Dark',
@@ -12674,13 +12674,13 @@ export const POKEDEX = [
     {
         'name': 'Malamar',
         'stats': {
-            'catch rate': 80,
-            'growth rate': 'Medium Fast',
+            'catchRate': 80,
+            'growthRate': 'MediumFast',
             'hp': 86,
             'attack': 92,
             'defense': 88,
-            'sp atk': 68,
-            'sp def': 75,
+            'spAtk': 68,
+            'spDef': 75,
             'speed': 73,
             'types': [
                 'Dark',
@@ -12693,13 +12693,13 @@ export const POKEDEX = [
     {
         'name': 'Binacle',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 42,
             'attack': 52,
             'defense': 67,
-            'sp atk': 39,
-            'sp def': 56,
+            'spAtk': 39,
+            'spDef': 56,
             'speed': 50,
             'types': [
                 'Rock',
@@ -12712,13 +12712,13 @@ export const POKEDEX = [
     {
         'name': 'Barbaracle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 72,
             'attack': 105,
             'defense': 115,
-            'sp atk': 54,
-            'sp def': 86,
+            'spAtk': 54,
+            'spDef': 86,
             'speed': 68,
             'types': [
                 'Rock',
@@ -12731,13 +12731,13 @@ export const POKEDEX = [
     {
         'name': 'Skrelp',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 60,
             'defense': 60,
-            'sp atk': 60,
-            'sp def': 60,
+            'spAtk': 60,
+            'spDef': 60,
             'speed': 30,
             'types': [
                 'Poison',
@@ -12750,13 +12750,13 @@ export const POKEDEX = [
     {
         'name': 'Dragalge',
         'stats': {
-            'catch rate': 55,
-            'growth rate': 'Medium Fast',
+            'catchRate': 55,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 75,
             'defense': 90,
-            'sp atk': 97,
-            'sp def': 123,
+            'spAtk': 97,
+            'spDef': 123,
             'speed': 44,
             'types': [
                 'Poison',
@@ -12769,13 +12769,13 @@ export const POKEDEX = [
     {
         'name': 'Clauncher',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Slow',
+            'catchRate': 225,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 53,
             'defense': 62,
-            'sp atk': 58,
-            'sp def': 63,
+            'spAtk': 58,
+            'spDef': 63,
             'speed': 44,
             'types': [
                 'Water',
@@ -12787,13 +12787,13 @@ export const POKEDEX = [
     {
         'name': 'Clawitzer',
         'stats': {
-            'catch rate': 55,
-            'growth rate': 'Slow',
+            'catchRate': 55,
+            'growthRate': 'Slow',
             'hp': 71,
             'attack': 73,
             'defense': 88,
-            'sp atk': 120,
-            'sp def': 89,
+            'spAtk': 120,
+            'spDef': 89,
             'speed': 59,
             'types': [
                 'Water',
@@ -12805,13 +12805,13 @@ export const POKEDEX = [
     {
         'name': 'Helioptile',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 44,
             'attack': 38,
             'defense': 33,
-            'sp atk': 61,
-            'sp def': 43,
+            'spAtk': 61,
+            'spDef': 43,
             'speed': 70,
             'types': [
                 'Electric',
@@ -12824,13 +12824,13 @@ export const POKEDEX = [
     {
         'name': 'Heliolisk',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 62,
             'attack': 55,
             'defense': 52,
-            'sp atk': 109,
-            'sp def': 94,
+            'spAtk': 109,
+            'spDef': 94,
             'speed': 109,
             'types': [
                 'Electric',
@@ -12843,13 +12843,13 @@ export const POKEDEX = [
     {
         'name': 'Tyrunt',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 58,
             'attack': 89,
             'defense': 77,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 48,
             'types': [
                 'Rock',
@@ -12862,13 +12862,13 @@ export const POKEDEX = [
     {
         'name': 'Tyrantrum',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 82,
             'attack': 121,
             'defense': 119,
-            'sp atk': 69,
-            'sp def': 59,
+            'spAtk': 69,
+            'spDef': 59,
             'speed': 71,
             'types': [
                 'Rock',
@@ -12881,13 +12881,13 @@ export const POKEDEX = [
     {
         'name': 'Amaura',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 77,
             'attack': 59,
             'defense': 50,
-            'sp atk': 67,
-            'sp def': 63,
+            'spAtk': 67,
+            'spDef': 63,
             'speed': 46,
             'types': [
                 'Rock',
@@ -12900,13 +12900,13 @@ export const POKEDEX = [
     {
         'name': 'Aurorus',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 123,
             'attack': 77,
             'defense': 72,
-            'sp atk': 99,
-            'sp def': 92,
+            'spAtk': 99,
+            'spDef': 92,
             'speed': 58,
             'types': [
                 'Rock',
@@ -12919,13 +12919,13 @@ export const POKEDEX = [
     {
         'name': 'Sylveon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 65,
             'defense': 65,
-            'sp atk': 110,
-            'sp def': 130,
+            'spAtk': 110,
+            'spDef': 130,
             'speed': 60,
             'types': [
                 'Fairy',
@@ -12937,13 +12937,13 @@ export const POKEDEX = [
     {
         'name': 'Hawlucha',
         'stats': {
-            'catch rate': 100,
-            'growth rate': 'Medium Fast',
+            'catchRate': 100,
+            'growthRate': 'MediumFast',
             'hp': 78,
             'attack': 92,
             'defense': 75,
-            'sp atk': 74,
-            'sp def': 63,
+            'spAtk': 74,
+            'spDef': 63,
             'speed': 118,
             'types': [
                 'Fighting',
@@ -12956,13 +12956,13 @@ export const POKEDEX = [
     {
         'name': 'Dedenne',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Fast',
+            'catchRate': 180,
+            'growthRate': 'MediumFast',
             'hp': 67,
             'attack': 58,
             'defense': 57,
-            'sp atk': 81,
-            'sp def': 67,
+            'spAtk': 81,
+            'spDef': 67,
             'speed': 101,
             'types': [
                 'Electric',
@@ -12975,13 +12975,13 @@ export const POKEDEX = [
     {
         'name': 'Carbink',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 50,
             'defense': 150,
-            'sp atk': 50,
-            'sp def': 150,
+            'spAtk': 50,
+            'spDef': 150,
             'speed': 50,
             'types': [
                 'Rock',
@@ -12994,13 +12994,13 @@ export const POKEDEX = [
     {
         'name': 'Goomy',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 50,
             'defense': 35,
-            'sp atk': 55,
-            'sp def': 75,
+            'spAtk': 55,
+            'spDef': 75,
             'speed': 40,
             'types': [
                 'Dragon',
@@ -13012,13 +13012,13 @@ export const POKEDEX = [
     {
         'name': 'Sliggoo',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 75,
             'defense': 53,
-            'sp atk': 83,
-            'sp def': 113,
+            'spAtk': 83,
+            'spDef': 113,
             'speed': 60,
             'types': [
                 'Dragon',
@@ -13030,13 +13030,13 @@ export const POKEDEX = [
     {
         'name': 'Goodra',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 100,
             'defense': 70,
-            'sp atk': 110,
-            'sp def': 150,
+            'spAtk': 110,
+            'spDef': 150,
             'speed': 80,
             'types': [
                 'Dragon',
@@ -13048,13 +13048,13 @@ export const POKEDEX = [
     {
         'name': 'Klefki',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Fast',
+            'catchRate': 75,
+            'growthRate': 'Fast',
             'hp': 57,
             'attack': 80,
             'defense': 91,
-            'sp atk': 80,
-            'sp def': 87,
+            'spAtk': 80,
+            'spDef': 87,
             'speed': 75,
             'types': [
                 'Steel',
@@ -13067,13 +13067,13 @@ export const POKEDEX = [
     {
         'name': 'Phantump',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 43,
             'attack': 70,
             'defense': 48,
-            'sp atk': 50,
-            'sp def': 60,
+            'spAtk': 50,
+            'spDef': 60,
             'speed': 38,
             'types': [
                 'Ghost',
@@ -13086,13 +13086,13 @@ export const POKEDEX = [
     {
         'name': 'Trevenant',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 110,
             'defense': 76,
-            'sp atk': 65,
-            'sp def': 82,
+            'spAtk': 65,
+            'spDef': 82,
             'speed': 56,
             'types': [
                 'Ghost',
@@ -13105,13 +13105,13 @@ export const POKEDEX = [
     {
         'name': 'Pumpkaboo',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 49,
             'attack': 66,
             'defense': 70,
-            'sp atk': 44,
-            'sp def': 55,
+            'spAtk': 44,
+            'spDef': 55,
             'speed': 51,
             'types': [
                 'Ghost',
@@ -13124,13 +13124,13 @@ export const POKEDEX = [
     {
         'name': 'Gourgeist',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 90,
             'defense': 122,
-            'sp atk': 58,
-            'sp def': 75,
+            'spAtk': 58,
+            'spDef': 75,
             'speed': 84,
             'types': [
                 'Ghost',
@@ -13143,13 +13143,13 @@ export const POKEDEX = [
     {
         'name': 'Bergmite',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 69,
             'defense': 85,
-            'sp atk': 32,
-            'sp def': 35,
+            'spAtk': 32,
+            'spDef': 35,
             'speed': 28,
             'types': [
                 'Ice',
@@ -13161,13 +13161,13 @@ export const POKEDEX = [
     {
         'name': 'Avalugg',
         'stats': {
-            'catch rate': 55,
-            'growth rate': 'Medium Fast',
+            'catchRate': 55,
+            'growthRate': 'MediumFast',
             'hp': 95,
             'attack': 117,
             'defense': 184,
-            'sp atk': 44,
-            'sp def': 46,
+            'spAtk': 44,
+            'spDef': 46,
             'speed': 28,
             'types': [
                 'Ice',
@@ -13179,13 +13179,13 @@ export const POKEDEX = [
     {
         'name': 'Noibat',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 30,
             'defense': 35,
-            'sp atk': 45,
-            'sp def': 40,
+            'spAtk': 45,
+            'spDef': 40,
             'speed': 55,
             'types': [
                 'Flying',
@@ -13198,13 +13198,13 @@ export const POKEDEX = [
     {
         'name': 'Noivern',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 70,
             'defense': 80,
-            'sp atk': 97,
-            'sp def': 80,
+            'spAtk': 97,
+            'spDef': 80,
             'speed': 123,
             'types': [
                 'Flying',
@@ -13217,13 +13217,13 @@ export const POKEDEX = [
     {
         'name': 'Xerneas',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 126,
             'attack': 131,
             'defense': 95,
-            'sp atk': 131,
-            'sp def': 98,
+            'spAtk': 131,
+            'spDef': 98,
             'speed': 99,
             'types': [
                 'Fairy',
@@ -13235,13 +13235,13 @@ export const POKEDEX = [
     {
         'name': 'Yveltal',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 126,
             'attack': 131,
             'defense': 95,
-            'sp atk': 131,
-            'sp def': 98,
+            'spAtk': 131,
+            'spDef': 98,
             'speed': 99,
             'types': [
                 'Dark',
@@ -13254,13 +13254,13 @@ export const POKEDEX = [
     {
         'name': 'Zygarde',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 108,
             'attack': 100,
             'defense': 121,
-            'sp atk': 81,
-            'sp def': 95,
+            'spAtk': 81,
+            'spDef': 95,
             'speed': 95,
             'types': [
                 'Dragon',
@@ -13273,13 +13273,13 @@ export const POKEDEX = [
     {
         'name': 'Diancie',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 100,
             'defense': 150,
-            'sp atk': 100,
-            'sp def': 150,
+            'spAtk': 100,
+            'spDef': 150,
             'speed': 50,
             'types': [
                 'Rock',
@@ -13292,13 +13292,13 @@ export const POKEDEX = [
     {
         'name': 'Hoopa',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 110,
             'defense': 60,
-            'sp atk': 150,
-            'sp def': 130,
+            'spAtk': 150,
+            'spDef': 130,
             'speed': 70,
             'types': [
                 'Psychic',
@@ -13311,13 +13311,13 @@ export const POKEDEX = [
     {
         'name': 'Volcanion',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 110,
             'defense': 120,
-            'sp atk': 130,
-            'sp def': 90,
+            'spAtk': 130,
+            'spDef': 90,
             'speed': 70,
             'types': [
                 'Fire',
@@ -13330,13 +13330,13 @@ export const POKEDEX = [
     {
         'name': 'Rowlet',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 68,
             'attack': 55,
             'defense': 55,
-            'sp atk': 50,
-            'sp def': 50,
+            'spAtk': 50,
+            'spDef': 50,
             'speed': 42,
             'types': [
                 'Grass',
@@ -13349,13 +13349,13 @@ export const POKEDEX = [
     {
         'name': 'Dartrix',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 78,
             'attack': 75,
             'defense': 75,
-            'sp atk': 70,
-            'sp def': 70,
+            'spAtk': 70,
+            'spDef': 70,
             'speed': 52,
             'types': [
                 'Grass',
@@ -13368,13 +13368,13 @@ export const POKEDEX = [
     {
         'name': 'Decidueye',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 78,
             'attack': 107,
             'defense': 75,
-            'sp atk': 100,
-            'sp def': 100,
+            'spAtk': 100,
+            'spDef': 100,
             'speed': 70,
             'types': [
                 'Grass',
@@ -13387,13 +13387,13 @@ export const POKEDEX = [
     {
         'name': 'Litten',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 45,
             'attack': 65,
             'defense': 40,
-            'sp atk': 60,
-            'sp def': 40,
+            'spAtk': 60,
+            'spDef': 40,
             'speed': 70,
             'types': [
                 'Fire',
@@ -13405,13 +13405,13 @@ export const POKEDEX = [
     {
         'name': 'Torracat',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 85,
             'defense': 50,
-            'sp atk': 80,
-            'sp def': 50,
+            'spAtk': 80,
+            'spDef': 50,
             'speed': 90,
             'types': [
                 'Fire',
@@ -13423,13 +13423,13 @@ export const POKEDEX = [
     {
         'name': 'Incineroar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 95,
             'attack': 115,
             'defense': 90,
-            'sp atk': 80,
-            'sp def': 90,
+            'spAtk': 80,
+            'spDef': 90,
             'speed': 60,
             'types': [
                 'Fire',
@@ -13442,13 +13442,13 @@ export const POKEDEX = [
     {
         'name': 'Popplio',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 54,
             'defense': 54,
-            'sp atk': 66,
-            'sp def': 56,
+            'spAtk': 66,
+            'spDef': 56,
             'speed': 40,
             'types': [
                 'Water',
@@ -13460,13 +13460,13 @@ export const POKEDEX = [
     {
         'name': 'Brionne',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 69,
             'defense': 69,
-            'sp atk': 91,
-            'sp def': 91,
+            'spAtk': 91,
+            'spDef': 91,
             'speed': 50,
             'types': [
                 'Water',
@@ -13478,13 +13478,13 @@ export const POKEDEX = [
     {
         'name': 'Primarina',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 74,
             'defense': 74,
-            'sp atk': 126,
-            'sp def': 116,
+            'spAtk': 126,
+            'spDef': 116,
             'speed': 60,
             'types': [
                 'Water',
@@ -13497,13 +13497,13 @@ export const POKEDEX = [
     {
         'name': 'Pikipek',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 35,
             'attack': 75,
             'defense': 30,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 65,
             'types': [
                 'Normal',
@@ -13516,13 +13516,13 @@ export const POKEDEX = [
     {
         'name': 'Trumbeak',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 85,
             'defense': 50,
-            'sp atk': 40,
-            'sp def': 50,
+            'spAtk': 40,
+            'spDef': 50,
             'speed': 75,
             'types': [
                 'Normal',
@@ -13535,13 +13535,13 @@ export const POKEDEX = [
     {
         'name': 'Toucannon',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 120,
             'defense': 75,
-            'sp atk': 75,
-            'sp def': 75,
+            'spAtk': 75,
+            'spDef': 75,
             'speed': 60,
             'types': [
                 'Normal',
@@ -13554,13 +13554,13 @@ export const POKEDEX = [
     {
         'name': 'Yungoos',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 48,
             'attack': 70,
             'defense': 30,
-            'sp atk': 30,
-            'sp def': 30,
+            'spAtk': 30,
+            'spDef': 30,
             'speed': 45,
             'types': [
                 'Normal',
@@ -13572,13 +13572,13 @@ export const POKEDEX = [
     {
         'name': 'Gumshoos',
         'stats': {
-            'catch rate': 127,
-            'growth rate': 'Medium Fast',
+            'catchRate': 127,
+            'growthRate': 'MediumFast',
             'hp': 88,
             'attack': 110,
             'defense': 60,
-            'sp atk': 55,
-            'sp def': 60,
+            'spAtk': 55,
+            'spDef': 60,
             'speed': 45,
             'types': [
                 'Normal',
@@ -13590,13 +13590,13 @@ export const POKEDEX = [
     {
         'name': 'Grubbin',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Medium Fast',
+            'catchRate': 255,
+            'growthRate': 'MediumFast',
             'hp': 47,
             'attack': 62,
             'defense': 45,
-            'sp atk': 55,
-            'sp def': 45,
+            'spAtk': 55,
+            'spDef': 45,
             'speed': 46,
             'types': [
                 'Bug',
@@ -13608,13 +13608,13 @@ export const POKEDEX = [
     {
         'name': 'Charjabug',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 57,
             'attack': 82,
             'defense': 95,
-            'sp atk': 55,
-            'sp def': 75,
+            'spAtk': 55,
+            'spDef': 75,
             'speed': 36,
             'types': [
                 'Bug',
@@ -13627,13 +13627,13 @@ export const POKEDEX = [
     {
         'name': 'Vikavolt',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 77,
             'attack': 70,
             'defense': 90,
-            'sp atk': 145,
-            'sp def': 75,
+            'spAtk': 145,
+            'spDef': 75,
             'speed': 43,
             'types': [
                 'Bug',
@@ -13646,13 +13646,13 @@ export const POKEDEX = [
     {
         'name': 'Crabrawler',
         'stats': {
-            'catch rate': 225,
-            'growth rate': 'Medium Fast',
+            'catchRate': 225,
+            'growthRate': 'MediumFast',
             'hp': 47,
             'attack': 82,
             'defense': 57,
-            'sp atk': 42,
-            'sp def': 47,
+            'spAtk': 42,
+            'spDef': 47,
             'speed': 63,
             'types': [
                 'Fighting',
@@ -13664,13 +13664,13 @@ export const POKEDEX = [
     {
         'name': 'Crabominable',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 97,
             'attack': 132,
             'defense': 77,
-            'sp atk': 62,
-            'sp def': 67,
+            'spAtk': 62,
+            'spDef': 67,
             'speed': 43,
             'types': [
                 'Fighting',
@@ -13683,13 +13683,13 @@ export const POKEDEX = [
     {
         'name': 'Oricorio',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 70,
             'defense': 70,
-            'sp atk': 98,
-            'sp def': 70,
+            'spAtk': 98,
+            'spDef': 70,
             'speed': 93,
             'types': [
                 'Fire',
@@ -13702,13 +13702,13 @@ export const POKEDEX = [
     {
         'name': 'Cutiefly',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 45,
             'defense': 40,
-            'sp atk': 55,
-            'sp def': 40,
+            'spAtk': 55,
+            'spDef': 40,
             'speed': 84,
             'types': [
                 'Bug',
@@ -13721,13 +13721,13 @@ export const POKEDEX = [
     {
         'name': 'Ribombee',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 55,
             'defense': 60,
-            'sp atk': 95,
-            'sp def': 70,
+            'spAtk': 95,
+            'spDef': 70,
             'speed': 124,
             'types': [
                 'Bug',
@@ -13740,13 +13740,13 @@ export const POKEDEX = [
     {
         'name': 'Rockruff',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 45,
             'attack': 65,
             'defense': 40,
-            'sp atk': 30,
-            'sp def': 40,
+            'spAtk': 30,
+            'spDef': 40,
             'speed': 60,
             'types': [
                 'Rock',
@@ -13758,13 +13758,13 @@ export const POKEDEX = [
     {
         'name': 'Lycanroc',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 115,
             'defense': 75,
-            'sp atk': 55,
-            'sp def': 75,
+            'spAtk': 55,
+            'spDef': 75,
             'speed': 82,
             'types': [
                 'Rock',
@@ -13776,13 +13776,13 @@ export const POKEDEX = [
     {
         'name': 'Wishiwashi',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 45,
             'attack': 20,
             'defense': 20,
-            'sp atk': 25,
-            'sp def': 25,
+            'spAtk': 25,
+            'spDef': 25,
             'speed': 40,
             'types': [
                 'Water',
@@ -13794,13 +13794,13 @@ export const POKEDEX = [
     {
         'name': 'Mareanie',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 53,
             'defense': 62,
-            'sp atk': 43,
-            'sp def': 52,
+            'spAtk': 43,
+            'spDef': 52,
             'speed': 45,
             'types': [
                 'Poison',
@@ -13813,13 +13813,13 @@ export const POKEDEX = [
     {
         'name': 'Toxapex',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 63,
             'defense': 152,
-            'sp atk': 53,
-            'sp def': 142,
+            'spAtk': 53,
+            'spDef': 142,
             'speed': 35,
             'types': [
                 'Poison',
@@ -13832,13 +13832,13 @@ export const POKEDEX = [
     {
         'name': 'Mudbray',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 100,
             'defense': 70,
-            'sp atk': 45,
-            'sp def': 55,
+            'spAtk': 45,
+            'spDef': 55,
             'speed': 45,
             'types': [
                 'Ground',
@@ -13850,13 +13850,13 @@ export const POKEDEX = [
     {
         'name': 'Mudsdale',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 100,
             'attack': 125,
             'defense': 100,
-            'sp atk': 55,
-            'sp def': 85,
+            'spAtk': 55,
+            'spDef': 85,
             'speed': 35,
             'types': [
                 'Ground',
@@ -13868,13 +13868,13 @@ export const POKEDEX = [
     {
         'name': 'Dewpider',
         'stats': {
-            'catch rate': 200,
-            'growth rate': 'Medium Fast',
+            'catchRate': 200,
+            'growthRate': 'MediumFast',
             'hp': 38,
             'attack': 40,
             'defense': 52,
-            'sp atk': 40,
-            'sp def': 72,
+            'spAtk': 40,
+            'spDef': 72,
             'speed': 27,
             'types': [
                 'Water',
@@ -13887,13 +13887,13 @@ export const POKEDEX = [
     {
         'name': 'Araquanid',
         'stats': {
-            'catch rate': 100,
-            'growth rate': 'Medium Fast',
+            'catchRate': 100,
+            'growthRate': 'MediumFast',
             'hp': 68,
             'attack': 70,
             'defense': 92,
-            'sp atk': 50,
-            'sp def': 132,
+            'spAtk': 50,
+            'spDef': 132,
             'speed': 42,
             'types': [
                 'Water',
@@ -13906,13 +13906,13 @@ export const POKEDEX = [
     {
         'name': 'Fomantis',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 55,
             'defense': 35,
-            'sp atk': 50,
-            'sp def': 35,
+            'spAtk': 50,
+            'spDef': 35,
             'speed': 35,
             'types': [
                 'Grass',
@@ -13924,13 +13924,13 @@ export const POKEDEX = [
     {
         'name': 'Lurantis',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 105,
             'defense': 90,
-            'sp atk': 80,
-            'sp def': 90,
+            'spAtk': 80,
+            'spDef': 90,
             'speed': 45,
             'types': [
                 'Grass',
@@ -13942,13 +13942,13 @@ export const POKEDEX = [
     {
         'name': 'Morelull',
         'stats': {
-            'catch rate': 190,
-            'growth rate': 'Medium Fast',
+            'catchRate': 190,
+            'growthRate': 'MediumFast',
             'hp': 40,
             'attack': 35,
             'defense': 55,
-            'sp atk': 65,
-            'sp def': 75,
+            'spAtk': 65,
+            'spDef': 75,
             'speed': 15,
             'types': [
                 'Grass',
@@ -13961,13 +13961,13 @@ export const POKEDEX = [
     {
         'name': 'Shiinotic',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 45,
             'defense': 80,
-            'sp atk': 90,
-            'sp def': 100,
+            'spAtk': 90,
+            'spDef': 100,
             'speed': 30,
             'types': [
                 'Grass',
@@ -13980,13 +13980,13 @@ export const POKEDEX = [
     {
         'name': 'Salandit',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Fast',
+            'catchRate': 120,
+            'growthRate': 'MediumFast',
             'hp': 48,
             'attack': 44,
             'defense': 40,
-            'sp atk': 71,
-            'sp def': 40,
+            'spAtk': 71,
+            'spDef': 40,
             'speed': 77,
             'types': [
                 'Poison',
@@ -13999,13 +13999,13 @@ export const POKEDEX = [
     {
         'name': 'Salazzle',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 68,
             'attack': 64,
             'defense': 60,
-            'sp atk': 111,
-            'sp def': 60,
+            'spAtk': 111,
+            'spDef': 60,
             'speed': 117,
             'types': [
                 'Poison',
@@ -14018,13 +14018,13 @@ export const POKEDEX = [
     {
         'name': 'Stufful',
         'stats': {
-            'catch rate': 140,
-            'growth rate': 'Medium Fast',
+            'catchRate': 140,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 75,
             'defense': 50,
-            'sp atk': 45,
-            'sp def': 50,
+            'spAtk': 45,
+            'spDef': 50,
             'speed': 50,
             'types': [
                 'Normal',
@@ -14037,13 +14037,13 @@ export const POKEDEX = [
     {
         'name': 'Bewear',
         'stats': {
-            'catch rate': 70,
-            'growth rate': 'Medium Fast',
+            'catchRate': 70,
+            'growthRate': 'MediumFast',
             'hp': 120,
             'attack': 125,
             'defense': 80,
-            'sp atk': 55,
-            'sp def': 60,
+            'spAtk': 55,
+            'spDef': 60,
             'speed': 60,
             'types': [
                 'Normal',
@@ -14056,13 +14056,13 @@ export const POKEDEX = [
     {
         'name': 'Bounsweet',
         'stats': {
-            'catch rate': 235,
-            'growth rate': 'Medium Slow',
+            'catchRate': 235,
+            'growthRate': 'MediumSlow',
             'hp': 42,
             'attack': 30,
             'defense': 38,
-            'sp atk': 30,
-            'sp def': 38,
+            'spAtk': 30,
+            'spDef': 38,
             'speed': 32,
             'types': [
                 'Grass',
@@ -14074,13 +14074,13 @@ export const POKEDEX = [
     {
         'name': 'Steenee',
         'stats': {
-            'catch rate': 120,
-            'growth rate': 'Medium Slow',
+            'catchRate': 120,
+            'growthRate': 'MediumSlow',
             'hp': 52,
             'attack': 40,
             'defense': 48,
-            'sp atk': 40,
-            'sp def': 48,
+            'spAtk': 40,
+            'spDef': 48,
             'speed': 62,
             'types': [
                 'Grass',
@@ -14092,13 +14092,13 @@ export const POKEDEX = [
     {
         'name': 'Tsareena',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 72,
             'attack': 120,
             'defense': 98,
-            'sp atk': 50,
-            'sp def': 98,
+            'spAtk': 50,
+            'spDef': 98,
             'speed': 72,
             'types': [
                 'Grass',
@@ -14110,13 +14110,13 @@ export const POKEDEX = [
     {
         'name': 'Comfey',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 51,
             'attack': 52,
             'defense': 90,
-            'sp atk': 82,
-            'sp def': 110,
+            'spAtk': 82,
+            'spDef': 110,
             'speed': 100,
             'types': [
                 'Fairy',
@@ -14128,13 +14128,13 @@ export const POKEDEX = [
     {
         'name': 'Oranguru',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 60,
             'defense': 80,
-            'sp atk': 90,
-            'sp def': 110,
+            'spAtk': 90,
+            'spDef': 110,
             'speed': 60,
             'types': [
                 'Normal',
@@ -14147,13 +14147,13 @@ export const POKEDEX = [
     {
         'name': 'Passimian',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 120,
             'defense': 90,
-            'sp atk': 40,
-            'sp def': 60,
+            'spAtk': 40,
+            'spDef': 60,
             'speed': 80,
             'types': [
                 'Fighting',
@@ -14165,13 +14165,13 @@ export const POKEDEX = [
     {
         'name': 'Wimpod',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 25,
             'attack': 35,
             'defense': 40,
-            'sp atk': 20,
-            'sp def': 30,
+            'spAtk': 20,
+            'spDef': 30,
             'speed': 80,
             'types': [
                 'Bug',
@@ -14184,13 +14184,13 @@ export const POKEDEX = [
     {
         'name': 'Golisopod',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 125,
             'defense': 140,
-            'sp atk': 60,
-            'sp def': 90,
+            'spAtk': 60,
+            'spDef': 90,
             'speed': 40,
             'types': [
                 'Bug',
@@ -14203,13 +14203,13 @@ export const POKEDEX = [
     {
         'name': 'Sandygast',
         'stats': {
-            'catch rate': 140,
-            'growth rate': 'Medium Fast',
+            'catchRate': 140,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 55,
             'defense': 80,
-            'sp atk': 70,
-            'sp def': 45,
+            'spAtk': 70,
+            'spDef': 45,
             'speed': 15,
             'types': [
                 'Ghost',
@@ -14222,13 +14222,13 @@ export const POKEDEX = [
     {
         'name': 'Palossand',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 85,
             'attack': 75,
             'defense': 110,
-            'sp atk': 100,
-            'sp def': 75,
+            'spAtk': 100,
+            'spDef': 75,
             'speed': 35,
             'types': [
                 'Ghost',
@@ -14241,13 +14241,13 @@ export const POKEDEX = [
     {
         'name': 'Pyukumuku',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 55,
             'attack': 60,
             'defense': 130,
-            'sp atk': 30,
-            'sp def': 130,
+            'spAtk': 30,
+            'spDef': 130,
             'speed': 5,
             'types': [
                 'Water',
@@ -14259,13 +14259,13 @@ export const POKEDEX = [
     {
         'name': 'Type: Null',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 95,
             'defense': 95,
-            'sp atk': 95,
-            'sp def': 95,
+            'spAtk': 95,
+            'spDef': 95,
             'speed': 59,
             'types': [
                 'Normal',
@@ -14277,13 +14277,13 @@ export const POKEDEX = [
     {
         'name': 'Silvally',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 95,
             'defense': 95,
-            'sp atk': 95,
-            'sp def': 95,
+            'spAtk': 95,
+            'spDef': 95,
             'speed': 95,
             'types': [
                 'Normal',
@@ -14295,13 +14295,13 @@ export const POKEDEX = [
     {
         'name': 'Minior',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 60,
             'attack': 100,
             'defense': 60,
-            'sp atk': 100,
-            'sp def': 60,
+            'spAtk': 100,
+            'spDef': 60,
             'speed': 120,
             'types': [
                 'Rock',
@@ -14314,13 +14314,13 @@ export const POKEDEX = [
     {
         'name': 'Komala',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 65,
             'attack': 115,
             'defense': 65,
-            'sp atk': 75,
-            'sp def': 95,
+            'spAtk': 75,
+            'spDef': 95,
             'speed': 65,
             'types': [
                 'Normal',
@@ -14332,13 +14332,13 @@ export const POKEDEX = [
     {
         'name': 'Turtonator',
         'stats': {
-            'catch rate': 70,
-            'growth rate': 'Medium Fast',
+            'catchRate': 70,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 78,
             'defense': 135,
-            'sp atk': 91,
-            'sp def': 85,
+            'spAtk': 91,
+            'spDef': 85,
             'speed': 36,
             'types': [
                 'Fire',
@@ -14351,13 +14351,13 @@ export const POKEDEX = [
     {
         'name': 'Togedemaru',
         'stats': {
-            'catch rate': 180,
-            'growth rate': 'Medium Fast',
+            'catchRate': 180,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 98,
             'defense': 63,
-            'sp atk': 40,
-            'sp def': 73,
+            'spAtk': 40,
+            'spDef': 73,
             'speed': 96,
             'types': [
                 'Electric',
@@ -14370,13 +14370,13 @@ export const POKEDEX = [
     {
         'name': 'Mimikyu',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 55,
             'attack': 90,
             'defense': 80,
-            'sp atk': 50,
-            'sp def': 105,
+            'spAtk': 50,
+            'spDef': 105,
             'speed': 96,
             'types': [
                 'Ghost',
@@ -14389,13 +14389,13 @@ export const POKEDEX = [
     {
         'name': 'Bruxish',
         'stats': {
-            'catch rate': 80,
-            'growth rate': 'Medium Fast',
+            'catchRate': 80,
+            'growthRate': 'MediumFast',
             'hp': 68,
             'attack': 105,
             'defense': 70,
-            'sp atk': 70,
-            'sp def': 70,
+            'spAtk': 70,
+            'spDef': 70,
             'speed': 92,
             'types': [
                 'Water',
@@ -14408,13 +14408,13 @@ export const POKEDEX = [
     {
         'name': 'Drampa',
         'stats': {
-            'catch rate': 70,
-            'growth rate': 'Medium Fast',
+            'catchRate': 70,
+            'growthRate': 'MediumFast',
             'hp': 78,
             'attack': 60,
             'defense': 85,
-            'sp atk': 135,
-            'sp def': 91,
+            'spAtk': 135,
+            'spDef': 91,
             'speed': 36,
             'types': [
                 'Normal',
@@ -14427,13 +14427,13 @@ export const POKEDEX = [
     {
         'name': 'Dhelmise',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
+            'catchRate': 25,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 131,
             'defense': 100,
-            'sp atk': 86,
-            'sp def': 90,
+            'spAtk': 86,
+            'spDef': 90,
             'speed': 40,
             'types': [
                 'Ghost',
@@ -14446,13 +14446,13 @@ export const POKEDEX = [
     {
         'name': 'Jangmo-o',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 45,
             'attack': 55,
             'defense': 65,
-            'sp atk': 45,
-            'sp def': 45,
+            'spAtk': 45,
+            'spDef': 45,
             'speed': 45,
             'types': [
                 'Dragon',
@@ -14464,13 +14464,13 @@ export const POKEDEX = [
     {
         'name': 'Hakamo-o',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 55,
             'attack': 75,
             'defense': 90,
-            'sp atk': 65,
-            'sp def': 70,
+            'spAtk': 65,
+            'spDef': 70,
             'speed': 65,
             'types': [
                 'Dragon',
@@ -14483,13 +14483,13 @@ export const POKEDEX = [
     {
         'name': 'Kommo-o',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 110,
             'defense': 125,
-            'sp atk': 100,
-            'sp def': 105,
+            'spAtk': 100,
+            'spDef': 105,
             'speed': 85,
             'types': [
                 'Dragon',
@@ -14502,13 +14502,13 @@ export const POKEDEX = [
     {
         'name': 'Tapu Koko',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 115,
             'defense': 85,
-            'sp atk': 95,
-            'sp def': 75,
+            'spAtk': 95,
+            'spDef': 75,
             'speed': 130,
             'types': [
                 'Electric',
@@ -14521,13 +14521,13 @@ export const POKEDEX = [
     {
         'name': 'Tapu Lele',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 85,
             'defense': 75,
-            'sp atk': 130,
-            'sp def': 115,
+            'spAtk': 130,
+            'spDef': 115,
             'speed': 95,
             'types': [
                 'Psychic',
@@ -14540,13 +14540,13 @@ export const POKEDEX = [
     {
         'name': 'Tapu Bulu',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 130,
             'defense': 115,
-            'sp atk': 85,
-            'sp def': 95,
+            'spAtk': 85,
+            'spDef': 95,
             'speed': 75,
             'types': [
                 'Grass',
@@ -14559,13 +14559,13 @@ export const POKEDEX = [
     {
         'name': 'Tapu Fini',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 75,
             'defense': 115,
-            'sp atk': 95,
-            'sp def': 130,
+            'spAtk': 95,
+            'spDef': 130,
             'speed': 85,
             'types': [
                 'Water',
@@ -14578,13 +14578,13 @@ export const POKEDEX = [
     {
         'name': 'Cosmog',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 43,
             'attack': 29,
             'defense': 31,
-            'sp atk': 29,
-            'sp def': 31,
+            'spAtk': 29,
+            'spDef': 31,
             'speed': 37,
             'types': [
                 'Psychic',
@@ -14596,13 +14596,13 @@ export const POKEDEX = [
     {
         'name': 'Cosmoem',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 43,
             'attack': 29,
             'defense': 131,
-            'sp atk': 29,
-            'sp def': 131,
+            'spAtk': 29,
+            'spDef': 131,
             'speed': 37,
             'types': [
                 'Psychic',
@@ -14614,13 +14614,13 @@ export const POKEDEX = [
     {
         'name': 'Solgaleo',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 137,
             'attack': 137,
             'defense': 107,
-            'sp atk': 113,
-            'sp def': 89,
+            'spAtk': 113,
+            'spDef': 89,
             'speed': 97,
             'types': [
                 'Psychic',
@@ -14633,13 +14633,13 @@ export const POKEDEX = [
     {
         'name': 'Lunala',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 137,
             'attack': 113,
             'defense': 89,
-            'sp atk': 137,
-            'sp def': 107,
+            'spAtk': 137,
+            'spDef': 107,
             'speed': 97,
             'types': [
                 'Psychic',
@@ -14652,13 +14652,13 @@ export const POKEDEX = [
     {
         'name': 'Nihilego',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 109,
             'attack': 53,
             'defense': 47,
-            'sp atk': 127,
-            'sp def': 131,
+            'spAtk': 127,
+            'spDef': 131,
             'speed': 103,
             'types': [
                 'Rock',
@@ -14671,13 +14671,13 @@ export const POKEDEX = [
     {
         'name': 'Buzzwole',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 107,
             'attack': 139,
             'defense': 139,
-            'sp atk': 53,
-            'sp def': 53,
+            'spAtk': 53,
+            'spDef': 53,
             'speed': 79,
             'types': [
                 'Bug',
@@ -14690,13 +14690,13 @@ export const POKEDEX = [
     {
         'name': 'Pheromosa',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 71,
             'attack': 137,
             'defense': 37,
-            'sp atk': 137,
-            'sp def': 37,
+            'spAtk': 137,
+            'spDef': 37,
             'speed': 151,
             'types': [
                 'Bug',
@@ -14709,13 +14709,13 @@ export const POKEDEX = [
     {
         'name': 'Xurkitree',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Slow',
+            'catchRate': 30,
+            'growthRate': 'Slow',
             'hp': 83,
             'attack': 89,
             'defense': 71,
-            'sp atk': 173,
-            'sp def': 71,
+            'spAtk': 173,
+            'spDef': 71,
             'speed': 83,
             'types': [
                 'Electric',
@@ -14727,13 +14727,13 @@ export const POKEDEX = [
     {
         'name': 'Celesteela',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Slow',
+            'catchRate': 25,
+            'growthRate': 'Slow',
             'hp': 97,
             'attack': 101,
             'defense': 103,
-            'sp atk': 107,
-            'sp def': 101,
+            'spAtk': 107,
+            'spDef': 101,
             'speed': 61,
             'types': [
                 'Steel',
@@ -14746,13 +14746,13 @@ export const POKEDEX = [
     {
         'name': 'Kartana',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Slow',
+            'catchRate': 255,
+            'growthRate': 'Slow',
             'hp': 59,
             'attack': 181,
             'defense': 131,
-            'sp atk': 59,
-            'sp def': 31,
+            'spAtk': 59,
+            'spDef': 31,
             'speed': 109,
             'types': [
                 'Grass',
@@ -14765,13 +14765,13 @@ export const POKEDEX = [
     {
         'name': 'Guzzlord',
         'stats': {
-            'catch rate': 15,
-            'growth rate': 'Slow',
+            'catchRate': 15,
+            'growthRate': 'Slow',
             'hp': 223,
             'attack': 101,
             'defense': 53,
-            'sp atk': 97,
-            'sp def': 53,
+            'spAtk': 97,
+            'spDef': 53,
             'speed': 43,
             'types': [
                 'Dark',
@@ -14784,13 +14784,13 @@ export const POKEDEX = [
     {
         'name': 'Necrozma',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 97,
             'attack': 107,
             'defense': 101,
-            'sp atk': 127,
-            'sp def': 89,
+            'spAtk': 127,
+            'spDef': 89,
             'speed': 79,
             'types': [
                 'Psychic',
@@ -14802,13 +14802,13 @@ export const POKEDEX = [
     {
         'name': 'Magearna',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 95,
             'defense': 115,
-            'sp atk': 130,
-            'sp def': 115,
+            'spAtk': 130,
+            'spDef': 115,
             'speed': 65,
             'types': [
                 'Steel',
@@ -14821,13 +14821,13 @@ export const POKEDEX = [
     {
         'name': 'Marshadow',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 125,
             'defense': 80,
-            'sp atk': 90,
-            'sp def': 90,
+            'spAtk': 90,
+            'spDef': 90,
             'speed': 125,
             'types': [
                 'Fighting',
@@ -14840,13 +14840,13 @@ export const POKEDEX = [
     {
         'name': 'M-Scizor',
         'stats': {
-            'catch rate': 25,
-            'growth rate': 'Medium Fast',
+            'catchRate': 25,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 150,
             'defense': 140,
-            'sp atk': 65,
-            'sp def': 100,
+            'spAtk': 65,
+            'spDef': 100,
             'speed': 75,
             'types': [
                 'Bug',
@@ -14859,13 +14859,13 @@ export const POKEDEX = [
     {
         'name': 'M-Heracross',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 185,
             'defense': 115,
-            'sp atk': 40,
-            'sp def': 105,
+            'spAtk': 40,
+            'spDef': 105,
             'speed': 75,
             'types': [
                 'Bug',
@@ -14878,13 +14878,13 @@ export const POKEDEX = [
     {
         'name': 'M-Houndoom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 90,
             'defense': 90,
-            'sp atk': 140,
-            'sp def': 90,
+            'spAtk': 140,
+            'spDef': 90,
             'speed': 115,
             'types': [
                 'Dark',
@@ -14897,13 +14897,13 @@ export const POKEDEX = [
     {
         'name': 'M-Tyranitar',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 164,
             'defense': 150,
-            'sp atk': 95,
-            'sp def': 120,
+            'spAtk': 95,
+            'spDef': 120,
             'speed': 71,
             'types': [
                 'Rock',
@@ -14916,13 +14916,13 @@ export const POKEDEX = [
     {
         'name': 'M-Sceptile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 110,
             'defense': 75,
-            'sp atk': 145,
-            'sp def': 85,
+            'spAtk': 145,
+            'spDef': 85,
             'speed': 145,
             'types': [
                 'Grass',
@@ -14935,13 +14935,13 @@ export const POKEDEX = [
     {
         'name': 'M-Blaziken',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 80,
             'attack': 160,
             'defense': 80,
-            'sp atk': 130,
-            'sp def': 80,
+            'spAtk': 130,
+            'spDef': 80,
             'speed': 100,
             'types': [
                 'Fire',
@@ -14954,13 +14954,13 @@ export const POKEDEX = [
     {
         'name': 'M-Swampert',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 150,
             'defense': 110,
-            'sp atk': 95,
-            'sp def': 110,
+            'spAtk': 95,
+            'spDef': 110,
             'speed': 70,
             'types': [
                 'Water',
@@ -14973,13 +14973,13 @@ export const POKEDEX = [
     {
         'name': 'M-Gardevoir',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 85,
             'defense': 65,
-            'sp atk': 165,
-            'sp def': 135,
+            'spAtk': 165,
+            'spDef': 135,
             'speed': 100,
             'types': [
                 'Psychic',
@@ -14992,13 +14992,13 @@ export const POKEDEX = [
     {
         'name': 'M-Sableye',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 50,
             'attack': 85,
             'defense': 125,
-            'sp atk': 85,
-            'sp def': 115,
+            'spAtk': 85,
+            'spDef': 115,
             'speed': 20,
             'types': [
                 'Dark',
@@ -15011,13 +15011,13 @@ export const POKEDEX = [
     {
         'name': 'M-Mawile',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 50,
             'attack': 105,
             'defense': 125,
-            'sp atk': 55,
-            'sp def': 95,
+            'spAtk': 55,
+            'spDef': 95,
             'speed': 50,
             'types': [
                 'Steel',
@@ -15030,13 +15030,13 @@ export const POKEDEX = [
     {
         'name': 'M-Aggron',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 140,
             'defense': 230,
-            'sp atk': 60,
-            'sp def': 80,
+            'spAtk': 60,
+            'spDef': 80,
             'speed': 50,
             'types': [
                 'Steel',
@@ -15048,13 +15048,13 @@ export const POKEDEX = [
     {
         'name': 'M-Medicham',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 100,
             'defense': 85,
-            'sp atk': 80,
-            'sp def': 85,
+            'spAtk': 80,
+            'spDef': 85,
             'speed': 100,
             'types': [
                 'Fighting',
@@ -15067,13 +15067,13 @@ export const POKEDEX = [
     {
         'name': 'M-Manectric',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 75,
             'defense': 80,
-            'sp atk': 135,
-            'sp def': 80,
+            'spAtk': 135,
+            'spDef': 80,
             'speed': 135,
             'types': [
                 'Electric',
@@ -15085,13 +15085,13 @@ export const POKEDEX = [
     {
         'name': 'M-Sharpedo',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 70,
             'attack': 140,
             'defense': 70,
-            'sp atk': 110,
-            'sp def': 65,
+            'spAtk': 110,
+            'spDef': 65,
             'speed': 105,
             'types': [
                 'Water',
@@ -15104,13 +15104,13 @@ export const POKEDEX = [
     {
         'name': 'M-Camerupt',
         'stats': {
-            'catch rate': 150,
-            'growth rate': 'Medium Fast',
+            'catchRate': 150,
+            'growthRate': 'MediumFast',
             'hp': 70,
             'attack': 120,
             'defense': 100,
-            'sp atk': 145,
-            'sp def': 105,
+            'spAtk': 145,
+            'spDef': 105,
             'speed': 20,
             'types': [
                 'Fire',
@@ -15123,13 +15123,13 @@ export const POKEDEX = [
     {
         'name': 'M-Altaria',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 75,
             'attack': 110,
             'defense': 110,
-            'sp atk': 110,
-            'sp def': 105,
+            'spAtk': 110,
+            'spDef': 105,
             'speed': 80,
             'types': [
                 'Dragon',
@@ -15142,13 +15142,13 @@ export const POKEDEX = [
     {
         'name': 'M-Banette',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Fast',
+            'catchRate': 45,
+            'growthRate': 'Fast',
             'hp': 64,
             'attack': 165,
             'defense': 75,
-            'sp atk': 93,
-            'sp def': 83,
+            'spAtk': 93,
+            'spDef': 83,
             'speed': 75,
             'types': [
                 'Ghost',
@@ -15160,13 +15160,13 @@ export const POKEDEX = [
     {
         'name': 'M-Absol',
         'stats': {
-            'catch rate': 30,
-            'growth rate': 'Medium Slow',
+            'catchRate': 30,
+            'growthRate': 'MediumSlow',
             'hp': 65,
             'attack': 150,
             'defense': 60,
-            'sp atk': 115,
-            'sp def': 60,
+            'spAtk': 115,
+            'spDef': 60,
             'speed': 115,
             'types': [
                 'Dark',
@@ -15178,13 +15178,13 @@ export const POKEDEX = [
     {
         'name': 'M-Glalie',
         'stats': {
-            'catch rate': 75,
-            'growth rate': 'Medium Fast',
+            'catchRate': 75,
+            'growthRate': 'MediumFast',
             'hp': 80,
             'attack': 120,
             'defense': 80,
-            'sp atk': 120,
-            'sp def': 80,
+            'spAtk': 120,
+            'spDef': 80,
             'speed': 100,
             'types': [
                 'Ice',
@@ -15196,13 +15196,13 @@ export const POKEDEX = [
     {
         'name': 'M-Salamence',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 95,
             'attack': 145,
             'defense': 130,
-            'sp atk': 120,
-            'sp def': 90,
+            'spAtk': 120,
+            'spDef': 90,
             'speed': 120,
             'types': [
                 'Dragon',
@@ -15215,13 +15215,13 @@ export const POKEDEX = [
     {
         'name': 'M-Metagross',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 145,
             'defense': 150,
-            'sp atk': 105,
-            'sp def': 110,
+            'spAtk': 105,
+            'spDef': 110,
             'speed': 110,
             'types': [
                 'Steel',
@@ -15234,13 +15234,13 @@ export const POKEDEX = [
     {
         'name': 'M-Latias',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 100,
             'defense': 120,
-            'sp atk': 140,
-            'sp def': 150,
+            'spAtk': 140,
+            'spDef': 150,
             'speed': 110,
             'types': [
                 'Dragon',
@@ -15253,13 +15253,13 @@ export const POKEDEX = [
     {
         'name': 'M-Latios',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 130,
             'defense': 100,
-            'sp atk': 160,
-            'sp def': 120,
+            'spAtk': 160,
+            'spDef': 120,
             'speed': 110,
             'types': [
                 'Dragon',
@@ -15272,13 +15272,13 @@ export const POKEDEX = [
     {
         'name': 'P-Kyogre',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 150,
             'defense': 90,
-            'sp atk': 180,
-            'sp def': 160,
+            'spAtk': 180,
+            'spDef': 160,
             'speed': 90,
             'types': [
                 'Water',
@@ -15290,13 +15290,13 @@ export const POKEDEX = [
     {
         'name': 'P-Groudon',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 180,
             'defense': 160,
-            'sp atk': 150,
-            'sp def': 90,
+            'spAtk': 150,
+            'spDef': 90,
             'speed': 90,
             'types': [
                 'Fire',
@@ -15309,13 +15309,13 @@ export const POKEDEX = [
     {
         'name': 'M-Rayquaza',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 105,
             'attack': 180,
             'defense': 100,
-            'sp atk': 180,
-            'sp def': 100,
+            'spAtk': 180,
+            'spDef': 100,
             'speed': 115,
             'types': [
                 'Dragon',
@@ -15328,13 +15328,13 @@ export const POKEDEX = [
     {
         'name': 'Deoxys-A',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 180,
             'defense': 20,
-            'sp atk': 180,
-            'sp def': 20,
+            'spAtk': 180,
+            'spDef': 20,
             'speed': 150,
             'types': [
                 'Psychic',
@@ -15346,13 +15346,13 @@ export const POKEDEX = [
     {
         'name': 'Deoxys-D',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 70,
             'defense': 160,
-            'sp atk': 70,
-            'sp def': 160,
+            'spAtk': 70,
+            'spDef': 160,
             'speed': 90,
             'types': [
                 'Psychic',
@@ -15364,13 +15364,13 @@ export const POKEDEX = [
     {
         'name': 'Deoxys-S',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 95,
             'defense': 90,
-            'sp atk': 95,
-            'sp def': 90,
+            'spAtk': 95,
+            'spDef': 90,
             'speed': 180,
             'types': [
                 'Psychic',
@@ -15382,13 +15382,13 @@ export const POKEDEX = [
     {
         'name': 'M-Garchomp',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 108,
             'attack': 170,
             'defense': 115,
-            'sp atk': 120,
-            'sp def': 95,
+            'spAtk': 120,
+            'spDef': 95,
             'speed': 92,
             'types': [
                 'Dragon',
@@ -15401,13 +15401,13 @@ export const POKEDEX = [
     {
         'name': 'M-Lopunny',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Fast',
+            'catchRate': 60,
+            'growthRate': 'MediumFast',
             'hp': 65,
             'attack': 136,
             'defense': 94,
-            'sp atk': 54,
-            'sp def': 96,
+            'spAtk': 54,
+            'spDef': 96,
             'speed': 135,
             'types': [
                 'Normal',
@@ -15420,13 +15420,13 @@ export const POKEDEX = [
     {
         'name': 'M-Lucario',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 70,
             'attack': 145,
             'defense': 88,
-            'sp atk': 140,
-            'sp def': 70,
+            'spAtk': 140,
+            'spDef': 70,
             'speed': 112,
             'types': [
                 'Fighting',
@@ -15439,13 +15439,13 @@ export const POKEDEX = [
     {
         'name': 'M-Abomasnow',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Slow',
+            'catchRate': 60,
+            'growthRate': 'Slow',
             'hp': 90,
             'attack': 132,
             'defense': 105,
-            'sp atk': 132,
-            'sp def': 105,
+            'spAtk': 132,
+            'spDef': 105,
             'speed': 30,
             'types': [
                 'Grass',
@@ -15458,13 +15458,13 @@ export const POKEDEX = [
     {
         'name': 'M-Gallade',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Slow',
+            'catchRate': 45,
+            'growthRate': 'Slow',
             'hp': 68,
             'attack': 165,
             'defense': 95,
-            'sp atk': 65,
-            'sp def': 115,
+            'spAtk': 65,
+            'spDef': 115,
             'speed': 110,
             'types': [
                 'Psychic',
@@ -15477,13 +15477,13 @@ export const POKEDEX = [
     {
         'name': 'H-Rotom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 107,
-            'sp atk': 105,
-            'sp def': 107,
+            'spAtk': 105,
+            'spDef': 107,
             'speed': 86,
             'types': [
                 'Electric',
@@ -15496,13 +15496,13 @@ export const POKEDEX = [
     {
         'name': 'W-Rotom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 107,
-            'sp atk': 105,
-            'sp def': 107,
+            'spAtk': 105,
+            'spDef': 107,
             'speed': 86,
             'types': [
                 'Electric',
@@ -15515,13 +15515,13 @@ export const POKEDEX = [
     {
         'name': 'F-Rotom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 107,
-            'sp atk': 105,
-            'sp def': 107,
+            'spAtk': 105,
+            'spDef': 107,
             'speed': 86,
             'types': [
                 'Electric',
@@ -15534,13 +15534,13 @@ export const POKEDEX = [
     {
         'name': 'Fan-Rotom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 107,
-            'sp atk': 105,
-            'sp def': 107,
+            'spAtk': 105,
+            'spDef': 107,
             'speed': 86,
             'types': [
                 'Electric',
@@ -15553,13 +15553,13 @@ export const POKEDEX = [
     {
         'name': 'M-Rotom',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 50,
             'attack': 65,
             'defense': 107,
-            'sp atk': 105,
-            'sp def': 107,
+            'spAtk': 105,
+            'spDef': 107,
             'speed': 86,
             'types': [
                 'Electric',
@@ -15572,13 +15572,13 @@ export const POKEDEX = [
     {
         'name': 'Giratina-O',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 150,
             'attack': 120,
             'defense': 100,
-            'sp atk': 120,
-            'sp def': 100,
+            'spAtk': 120,
+            'spDef': 100,
             'speed': 90,
             'types': [
                 'Ghost',
@@ -15591,13 +15591,13 @@ export const POKEDEX = [
     {
         'name': 'Shaymin-S',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 100,
             'attack': 103,
             'defense': 75,
-            'sp atk': 120,
-            'sp def': 75,
+            'spAtk': 120,
+            'spDef': 75,
             'speed': 127,
             'types': [
                 'Grass',
@@ -15610,13 +15610,13 @@ export const POKEDEX = [
     {
         'name': 'M-Audino',
         'stats': {
-            'catch rate': 255,
-            'growth rate': 'Fast',
+            'catchRate': 255,
+            'growthRate': 'Fast',
             'hp': 103,
             'attack': 60,
             'defense': 126,
-            'sp atk': 80,
-            'sp def': 126,
+            'spAtk': 80,
+            'spDef': 126,
             'speed': 50,
             'types': [
                 'Normal',
@@ -15629,13 +15629,13 @@ export const POKEDEX = [
     {
         'name': 'Darmanitan-Z',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Medium Slow',
+            'catchRate': 60,
+            'growthRate': 'MediumSlow',
             'hp': 105,
             'attack': 30,
             'defense': 105,
-            'sp atk': 140,
-            'sp def': 105,
+            'spAtk': 140,
+            'spDef': 105,
             'speed': 55,
             'types': [
                 'Fire',
@@ -15648,13 +15648,13 @@ export const POKEDEX = [
     {
         'name': 'Tornadus-T',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 79,
             'attack': 100,
             'defense': 80,
-            'sp atk': 110,
-            'sp def': 90,
+            'spAtk': 110,
+            'spDef': 90,
             'speed': 121,
             'types': [
                 'Flying',
@@ -15666,13 +15666,13 @@ export const POKEDEX = [
     {
         'name': 'Thundurus-T',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 79,
             'attack': 105,
             'defense': 70,
-            'sp atk': 145,
-            'sp def': 80,
+            'spAtk': 145,
+            'spDef': 80,
             'speed': 101,
             'types': [
                 'Electric',
@@ -15685,13 +15685,13 @@ export const POKEDEX = [
     {
         'name': 'Landorus-T',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 89,
             'attack': 145,
             'defense': 90,
-            'sp atk': 105,
-            'sp def': 80,
+            'spAtk': 105,
+            'spDef': 80,
             'speed': 91,
             'types': [
                 'Ground',
@@ -15704,13 +15704,13 @@ export const POKEDEX = [
     {
         'name': 'B-Kyurem',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 125,
             'attack': 170,
             'defense': 100,
-            'sp atk': 120,
-            'sp def': 90,
+            'spAtk': 120,
+            'spDef': 90,
             'speed': 95,
             'types': [
                 'Dragon',
@@ -15723,13 +15723,13 @@ export const POKEDEX = [
     {
         'name': 'W-Kyurem',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 125,
             'attack': 120,
             'defense': 90,
-            'sp atk': 170,
-            'sp def': 100,
+            'spAtk': 170,
+            'spDef': 100,
             'speed': 95,
             'types': [
                 'Dragon',
@@ -15742,13 +15742,13 @@ export const POKEDEX = [
     {
         'name': 'Keldeo-R',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 91,
             'attack': 72,
             'defense': 90,
-            'sp atk': 129,
-            'sp def': 90,
+            'spAtk': 129,
+            'spDef': 90,
             'speed': 108,
             'types': [
                 'Water',
@@ -15761,13 +15761,13 @@ export const POKEDEX = [
     {
         'name': 'Meloetta-P',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 100,
             'attack': 128,
             'defense': 90,
-            'sp atk': 77,
-            'sp def': 77,
+            'spAtk': 77,
+            'spDef': 77,
             'speed': 128,
             'types': [
                 'Normal',
@@ -15780,13 +15780,13 @@ export const POKEDEX = [
     {
         'name': 'Ash-Greninja',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Slow',
+            'catchRate': 45,
+            'growthRate': 'MediumSlow',
             'hp': 72,
             'attack': 145,
             'defense': 67,
-            'sp atk': 153,
-            'sp def': 71,
+            'spAtk': 153,
+            'spDef': 71,
             'speed': 132,
             'types': [
                 'Water',
@@ -15799,13 +15799,13 @@ export const POKEDEX = [
     {
         'name': 'Aegislash-B',
         'stats': {
-            'catch rate': 45,
-            'growth rate': 'Medium Fast',
+            'catchRate': 45,
+            'growthRate': 'MediumFast',
             'hp': 60,
             'attack': 150,
             'defense': 50,
-            'sp atk': 150,
-            'sp def': 50,
+            'spAtk': 150,
+            'spDef': 50,
             'speed': 60,
             'types': [
                 'Steel',
@@ -15818,13 +15818,13 @@ export const POKEDEX = [
     {
         'name': 'Zygarde-10',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 54,
             'attack': 100,
             'defense': 71,
-            'sp atk': 61,
-            'sp def': 85,
+            'spAtk': 61,
+            'spDef': 85,
             'speed': 115,
             'types': [
                 'Dragon',
@@ -15837,13 +15837,13 @@ export const POKEDEX = [
     {
         'name': 'Zygarde-C',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 216,
             'attack': 100,
             'defense': 121,
-            'sp atk': 91,
-            'sp def': 95,
+            'spAtk': 91,
+            'spDef': 95,
             'speed': 85,
             'types': [
                 'Dragon',
@@ -15856,13 +15856,13 @@ export const POKEDEX = [
     {
         'name': 'M-Diancie',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 50,
             'attack': 160,
             'defense': 110,
-            'sp atk': 160,
-            'sp def': 110,
+            'spAtk': 160,
+            'spDef': 110,
             'speed': 110,
             'types': [
                 'Rock',
@@ -15875,13 +15875,13 @@ export const POKEDEX = [
     {
         'name': 'Hoopa-U',
         'stats': {
-            'catch rate': 3,
-            'growth rate': 'Slow',
+            'catchRate': 3,
+            'growthRate': 'Slow',
             'hp': 80,
             'attack': 160,
             'defense': 60,
-            'sp atk': 170,
-            'sp def': 130,
+            'spAtk': 170,
+            'spDef': 130,
             'speed': 80,
             'types': [
                 'Psychic',
@@ -15894,13 +15894,13 @@ export const POKEDEX = [
     {
         'name': 'Lycanroc-M',
         'stats': {
-            'catch rate': 90,
-            'growth rate': 'Medium Fast',
+            'catchRate': 90,
+            'growthRate': 'MediumFast',
             'hp': 75,
             'attack': 115,
             'defense': 65,
-            'sp atk': 55,
-            'sp def': 65,
+            'spAtk': 55,
+            'spDef': 65,
             'speed': 112,
             'types': [
                 'Rock',
@@ -15912,13 +15912,13 @@ export const POKEDEX = [
     {
         'name': 'Wishiwashi-S',
         'stats': {
-            'catch rate': 60,
-            'growth rate': 'Fast',
+            'catchRate': 60,
+            'growthRate': 'Fast',
             'hp': 45,
             'attack': 140,
             'defense': 130,
-            'sp atk': 140,
-            'sp def': 135,
+            'spAtk': 140,
+            'spDef': 135,
             'speed': 30,
             'types': [
                 'Water',

@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Pokemon } from "../classes/Pokemon";
 import { PokemonFNImageImport } from "../data/PokemonFrontNormalImageImports";
 import { Utils } from "../modules/Utils";
@@ -7,12 +8,12 @@ import { PokemonStatsPod } from "./PokemonStatsPod";
 
 export const PokemonPod = (props) => {
 
-    let pokemonToRender = new Pokemon(props.pokemon.poke);
+    let pokemonToRender = useSelector((state) => state.player.pokemon[props.pokemon]);
 
     return(
-        <div id={`${props.pokemon.poke.name.toLowerCase()}PartyComponent`} className={props.className}>
-            <img src={PokemonFNImageImport[Utils.getPokeIdByName(props.pokemon.poke.name)][props.pokemon.poke.name.toLowerCase()]} alt={props.pokemon.poke.name}/>
-            <div>{props.pokemon.poke.name} LV: {pokemonToRender.currentLevel()}</div>
+        <div id={`${pokemonToRender.name.toLowerCase()}PartyComponent`} className={props.className}>
+            <img src={PokemonFNImageImport[Utils.getPokeIdByName(pokemonToRender.name)][pokemonToRender.name.toLowerCase()]} alt={pokemonToRender.name}/>
+            <div>{pokemonToRender.name} LV: {pokemonToRender.currentLevel()}</div>
             <PokemonStatsPod pokemon={pokemonToRender} />
         </div>
     )

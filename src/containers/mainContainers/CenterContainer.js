@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import "../styles/containers/CenterContainer.css";
-import { CombatActiveWindowContainer } from "./CombatActiveWindowContainer";
-import { FarmActiveWindowContainer } from "./FarmActiveWindowContainer";
-import { MainActiveWindowContainer } from "./MainActiveWindowContainer";
+import "../../styles/containers/CenterContainer.css";
+import { CombatActiveWindowContainer } from "../activeWindowContainers/CombatActiveWindowContainer";
+import { FarmActiveWindowContainer } from "../activeWindowContainers/FarmActiveWindowContainer";
+import { MainActiveWindowContainer } from "../activeWindowContainers/MainActiveWindowContainer";
 
 export const CenterContainer = () => {
 
